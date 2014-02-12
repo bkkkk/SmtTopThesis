@@ -1,0 +1,1308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"LOG_",
+				"LOG_INFO"
+			],
+			[
+				"histos",
+				"histosCollector"
+			],
+			[
+				"Ana",
+				"AnalysisMuonConfigurableScaleFactors"
+			],
+			[
+				"high",
+				"highPt"
+			],
+			[
+				"pt",
+				"ptBinFact"
+			],
+			[
+				"myRegionL",
+				"myRegionLabel"
+			],
+			[
+				"file",
+				"fileSuffixes"
+			],
+			[
+				"fileSuff",
+				"fileSuffixes"
+			],
+			[
+				"etaRegion",
+				"etaRegionText"
+			],
+			[
+				"region",
+				"regionIdx"
+			],
+			[
+				"lowe",
+				"lowestEdge"
+			],
+			[
+				"LOG_D",
+				"LOG_DEBUG3"
+			],
+			[
+				"fla",
+				"flatSlices"
+			],
+			[
+				"ptcour",
+				"ptCourseLabel"
+			],
+			[
+				"ext",
+				"extPtBins"
+			],
+			[
+				"overr",
+				"overrideY"
+			],
+			[
+				"LOG",
+				"LOG_DEBUG2"
+			],
+			[
+				"Get",
+				"GetMaximum"
+			],
+			[
+				"histo",
+				"histoName"
+			],
+			[
+				"inv",
+				"invMassFrame"
+			],
+			[
+				"low",
+				"lowLimit"
+			],
+			[
+				"rela",
+				"relativeUncertainty"
+			],
+			[
+				"relat",
+				"relativeDown"
+			],
+			[
+				"relative",
+				"relativeUp"
+			],
+			[
+				"TNP",
+				"TNPFITTER"
+			],
+			[
+				"fitt",
+				"fittingEdge"
+			],
+			[
+				"lowB",
+				"lowBkgHistoName"
+			],
+			[
+				"smt2dEf",
+				"smt2dEffData"
+			],
+			[
+				"recoda",
+				"reco2dEffData"
+			],
+			[
+				"globa",
+				"globalArraySlices"
+			],
+			[
+				"glo",
+				"globalFlatSlices"
+			],
+			[
+				"tnp",
+				"tnpSlices"
+			],
+			[
+				"bott",
+				"bottomUncertainty"
+			],
+			[
+				"LOG_DE",
+				"LOG_DEBUG2"
+			],
+			[
+				"ret",
+				"result"
+			],
+			[
+				"Lo",
+				"LOG_ERROR"
+			],
+			[
+				"output",
+				"outputFile"
+			],
+			[
+				"count",
+				"countWithNoEF"
+			],
+			[
+				"fil",
+				"filePath"
+			],
+			[
+				"perio",
+				"periodName"
+			],
+			[
+				"Perio",
+				"PeriodInput"
+			],
+			[
+				"Pileup",
+				"PileupReweighting"
+			],
+			[
+				"prw",
+				"prwConfiguration"
+			],
+			[
+				"ilumi",
+				"ilumiCalcFile"
+			],
+			[
+				"Pro",
+				"processingTag"
+			],
+			[
+				"submit",
+				"submitDir"
+			],
+			[
+				"process",
+				"processingTag"
+			],
+			[
+				"input",
+				"inputSample"
+			],
+			[
+				"full",
+				"fullPath"
+			],
+			[
+				"proces",
+				"processingTag"
+			],
+			[
+				"sample",
+				"sampleMap"
+			],
+			[
+				"Sample",
+				"Sample"
+			],
+			[
+				"inpu",
+				"inputStringStream"
+			],
+			[
+				"smtEf",
+				"smtEffData"
+			],
+			[
+				"fitEf",
+				"fitEfficiencyMc"
+			],
+			[
+				"te",
+				"testMCFile"
+			],
+			[
+				"TNPFI",
+				"TnPFitter"
+			],
+			[
+				"tes",
+				"testEfficiency"
+			],
+			[
+				"Fit",
+				"FitEfficiency"
+			],
+			[
+				"TNPFIT",
+				"TNPFITTER"
+			],
+			[
+				"probe",
+				"probeHist"
+			],
+			[
+				"sigma",
+				"sigmaWide"
+			],
+			[
+				"recoE",
+				"recoErr"
+			],
+			[
+				"GetSigm",
+				"GetSigmaAndMu"
+			],
+			[
+				"fFit",
+				"fFitOptions"
+			],
+			[
+				"backg",
+				"backgroundFunction"
+			],
+			[
+				"Pol",
+				"PolyPlusDoubleGaus"
+			],
+			[
+				"Para",
+				"ParamsSettings"
+			],
+			[
+				"Tn",
+				"TnPJPsiFitter"
+			],
+			[
+				"PU",
+				"PUPROFILE"
+			],
+			[
+				"PRO",
+				"PROCESSINGFLAG"
+			],
+			[
+				"INPUT",
+				"INPUTDIRNAME"
+			],
+			[
+				"DATA",
+				"DATASETDIRHEAD"
+			],
+			[
+				"PO",
+				"PROCESSINGTAGNAME"
+			],
+			[
+				"jp",
+				"jpsiClassifier"
+			],
+			[
+				"chosen",
+				"chosenMuonProbe"
+			],
+			[
+				"muonP",
+				"muonProbeHisto"
+			],
+			[
+				"compo",
+				"compositeFunction"
+			],
+			[
+				"highB",
+				"highBkgFit"
+			],
+			[
+				"sig",
+				"signalFitMean"
+			],
+			[
+				"poly",
+				"polyPlusDoubleGaus"
+			],
+			[
+				"pol",
+				"polyPlusDoubleGaus"
+			],
+			[
+				"val",
+				"val_histogram"
+			],
+			[
+				"m_pol",
+				"m_poly"
+			],
+			[
+				"m_poly",
+				"m_polyPlusDoubleGaus"
+			],
+			[
+				"m_sin",
+				"m_signalMass"
+			],
+			[
+				"m_signalM",
+				"m_signalMass"
+			],
+			[
+				"m_signal",
+				"m_signalFitMean"
+			],
+			[
+				"func",
+				"funcStyle"
+			],
+			[
+				"higBkg",
+				"highBkgHistoName"
+			],
+			[
+				"lo",
+				"lowBkgHisto"
+			],
+			[
+				"color",
+				"colorIdx"
+			],
+			[
+				"m_s",
+				"m_signalFitMax"
+			],
+			[
+				"m_si",
+				"m_signalFitMin"
+			],
+			[
+				"m_",
+				"m_signalFitMean"
+			],
+			[
+				"fun",
+				"functionMap"
+			],
+			[
+				"m_f",
+				"m_fitRangeMax"
+			],
+			[
+				"com",
+				"compLinearFunc"
+			],
+			[
+				"comp",
+				"compQuadFunc"
+			],
+			[
+				"match",
+				"matchChi2TotalErr"
+			],
+			[
+				"Event",
+				"EventWeighting"
+			],
+			[
+				"Histogram",
+				"HistogramCollector"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
+			"settings":
+			{
+				"buffer_size": 27780,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"preview git",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"late",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"latex",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"package ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ar",
+				"Tasks: Archive"
+			],
+			[
+				"arch",
+				"Tasks: Archive"
+			],
+			[
+				"cance",
+				"Tasks: Cancel"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				"latex pdf",
+				"LaTeXing: Open PDF"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"view.run_command(\"example\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jayb88/Downloads/SMT_SFs_approved copy.txt",
+		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/smtChi2.pdf",
+		"/Users/jayb88/Dropbox/Lists/todo.todo",
+		"/Users/jayb88/jblanco/TODO",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
+		"/Users/jayb88/jblanco/README.html",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/.DS_Store",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-workspace",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/TheoryQEDTreeA.1",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ColourQCD.1",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.DS_Store",
+		"/Users/jayb88/jblanco/README.md",
+		"/Volumes/ZAFU/dissertation/dissertation latex.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Makefile",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/make",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/TopQuark.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/thesis.sublime-project",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/thesis.sublime-workspace",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartSMT/SMT.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fdb_latexmk",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ls.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartAbstract/Abstract.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Preface.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.log",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fls",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.aux",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jayb88/Dropbox/Lists/projects.todo",
+		"/Users/jayb88/Dropbox/Lists/pro",
+		"/Users/jayb88/Dropbox/Lists/someday.todo",
+		"/Users/jayb88/Dropbox/Projects/Yatzhee/Game.h",
+		"/Users/jayb88/Dropbox/Projects/Yatzhee/Game.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/SampleHistograms.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/SummaryPlotMaker.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/MakeEfficiency.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/PlotterSingle.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/PlotterGeneric.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/TnPNtupleMaker.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/MuonEfficiency/TnPNtupleMaker.h",
+		"/Users/jayb88/jblanco/MuonEfficiency/MuonEfficiency/SampleHistograms.h",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/HistogramCollector.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/MuonEfficiency/TnPSlices.h",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/TnPSlices.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/ptCourse.txt",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/Plotter.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/HistogramFactory.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/MuonEfficiency/HistogramCollector.h",
+		"/Users/jayb88/jblanco/MuonEfficiency/MuonEfficiency/HistogramFactory.h",
+		"/Users/jayb88/jblanco/MuonEfficiencyCorrections/test-bin/SMT_SFs.txt",
+		"/Users/jayb88/jblanco/MuonEfficiencyCorrections/test/ut_TestSMTFile.cxx",
+		"/Users/jayb88/Downloads/SMT_SFs.txt",
+		"/Users/jayb88/jblanco/MuonEfficiencyCorrections/test/ut_TestSMTFile",
+		"/Users/jayb88/jblanco/SMT_SFs.txt",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/SMTFile.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/Tabulator.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/scripts/SMT_SFs.txt",
+		"/Users/jayb88/jblanco/RunMakeSF/scripts/runSMTFile.sh",
+		"/Users/jayb88/Downloads/MaxPlots/PlotMax.cxx",
+		"/Users/jayb88/Dropbox/Lists/CompletedReviews-06-Dec-2013.todo",
+		"/Users/jayb88/Downloads/NoBkG/PlotMax.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/Plotter",
+		"/Users/jayb88/Dropbox/Lists/trigger.todo",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/Tabulator",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/etaBarrel.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/etcone20.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/etcone30.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/etcone40.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/jetDr.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/nucone20.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/nucone30.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/nucone40.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/phi.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/pt.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/ptCourse.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/ptcone20.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/eta.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/ptcone30.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/d0.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/ptcone40.txt",
+		"/Users/jayb88/jblanco/RunMakeSF/scripts/runPlotter.sh",
+		"/Users/jayb88/jblanco/MuonEfficiency/MuonEfficiency/SliceHisto.h",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/ForwardPlotter.cxx",
+		"/Users/jayb88/jblanco/RunPairing/jobOptions/MakeHistogramsLocal.cxx",
+		"/Users/jayb88/jblanco/!",
+		"/Users/jayb88/jblanco/RunPairing/jobOptions/MakeHistogramsFaraday.cxx",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/pt.txt",
+		"/Users/jayb88/jblanco/TnPFitter/Root/FitterDraw.cxx",
+		"/Users/jayb88/.config/fish/config.fish",
+		"/Users/jayb88/Hello World/source/MenuState.hx",
+		"/Users/jayb88/Hello",
+		"/Users/jayb88/World/Hello",
+		"/Users/jayb88/jblanco/TnPSelector/Root/TJPsiClassifier.cxx",
+		"/Users/jayb88/jblanco/TnPSelector/Root/PrintUtils.cxx",
+		"/Users/jayb88/jblanco/TnPSelector/TnPSelector/PrintUtils.h",
+		"/Users/jayb88/jblanco/RunPairing/jobOptions/MakeHistograms.cxx",
+		"/Users/jayb88/jblanco/RunSkim/control/branches.txt",
+		"/Users/jayb88/jblanco/SMTMiniNtuple/Root/MiniNtupleMaker.cxx",
+		"/Users/jayb88/Dropbox/Documents/MSciRHUL/4th Year/ReviewProject/partials/031109.tex",
+		"/private/etc/hosts",
+		"/private/etc/host",
+		"/Users/jayb88/jblanco/RunKinematics/jobOptions/AllPlotter.cxx",
+		"/Users/jayb88/Desktop/TODO",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/nucone20.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/nucone30.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/etcone40.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/nucone40.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/etcone20.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/etcone30.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/ptcone20.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/ptcone30.txt",
+		"/Users/jayb88/jblanco/MuonEfficiency/share/PlottingSlices/ptcone40.txt",
+		"/Users/jayb88/jblanco/RunKinematics/scripts/runMakeKinematics.sh",
+		"/Users/jayb88/jblanco/RunMakeSF/scripts/runMakeEfficiency.sh",
+		"/Users/jayb88/jblanco/RunKinematics/scripts/runMakeKinematicsFaraday.sh",
+		"/Users/jayb88/Dropbox/Documents/Lists/someday.todo",
+		"/Users/jayb88/jblanco/TnPFitter/Root/FitInterface.cxx",
+		"/Users/jayb88/jblanco/TnPFitter/test/ut_SetupDoubleGaus.cxx",
+		"/Users/jayb88/jblanco/TnPFitter/Root/FitEfficiency.cxx",
+		"/Users/jayb88/jblanco/TnPFitter/Root/FitIntegral.cxx",
+		"/Users/jayb88/jblanco/TnPFitter/TnPFitter/FitIntegral.h",
+		"/Users/jayb88/jblanco/TnPFitter/TnPFitter/FitInterface.h",
+		"/Users/jayb88/jblanco/RunRooFit/RooFitTest.cxx",
+		"/Users/jayb88/jblanco/TnPFitter/Root/SingleGausFit.cxx"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0.000",
+			"-3.15 3.15",
+			"  -3.15 3.15",
+			" 100 ",
+			"100 2",
+			"100 -2.5  -2  -3.15 3.15",
+			"100 2 2.5 -3.15 3.15",
+			"4 5 ",
+			"\n\n\n",
+			"\n\n",
+			"\n",
+			"TheoryWeakNeutralScattering",
+			"% ",
+			"gluon",
+			"color",
+			"self-interac",
+			"color",
+			"Quark",
+			"frac{2}",
+			"{$\\frac{1}{2}$}}",
+			"GeV}{",
+			"MeV}{",
+			"}{u",
+			"Bottom",
+			"Top",
+			"Strange",
+			"Charm",
+			"Down",
+			"Up",
+			"Ele",
+			"Up",
+			"Element]",
+			"LeptonFill",
+			"Element",
+			"ElementFill",
+			"\\frac{1}/{2",
+			"{1}",
+			"  & ",
+			" & ",
+			"&",
+			"$\\frac{2",
+			"& 1 \\",
+			"& 1",
+			"$",
+			"\n&",
+			"& ",
+			"%",
+			"smtChi2",
+			"caret",
+			"public",
+			"minPt",
+			"; double",
+			"pt",
+			"EL::StatusCode",
+			"TnPNtupleMaker",
+			"et",
+			"regionLabel",
+			"regions",
+			"effIdx",
+			"GetRegionNa",
+			"SaveScaleFactorHistograms",
+			"GetRegion",
+			"pt",
+			"0_",
+			"_",
+			"mpPt >",
+			"00_",
+			"_",
+			"()",
+			"histosCollector->CreateHistogram",
+			"FillHistogram",
+			"TString",
+			"std::string",
+			"string",
+			"std::string",
+			"Name",
+			"histo",
+			"std::string",
+			"myRegionLabel",
+			"|#eta|",
+			"16  20",
+			"7000",
+			"C\"",
+			"A\"",
+			"A",
+			"16	20",
+			"10	12",
+			" C",
+			"Combined",
+			"string",
+			"Combined",
+			"myRegionLabel",
+			"etaRegionLabel",
+			"etaRegionText",
+			"etaRegionLabel",
+			"regionLabel[",
+			"regionLabel",
+			"2",
+			"fileOutput",
+			"markerStyle",
+			"eps",
+			"SF",
+			"#eta",
+			"histoMC",
+			"9999999",
+			"-",
+			"boundary",
+			"\"Label: \" <<",
+			"VariableMap",
+			"maxPt",
+			"SF",
+			"regionIdx",
+			"float",
+			"wk",
+			"1D",
+			"SF->GetYaxis()->SetRangeUser",
+			"outputPath",
+			"pdf",
+			"GetSmallestJetDr",
+			"PrintInfoTrack",
+			"QCD",
+			"fillHisto",
+			" max",
+			"max ",
+			"Max",
+			"max",
+			"muonprobe_",
+			"MS;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1217,
+								1217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Thesis.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"theory",
+				"PartTheory/Theory.tex"
+			],
+			[
+				"thesis",
+				"Thesis.tex"
+			],
+			[
+				"theo",
+				"PartTheory/Theory.tex"
+			],
+			[
+				"theor",
+				"PartTheory/Theory.tex"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"the",
+				"Thesis.tex"
+			],
+			[
+				"sublime",
+				"thesis.sublime-project"
+			],
+			[
+				"thes",
+				"Thesis.tex"
+			],
+			[
+				"thesi",
+				"Thesis.tex"
+			],
+			[
+				"top",
+				"PartTopQuark/TopQuark.tex"
+			],
+			[
+				"summ",
+				"Source/SummaryPlotMaker.cxx"
+			],
+			[
+				"samplehi",
+				"Headers/SampleHistograms.h"
+			],
+			[
+				"sample",
+				"Source/SampleHistograms.cxx"
+			],
+			[
+				"summar",
+				"Source/SummaryPlotMaker.cxx"
+			],
+			[
+				"tnp",
+				"Source/TnPNtupleMaker.cxx"
+			],
+			[
+				"makehis",
+				"~/jblanco/RunPairing/jobOptions/MakeHistogramsFaraday.cxx"
+			],
+			[
+				"histog",
+				"Source/HistogramFactory.cxx"
+			],
+			[
+				"slice",
+				"Source/TnPSlices.cxx"
+			],
+			[
+				"histofa",
+				"Headers/HistogramFactory.h"
+			],
+			[
+				"histocc",
+				"Source/HistogramCollector.cxx"
+			],
+			[
+				"slices",
+				"Headers/TnPSlices.h"
+			],
+			[
+				"histogra",
+				"Source/HistogramFactory.cxx"
+			],
+			[
+				"collec",
+				"Headers/HistogramCollector.h"
+			],
+			[
+				"histogr",
+				"Source/HistogramFactory.cxx"
+			],
+			[
+				"tnps",
+				"Source/TnPSlices.cxx"
+			],
+			[
+				"tn",
+				"Headers/TnPSlices.h"
+			],
+			[
+				"histogramfac",
+				"Source/HistogramFactory.cxx"
+			],
+			[
+				"menusta",
+				"Hello World/source/MenuState.hx"
+			],
+			[
+				"hisog",
+				"Headers/HistogramFactory.h"
+			],
+			[
+				"historam",
+				"Headers/HistogramFactory.h"
+			],
+			[
+				"fit",
+				"Source/FitEfficiency.cxx"
+			],
+			[
+				"fitinte",
+				"Source/FitInterface.cxx"
+			],
+			[
+				"ut_setu",
+				"unit-tests/ut_SetupDoubleGaus.cxx"
+			],
+			[
+				"fitinteface",
+				"Header/FitInterface.h"
+			],
+			[
+				"fitterd",
+				"Source/FitterDraw.cxx"
+			],
+			[
+				"fitef",
+				"Source/FitEfficiency.cxx"
+			],
+			[
+				"setup",
+				"unit-tests/ut_SetupDoubleGaus.cxx"
+			],
+			[
+				"single",
+				"Source/SingleGausFit.cxx"
+			],
+			[
+				"fiteff",
+				"Source/FitEfficiency.cxx"
+			],
+			[
+				"fitinter",
+				"Source/FitInterface.cxx"
+			],
+			[
+				"ut_setp",
+				"unit-tests/ut_SetupDoubleGaus.cxx"
+			],
+			[
+				"ut_set",
+				"unit-tests/ut_SetupDoubleGaus.cxx"
+			],
+			[
+				"double",
+				"Source/DoubleGausFit.cxx"
+			],
+			[
+				"sing",
+				"Source/SingleGausFit.cxx"
+			],
+			[
+				"fitit",
+				"Header/FitIntegral.h"
+			],
+			[
+				"su",
+				"MuonEfficiency/Root/SummaryPlotMaker.cxx"
+			],
+			[
+				"sum",
+				"MuonEfficiency/Root/SummaryPlotMaker.cxx"
+			],
+			[
+				"summary",
+				"MuonEfficiency/MuonEfficiency/SummaryPlotMaker.h"
+			],
+			[
+				"",
+				"~/jblanco/CalibrationWork/TODO"
+			],
+			[
+				"tod",
+				"MuonEfficiency/TODO"
+			],
+			[
+				"instu",
+				"instructions.tex"
+			],
+			[
+				"ut_scalefac",
+				"MuonEfficiency/test/ut_ScaleFactorPlotter.cxx"
+			],
+			[
+				"ut_",
+				"MuonEfficiency/test/ut_SingleGausFit.cxx"
+			],
+			[
+				"sca",
+				"MuonEfficiency/Root/ScaleFactorPlotter.cxx"
+			],
+			[
+				"scalefac",
+				"MuonEfficiency/MuonEfficiency/ScaleFactorPlotter.h"
+			],
+			[
+				"linkd",
+				"Sources/LinkDef.h"
+			],
+			[
+				"ut",
+				"Unit tests/ut_SampleList.cxx"
+			],
+			[
+				"runam",
+				"RunKinematics/scripts/runMakeKinematics.sh"
+			],
+			[
+				"link",
+				"MuonEfficiency/Root/LinkDef.h"
+			],
+			[
+				"eff",
+				"MuonEfficiency/Root/EfficiencyMaker.cxx"
+			],
+			[
+				"ef",
+				"MuonEfficiency/Root/EfficiencyMaker.cxx"
+			],
+			[
+				"fitsca",
+				"Source/FitScaleFactor.cxx"
+			],
+			[
+				"fief",
+				"Source/FitEfficiency.cxx"
+			],
+			[
+				"fitconf",
+				"Header/FitConfig.h"
+			],
+			[
+				"integ",
+				"Source/FitIntegral.cxx"
+			],
+			[
+				"integra",
+				"Header/FitIntegral.h"
+			],
+			[
+				"fitin",
+				"Header/FitIntegral.h"
+			],
+			[
+				"utset",
+				"unit-tests/ut_SetupDoubleGaus.cxx"
+			],
+			[
+				"fitint",
+				"Source/FitIntegral.cxx"
+			],
+			[
+				"fitcon",
+				"Header/FitConfig.h"
+			],
+			[
+				"fitco",
+				"Source/FitConfig.cxx"
+			],
+			[
+				"makehisto",
+				"RunPairing/jobOptions/MakeHistograms.cxx"
+			],
+			[
+				"sampleh",
+				"MuonEfficiency/MuonEfficiency/SampleHistograms.h"
+			],
+			[
+				"histo",
+				"MuonEfficiency/MuonEfficiency/HistogramFactory.h"
+			],
+			[
+				"tj",
+				"MuonEfficiency/Root/TnPJPsiFitter.cxx"
+			],
+			[
+				"ut_sing",
+				"MuonEfficiency/test/ut_SingleGausFit.cxx"
+			],
+			[
+				"plotmaker",
+				"MuonEfficiency/Root/SummaryPlotMaker.cxx"
+			],
+			[
+				"effi",
+				"MuonEfficiency/Root/EfficiencyMaker.cxx"
+			],
+			[
+				"singl",
+				"MuonEfficiency/Root/SingleGausFit.cxx"
+			],
+			[
+				"fi",
+				"MuonEfficiency/MuonEfficiency/FitConfig.h"
+			],
+			[
+				"tnpj",
+				"MuonEfficiency/Root/TnPJPsiFitter.cxx"
+			],
+			[
+				"sign",
+				"MuonEfficiency/MuonEfficiency/SingleGausFit.h"
+			],
+			[
+				"singe",
+				"MuonEfficiency/Root/SingleGausFit.cxx"
+			],
+			[
+				"tnpjp",
+				"MuonEfficiency/MuonEfficiency/TnPJPsiFitter.h"
+			],
+			[
+				"summaryplot",
+				"MuonEfficiency/Root/SummaryPlotMaker.cxx"
+			],
+			[
+				"function",
+				"MuonEfficiency/MuonEfficiency/TnPJPsiFitterFunctions.h"
+			],
+			[
+				"samplehist",
+				"MuonEfficiency/MuonEfficiency/SampleHistograms.h"
+			],
+			[
+				"runki",
+				"RunKinematics/jobOptions/MakeKinematics.cxx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

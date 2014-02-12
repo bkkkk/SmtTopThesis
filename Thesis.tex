@@ -1,0 +1,137 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage{tikz}
+\usepackage[force]{feynmp-auto}
+\usepackage{amsfonts}
+\usepackage{pifont}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{multirow}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\Zboson}{\ensuremath{Z^{0}}}
+\newcommand{\Wboson}{\ensuremath{W^{\pm}}}
+\newcommand{\WbosonText}{$W$-boson}
+\newcommand{\ZbosonText}{$Z$-boson}
+\newcommand{\bquark}{$b$-quark}
+
+\DeclareGraphicsRule{*}{mps}{*}{}
+
+\oddsidemargin 0.5 in %0.5
+\evensidemargin -0.25 in %
+\textwidth 5.93 in
+
+\geometry{
+  includeheadfoot,
+  margin=2.54cm
+}
+
+\doublespacing
+
+%% Decorations for footer and header
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+\fancyfoot[RO,R]{\thepage}
+\fancyhead[RO]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\cfoot{}
+
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{1pt}%
+        \renewcommand{\plainfootrulewidth}{0pt}%
+        \fancyhead[RO,LO]{}}
+\renewcommand{\baselinestretch}{1.5}
+
+\oddsidemargin 1.36cm
+\textwidth 14.7cm
+
+%% Title page
+\begin{document}
+\begin{titlepage}
+\begin{center}
+{\LARGE \textbf{Muon tagging using a Match-$\chi^{2}$ based Soft Muon Tagger in top quark analyses using data from the ATLAS detector\\}}
+\vspace{1cm}
+{\Large Jacobo Ezequiel Blanco\\}
+\vspace{1cm}
+{\large Department of Physics\\}
+{\large Royal Holloway, University of London\\}
+
+\end{center}
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=0.3]{./res/RHULCrest.png}
+\end{center}
+\end{figure}
+
+% Submission admission
+\begin{center}
+    {A thesis submitted to the University of London for the \\Degree of Doctor of Philosophy\\}
+\vspace{1cm}
+{\today\\}
+\end{center}
+\end{titlepage}
+
+\newpage
+\begin{center}
+\vspace{3cm}
+{\LARGE DECLARATION} \newline
+\vspace*{1cm}
+\end{center}
+I confirm that the work presented in this thesis is my own. Where information has been derived from other sources, I confirm that this has been indicated in the document.
+%Insert Signature here
+Jacobo Ezequiel Blanco
+
+\newpage
+
+\begin{abstract}
+\input{PartAbstract/Abstract.tex}
+\end{abstract}
+
+\thispagestyle{empty}
+\begin{center}
+\end{center}
+\vspace{1cm}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
+\pagestyle{fancy}
+\addtolength{\headwidth}{\marginparsep}
+   %remember chapter title
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+    %section number and title
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+\fancyfoot[RO,R]{\thepage}
+\fancyhead[RO]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\cfoot{}
+
+\fancypagestyle{plain}{\renewcommand{\headrulewidth}{0pt}%
+       \renewcommand{\plainfootrulewidth}{0pt}%
+        \fancyhead[RO,LO]{}}
+\renewcommand{\baselinestretch}{1.5} 
+
+\newpage
+
+\input{PartIntroduction/Introduction.tex}
+\input{PartTheory/Theory.tex}
+\input{PartTopQuark/TopQuark.tex}
+\input{PartDetector/Detector.tex}
+\input{PartSMT/SMT.tex}
+\input{PartCalibration2012/Calibration2012.tex}
+\input{PartCrossSection/CrossSection.tex}
+\input{PartBoosted/Boosted.tex}
+\chapter{Conclusions} \label{prt:conclusions}
+
+\newpage
+
+\end{document}
