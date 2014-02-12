@@ -1,9 +1,0 @@
-PWD /Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory
-INPUT /usr/local/texlive/2011/texmf.cnf
-INPUT /usr/local/texlive/2011/texmf/web2c/texmf.cnf
-INPUT /usr/local/texlive/2011/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex
-OUTPUT /Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Output/Theory.log
-INPUT /usr/local/texlive/2011/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2011/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
