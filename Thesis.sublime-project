@@ -7,7 +7,9 @@
                   "folder_exclude_patterns": ["Output"],
                   "file_exclude_patterns": [ "*.toc", "*.aux", "*.lof",
                                              "*.lot", "*.log", "*.synctex.gz",
-                                             "*.fdb_*", "clear.tex", "ls.tex"]
+                                             "*.fdb_*", "clear.tex", "ls.tex",
+                                             "*.mp", "*.t1", "*.1",".DS_Store",
+                                             "*.pdf" ]
 		}
 	]
 }

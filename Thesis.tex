@@ -1,25 +1,40 @@
 \documentclass[11pt,a4paper]{report}
 
-\usepackage{tikz}
 \usepackage[force]{feynmp-auto}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
 \usepackage{amsfonts}
 \usepackage{pifont}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{geometry}
+\usepackage[headheight=15pt]{geometry}
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage{subcaption}
 \usepackage{multirow}
+\usepackage{cite}
 
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
 \newcommand{\Zboson}{\ensuremath{Z^{0}}}
 \newcommand{\Wboson}{\ensuremath{W^{\pm}}}
-\newcommand{\WbosonText}{$W$-boson}
-\newcommand{\ZbosonText}{$Z$-boson}
+\newcommand{\ZbosonText}{\ensuremath{Z} boson}
+\newcommand{\WbosonText}{\ensuremath{W} boson}
+\newcommand{\Z}{\ensuremath{Z}}
+\newcommand{\W}{\ensuremath{W}}
+\newcommand{\Zprime}{\ensuremath{Z'}}
 \newcommand{\bquark}{$b$-quark}
+\newcommand{\tquark}{$t$-quark}
+\newcommand{\ttbar}{\ensuremath{t\bar{t}}}
+\newcommand{\xsq}{\ensuremath{\chi^{2}}}
+\newcommand{\xsd}{\ensuremath{\chi^{2}_{\textrm{DoF}}}}
+\newcommand{\xsm}{\ensuremath{\chi^{2}_{\textrm{match}}}}
+
+\newcommand{\Et}{\ensuremath{E_{\rm T}}}
+\newcommand{\pt}{\ensuremath{p_{\rm T}}}
+
+\newcommand{\m}{\ensuremath{\mu}}
 
 \DeclareGraphicsRule{*}{mps}{*}{}
 
@@ -133,5 +148,6 @@ Jacobo Ezequiel Blanco
 \chapter{Conclusions} \label{prt:conclusions}
 
 \newpage
-
+\bibliographystyle{plain}
+\bibliography{Thesis}
 \end{document}

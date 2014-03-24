@@ -415,21 +415,17 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
-			"settings":
-			{
-				"buffer_size": 27780,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 387.0,
 		"selected_items":
 		[
+			[
+				"Pakca",
+				"Package Control: List Packages"
+			],
 			[
 				"preview git",
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
@@ -527,7 +523,7 @@
 				"Set Syntax: C++"
 			]
 		],
-		"width": 504.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -548,17 +544,23 @@
 	},
 	"file_history":
 	[
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.svg",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Desktop/Test.tex",
+		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/src/StateStack.cpp",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-workspace",
+		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
 		"/Users/jayb88/Downloads/SMT_SFs_approved copy.txt",
 		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/smtChi2.pdf",
 		"/Users/jayb88/Dropbox/Lists/todo.todo",
 		"/Users/jayb88/jblanco/TODO",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
 		"/Users/jayb88/jblanco/README.html",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/.DS_Store",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-workspace",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/TheoryQEDTreeA.1",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ColourQCD.1",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
@@ -574,7 +576,6 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fdb_latexmk",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ls.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartAbstract/Abstract.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Preface.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.log",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fls",
@@ -670,12 +671,7 @@
 		"/Users/jayb88/Dropbox/Documents/Lists/someday.todo",
 		"/Users/jayb88/jblanco/TnPFitter/Root/FitInterface.cxx",
 		"/Users/jayb88/jblanco/TnPFitter/test/ut_SetupDoubleGaus.cxx",
-		"/Users/jayb88/jblanco/TnPFitter/Root/FitEfficiency.cxx",
-		"/Users/jayb88/jblanco/TnPFitter/Root/FitIntegral.cxx",
-		"/Users/jayb88/jblanco/TnPFitter/TnPFitter/FitIntegral.h",
-		"/Users/jayb88/jblanco/TnPFitter/TnPFitter/FitInterface.h",
-		"/Users/jayb88/jblanco/RunRooFit/RooFitTest.cxx",
-		"/Users/jayb88/jblanco/TnPFitter/Root/SingleGausFit.cxx"
+		"/Users/jayb88/jblanco/TnPFitter/Root/FitEfficiency.cxx"
 	],
 	"find":
 	{
@@ -693,6 +689,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"SMT",
+			"tab:MIvs",
+			"sec:TopCrossSection",
+			"\\DeltaR",
 			"0.000",
 			"-3.15 3.15",
 			"  -3.15 3.15",
@@ -816,11 +816,7 @@
 			"QCD",
 			"fillHisto",
 			" max",
-			"max ",
-			"Max",
-			"max",
-			"muonprobe_",
-			"MS;"
+			"max "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -838,37 +834,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 27780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1217,
-								1217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -922,6 +889,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"booste",
+				"PartBoosted/Boosted.tex"
+			],
+			[
+				"th",
+				"Thesis.tex"
+			],
+			[
+				"boo",
+				"PartBoosted/Boosted.tex"
+			],
 			[
 				"theory",
 				"PartTheory/Theory.tex"
@@ -1299,7 +1278,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
