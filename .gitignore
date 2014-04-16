@@ -8,3 +8,6 @@
 *.lof
 *.lot
 *.fdb_latexmk
+_build/
+*.blg
+*.fls
