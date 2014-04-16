@@ -1,0 +1,173 @@
+General:
+  ☐ Make diagram of semi-leptonic tt-bar decay @medium @diagram
+  ☐ Write acknowledgements @medium
+  ☐ Make generic plotting script @medium
+    ☐ Basic plotter style setter @medium
+    'Add ATLAS and CM labels using standard format'
+  ☐ Make editing trigger list @medium
+    'Plots'
+      'Range'
+      'Labels'
+      'Axis Labels'
+      'Colour, line style'
+      'Legend position'
+      'Caption'
+    'Repetition'
+    'Clarity'
+    'Conciseness'
+    'Correct tone'
+    'Spelling mistakes'
+
+--- ✄ -----------------------
+
+SMT Tagger:
+  
+  ☐ Make outline @short
+    ☐ Make list of relevant plots/diagrams @short
+    ☐ Make list of tables @short
+    ☐ Make list of topics @short
+
+  Background:
+    ☐ Read SMT paper @medium
+    ☐ Read Matt's SMT section @medium
+
+  Plots:
+    ☐ Make a good SMT diagram @medium @diagram
+
+--- ✄ -----------------------
+
+Abstract:
+  ☐ Figure out what the hell goes in an abstract @medium
+  ☐ Outline @short
+  ☐ Write @medium
+  ☐ Edit @medium
+
+--- ✄ -----------------------
+
+Introduction:
+  ☐ Outline introduction @short
+  ☐ Write introduction @long
+  ☐ Edit @medium
+
+--- ✄ -----------------------
+
+Theory:
+  ☐ Add references to section @medium
+     ☐ Find a few decent references from other thesis @short
+     ☐ Add to Bibtex file @short
+     ☐ Insert into text @medium
+   ☐ Write Higgs section @medium
+   ☐ Edit @medium
+
+--- ✄ -----------------------
+
+Boosted:
+  ☐ Edit @medium
+  
+  ☐ Write b-tagging section ./boosted.tex:51 @short
+    ☐ Describe matching of b-quark to muon @medium
+    ☐ Describe results
+    ☐ Add efficiency results
+    ☐ Add plot of dR(b, soft muon)
+      
+        Kinematics:
+          ☐ Add labels @medium
+            ☐ ATLAS label @medium
+            ☐ CM Energy label @medium
+
+--- ✄ -----------------------
+
+Cross-section:
+  
+  ☐ Redo background analysis @long
+      ☐ Update TRC @long
+      ☐ Email jacob to ask where the samples are @short
+      ☐ Re-run on data and MC
+      ☐ Get new results @long
+
+  ☐ Make an outline @long
+      ☐ Make list of topics @medium
+      ☐ Make list of plots @medium
+      ☐ Make list of relevant tables @medium
+
+  Background:
+    ☐ Read about the Matrix Method @medium
+      ☐ Add paper to bibtex .\Thesis.bib\ @short
+    ☐ Re-read cross-section paper @long
+
+  Plots:
+    ☐ Make diagram for the ABCD method @short @diagram
+
+  ☐ Write @long
+  ☐ Edit @medium
+  
+--- ✄ -----------------------
+
+Detector:
+  ☐ Make outline @short:
+    ☐ Make list of needed diagrams @short
+    ☐ Make list of important sectors to discuss @short
+
+  ☐ Write @long
+  ☐ Edit @long
+
+  Background:
+    ☐ Leaf through Matt's detector page @medium
+    ☐ Get references @long
+  
+  Plots:
+    ☐ Get detector diagrams @medium
+  
+--- ✄ -----------------------
+
+Calibration:   
+  ☐ Write @long:
+    ☐ Add list of MCP cuts to appendix .\CalibrationMCPCuts.tex\.
+    ☐ Write the section on the 2011 analysis
+      ☐ Get some plots from the 2011 analysis
+      ☐ Get table of scale factors from 2011
+    ☐ Add table of SF for 2012
+    ☐ Add plots of the 2012 Effs and SFs
+    ☐ Add section comparing 2012 to 2011
+    ☐ Add plots showing dependence of eff and SF on d0
+  ☐ Edit @long
+
+--- ✄ -----------------------
+
+Top-quark physics:
+  
+  ☐ Make outline @short:
+    ☐ Make list of diagrams @short
+    ☐ Make list of plots @short
+    ☐ Make list of tables @short
+
+  ☐ Write @long
+  ☐ Edit @long
+
+  Background:
+  ☐ Read through the Schilling paper @long
+  ☐ Read through Matt's section @medium
+  
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ Delta R (Muon, b-quark) @short @done (14-04-10 14:38) @project(Boosted / B-tagging)
+ ✔ dR(W_mu, b) For 3 TeV @long @done (14-04-07 17:31) @project(Boosted / Kinematics)
+  'Index to b quark and W muon'
+ ✔ Top p_{T} For all @long @done (14-04-07 17:31) @project(Boosted / Kinematics)
+  'Index top quark'
+ ✔ Add plot to MiniHisto @medium @done (14-04-07 17:31) @project(Boosted / Kinematics)
+ ✔ Add plot to MiniHisto @long @done (14-04-07 17:31) @project(Boosted / Kinematics)
+ ✔ Check plot titles in MiniHisto @short: @done (14-04-02 16:55) @project(Boosted / Kinematics)
+ ✔ Check plot ranges in MiniHisto @short @done (14-04-02 16:55) @project(Boosted / Kinematics)
+ ✔ Track word count @side @medium @done (14-04-01 00:34) @project(General)
+ ✔ Find a PDF word counter or a latext word counter @done (14-04-01 00:34) @project(General)
+ ✔ SMT @done (14-03-27 13:25) @project(Boosted / Tables / Fake rate)
+ ✔ Mini-Isolation @done (14-03-27 13:25) @project(Boosted / Tables / Fake rate)
+ ✔ SMT @done (14-03-27 00:01) @project(Boosted / Tables)
+ ✔ Mini-Isolation @done (14-03-27 00:01) @project(Boosted / Tables)
+ ✔ SMT @done (14-03-24 15:27) @project(Boosted / Plots / Efficiency)
+ ✔ Mini-isolation @done (14-03-24 15:27) @project(Boosted / Plots / Efficiency)
+ ✔ Efficiency as a function of angular separation between the reconstructed muon and the nearest reconstructed jet: @done (14-03-24 15:27) @project(Boosted / Plots / Efficiency)
+ ✔ Reference latest limits @done (14-03-22 14:49) @project(Boosted / Quote limits)
+ ✔ Quote latest limits @done (14-03-22 14:49) @project(Boosted / Quote limits)
+ ✔ Find the latest limits @done (14-03-22 14:49) @project(Boosted / Quote limits)

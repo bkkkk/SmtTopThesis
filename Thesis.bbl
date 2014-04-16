@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{Boosted:ATLASExclusion8TeV}
+{A search for $t\bar{t}$ resonances in the lepton plus jets final state with
+  ATLAS using 14 fb$^{−1}$ of $pp$ collisions at $\sqrt{s}=8$ TeV}.
+\newblock Technical Report ATLAS-CONF-2013-052, CERN, Geneva, May 2013.
+\newblock Not published in the proceedings.
+
+\bibitem{Boosted:CMSSearch8TeV}
+{Search for $t\bar{t}$ resonances in semileptonic final state}.
+\newblock Technical Report CMS-PAS-B2G-12-006, CERN, Geneva, 2013.
+
+\bibitem{Boosted:ATLASExclusion7TeV}
+Georges Aad et~al.
+\newblock {Search for $t\bar t$ resonances in the lepton plus jets final state
+  with ATLAS using 4.7 fb$^{-1}$ of $pp$ collisions at $\sqrt{s} = 7$ TeV}.
+\newblock {\em Phys.Rev.}, D88(1):012004, 2013.
+
+\bibitem{Boosted:CMSSearchAnomalous}
+Serguei Chatrchyan et~al.
+\newblock {Search for anomalous $t\bar{t}$ production in the highly-boosted
+  all-hadronic final state}.
+\newblock {\em JHEP}, 1209:029, 2012.
+
+\bibitem{Boosted:CMSSearch7TeVDilepton}
+Serguei Chatrchyan et~al.
+\newblock {Search for $Z$' resonances decaying to $t\bar{t}$ in dilepton+jets
+  final states in $pp$ collisions at $\sqrt{s}=7$ TeV}.
+\newblock {\em Phys.Rev.}, D87:072002, 2013.
+
+\end{thebibliography}

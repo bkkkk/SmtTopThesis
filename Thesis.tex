@@ -1,6 +1,6 @@
 \documentclass[11pt,a4paper]{report}
 
-\usepackage[force]{feynmp-auto}
+\usepackage{feynmp-auto}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
 \usepackage{amsfonts}
@@ -14,6 +14,8 @@
 \usepackage{subcaption}
 \usepackage{multirow}
 \usepackage{cite}
+\usepackage[toc,page]{appendix}
+\usepackage{nicefrac}
 
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
@@ -30,11 +32,14 @@
 \newcommand{\xsq}{\ensuremath{\chi^{2}}}
 \newcommand{\xsd}{\ensuremath{\chi^{2}_{\textrm{DoF}}}}
 \newcommand{\xsm}{\ensuremath{\chi^{2}_{\textrm{match}}}}
+\newcommand{\jpsi}{\ensuremath{J\slash\psi}}
 
 \newcommand{\Et}{\ensuremath{E_{\rm T}}}
 \newcommand{\pt}{\ensuremath{p_{\rm T}}}
 
 \newcommand{\m}{\ensuremath{\mu}}
+
+\newcommand{\staco}{\texttt{STACO}}
 
 \DeclareGraphicsRule{*}{mps}{*}{}
 
@@ -146,6 +151,12 @@ Jacobo Ezequiel Blanco
 \input{PartCrossSection/CrossSection.tex}
 \input{PartBoosted/Boosted.tex}
 \chapter{Conclusions} \label{prt:conclusions}
+
+\begin{appendices}
+% Calibration
+\input{PartCalibration2012/CalibrationApp.tex}
+\input{PartCalibration2012/CalibrationMCPCuts.tex}
+\end{appendices}
 
 \newpage
 \bibliographystyle{plain}
