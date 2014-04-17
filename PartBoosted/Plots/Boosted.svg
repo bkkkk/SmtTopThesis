@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="94.073854"
-     inkscape:cy="68.30516"
+     inkscape:zoom="3.959798"
+     inkscape:cx="78.634174"
+     inkscape:cy="98.936782"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -33,11 +33,11 @@
      fit-margin-left="20"
      fit-margin-right="20"
      fit-margin-bottom="0"
-     inkscape:window-width="723"
-     inkscape:window-height="715"
-     inkscape:window-x="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="1006"
+     inkscape:window-x="129"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="1" />
   <defs
      id="defs4">
     <marker
@@ -143,14 +143,14 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path2987"
-       d="m 345.81375,846.93362 8.37497,-48.38483 c -3.57133,-9.57358 -7.27021,-18.27963 -10.79304,-28.02075 M 337.389,753.91871 c -4.24628,-11.74157 -8.02666,-22.73351 -11.0269,-31.88008"
+       d="m 345.2997,846.55481 8.88902,-48.00602 c -3.57133,-9.57358 -7.27021,-18.27963 -10.79304,-28.02075 M 337.389,753.91871 c -4.24628,-11.74157 -8.02666,-22.73351 -11.0269,-31.88008"
        style="fill:none;stroke:#555555;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend5)" />
     <path
        sodipodi:open="true"
        sodipodi:end="3.1415927"
        sodipodi:start="0"
        transform="matrix(0.25296395,-0.07869665,0.07609855,0.24461256,255.50222,678.29832)"
-       d="m 264.99999,310.36221 a 124.28571,22.142857 0 1 1 -248.571424,0"
+       d="m 264.99999,310.36221 c 0,12.22917 -55.64461,22.14286 -124.28571,22.14286 -68.641105,0 -124.285714,-9.91369 -124.285714,-22.14286 0,0 0,0 0,0"
        sodipodi:ry="22.142857"
        sodipodi:rx="124.28571"
        sodipodi:cy="310.36221"

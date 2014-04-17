@@ -74,13 +74,19 @@ The \staco\ reconstruction efficiency is not measured by applying the algorithm 
   \epsilon = \frac{N_{\textrm{muon probe}}}{N_{\textrm{probe}}}
 \end{equation*}
 
-A muon probe is said to be an SMT muon if it passes the following selection, which matches the muon cuts defined in Chapter~\ref{prt:smt_summary}
+A muon probe is said to be an SMT muon if it passes the following selection, which matches the muon cuts defined in Chapter~\ref{prt:smt_summary}. Note in particular the main component of the soft muon tagger, the cut on $\xsm/N_{\textrm{dof}}<3.2$, the distribution of the \xsd\ is shown in Fig.~\ref{fig:CalibrationMatchChi2Dist} 
 
 \begin{itemize}
   \item $|d_{0}|<3$ mm
   \item $|z_{0}\sin(\theta)|<3$
   \item $\xsm/N_{\textrm{dof}}<3.2$
 \end{itemize}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{PartCalibration2012/Plots/Kinematics/h_muonprobe_matchchi2_ndof_Nominal-eps-converted-to.pdf}
+  \caption{The distribution of $\xsm/N_{\textrm{dof}}$ for all muon probes for ATLAS collision data and prompt \jpsi\ Monte Carlo simulation.} \label{fig:CalibrationMatchChi2Dist}
+\end{figure}
 
 Those muon probes which pass the SMT selection are the numerator of the SMT efficiency and the denominator is defined as the number of muon probes:
 
@@ -103,7 +109,7 @@ To avoid the first-order effects of signal mis-modelling from the fit of the \jp
   \caption{A diagram of the various components of the fit procedure. The composite fit is shown along with the corresponding implied signal and background. The two variations of the background shape are also shown.} \label{fig:CalibrationFittingExample}
 \end{figure}
 
-\subsection{Uncertainty Measurement}
+\subsection{Uncertainty Measurement} \label{sec:CalibrationUncertainty}
 
 The uncertainty on the efficiency is made of three components. First, the statistical uncertainty on the efficiency is estimated as a Binomial error:
 
@@ -177,64 +183,64 @@ The efficiency is monitored as a function of a variety of kinematic variables, i
 
 The muons from \jpsi\ used in this calibration are produced in isolation, there is very little energetic activity surrounding them in the detector. In contrast muons from semileptonic decay of $b$-quarks in \ttbar\ events are produced amongst the numerous components of the $b$-jets. Thus it is important to ensure that the performance of the \xsm\ tagger is not affected by the isolation of the muon for a calibration on \jpsi\ events to be applicable. In this calibration as, in the 2011 analysis nine isolation variables are considered. The so-called etcone20, 30 and 40 correspond to the transverse energy surrounding the muon in a cone of size $\Delta R=0.2,0.3,0.4$ respectively. Additionally ptcone20, 30 and 40 and nucone20, 30, 40 correspond to the sum of transverse momentum and the number of tracks surrounding the muon, respectively. All nine isolation variables exclude the muon itself in a cone of size 0.1 and include various corrections for known energy losses, momentum leakages between adjacent clusters in the detector and the effects of pile-up.
 
-As in the 2011 analysis there appears to be no dependence of the scale factor on any of the isolation variables examined as can be seen from Fig.~\ref{fig:Calibration2011Iso}.
+As in the 2011 analysis there appears to be no dependence of the scale factor on any of the isolation variables examined as can be seen from Figures~\ref{fig:CalibrationIsoEtcone}, \ref{fig:CalibrationIsoPtcone} and \ref{fig:CalibrationIsoNucone}.
 
 \begin{figure}[phtb]
   \centering
-    % Subfigure ETCone20
-    \begin{subfigure}[b]{0.31\textwidth}
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/etcone20_smt.pdf}
-      \caption{$\sum E_{T}$ in cone $\Delta R=0.2$} \label{fig:Alleffsfetcone20}
+      \caption{$\sum E_{T}$ in cone $\Delta R=0.2$} \label{fig:CalibrationIsoEtcone20}
     \end{subfigure}
-    ~
-    % Subfigure ETCone30
-    \begin{subfigure}[b]{0.31\textwidth}
+    
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/etcone30_smt.pdf}
-      \caption{$\sum E_{T}$ in cone $\Delta R=0.3$} \label{fig:Alleffsfetcone30}
+      \caption{$\sum E_{T}$ in cone $\Delta R=0.3$} \label{fig:CalibrationIsoEtcone30}
     \end{subfigure}
-    ~
-    % Subfigure ETCone40
-    \begin{subfigure}[b]{0.31\textwidth}
+
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/etcone40_smt.pdf}
-      \caption{$\sum E_{T}$ in cone $\Delta R=0.4$}\label{fig:Alleffsfetcone40}
+      \caption{$\sum E_{T}$ in cone $\Delta R=0.4$}\label{fig:CalibrationIsoEtcone40}
     \end{subfigure}
-    ~
-    % ptcone20
-    \begin{subfigure}[b]{0.31\textwidth}
+  \caption{\xsd\ efficiencies and scale factor with respect to $\sum E_{T}$.} \label{fig:CalibrationIsoEtcone}
+\end{figure}
+
+\begin{figure}[phtb]
+  \centering
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/ptcone20_smt.pdf}
-      \caption{$\sum p_{T}$ in cone $\Delta R=0.2$} \label{fig:Alleffsfptcone20}
+      \caption{$\sum p_{T}$ in cone $\Delta R=0.2$} \label{fig:CalibrationIsoPtcone20}
     \end{subfigure}
-    ~
-    %ptcone30
-    \begin{subfigure}[b]{0.31\textwidth}
+    
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/ptcone30_smt.pdf}
-      \caption{$\sum p_{T}$ in cone $\Delta R=0.3$} \label{fig:Alleffsfptcone30}
+      \caption{$\sum p_{T}$ in cone $\Delta R=0.3$} \label{fig:CalibrationIsoPtcone30}
     \end{subfigure}
-    ~
-    % ptcone40
-    \begin{subfigure}[b]{0.31\textwidth}
+    
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/ptcone40_smt.pdf}
-      \caption{$\sum p_{T}$ in cone $\Delta R=0.4$} \label{fig:Alleffsfptcone40}
+      \caption{$\sum p_{T}$ in cone $\Delta R=0.4$} \label{fig:CalibrationIsoPtcone40}
     \end{subfigure}
-    ~
-    % nucone20
-    \begin{subfigure}[b]{0.31\textwidth}
+  \caption{\xsd\ efficiencies and scale factor with respect to $\sum p_{T}$.} \label{fig:CalibrationIsoPtcone}
+\end{figure}
+
+% nucone
+\begin{figure}[phtb]
+  \centering
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/nucone20_smt.pdf}  
-      \caption{$N_{\textrm{trk}}$ in cone $\Delta R=0.2$} \label{fig:Alleffsfnucone20}
+      \caption{$N_{\textrm{trk}}$ in cone $\Delta R=0.2$} \label{fig:CalibrationIsoNucone20}
     \end{subfigure}
-    ~
-    % nucone30
-    \begin{subfigure}[b]{0.31\textwidth}
+    
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/nucone30_smt.pdf}
-      \caption{$N_{\textrm{trk}}$ in cone $\Delta R=0.3$} \label{fig:Alleffsfnucone30}
+      \caption{$N_{\textrm{trk}}$ in cone $\Delta R=0.3$} \label{fig:CalibrationIsoNucone30}
     \end{subfigure}
-    ~
-    % nucone40
-    \begin{subfigure}[b]{0.31\textwidth}
+    
+    \begin{subfigure}[b]{0.60\textwidth}
       \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/nucone40_smt.pdf}
-      \caption{$N_{\textrm{trk}}$ in cone $\Delta R=0.4$} \label{fig:Alleffsfnucone40}
+      \caption{$N_{\textrm{trk}}$ in cone $\Delta R=0.4$} \label{fig:CalibrationIsoNucone40}
     \end{subfigure}
-  \caption{\xsd\ efficiencies and scale factor with respect various isolation variables.} \label{fig:Calibration2011Iso}
+  \caption{\xsd\ efficiencies and scale factor with respect various isolation variables.} \label{fig:CalibrationIsoNucone}
 \end{figure}
 
 The dependence on each isolation variable is measured in a range dictated by the available statistics. Given the isolated nature of muons in \jpsi\ events limits the number of muons available at higher pt/et/nucone values.
@@ -245,7 +251,7 @@ The dependence on each isolation variable is measured in a range dictated by the
 
 \subsection{Efficiency Binning}
 
-The efficiencies are measured across the $|\eta|$ range of the ATLAS detector in regions defined in Table~\ref{tab:CalibrationEtaRegions}. As in 2011, the efficiency is expected to be depedent on the region of the detector where the muon probe emerges.
+The efficiencies are measured with respect to pseudorapidity and across the $|\eta|$ range of the ATLAS detector in regions defined in Table~\ref{tab:CalibrationEtaRegions}. Note that the $\eta$ regions are label as A and C to denote the positive and negative $\eta$ sections of the detector. The binning in other variables is determined by the amount of statistics available to allow for the fitting procedure to produce good and stable results. The binning in $p_{T}$ was chosen as: 4-5, 5-6, 6-7, 7-8, 8-10, 10-12, 12-14, 14-16 and 16-20 GeV.  
 
 \begin{table}[thbp]
   \centering
@@ -262,6 +268,10 @@ The efficiencies are measured across the $|\eta|$ range of the ATLAS detector in
   \end{tabular}
 \end{table}
 
+\subsection{Results}
+
+The efficiency is presented as a function of $\eta$, $\phi$ and $p_{\textrm{T}}$. Figure~\ref{fig:CalibrationAngularResults} shows the \xsm\ efficiency with respect to the spatial variables of the probe. Note that as with the 2011 analysis the efficiency exhibits no dependence on $\phi$ and an asymmetric dependence on $\eta$ particularly in the Forward regions of the detector. Note that as expected there is a strong dependence on the transverse momentum of the muon probe as shown in Fig.\ref{fig:CalibrationMomentumResults}. As in the 2011 analysis it was decided to bin the scale factor as a function of $\eta$ and \pt. The scale factors and efficiencies are presented in the next pages. The scale factors and their uncertainties are summarized in Table~
+
 \begin{figure}[tbhp]
   \centering
   \begin{subfigure}[b]{0.85\textwidth}
@@ -273,7 +283,151 @@ The efficiencies are measured across the $|\eta|$ range of the ATLAS detector in
     \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/eta_smt.pdf}
     \caption{\xsm\ efficiency and scale factor as a function $\eta$ of the probe muon} \label{fig:CalibrationEta}
   \end{subfigure}
-  \caption{\xsm\ efficiencies and scale factor with respect to the angular position of the muon probe} \label{fig:label}
+  \caption{\xsm\ efficiencies and scale factor with respect to the \subref{fig:CalibrationPhi} $\phi$ and \subref{fig:CalibrationEta} $\eta$} \label{fig:CalibrationAngularResults}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{PartCalibration2012/Plots/SFPlots/pt_smt.pdf}
+  \caption{\xsm\ efficiencies and scale factor with respect to the transverse momentum of the muon probe} \label{fig:CalibrationMomentumResults}
 \end{figure}
 
 
+\begin{figure}[tbhp]
+  \centering
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Crack_A_smt.pdf}
+    \caption{Crack A Region} \label{fig:CalibrationScaleFactorCrackA}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Crack_C_smt.pdf}
+    \caption{Crack C Region} \label{fig:CalibrationScaleFactorCrackC}
+  \end{subfigure}
+  \caption{\xsm\ efficiencies and scale factors in the crack region of the detector for side \subref{fig:CalibrationScaleFactorCrackA} A and \subref{fig:CalibrationScaleFactorCrackC} C} \label{fig:CalibrationScaleFactorCrack}
+\end{figure}
+
+\begin{figure}[tbhp]
+  \centering
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Barrel_A_smt.pdf}
+    \caption{Barrel A Region} \label{fig:CalibrationScaleFactorBarrelA}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Barrel_C_smt.pdf}
+    \caption{Barrel C Region} \label{fig:CalibrationScaleFactorBarrelC}
+  \end{subfigure}
+  \caption{\xsm\ efficiencies and scale factors in the barrel region of the detector for side \subref{fig:CalibrationScaleFactorBarrelA} A and \subref{fig:CalibrationScaleFactorBarrelC} C} \label{fig:CalibrationScaleFactorBarrel}
+\end{figure}
+
+\begin{figure}[tbhp]
+  \centering
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Transition_A_smt.pdf}
+    \caption{Transition A Region} \label{fig:CalibrationScaleFactorTransitionA}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Transition_C_smt.pdf}
+    \caption{Transition C Region} \label{fig:CalibrationScaleFactorTransitionC}
+  \end{subfigure}
+  \caption{\xsm\ efficiencies and scale factors in the transition region of the detector for side \subref{fig:CalibrationScaleFactorTransitionA} A and \subref{fig:CalibrationScaleFactorTransitionC} C} \label{fig:CalibrationScaleFactorTransition}
+\end{figure}
+
+\begin{figure}[tbhp]
+  \centering
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Endcap_A_smt.pdf}
+    \caption{Endcap A Region} \label{fig:CalibrationScaleFactorEndcapA}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Endcap_C_smt.pdf}
+    \caption{Endcap C Region} \label{fig:CalibrationScaleFactorEndcapC}
+  \end{subfigure}
+  \caption{\xsm\ efficiencies and scale factors in the endcap region of the detector for side \subref{fig:CalibrationScaleFactorEndcapA} A and \subref{fig:CalibrationScaleFactorEndcapC} C} \label{fig:CalibrationScaleFactorEndcap}
+\end{figure}
+
+\begin{figure}[tbhp]
+  \centering
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Forward_A_smt.pdf}
+    \caption{Forward A Region} \label{fig:CalibrationScaleFactorForwardA}
+  \end{subfigure}
+  
+  \begin{subfigure}[b]{0.85\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/Forward_C_smt.pdf}
+    \caption{Forward C Region} \label{fig:CalibrationScaleFactorForwardC}
+  \end{subfigure}
+  \caption{\xsm\ efficiencies and scale factors in the forward region of the detector for side \subref{fig:CalibrationScaleFactorForwardA} A and \subref{fig:CalibrationScaleFactorForwardC} C} \label{fig:CalibrationScaleFactorForward}
+\end{figure}
+
+\begin{table}[bhtp]
+  \caption{Data/MC Scale Factors for 2012 Data in all five regions of the detector as a function of \pt. The uncertainties include systematic and statistical components as described in Section~\ref{sec:CalibrationUncertainty}} \label{tab:Calibration2012SF}
+  \centering
+  \begin{subtable}{\textwidth}
+    \centering
+    \begin{tabular}{|r|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{Side A (Positive $\eta$)} \\
+    \hline
+    $p_{T}$ range & Crack A & Barrel A & Transition A & Endcap A & Forward A\\ \hline \hline
+    4-5 GeV   & $1.051\pm0.016$ & $1.053\pm0.005$ & $1.046\pm0.019$ & $1.061\pm0.011$ & $1.090\pm0.018$ \\
+    5-6 GeV   & $1.050\pm0.007$ & $1.058\pm0.004$ & $1.057\pm0.019$ & $1.062\pm0.011$ & $1.103\pm0.020$ \\
+    6-7 GeV   & $1.068\pm0.008$ & $1.065\pm0.003$ & $1.070\pm0.015$ & $1.065\pm0.008$ & $1.134\pm0.019$ \\
+    7-8 GeV   & $1.061\pm0.018$ & $1.063\pm0.006$ & $1.064\pm0.017$ & $1.061\pm0.010$ & $1.140\pm0.024$ \\
+    8-10 GeV  & $1.061\pm0.014$ & $1.063\pm0.007$ & $1.068\pm0.016$ & $1.052\pm0.014$ & $1.167\pm0.023$ \\
+    10-12 GeV & $1.060\pm0.042$ & $1.070\pm0.006$ & $1.064\pm0.026$ & $1.058\pm0.016$ & $1.175\pm0.038$ \\
+    12-14 GeV & $1.061\pm0.050$ & $1.064\pm0.010$ & $1.067\pm0.037$ & $1.057\pm0.021$ & $1.190\pm0.057$ \\
+    14-16 GeV & $1.062\pm0.087$ & $1.068\pm0.015$ & $1.078\pm0.054$ & $1.067\pm0.031$ & $1.218\pm0.064$ \\
+    16-20 GeV & $1.062\pm0.087$ & $1.068\pm0.015$ & $1.078\pm0.054$ & $1.067\pm0.031$ & $1.218\pm0.064$ \\
+    \hline
+    \end{tabular}
+    \caption{For the positive $\eta$ regions} \label{tab:Calibration2012SFPos}
+  \end{subtable}
+
+  \begin{subtable}{\textwidth}
+    \centering
+    \begin{tabular}{|r|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{Side C (Negative $\eta$)} \\
+    \hline
+    $p_{T}$ range & Crack & Barrel & Transition & Endcap & Forward\\ \hline \hline
+    4-5 GeV   & $1.044\pm0.016$ & $1.055\pm0.005$ & $1.054\pm0.017$ & $1.056\pm0.009$ & $1.068\pm0.018$ \\
+    5-6 GeV   & $1.069\pm0.013$ & $1.057\pm0.004$ & $1.050\pm0.016$ & $1.062\pm0.010$ & $1.084\pm0.020$ \\
+    6-7 GeV   & $1.080\pm0.016$ & $1.068\pm0.004$ & $1.065\pm0.008$ & $1.066\pm0.008$ & $1.089\pm0.018$ \\
+    7-8 GeV   & $1.064\pm0.021$ & $1.068\pm0.004$ & $1.063\pm0.016$ & $1.066\pm0.010$ & $1.095\pm0.022$ \\
+    8-10 GeV  & $1.071\pm0.015$ & $1.067\pm0.005$ & $1.045\pm0.015$ & $1.061\pm0.009$ & $1.107\pm0.022$ \\
+    10-12 GeV & $1.084\pm0.030$ & $1.073\pm0.007$ & $1.085\pm0.022$ & $1.061\pm0.015$ & $1.113\pm0.036$ \\
+    12-14 GeV & $1.098\pm0.067$ & $1.069\pm0.010$ & $1.059\pm0.031$ & $1.040\pm0.024$ & $1.108\pm0.055$ \\
+    14-16 GeV & $1.063\pm0.101$ & $1.073\pm0.015$ & $1.076\pm0.046$ & $1.061\pm0.030$ & $1.099\pm0.057$ \\
+    16-20 GeV & $1.073\pm0.149$ & $1.088\pm0.006$ & $1.099\pm0.028$ & $1.054\pm0.012$ & $1.117\pm0.043$ \\
+    \hline
+    \end{tabular}
+    \caption{For the negative $\eta$ region} \label{tab:Calibration2012SFNeg}
+  \end{subtable}
+\end{table}
+
+\subsubsection{Dependence on $d_{0}$}
+
+The dependence on the impact parameter $d_{0}$ was examined and no direct dependence is observed. From Fig.~\ref{fig:CalibrationD0Results} the scale factor shows no structure with respect to $d_0$ when binned in \pt. Since the scale factors are already binned in $\eta$ and \pt\ the correlation of $d_0$ and \pt\ is already taken into account.
+
+\begin{figure}[tbhp]
+  \centering
+  \begin{subfigure}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/ptCourse_4_6__smt.pdf}
+    \caption{4 GeV$<p_{\textrm{T}}<$6 GeV} \label{fig:CalibrationD04to6}
+  \end{subfigure}
+  ~
+  \begin{subfigure}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/ptCourse_6_8__smt.pdf}
+    \caption{6 GeV$<p_{\textrm{T}}<$8 GeV} \label{fig:CalibrationD06to8}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{PartCalibration2012/Plots/SFPlots/ptCourse_8_10__smt.pdf}
+    \caption{8 GeV$<p_{\textrm{T}}<$10 GeV} \label{fig:CalibrationD08to10}
+  \end{subfigure}
+  \caption{\xsm\ efficiencies and scale factor with respect to impact parameter $d_{0}$ for muon probes with $p_{\textrm{T}}$ in the range \subref{fig:CalibrationD04to6} 4-6 GeV, \subref{fig:CalibrationD06to8} 6-8 GeV and \subref{fig:CalibrationD08to10} 8-10 GeV. The measurement was carried out only on Period B of 2012 ATLAS collision data.} \label{fig:CalibrationD0Results}
+\end{figure}
