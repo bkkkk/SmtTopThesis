@@ -1,0 +1,15 @@
+\begin{fmffile}{WeakMuonDecay}
+\begin{fmfgraph*}(150,75)
+\fmfbottom{mu,d1,munu}
+\fmfright{d0,e,enu}
+\fmf{fermion}{mu,v1,munu} 
+\fmffreeze
+\fmf{fermion}{e,v2,enu}
+\fmf{boson,tension=1.5,label=$W^-$}{v1,v2}
+\fmflabel{$e^{-}$}{e}
+\fmflabel{$\overline{\nu}_{e}$}{enu}
+\fmflabel{$\mu^-$}{mu}
+\fmflabel{$\nu_{\mu}$}{munu}
+\fmfdot{v1,v2}
+\end{fmfgraph*}
+\end{fmffile}
