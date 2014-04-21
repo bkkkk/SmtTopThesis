@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"baselinestretch	Thesis.tex"
+			],
+			[
 				"histo",
 				"histoName"
 			],
@@ -483,9 +487,73 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 287.0,
+		"height": 307.0,
 		"selected_items":
 		[
+			[
+				"Snippet: Bibtex ",
+				"Snippet: BibTeX Booklet"
+			],
+			[
+				"user ",
+				"Preferences: Settings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"snippet",
+				"Snippet: New longtable"
+			],
+			[
+				"snip edi",
+				"Snippet: LaTeXing Option PDF Name"
+			],
+			[
+				"snippet fig",
+				"Snippet: New figure"
+			],
+			[
+				"latexing",
+				"LaTeXing: Changelog"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippetfi",
+				"Snippet: Figure"
+			],
+			[
+				"latextools",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
 			[
 				"envio",
 				"LaTeXing: New Environment"
@@ -493,10 +561,6 @@
 			[
 				"quick",
 				"Build: Choose Quick Build"
-			],
-			[
-				"latexing",
-				"LaTeXing: Texcount"
 			],
 			[
 				"key",
@@ -507,20 +571,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"auto",
 				"Autocomplete file name"
 			],
 			[
 				"fish",
 				"Set Syntax: Shell Script (fish)"
-			],
-			[
-				"snippet",
-				"Snippet: #!/usr/bin/env"
 			],
 			[
 				"table",
@@ -533,10 +589,6 @@
 			[
 				"root",
 				"Snippet: LaTeXing Option Root File"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"Latexing",
@@ -560,10 +612,6 @@
 			],
 			[
 				"Update",
-				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"update",
 				"Package Control: Upgrade/Overwrite All Packages"
 			],
 			[
@@ -627,10 +675,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"latex",
-				"LaTeXTools: View PDF"
-			],
-			[
 				"package ",
 				"Package Control: Discover Packages"
 			],
@@ -671,7 +715,7 @@
 	},
 	"console":
 	{
-		"height": 572.0,
+		"height": 179.0,
 		"history":
 		[
 			"pomodoro stop",
@@ -696,11 +740,29 @@
 	},
 	"file_history":
 	[
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Todo.todo",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
+		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/README.md",
+		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/Fibonacci.rb",
+		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/Fibonacci.r",
+		"/Users/jayb88/Downloads/science.bib",
 		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/subfigure_two.sublime-snippet",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.svg",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.svg",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/FlowChart.svg",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.gitignore",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Todo.todo",
 		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/smtChi2.tex",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
@@ -713,12 +775,9 @@
 		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/TnPFitter/FitInterface.h",
 		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/DoubleGausFit.cxx",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationApp.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationMCPCuts.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartSMT/SMT.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runPlotter.sh",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/TopEff.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayPlotter.cxx",
@@ -772,9 +831,6 @@
 		"/Users/jayb88/Desktop/Log1300.log",
 		"/Users/jayb88/Desktop/Log1600.log",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/plotter/OverlayPlotter",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/Log2500.log",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/Log3000.log",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/Log1600.log",
@@ -795,7 +851,6 @@
 		"/Users/jayb88/Desktop/Test.tex",
 		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/src/StateStack.cpp",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-workspace",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
 		"/Users/jayb88/Downloads/SMT_SFs_approved copy.txt",
 		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/smtChi2.pdf",
 		"/Users/jayb88/Dropbox/Lists/todo.todo",
@@ -812,18 +867,7 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/thesis.sublime-workspace",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fdb_latexmk",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ls.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.log",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fls",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.aux",
-		"/Users/jayb88/Dropbox/Lists/projects.todo",
-		"/Users/jayb88/Dropbox/Lists/pro",
-		"/Users/jayb88/Dropbox/Lists/someday.todo",
-		"/Users/jayb88/Dropbox/Projects/Yatzhee/Game.h",
-		"/Users/jayb88/Dropbox/Projects/Yatzhee/Game.cxx",
-		"/Users/jayb88/jblanco/MuonEfficiency/Root/SampleHistograms.cxx",
-		"/Users/jayb88/jblanco/MuonEfficiency/Root/SummaryPlotMaker.cxx",
-		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/MakeEfficiency.cxx",
-		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/PlotterSingle.cxx"
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.log"
 	],
 	"find":
 	{
@@ -831,16 +875,56 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"temp",
+			"vertexes",
+			"Boson",
+			"mesons",
+			"baryon number",
+			"Boson",
+			"Standard Model",
+			"open",
+			" C",
+			"})",
+			"(\\sub",
+			"50",
+			"45",
+			"{Width",
+			"width",
+			"Width",
+			"Endcap",
+			"endcap",
+			"Endcap",
+			"endcap",
+			"Endcap",
+			"Transition",
+			"transition",
+			"Transition",
+			"Barrel",
+			"barrel",
+			"Barrel",
+			"Crack",
+			"crack",
+			"Crack",
+			"65",
+			"textwidth",
+			"45",
+			"31",
+			"Alleffsfnucone",
+			"Alleffsfptcone",
+			"Alleffsfetcone",
+			"Alleffsfetcone20",
+			"31",
+			"fig:label",
 			"		",
 			",",
 			"E_{T}",
@@ -928,47 +1012,7 @@
 			"daughterIndex",
 			"mc_topIndex",
 			"jetIndex",
-			"phi",
-			"eta",
-			"((TH1F*) m_mi10Kinematics->At(",
-			"((TH1F*) m_smtKinematics->At(",
-			"FillEventMuid",
-			"((TH1F*) m_muonKinematics->At(",
-			"goodMuons",
-			"((TH1F*) m_stacoKinematics->At(",
-			"((TH1F*) m_jetKinematics->At(",
-			"#mu ",
-			"#it{",
-			"th1F(\"",
-			"(\"",
-			"m_eventInformation",
-			"MET",
-			"met",
-			"MET",
-			"met",
-			"MET",
-			"MI10 Muon\"",
-			"MI10 Muon",
-			".",
-			" 0",
-			"0.",
-			"|",
-			")",
-			" 26-3-2014 13:26:39",
-			" 26-3-2014 13:26:33",
-			" 26-3-2014 13:36:08 [INFO] finalize:",
-			"26-3-2014 13:30:07",
-			" 26-3-2014 13:33:48",
-			" 26-3-2014 12:37:10 [INFO]",
-			" 26-3-2014 13:36:09",
-			"selection_criteria",
-			"filePath",
-			"/\"",
-			"Samples",
-			"$SAMPLESDIR",
-			"PLOTTERDIR",
-			"prt:calibration_smt_2012",
-			"3000"
+			"phi"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1042,16 +1086,28 @@
 		"selected_items":
 		[
 			[
-				"todo",
-				"Todo.todo"
+				"thesis",
+				"Thesis.tex"
+			],
+			[
+				"cali",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"theory",
+				"PartTheory/Theory.tex"
+			],
+			[
+				"boosted",
+				"PartBoosted/Boosted.tex"
 			],
 			[
 				"calib",
 				"PartCalibration2012/Calibration2012.tex"
 			],
 			[
-				"thesis",
-				"Thesis.tex"
+				"todo",
+				"Todo.todo"
 			],
 			[
 				"calibra",
@@ -1068,10 +1124,6 @@
 			[
 				"bib",
 				"Thesis.bib"
-			],
-			[
-				"boosted",
-				"PartBoosted/Boosted.tex"
 			],
 			[
 				"setup",
@@ -1112,10 +1164,6 @@
 			[
 				"th",
 				"Thesis.tex"
-			],
-			[
-				"theory",
-				"PartTheory/Theory.tex"
 			],
 			[
 				"theo",

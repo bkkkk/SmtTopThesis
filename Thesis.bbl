@@ -16,6 +16,12 @@ Georges Aad et~al.
   with ATLAS using 4.7 fb$^{-1}$ of $pp$ collisions at $\sqrt{s} = 7$ TeV}.
 \newblock {\em Phys.Rev.}, D88(1):012004, 2013.
 
+\bibitem{Theory:HiggsDiscoveryCMS}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+
 \bibitem{Boosted:CMSSearchAnomalous}
 Serguei Chatrchyan et~al.
 \newblock {Search for anomalous $t\bar{t}$ production in the highly-boosted
@@ -27,5 +33,16 @@ Serguei Chatrchyan et~al.
 \newblock {Search for $Z$' resonances decaying to $t\bar{t}$ in dilepton+jets
   final states in $pp$ collisions at $\sqrt{s}=7$ TeV}.
 \newblock {\em Phys.Rev.}, D87:072002, 2013.
+
+\bibitem{Theory:PDGBooklet}
+J.~Beringer et~al. (Particle Data~Group).
+\newblock {The Review of Particle Physics}.
+\newblock {\em {Physical Review D}}, 86:010001+, 2012.
+
+\bibitem{Theory:HiggsDiscoveryATLAS}
+et.~al. G.~Aad.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the \{ATLAS\} detector at the \{LHC\}.
+\newblock {\em Physics Letters B}, 716(1):1 -- 29, 2012.
 
 \end{thebibliography}

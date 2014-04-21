@@ -17,20 +17,25 @@
 }
 
 \chapter{The Standard Model of Particle Physics} \label{sec:the_standard_model_of_particle_physics}
-Particle physics is the study of the most fundamental consituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the 20th century and has seen tremendous success in predicting the behaviour of our universe at the most fundamental level. The SM has stood the test of time and rigorous examination by numerous experiments. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of the elusive Higgs were observed by the ATLAS and CMS experiments at CERN in the latter half of 2013.
+Particle physics is the study of the most fundamental consituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the 20th century and has seen tremendous success in predicting the behaviour of our universe at the most fundamental level. The SM has stood the test of time and rigorous examination by numerous experiments. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of the elusive Higgs were observed by the ATLAS and CMS experiments at CERN\cite{Theory:HiggsDiscoveryATLAS,Theory:HiggsDiscoveryCMS}.
 
-The SM describes the nature of the interactions of the fundamental constituents of our universe in terms of the three different fundamental forces: Strong, Weak and Electromagnetic each described by a specific theory. Note that the most familiar of the forces, gravity, is not included in this list. The Standard Model does not incorporate a description of gravity, however the development of such description is the subject of much interest for those creating theories that go Beyond the Standard Model (BSM).
+The SM describes the nature of the interactions of the fundamental constituents of our universe in terms of the three different fundamental forces: strong, weak and electromagnetic each described by a specific theory. Note that the most familiar of the forces, gravity, is not included in this list. The SM does not incorporate a description of gravity, however the development of such description is the subject of much interest for those creating theories that go Beyond the SM (BSM).
 
-The Standard Model classifies particles into several categories depending on their properties and allowed interactions. Particles which have a half-integer spins (e.g. $\frac{1}{2}$, $\frac{3}{2}$,...) are known as Fermions, and particles with integer spins (e.g. 0, 1,...) are known as Bosons. A summary of all elementary particles described by The Standard Model can be found in Table~\ref{tab:TheorySmParticles}.
+The SM classifies particles into several categories depending on their properties and allowed interactions. Particles which have a half-integer spins (e.g. $\frac{1}{2}$, $\frac{3}{2}$,...) are known as fermions, and particles with integer spins (e.g. 0, 1,...) are known as bosons. A summary of all elementary particles described by The SM can be found in Table~\ref{tab:TheorySmParticles}.
 
-Fermions can be divided into two subgroups: Quarks, which can interact by the strong, weak and electromagnetic forces and leptons which can only interact by the weak and electromagnetic forces. Each group contains six particles which are categorized into 3 distinct generations. For every matter fermion ($f$) there is an equivalent antimatter partner ($\bar{f}$) which possesses the same characteristics as its matter companion but is opposite in electrical charge. Thus 12 matter particles are combined with 12 antimatter partners for a total of 24 elementary particles which form all material in the universe.
+Fermions can be divided into two subgroups: quarks, which can interact via the strong, weak and electromagnetic forces and leptons which can only interact by the weak and electromagnetic forces. Each group contains six particles which are categorized into three distinct generations.
 
-The interaction between fermions are occur via the exchange of spin one particles known as bosons. Each force is mediated by one or more bosons (Table~\ref{tab:TheoryForces}). The strong force is mediated by a set of massless bosons known as the gluons. The weak force is mediated by a neutral massive boson known as the \ZbosonText{} and a pair of charged massive bosons known as the W bosons. Finally, the elecromagentic force is mediated by a massless boson known as the photon. From Note that each boson has an antimatter partner however some are indistinguishable form their matter partner. A summary of their properties is show in Table~\ref{tab:TheorySmParticles}.
+Additionally each fermion has a set of so-called quantum numbers which dictate the type of interactions that can occur. For example each lepton has a lepton number associated with it, electrons have an electron lepton number ($L_e$) of +1, while the positron has $L_e=-1$. Muons and taus have their own respective lepton number ($L_{\mu}$ and $L_{\tau}$). Each neutrino has lepton number $L_{f}=1$ and their anti-matter counterpart have $L_f=-1$. Each of these lepton numbers is conserved separately across interaction vertices. An example of this is discussed later.
+
+Another example of a quantum number is baryon number (B), each quark has B=$\frac{1}{3}$ and anti-quarks have B=$-\frac{1}{3}$.
+
+For every matter fermion ($f$) there is an equivalent antimatter partner ($\bar{f}$) which possesses the same characteristics as its matter companion but is opposite in electric charge. Thus 12 matter particles are combined with 12 antimatter partners for a total of 24 elementary particles which form all material in the universe.
+
+The interaction between fermions occur via the exchange of spin one particles known as bosons. Each force is mediated by one or more bosons (Table~\ref{tab:TheoryForces}). The strong force is mediated by a set of massless bosons known as the gluons. The weak force is mediated by a neutral massive boson known as the \ZbosonText{} and a pair of charged massive bosons known as the W bosons. Finally, the elecromagentic force is mediated by a massless boson known as the photon. Note that each boson has an antimatter partner however some are indistinguishable from their matter partner. A summary of their properties is shown in Table~\ref{tab:TheorySmParticles}.
 
 %% Particle Table[]
 \begin{table}[htpb]
-  \begin{center}
-    \caption{A summary of all elementary particles described by The Standard Model. Note the various groupings and divisions including by spin, generation and particle type. Within the fermion sector the quarks are shown in yellow and the leptons are shown in green. These are grouped into three different generations traditionally denoted by roman numerals. The force mediators known as gauge bosons are shown in blue and finally the recently discovered Higgs boson with a spin of zero.} \label{tab:TheorySmParticles}
+  \centering
     \begin{tikzpicture}[font=\sffamily, scale=0.6, transform shape]
       \tikzstyle{FermionFill} = [fill=yellow!15]
       \tikzstyle{QuarkFill} = [fill=yellow!15]
@@ -80,29 +85,27 @@ The interaction between fermions are occur via the exchange of spin one particle
       
       \node[name=QuarkLabel, above of=Photon, GenerationLabel, node distance=4cm]{Bosons $(s=0)$};
       \node[name=QuarkLabel, above of=Higgs, GenerationLabel, node distance=4cm]{Higgs $(s=1)$};
-      
     \end{tikzpicture}
-  \end{center}
+    \caption{A summary of all elementary particles described by the SM\cite{Theory:PDGBooklet}. Note the various groupings and divisions including by spin, generation and particle type. Within the fermion sector the quarks are shown in yellow and the leptons are shown in green. These are grouped into three different generations traditionally denoted by roman numerals. The force mediators known as gauge bosons are shown in blue and finally the recently discovered Higgs boson with a spin of zero.} \label{tab:TheorySmParticles}
 \end{table}
 
 %% Table of Forces
 \begin{table}[htbp]
-  \begin{center}
-  \caption{A summary of the four fundamental forces ordered by relative strength. These are approximated relative strengths for the purpose of demonstrating the hierarchy of forces as a function of their strength. A more accurate determination of the interaction strength depends on the details of the interaction itself. Note however the order-of-magnitude differences in the relative strengths of these forces. Note that the graviton is the theoretical boson responsible for mediating gravitational interactions, it is not part of the SM.} \label{tab:TheoryForces} 
-  \begin{tabular}{|c|c|c|}
-  \hline
-  Name & Relative Strength & Boson \\ \hline \hline
-  Strong & $10^{38}$ & Gluons \\
-  Electronmagnetic & $10^{36}$ & Photon \\ 
-  Weak & $10^{25}$ & \Wboson and \Zboson \\
-  Gravity & $1$ & Graviton* \\ \hline
-  \end{tabular}
-  \end{center}
+  \centering  
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Name & Relative Strength & Boson \\ \hline \hline
+    Strong & $10^{38}$ & Gluons \\
+    Electronmagnetic & $10^{36}$ & Photon \\ 
+    Weak & $10^{25}$ & \Wboson and \Zboson \\
+    Gravity & $1$ & Graviton* \\ \hline
+    \end{tabular}
+    \caption{A summary of the four fundamental forces ordered by relative strength. These are approximate relative strengths for the purpose of demonstrating the hierarchy of forces as a function of their strength. A more accurate determination of the interaction strength depends on the details of the interaction itself. Note however the order-of-magnitude differences in the relative strengths of these forces. Note that the graviton is the theoretical boson responsible for mediating gravitational interactions, it is not part of the SM.} \label{tab:TheoryForces} 
 \end{table}
 
 \section{Quantum Electrodynamics}
 
-The interaction of particles via the electromagnetic force is described by Quantum Electrodynamics or QED. These interactions are mediated by the massless neutral boson known as the photon and the strenght of the interaction is characterized by the fine-structure constant $\alpha$. All electrically charged fermions are allowed to interact, however since the photon itself is not charged, no self-interaction is allowed within QED. One of the simplest examples of QED interactions is the decay of a photon into a fermion/antifermion pair (Figure~\ref{fig:TheorySimpleQED}). Note that the electric charge is conserved across the vertex, so for example $\gamma\rightarrow e^{+}e^{+}$ is not allowed within QED.
+The interaction of particles via the electromagnetic force is described by Quantum Electrodynamics or QED. These interactions are mediated by the massless neutral boson known as the photon and the strenght of the interaction is characterized by the fine-structure constant $\alpha$. All electrically charged fermions are allowed to interact, since the photon itself is not charged, no self-interaction is allowed within QED. Figure~\ref{fig:TheorySimpleQED} shows the single vertex described by QED, where two fermions interact via a photon. Note that the electric charge is conserved across the vertex, so for example $\gamma\rightarrow e^{+}e^{+}$ is not allowed within QED.
 
 %% Simple QED Vertex
 \begin{figure}
@@ -113,15 +116,15 @@ The interaction of particles via the electromagnetic force is described by Quant
     \fmftop{fi,fo} \fmfbottom{Photon}
     \fmf{fermion}{fi,vx1,fo}
     \fmf{boson,label=$\gamma$}{vx1,Photon}
-    \fmflabel{$q$}{fi} \fmflabel{$q$}{fo}
+    \fmflabel{$f$}{fi} \fmflabel{$f$}{fo}
     \fmfdot{vx1}
 
   \end{fmfgraph*}
   \end{fmffile}
-  \caption{The interaction vertex described by QED. One can obtain all possible vertex shapes by rotating this basic vertex and assigning the appropriate electric charge and making sure to conserve lepton flavour across the vertex.} \label{fig:TheorySimpleQED}
+  \caption{The interaction vertex described by QED. One can obtain all possible vertex shapes by rotating this basic vertex and assigning the appropriate electric charge and making sure to conserve lepton number across the vertex.} \label{fig:TheorySimpleQED}
 \end{figure}
 
-By combining different forms of this vertex one can build every possible QED interaction. Electron-Positron pairs can annihilate to create energy in the form of a photon (Figure~\ref{fig:TheoryQEDTreeA}) and then subsequently decay into an additional Electron-Positron pair. Electrons can scatter by emitting a photon which is then absorbed by a positron (Figure~\ref{fig:TheoryQEDTreeB}) this process is known as Bhabha scattering.
+By combining different forms of this vertex one can build every possible QED interaction. For example an $e^{+}e^{-}$ pair can annihilate to create energy in the form of a photon as shown in Fig.~\ref{fig:TheoryQEDTreeA} and then subsequently decay into an additional $e^{+}e^{-}$ pair. Electrons can scatter by emitting a photon which is then absorbed by a positron as shown in Fig.~\ref{fig:TheoryQEDTreeB} this process is known as Bhabha scattering.
 
 %% Example Tree Level Diagrams
 \begin{figure}
@@ -165,19 +168,19 @@ By combining different forms of this vertex one can build every possible QED int
     \end{fmffile}
     \subcaption{Electron-Positron pair scattering via the emission of a photon.} \label{fig:TheoryQEDTreeB}
   \end{minipage}
-  \caption{Feynman diagrams of the process $e^{+}e^{-}\rightarrow e^{+}e^{-}$ allowed in QED. Note that these are the simplest diagrams, also known as tree level diagrams, and additional vertexes can be added to produce higher-order diagrams of the same process.}
+  \caption{Feynman diagrams of the process $e^{+}e^{-}\rightarrow e^{+}e^{-}$ allowed in QED. Note that these are the simplest diagrams, also known as tree level diagrams, and additional vertices can be added to produce higher-order diagrams of the same process.}
   \label{fig:TheoryQEDTree}
 \end{figure}
 
 \section{Quantum Chromodynamics}
 
-Interactions via the strong force are described in the theory of Quantum Chromodynamics or QCD. These interactions are mediated by a set of massless neutral bosons known as gluons. QCD introduces the concept of "colour", which similarly to electrical charge, determines the possible interactions that can occur via the strong force. "Colour" can take three states red (antired), blue (antiblue), green (antigreen). Both quarks and gluons possess colour and as a result gluons, unlike photons, can self-interact (Figure~\ref{fig:TheoryQCDVertexes})). As with electrical charge, colour-charge must also be conserved. Thus in the scattering process $q\rightarrow q+g$ shown in Figure~\ref{fig:TheoryQCDColour} the flavour of the quark may not change but the colour-charge does and the gluon carries away the difference in colour. There are eight different gluons that can participate in QCD interactions each with a different colour-charge combination. Note that there is a ninth combination ($R\overline{R} + G\overline{G}+B\overline{B}$) which is overall colorless so it cannot take part in interactions.
+Interactions via the strong force are described in the theory of Quantum Chromodynamics or QCD. These interactions are mediated by a set of massless neutral bosons known as gluons. QCD introduces the concept of colour, which similarly to electrical charge, determines the possible interactions that can occur via the strong force. Colour can take three states: red (antired), blue (antiblue), green (antigreen). For example both quarks and gluons possess colour and as a result gluons, unlike photons, can self-interact (Figure~\ref{fig:TheoryQCDVertexes})). As with electrical charge, colour-charge must also be conserved. Thus in the scattering process $q\rightarrow q+g$ shown in Figure~\ref{fig:TheoryQCDColour} the flavour of the quark may not change but the colour-charge does and the gluon carries away the difference in colour. There are eight different gluons that can participate in QCD interactions each with a different colour-charge combination. \comment{EXPLAIN WHAT YOU MEAN BY THIS}Note that there is a ninth combination ($R\overline{R} + G\overline{G}+B\overline{B}$) which is overall colorless so it cannot take part in interactions.
 
-In an analogous fashion to screening which occurs with electric charges, quark-antiquark pairs act like dipoles which screen the true colour charge of the central quark. However since gluons also carry colour, they have the opposite effect of anti-screening which amplify and change the observed colour of the quark. Which effects wins out depends on the number of colours in the theory and the number of quark flavours. As it is with three colour states and six different quark flavours, anti-screening is the overall dominant effect. As a result the colour potential decreases with distance and quarks experience very little potential when very near to eachother. This effect is known as asymptotic freedom and results in quarks only existing within colorless bound states known as hadrons.
+In an analogous fashion to screening which occurs with electric charges, quark-antiquark pairs act like dipoles which screen the true colour charge of the central quark. However since gluons also carry colour, they cause the opposite effect (anti-screening) to amplify and change the observed colour of the quark. Which effect wins out depends on the number of colours in the theory and the number of quark flavours. As it is with three colour states and six different quark flavours, anti-screening is the overall dominant effect. As a result the colour potential decreases with distance and quarks experience very little potential when very near to each other. This effect is known as asymptotic freedom and results in quarks only existing within colorless bound states known as hadrons.
 
-Hadrons can be divided into two categories: Mesons, which contain a quark and an antiquark ($q\overline{q}$); and Baryons which are made of three quarks (or antiquarks) each with a different (anti)colour-charge to result in a colourless composite particle. Common examples of baryons are protons (uud) and neutrons (udd) which are the building blocks of atomic nuclei.
+Hadrons can be divided into two categories: mesons, which contain a quark and an antiquark ($q\overline{q}$); and baryons which are made of three quarks (or antiquarks) each with a different (anti)colour-charge to result in a colourless composite particle. Common examples of baryons are protons (uud) and neutrons (udd) which are the building blocks of atomic nuclei. While $\pi^{0} (u\overline{u}/d\overline{d})$ is a commonly produced meson in hadron colliders. Note that due to the quark configuration, baryons have baryon number B=+1 while mesons have B=0.
   
-%% Self-interacting QCD Gluon vertexes
+%% Self-interacting QCD Gluon vertices
 \begin{figure}
   \begin{minipage}[b]{.32\textwidth}
     \begin{fmffile}{ColourQCD}
@@ -224,9 +227,9 @@ Hadrons can be divided into two categories: Mesons, which contain a quark and an
 
 \section{Weak Interactions}
 
-The final type of interaction involves the so-called weak force. The weak force is responsible for $\beta^{-}$ decay ($n\rightarrow p +e^{-}+\overline{\nu}_{e}$) and $\beta^{+}$ decay ($p \rightarrow n +e^{+}+\nu_{e}$). Interactions via the Weak force are mediated by a single neutral massive boson and two charged massive bosons. Since the bosons responsible for weak interactions are massive, the range of interaction is very short, unlike electromagnetic interactions via a massless photon.
+The final type of interaction involves the so-called weak force. The weak force is responsible for $\beta^{-}$ decay ($n\rightarrow p +e^{-}+\overline{\nu}_{e}$) and $\beta^{+}$ decay. Interactions via the Weak force are mediated by a single neutral massive boson and two charged massive bosons. Since the bosons responsible for weak interactions are massive, the range of interaction is very short, unlike electromagnetic interactions via a massless photon.
 
-All fermions can take part in interactions via the Weak force. Interactions involving only leptons are simpler so we shall begin our review there. The Weak neutral vertex is very similar to the basic vertex seen in QED (\ref{fig:TheorySimpleQED}) A valid interactions via the weak force is then formed by combining these simple vertexes (Figure~\ref{fig:TheoryWeakVertexes}) while taking care to conserve electric charge and lepton flavour. An example of a leptonic weak interaction is muon decay ($\mu\rightarrow \nu_{\mu}W^{-}\rightarrow \nu_{\mu}e^{-}\overline{\nu}_{e}$) shown in Figure~\ref{fig:TheoryMuonDecay}.
+All fermions can take part in interactions via the Weak force. Let us consider weak interactions involving only leptons. The Weak neutral vertex is very similar to the basic vertex seen in QED (\ref{fig:TheorySimpleQED}) A valid interactions via the weak force is then formed by combining these simple vertices (Figure~\ref{fig:TheoryWeakVertexes}) while taking care to conserve electric charge and lepton flavour. An example of a leptonic weak interaction is muon decay ($\mu\rightarrow \nu_{\mu}W^{-}\rightarrow \nu_{\mu}e^{-}\overline{\nu}_{e}$) shown in Figure~\ref{fig:TheoryMuonDecay}.
 
 %% Weak Neutral Vertexes
 \begin{figure}
@@ -272,8 +275,8 @@ All fermions can take part in interactions via the Weak force. Interactions invo
     \subcaption{Charged current vertex involving quarks} \label{fig:TheoryWeakChargedQuarks}
   \end{minipage}
 
-  \caption{The neutral current and charged current vertexes allowed via the Weak force. Where $f$ can be an $e$, $\mu$ or $\tau$ and $\nu_{\ell}$ is the corresponding lepton neutrino of the same flavour. 
-  One can obtain all possible vertex shapes by rotating these basic vertexes and assigning the appropriate electric charge and making sure to conserve lepton flavour across the vertex.}
+  \caption{The neutral current and charged current vertices allowed via the Weak force. Where $f$ can be an $e$, $\mu$ or $\tau$ and $\nu_{\ell}$ is the corresponding lepton neutrino of the same flavour. 
+  One can obtain all possible interaction vertices by rotating these basic vertices and assigning the appropriate electric charge and making sure to conserve lepton flavour across the vertex.}
   \label{fig:TheoryWeakVertexes}
 \end{figure}
 
@@ -293,7 +296,7 @@ All fermions can take part in interactions via the Weak force. Interactions invo
   \caption{Neutral current weak scattering vertex} \label{fig:TheoryMuonDecay}
 \end{figure}
 
-The Weak interactions is relatively simple and straight-forward as far as leptons are concerned. Things are not so when including quarks in weak interactions. The neutral vertex is similar to that of the leptonic version, a quark can emit a \ZbosonText{} or a \ZbosonText{} can decay forming a quark-antiquark pair. The charged current then changes the flavour of an up-type quark into a down-type quark (or vice-versa) with a \WbosonText{} of the appropriate charge (Figure~\ref{fig:TheoryWeakChargedQuarks}). It is possible for a Weak interaction to change the flavour of a quark across families. A well known example of such an interaction is Kaon decay ($K^{+}\rightarrow \mu^{+}\nu_{\mu}$). In order to account for this interaction and preserve the universality of weak interactions, Nicola Cabibbo postulated that the states that the states that couple to the charged current are really a mixture of 'rotated' quark states:
+Let us consider weak interactions involving quarks. The neutral vertex is similar to that of the leptonic version, a quark can emit a \ZbosonText{} or a \ZbosonText{} can decay forming a quark-antiquark pair. The charged current then changes the flavour of an up-type quark into a down-type quark (or vice-versa) with a \WbosonText{} of the appropriate charge (Figure~\ref{fig:TheoryWeakChargedQuarks}). It is possible for a Weak interaction to change the flavour of a quark across families. A well known example of such an interaction is Kaon decay ($K^{+}\rightarrow \mu^{+}\nu_{\mu}$). In order to account for this interaction and preserve the universality of weak interactions, Nicola Cabibbo postulated that the states that the states that couple to the charged current are really a mixture of 'rotated' quark states:
 
 \begin{equation}
 \begin{pmatrix}
@@ -323,7 +326,7 @@ where
   \end{equation}
 \end{subequations}
 
-This introduces an arbitrary parameter into the theory known as the quark mixing angle or the Cabibbo angle, named after Nicola Cabibbo who developed the phenomenon of quark mixing. The introduction of quark mixing has the effect of attenuating the interaction strength at vertexes involving multiple quark generations. Interactions which cross one generation ($u\rightarrow s$) are said to be Cabibbo Suppressed while those that cross two generations ($u\rightarrow b$) are Doubly Cabibbo suppressed.
+This introduces an arbitrary parameter into the theory known as the quark mixing angle or the Cabibbo angle, named after Nicola Cabibbo who developed the phenomenon of quark mixing. The introduction of quark mixing has the effect of attenuating the interaction strength at vertices involving multiple quark generations. Interactions which cross one generation ($u\rightarrow s$) are said to be Cabibbo Suppressed while those that cross two generations ($u\rightarrow b$) are Doubly Cabibbo suppressed.
 
 Taking into account the three quark generations, quark mixing can be expressed in matrix notation as shown in Equation~\ref{eq:TheoryWeakQuarkMixingMatrix}. This unitary matrix is known as the Cabibbo-Kobayashi-Maskawa Matrix (CKM Matrix) after Cabibbo which initially postulated quark mixing and Makoto Kobayashi and Toshihide Maskawa who later added an additional generation, containing the top and bottom quarks, to the matrix.
 
