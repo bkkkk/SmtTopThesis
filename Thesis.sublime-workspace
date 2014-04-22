@@ -740,17 +740,32 @@
 	},
 	"file_history":
 	[
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bbl",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakMuonDecay.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakChargedQuarks.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakNeutral.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakCharged.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TestDiagram.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ColorQCD.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD3.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD4.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDTreeB.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDSimple.tex",
+		"/Users/jayb88/Downloads/ckm.tex",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDTreeA.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.gitignore",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
 		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/README.md",
 		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/Fibonacci.rb",
 		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/Fibonacci.r",
 		"/Users/jayb88/Downloads/science.bib",
 		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/subfigure_two.sublime-snippet",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
@@ -758,7 +773,6 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.svg",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.svg",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/FlowChart.svg",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.gitignore",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
@@ -777,7 +791,6 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationApp.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationMCPCuts.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartSMT/SMT.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runPlotter.sh",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/TopEff.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayPlotter.cxx",
@@ -844,7 +857,6 @@
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/control/z2000_file_list.txt",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.blg",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bbl",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Preface.tex",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.svg",
@@ -855,19 +867,7 @@
 		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/smtChi2.pdf",
 		"/Users/jayb88/Dropbox/Lists/todo.todo",
 		"/Users/jayb88/jblanco/TODO",
-		"/Users/jayb88/jblanco/README.html",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/.DS_Store",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/TheoryQEDTreeA.1",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ColourQCD.1",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.DS_Store",
-		"/Users/jayb88/jblanco/README.md",
-		"/Volumes/ZAFU/dissertation/dissertation latex.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/make",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/thesis.sublime-project",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/thesis.sublime-workspace",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.fdb_latexmk",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/ls.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.log"
+		"/Users/jayb88/jblanco/README.html"
 	],
 	"find":
 	{
@@ -885,6 +885,21 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"} \\label",
+			"Electromagnetic ",
+			"Electro",
+			"Strong ",
+			"Weak",
+			"weak",
+			"Weak",
+			"48",
+			"\\textwidth",
+			"numu",
+			"w",
+			"[b]",
+			"[b",
+			"{",
+			"open",
 			"temp",
 			"vertexes",
 			"Boson",
@@ -997,22 +1012,7 @@
 			"Index ",
 			"index ",
 			"Index ",
-			"index ",
-			"Index",
-			"index",
-			"const index",
-			"Index",
-			"index",
-			"doBTruthMatched",
-			"m_bQuarkIndex",
-			"/**<",
-			"m_muonIndex",
-			"/**<",
-			"std::vector<unsigned int>",
-			"daughterIndex",
-			"mc_topIndex",
-			"jetIndex",
-			"phi"
+			"index "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1086,16 +1086,32 @@
 		"selected_items":
 		[
 			[
+				"thesis.bib",
+				"Thesis.bib"
+			],
+			[
+				"intro",
+				"PartIntroduction/Introduction.tex"
+			],
+			[
 				"thesis",
 				"Thesis.tex"
 			],
 			[
-				"cali",
-				"PartCalibration2012/Calibration2012.tex"
+				"weak",
+				"PartTheory/Diagrams/WeakMuonDecay.tex"
+			],
+			[
+				"bib",
+				"Thesis.bib"
 			],
 			[
 				"theory",
 				"PartTheory/Theory.tex"
+			],
+			[
+				"cali",
+				"PartCalibration2012/Calibration2012.tex"
 			],
 			[
 				"boosted",
@@ -1120,10 +1136,6 @@
 			[
 				"minihi",
 				"~/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/MiniHisto.h"
-			],
-			[
-				"bib",
-				"Thesis.bib"
 			],
 			[
 				"setup",

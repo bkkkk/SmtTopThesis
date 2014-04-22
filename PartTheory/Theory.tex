@@ -261,7 +261,6 @@ Several parameterizations of the CKM matrix exist, the ``standard'' parametrizat
 
 \begin{equation}
 \label{eq:TheoryWeakCKMStandard}
-\footnotesize
 V_{CKM}
 =
 \begin{pmatrix}
@@ -286,7 +285,7 @@ A\lambda^3(1-\rho-i\eta) & -A\lambda^2 & 1\\
 \end{pmatrix}
 \end{equation}
 %
-where A, $\rho$ and $\eta$ are all real numbers intended to express the order of magnitude differences between $s_{12}$ and the other elements in the matrix.
+where A, $\rho$ and $\eta$ are all real numbers intended to express the order of magnitude differences between $s_{12}$ and the other elements in the matrix. Of course, the result should be the same irrespective of which parametrization is used.
 
 The elements of the CKM matrix have been measured and the latest accepted results are summarized in \ref{eq:TheoryWeakCKM}\cite{Theory:PDGBooklet}. The interaction strength is then proportional to $|V_{ij}|^{2}$. Including all three generations the sum of all possible transitions from a given quark, q, is unity:
 
@@ -312,4 +311,54 @@ An additional unique feature of weak interactions is that the charge conjugation
 
 Thus the probability of $\overline{a}\rightarrow \overline{b}$ is not equal to that of $a\rightarrow b$. The existence of CP violation has interesting consequences for the formation of the early universe. The preferential production of matter over antimattter in CP violating interactions would shift the balance in favour of matter resulting in a universe similar to our own.
 
+Finally as with QCD, weak interactions couple weak bosons to each other. Thus the vertex $Z\rightarrow W^-W^+$ is allowed via the weak force.
+
 \subsection{Electroweak Unification and the Higgs mechanism}
+
+The unification of the electromagnetic and weak theories was first proposed by Glashow and later developed by Weinberg and Salam into the electroweak theory. The theory postulates that while at low energies the two forces are to be treated separately, at higher the two can be seen as a single force. Thus the two forces are different manifestation of the same ``electroweak'' interaction. There were several stumbling blocks to the unification of the forces. Firstly, the boson which drives the electromagnetic interaction, the photon, is massless while the weak bosons are both massive. Evidence for the massive nature of these bosons has been established by experimental results from \comment{Cite W and Z experiments} at CERN.
+
+Thus the symmetry of the theory must be spontenously broken in some way. A mechanism for ElectroWeak Symmetry Breaking (EWSB) was postulated by Higgs, Brout, Englert and others which introduces massess to the weak bosons and posits the existence of an additional scalar (spin-0) boson known as the Higgs boson.
+
+\subsubsection{Gauge Theories}
+
+Gauge invariance is one of the underlying invariances which underpins the Standard Model. Given the so-called Dirac lagrangian\footnote{A Lagrangian is a mathematical function that describes the underlying dynamics of a system as a function of time and space coordinates ($x^{\mu}$) and their time derivatives.}
+
+\begin{equation}
+  \label{eq:TheoryHiggsDiracLagrangian}
+  \Lagr = i\hbar c \overline{\psi}\gamma^{\mu}\partial_{\mu}\psi -mc^2\overline{\psi}\psi
+\end{equation}
+%
+which describes a free particle of spin-$\frac{1}{2}$ with mass $m$. Note that it is invariant under the transformation
+%
+\begin{equation}
+  \psi\rightarrow e^{i\theta}\psi\textrm{, where $\theta$ is a real number}
+\end{equation}
+%
+since the adjoint $\overline{\psi}\rightarrow e^{-i\theta}\overline{\psi}$ and the two terms cancel out. This is known as a \emph{(global) gauge transformation}. This is essentially a phase transformation which is constant everywhere. Meaning the phase change is the same in all points of space-time. A ``local'' gauge transformation occurs when the phase is different for different points in space-time:
+%
+\begin{equation}
+  \psi\rightarrow e^{i\theta(x)}\psi
+\end{equation}
+
+Note that the Dirac lagrangian (Equation~\ref{eq:TheoryHiggsDiracLagrangian}) is then not invariant under a local gauge transformation since extra terms are created by the derivative. This then implies that the underlying physics of such a theory depends ones position in space-time. Thus local gauge invariance must be imposed. In the case of the Dirac lagrangian, this is done by introducing additional terms to the Dirac lagrangian which will cancel the extra terms introduced by the local gauge transformation. As it turns out this results in the introduction of a new massless vector field that couples to $\psi$.
+
+The new lagrangian then describes a spin-$\frac{1}{2}$ particle with mass $m$ that interacts with a free massless field. This new field can be indentified as the electromagnetic field and the spin-$\frac{1}{2}$ particles are electrons and positrons. Thus the resulting lagrangian describes all interactions that form part of quantum electrodynamics.
+
+A similar procedure can be applied to the color quark model and obtain a description of all QCD interactions. However requiring that the weak theory be a gauge theory (invariant under local gauge transformation) encounters a problem since the weak bosons are known to be massive. There must be some mechanism via which the $W^{\pm}$ and $Z^0$ obtain mass.
+
+The Higgs mechanism posits the existence of a complex scalar field doublet that when introduced into the electroweak Lagrangian results in the weak fields acquiring a mass term. In other words the $W^{\pm}$ and $Z^{0}$ interact with the Higgs field and obtain a mass. An additional consequence of introducing the Higgs field is the inclusion of a scalar boson particle, the the so-called ``Higgs boson''. Finally the Higgs field also couples to fermions via the Yukawa coupling generating gauge invariant mass terms for the fermions as well.\footnote{For a more complete description of the mathematical procedure see~\cite{Theory:IntroGriffiths}.}.
+
+The SM Lagrangian in its current form including the Higgs potential is shown in Equation~\ref{eq:TheorySMLagrangian}. This expression describes all possible particle interactions that form part of the SM, of particular interest are the fermion mass term which couples the fermion field ($\psi$) to the scalar Higgs field ($\phi$) and the Higgs kinetic and potential terms.
+
+\begin{align}
+  \Lagr = &- \underbrace{ \frac{1}{4} W^a_{\mu\nu} W^{\mu\nu a} }_{ \text{Weak Field} }
+           - \underbrace{ \frac{1}{4} B_{\mu\nu} B^{\mu\nu} }_{ \text{EM Field} }
+           - \underbrace{ \frac{1}{4} G^a_{\mu\nu} G^{\mu\nu a} }_{ \text{Strong Field} } \nonumber \\
+          &+ \underbrace{ \overline{\psi}\slashed{D}_{\mu}\psi}_{ \text{Fermion Kinetic} }
+           + \underbrace{ \lambda\overline{\psi}\psi\phi }_{ \text{Fermion Mass} } \label{eq:TheorySMLagrangian} \\
+          &+ \underbrace{ |D_{\mu}\phi^2| }_{ \text{Higgs Kinetic} }
+           - \underbrace{ V(\phi) }_{ \text{Higgs Potential} } \nonumber
+\end{align}
+
+This is more text
+
