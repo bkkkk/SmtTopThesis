@@ -12,3 +12,4 @@ _build/
 *.blg
 *.fls
 *.gz
+*.ptex
