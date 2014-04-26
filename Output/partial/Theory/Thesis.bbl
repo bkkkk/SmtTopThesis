@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{Theory:AwesomeSM}
+B.~Odom, D.~Hanneke, B.~D'Urso, and G.~Gabrielse.
+\newblock New measurement of the electron magnetic moment using a one-electron
+  quantum cyclotron.
+\newblock {\em Phys. Rev. Lett.}, 97:030801, Jul 2006.
+
+\bibitem{Theory:HiggsDiscoveryATLAS}
+et.~al. G.~Aad.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the \{ATLAS\} detector at the \{LHC\}.
+\newblock {\em Physics Letters B}, 716(1):1 -- 29, 2012.
+
+\bibitem{Theory:HiggsDiscoveryCMS}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+
+\bibitem{Theory:Perkins}
+D.H. Perkins.
+\newblock {\em Introduction to High Energy Physics}.
+\newblock Cambridge University Press, 2000.
+
+\bibitem{Theory:IntroGriffiths}
+D.~Griffiths.
+\newblock {\em Introcution to Elementary Particles}.
+\newblock "John Wiley \& Sons, Inc", 1987.
+
+\bibitem{Theory:PDGBooklet}
+J.~Beringer et~al. (Particle Data~Group).
+\newblock {The Review of Particle Physics}.
+\newblock {\em {Physical Review D}}, 86:010001+, 2012.
+
+\bibitem{Theory:CKMNicola}
+Nicola Cabibbo.
+\newblock Unitary symmetry and leptonic decays.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, Jun 1963.
+
+\bibitem{Theory:CKMKobayashiMaskawa}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock Cp-violation in the renormalizable theory of weak interaction.
+\newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
+
+\bibitem{Theory:CKMWolfenstein}
+Lincoln Wolfenstein.
+\newblock Parametrization of the kobayashi-maskawa matrix.
+\newblock {\em Phys. Rev. Lett.}, 51:1945--1947, Nov 1983.
+
+\end{thebibliography}

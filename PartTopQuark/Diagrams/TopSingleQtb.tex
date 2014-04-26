@@ -1,0 +1,20 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{TopSingleQtb}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(150,70)
+\fmfleft{glu1,quark}
+\fmfright{bbar,top,qprime}
+\fmf{fermion}{quark,v1,qprime}
+\fmf{gluon}{glu1,v3}
+\fmf{fermion}{bbar,v3}
+\fmffreeze
+\fmf{phantom}{v1,v3}
+\fmf{boson,label=$W$}{v1,v2}
+\fmf{fermion,label=$b$}{v3,v2}
+\fmffreeze
+\fmf{fermion}{v2,top}
+\fmflabel{$g$}{glu1} \fmflabel{$t$}{top}
+\fmflabel{$q$}{quark} \fmflabel{$q'$}{qprime} \fmflabel{$\bar{b}$}{bbar}
+\end{fmfgraph*}
+}
+\end{fmffile}

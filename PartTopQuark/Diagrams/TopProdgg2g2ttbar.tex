@@ -1,0 +1,15 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{TopProdgg2g2ttbar}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(150,70)
+\fmfleft{gluon1,gluon2}
+\fmfright{top1,top2}
+\fmf{gluon}{v1,gluon1}
+\fmf{gluon}{v1,gluon2}
+\fmf{gluon,label=$g$,l.d=10}{v2,v1}
+\fmf{fermion}{top1,v2,top2}
+\fmflabel{$g$}{gluon1} \fmflabel{$t$}{top2}
+\fmflabel{$g$}{gluon2} \fmflabel{$\bar{t}$}{top1}
+\end{fmfgraph*}
+}
+\end{fmffile}

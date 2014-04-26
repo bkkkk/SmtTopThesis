@@ -1,0 +1,78 @@
+% -*- root: ../../Thesis.tex -*-
+\definecolor{pink}{RGB}{221,87,122}
+\definecolor{cream}{RGB}{255,240,207}
+\definecolor{blue}{RGB}{73,174,192}
+\definecolor{orange}{RGB}{254,90,39}
+\definecolor{darkblu}{RGB}{19,23,35}
+\definecolor{grey}{RGB}{153,153,153}
+
+\tikzstyle{chart}=[
+  legend label/.style={font={\scriptsize},anchor=west,align=left},
+  legend box/.style={rectangle, draw, minimum size=5pt},
+  axis/.style={black,semithick,->},
+  axis label/.style={anchor=east,font={\tiny}},
+]
+
+\tikzstyle{pie chart}=[
+  chart,
+  slice/.style={line cap=round, line join=round, thin,draw=darkblu},
+  pie title/.style={font={\bf}},
+  slice type/.style 2 args={
+    ##1/.style={fill=##2},
+    values of ##1/.style={}
+  }
+]
+
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+\newcommand{\pie}[3][]{
+    \begin{scope}[#1]
+    \pgfmathsetmacro{\curA}{90}
+    \pgfmathsetmacro{\r}{1}
+    \def\c{(0,0)}
+    \foreach \v/\s in{#3}{
+        \pgfmathsetmacro{\deltaA}{\v/100*360}
+        \pgfmathsetmacro{\nextA}{\curA + \deltaA}
+        \pgfmathsetmacro{\midA}{(\curA+\nextA)/2}
+
+        \path[slice,\s] \c
+            -- +(\curA:\r)
+            arc (\curA:\nextA:\r)
+            -- cycle;
+        \pgfmathsetmacro{\d}{max((\deltaA * -(.5/50) + 1) , .5)}
+
+        \begin{pgfonlayer}{foreground}
+        \path \c -- node[pos=0.7,pie values,values of \s]{$\v\%$} +(\midA:\r);
+        \end{pgfonlayer}
+
+        \global\let\curA\nextA
+    }
+    \end{scope}
+}
+
+\newcommand{\legend}[2][]{
+  \begin{scope}[#1]
+    \path
+    \foreach \n/\s in {#2}
+    {
+      ++(0,-10pt) node[\s,legend box] {} +(5pt,0) node[legend label] {\n}
+    }
+    ;
+  \end{scope}
+}
+
+\begin{tikzpicture}
+[
+  pie chart,
+  slice type={comet}{blue},
+  slice type={coltello}{cream},
+  slice type={caffe}{orange},
+  pie values/.style={font={\small}},
+  scale=2
+]
+
+  \pie[values of caffe/.style={pos=0.8}]{}{45.7/comet,43.8/coltello,10.5/caffe}
+  \legend[shift={(1.3cm,1cm)}]{{All-hadronic}/comet, {Lepton+Jets}/coltello, {Dilepton}/caffe}
+\end{tikzpicture}

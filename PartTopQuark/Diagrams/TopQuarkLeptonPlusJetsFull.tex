@@ -1,0 +1,29 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{TopQuarkLeptonPlusJetsFull}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(200,200)
+\fmfstraight
+\fmfleft{dummy1,gluon1,gluon2,dummy2}
+\fmfright{q,antiq,b,antib,lep,nu}
+\fmf{gluon}{v1,gluon1}
+\fmf{gluon}{v1,gluon2}
+\fmf{gluon,label=$g$,l.d=10}{v2,v1}
+\fmf{fermion,label=$t$,l.d=-14,tension=0.5}{top,v2}
+\fmf{fermion,label=$\bar{t}$,tension=0.5}{v2,antitop}
+\fmf{fermion,tension=0,tension=0}{antib,antitop}
+\fmf{boson,label=$W$,tension=0}{antitop,leptonicW}
+\fmf{fermion}{nu,leptonicW,lep}
+\fmf{fermion,tension=0}{b,top}
+\fmf{boson,label=$W$,tension=0}{hadronicW,top}
+\fmf{fermion,tension=0}{antiq,hadronicW,q}
+\fmflabel{$g$}{gluon1}
+\fmflabel{$g$}{gluon2}
+\fmflabel{$\bar{b}$}{antib}
+\fmflabel{$b$}{b}
+\fmflabel{$\bar{q}'$}{q}
+\fmflabel{$q$}{antiq}
+\fmflabel{$\ell$}{lep}
+\fmflabel{$\nu_{\ell}$}{nu}
+\end{fmfgraph*}
+}
+\end{fmffile}

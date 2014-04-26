@@ -11,7 +11,7 @@ all:Thesis.pdf
 	./dat2tex $< > $@
 
 Thesis.pdf: Thesis.tex
-	latexmk -bibtex -pdf -pdflatex="pdflatex" -use-make Thesis.tex
+	latexmk -bibtex -pdf -pdflatex="pdflatex" -use-make -output-directory=output Thesis.tex 
 
 clean:
 	latexmk -CA

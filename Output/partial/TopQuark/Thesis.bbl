@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+
+\bibitem{Theory:CKMKobayashiMaskawa}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock Cp-violation in the renormalizable theory of weak interaction.
+\newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
+
+\bibitem{Top:bQuarkDiscovered}
+S.~W. Herb, D.~C. Hom, L.~M. Lederman, J.~C. Sens, H.~D. Snyder, J.~K. Yoh,
+  J.~A. Appel, B.~C. Brown, C.~N. Brown, W.~R. Innes, K.~Ueno, T.~Yamanouchi,
+  A.~S. Ito, H.~J\"ostlein, D.~M. Kaplan, and R.~D. Kephart.
+\newblock Observation of a dimuon resonance at 9.5 gev in 400-gev
+  proton-nucleus collisions.
+\newblock {\em Phys. Rev. Lett.}, 39:252--255, Aug 1977.
+
+\bibitem{Top:ObservationCDF}
+CDF Collaboration.
+\newblock Observation of top quark production in $p\bar{p}$ collisions with the
+  collider detector at fermilab.
+\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
+
+\bibitem{Top:ObservationD0}
+D0~Collaboration.
+\newblock Search for high mass top quark production in $p\bar{p}$ collisions at
+  $\sqrt{s}$=1.8 tev.
+\newblock {\em Phys. Rev. Lett.}, 74:2422--2426, Mar 1995.
+
+\bibitem{Theory:PDGBooklet}
+J.~Beringer et~al. (Particle Data~Group).
+\newblock {The Review of Particle Physics}.
+\newblock {\em {Physical Review D}}, 86:010001+, 2012.
+
+\bibitem{Theory:TopQuarkDecayTooQuickly}
+Johann~H. Kuhn, A.~Reiter, and Peter~M. Zerwas.
+\newblock {Z Decays to Top Quarks}.
+\newblock {\em Nucl.Phys.}, B272:560, 1986.
+
+\bibitem{TopQuark:CPTViolation}
+O.W. Greenberg.
+\newblock {CPT violation implies violation of Lorentz invariance}.
+\newblock {\em Phys.Rev.Lett.}, 89:231602, 2002.
+
+\bibitem{TopQuark:MassAsymmetryATLAS2014}
+Georges Aad et~al.
+\newblock {Measurement of the mass difference between top and anti-top quarks
+  in pp collisions at $\sqrt(s) = 7$ TeV using the ATLAS detector}.
+\newblock {\em Phys.Lett.}, B728:363--379, 2014.
+
+\bibitem{TopQuark:MassAsymmetryCMS2012}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the mass difference between top and antitop quarks}.
+\newblock {\em JHEP}, 1206:109, 2012.
+
+\bibitem{TopQuark:ChargeAsymmetryATLAS}
+Georges Aad et~al.
+\newblock {Measurement of the top quark pair production charge asymmetry in
+  proton-proton collisions at $\sqrt{s}$ = 7 TeV using the ATLAS detector}.
+\newblock {\em JHEP}, 1402:107, 2014.
+
+\bibitem{TopQuark:ChargeAsymmetryCMS}
+Serguei Chatrchyan et~al.
+\newblock {Measurements of the $t\bar{t}$ charge asymmetry using the dilepton
+  decay channel in pp collisions at $\sqrt{s} = 7$ TeV}.
+\newblock 2014.
+
+\end{thebibliography}

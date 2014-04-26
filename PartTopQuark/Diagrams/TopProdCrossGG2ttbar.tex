@@ -1,0 +1,21 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{TopProdCrossGG2ttbar}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(150,70)
+\fmfleft{i1,i2}
+\fmfright{o1,o2}
+\fmf{gluon}{v1,i1}
+\fmf{phantom}{v1,o1} % Invisible rubber band
+\fmf{gluon}{v2,i2}
+\fmf{phantom}{v2,o2} % also invisible rubber band
+\fmf{fermion,tension=0}{v1,v2}
+% These are visible, but have no tension.
+\fmf{fermion,tension=0}{o2,v1}
+\fmf{fermion,tension=0}{v2,o1}
+\fmflabel{$g$}{i1}
+\fmflabel{$g$}{i2}
+\fmflabel{$t$}{o1}
+\fmflabel{$\overline{t}$}{o2}
+\end{fmfgraph*}
+}
+\end{fmffile}

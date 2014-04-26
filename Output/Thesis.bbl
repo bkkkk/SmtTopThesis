@@ -1,0 +1,133 @@
+\begin{thebibliography}{10}
+
+\bibitem{Theory:PDGBooklet}
+J.~Beringer et~al. (Particle Data~Group).
+\newblock {The Review of Particle Physics}.
+\newblock {\em {Physical Review D}}, 86:010001+, 2012.
+
+\bibitem{Theory:AwesomeSM}
+B.~Odom, D.~Hanneke, B.~D'Urso, and G.~Gabrielse.
+\newblock New measurement of the electron magnetic moment using a one-electron
+  quantum cyclotron.
+\newblock {\em Phys. Rev. Lett.}, 97:030801, Jul 2006.
+
+\bibitem{Theory:HiggsDiscoveryATLAS}
+et.~al. G.~Aad.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the \{ATLAS\} detector at the \{LHC\}.
+\newblock {\em Physics Letters B}, 716(1):1 -- 29, 2012.
+
+\bibitem{Theory:HiggsDiscoveryCMS}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+
+\bibitem{Theory:Perkins}
+D.H. Perkins.
+\newblock {\em Introduction to High Energy Physics}.
+\newblock Cambridge University Press, 2000.
+
+\bibitem{Theory:IntroGriffiths}
+D.~Griffiths.
+\newblock {\em Introcution to Elementary Particles}.
+\newblock "John Wiley \& Sons, Inc", 1987.
+
+\bibitem{Theory:CKMNicola}
+Nicola Cabibbo.
+\newblock Unitary symmetry and leptonic decays.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, Jun 1963.
+
+\bibitem{Theory:CKMKobayashiMaskawa}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock Cp-violation in the renormalizable theory of weak interaction.
+\newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
+
+\bibitem{Theory:CKMWolfenstein}
+Lincoln Wolfenstein.
+\newblock Parametrization of the kobayashi-maskawa matrix.
+\newblock {\em Phys. Rev. Lett.}, 51:1945--1947, Nov 1983.
+
+\bibitem{Top:bQuarkDiscovered}
+S.~W. Herb, D.~C. Hom, L.~M. Lederman, J.~C. Sens, H.~D. Snyder, J.~K. Yoh,
+  J.~A. Appel, B.~C. Brown, C.~N. Brown, W.~R. Innes, K.~Ueno, T.~Yamanouchi,
+  A.~S. Ito, H.~J\"ostlein, D.~M. Kaplan, and R.~D. Kephart.
+\newblock Observation of a dimuon resonance at 9.5 gev in 400-gev
+  proton-nucleus collisions.
+\newblock {\em Phys. Rev. Lett.}, 39:252--255, Aug 1977.
+
+\bibitem{Top:ObservationCDF}
+CDF Collaboration.
+\newblock Observation of top quark production in $p\bar{p}$ collisions with the
+  collider detector at fermilab.
+\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
+
+\bibitem{Top:ObservationD0}
+D0~Collaboration.
+\newblock Search for high mass top quark production in $p\bar{p}$ collisions at
+  $\sqrt{s}$=1.8 tev.
+\newblock {\em Phys. Rev. Lett.}, 74:2422--2426, Mar 1995.
+
+\bibitem{Theory:TopQuarkDecayTooQuickly}
+Johann~H. Kuhn, A.~Reiter, and Peter~M. Zerwas.
+\newblock {Z Decays to Top Quarks}.
+\newblock {\em Nucl.Phys.}, B272:560, 1986.
+
+\bibitem{TopQuark:CPTViolation}
+O.W. Greenberg.
+\newblock {CPT violation implies violation of Lorentz invariance}.
+\newblock {\em Phys.Rev.Lett.}, 89:231602, 2002.
+
+\bibitem{TopQuark:MassAsymmetryATLAS2014}
+Georges Aad et~al.
+\newblock {Measurement of the mass difference between top and anti-top quarks
+  in pp collisions at $\sqrt(s) = 7$ TeV using the ATLAS detector}.
+\newblock {\em Phys.Lett.}, B728:363--379, 2014.
+
+\bibitem{TopQuark:MassAsymmetryCMS2012}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the mass difference between top and antitop quarks}.
+\newblock {\em JHEP}, 1206:109, 2012.
+
+\bibitem{TopQuark:ChargeAsymmetryATLAS}
+Georges Aad et~al.
+\newblock {Measurement of the top quark pair production charge asymmetry in
+  proton-proton collisions at $\sqrt{s}$ = 7 TeV using the ATLAS detector}.
+\newblock {\em JHEP}, 1402:107, 2014.
+
+\bibitem{TopQuark:ChargeAsymmetryCMS}
+Serguei Chatrchyan et~al.
+\newblock {Measurements of the $t\bar{t}$ charge asymmetry using the dilepton
+  decay channel in pp collisions at $\sqrt{s} = 7$ TeV}.
+\newblock 2014.
+
+\bibitem{Boosted:ATLASExclusion7TeV}
+Georges Aad et~al.
+\newblock {Search for $t\bar t$ resonances in the lepton plus jets final state
+  with ATLAS using 4.7 fb$^{-1}$ of $pp$ collisions at $\sqrt{s} = 7$ TeV}.
+\newblock {\em Phys.Rev.}, D88(1):012004, 2013.
+
+\bibitem{Boosted:ATLASExclusion8TeV}
+{A search for $t\bar{t}$ resonances in the lepton plus jets final state with
+  ATLAS using 14 fb$^{−1}$ of $pp$ collisions at $\sqrt{s}=8$ TeV}.
+\newblock Technical Report ATLAS-CONF-2013-052, CERN, Geneva, May 2013.
+\newblock Not published in the proceedings.
+
+\bibitem{Boosted:CMSSearch7TeVDilepton}
+Serguei Chatrchyan et~al.
+\newblock {Search for $Z$' resonances decaying to $t\bar{t}$ in dilepton+jets
+  final states in $pp$ collisions at $\sqrt{s}=7$ TeV}.
+\newblock {\em Phys.Rev.}, D87:072002, 2013.
+
+\bibitem{Boosted:CMSSearchAnomalous}
+Serguei Chatrchyan et~al.
+\newblock {Search for anomalous $t\bar{t}$ production in the highly-boosted
+  all-hadronic final state}.
+\newblock {\em JHEP}, 1209:029, 2012.
+
+\bibitem{Boosted:CMSSearch8TeV}
+The~CMS Collaboration.
+\newblock {Search for $t\bar{t}$ resonances in semileptonic final state}.
+\newblock Technical Report CMS-PAS-B2G-12-006, CERN, Geneva, 2013.
+
+\end{thebibliography}

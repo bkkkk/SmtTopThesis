@@ -1,0 +1,15 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{TopSingleTopSChannel}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(150,70)
+\fmfleft{quark,antiquark}
+\fmfright{top,bbar}
+\fmf{fermion}{quark,v1,antiquark}
+\fmf{boson,label=$W$}{v1,v2}
+\fmf{fermion}{bbar,v2,top}
+\fmflabel{$q$}{quark} \fmflabel{$t$}{top}
+\fmflabel{$\overline{q'}$}{antiquark} \fmflabel{$\overline{b}$}{bbar}
+\fmfdot{v1,v2}
+\end{fmfgraph*}
+}
+\end{fmffile}

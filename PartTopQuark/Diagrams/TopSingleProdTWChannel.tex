@@ -1,0 +1,16 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{TopSingleTWChannel}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(150,70)
+\fmfleft{gluon,b}
+\fmfright{top,W}
+\fmf{gluon}{gluon,v1}
+\fmf{fermion}{b,v1}
+\fmf{fermion,label=$b$}{v1,v2}
+\fmf{fermion}{v2,top}
+\fmf{boson}{v2,W}
+\fmflabel{$g$}{gluon} \fmflabel{$t$}{top}
+\fmflabel{$b$}{b} \fmflabel{$W$}{W}
+\end{fmfgraph*}
+}
+\end{fmffile}

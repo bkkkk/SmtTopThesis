@@ -1,91 +1,24 @@
 % !TEX root = ../Thesis.tex
-\newcommand{\CommonElementTextFormat}[4]
-{
-  \begin{minipage}{3cm}
-    \centering
-      {\textbf{#1} \hfill #2}%
-      \linebreak \linebreak
-      {\textbf{#3}}%
-      \linebreak \linebreak
-      {{#4}}
-  \end{minipage}
-}
-
-\newcommand{\NaturalElementTextFormat}[4]
-{
-  \CommonElementTextFormat{#1}{#2}{\LARGE {#3}}{#4}
-}
-
 \chapter{The Standard Model of Particle Physics} \label{sec:the_standard_model_of_particle_physics}
-Particle physics is the study of the most fundamental consituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the 20th century and has seen tremendous success in predicting the behaviour of our universe at the most fundamental level. The SM has stood the test of time and rigorous examination by numerous experiments. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of the elusive Higgs were observed by the ATLAS and CMS experiments at CERN\cite{Theory:HiggsDiscoveryATLAS,Theory:HiggsDiscoveryCMS}.
+Particle physics, or high-energy physics, is the study of the most fundamental consituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the 20th century and has seen tremendous success in predicting the behaviour of our universe at the most fundamental level. The SM has stood the test of time and rigorous examination by numerous experiments. Additionally many of its parameters have been measured with tremendous precision e.g.the electron magnetic moment $g$ is known to $10^{-13}$~\cite{Theory:AwesomeSM}. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of the elusive Higgs were observed by the ATLAS and CMS experiments at CERN\cite{Theory:HiggsDiscoveryATLAS,Theory:HiggsDiscoveryCMS}.
+Despite its tremendous success, the SM cannot account and explain for all observed phenomenon in the universe. Firstly, the theory requires many of its parameters to be measured empirically. The theory does not a priori provide a value for these parameters such as the number of particle generations. Additionally the theory does not describe the most familiar of the forces, gravity. Furthermore, the SM does not provide a candidate for dark matter, which is believed to make up more than 80\% of the total matter in the universe. The asymmetry between matter and antimatter is also not fully explained by the SM. As such there is a strong focus on developing theories which go beyond the standard model (BSM) to provide an answer to these open questions. The discussion in this chapter is largely based on \cite{Theory:Perkins} and \cite{Theory:IntroGriffiths}.
 
-The SM describes the nature of the interactions of the fundamental constituents of our universe in terms of the three different fundamental forces: strong, weak and electromagnetic each described by a specific theory. Note that the most familiar of the forces, gravity, is not included in this list. The SM does not incorporate a description of gravity, however the development of such description is the subject of much interest for those creating theories that go Beyond the SM (BSM).
+The SM describes the nature of the interactions of the fundamental constituents of our universe in terms of the three different fundamental forces: strong, weak and electromagnetic each described by a specific theory. As mentioned before, the most familiar of the forces, gravity, is not described by the SM. The SM classifies particles into several categories depending on their properties and allowed interactions. Particles which have a half-integer spins (e.g. $S=\frac{1}{2}$, $\frac{3}{2}$,...) are known as \textit{fermions}, these are the basic constituents of matter. Particles with integer spins (e.g. $S=$0, 1,...) are known as \textit{bosons}, these mediate interactions between fermions and other bosons.
 
-The SM classifies particles into several categories depending on their properties and allowed interactions. Particles which have a half-integer spins (e.g. $\frac{1}{2}$, $\frac{3}{2}$,...) are known as fermions, and particles with integer spins (e.g. 0, 1,...) are known as bosons. A summary of all elementary particles described by The SM can be found in Table~\ref{tab:TheorySmParticles}.
+Fermions can be divided into two subgroups: quarks, which can interact via the strong, weak and electromagnetic forces and leptons which can only interact by the weak and electromagnetic forces. There are six known leptons: electron $e$, muon $\mu$ and tau $\tau$, which all have electric charge\footnote{The electric charge is always state in units of elementary charge $e$} $Q=1$, and the corresponding electrically neutral neutrino $\nu_e$, $\nu_\mu$ and $\nu_{\tau}$. Analogously, six quark \textit{flavours} are known: $u$, $c$ and $t$, with electric charge $Q=+2/3$ and $d$, $s$ and $b$, with electric charge $Q=-1/3$.
 
-Fermions can be divided into two subgroups: quarks, which can interact via the strong, weak and electromagnetic forces and leptons which can only interact by the weak and electromagnetic forces. Each group contains six particles which are categorized into three distinct generations.
+Quarks and leptons are divided into three generations, which differ only by the mass and flavour of their constituent fermions, each generation being heavier then the previous. A summary of all elementary particles described by the SM can be found in Table~\ref{tab:TheorySmParticles}.
 
-Additionally each fermion has a set of so-called quantum numbers which dictate the type of interactions that can occur. For example each lepton has a lepton number associated with it, electrons have an electron lepton number ($L_e$) of +1, while the positron has $L_e=-1$. Muons and taus have their own respective lepton number ($L_{\mu}$ and $L_{\tau}$). Each neutrino has lepton number $L_{f}=1$ and their anti-matter counterpart have $L_f=-1$. Each of these lepton numbers is conserved separately across interaction vertices. An example of this is discussed later.
+For every matter fermion ($f$) there is an equivalent antimatter partner ($\bar{f}$) which possesses the same characteristics as its matter companion but is opposite in electric charge. Thus 12 matter particles are combined with 12 antimatter partners for a total of 24 elementary particles which form all visible matter in the universe.
 
-Another example of a quantum number is baryon number (B), each quark has B=$\frac{1}{3}$ and anti-quarks have B=$-\frac{1}{3}$.
+The interaction between fermions occur via the exchange of spin one particles known as bosons. Each force is mediated by one or more bosons (Table~\ref{tab:TheoryForces}). The strong force is mediated by a set of massless bosons known as the gluons. The weak force is mediated by a neutral massive boson known as the $Z$ boson and a pair of charged massive bosons known as the $W$ bosons. Finally, the elecromagentic force is mediated by a massless boson known as the photon. Note that each boson has an antimatter partner however some are indistinguishable from their matter partner. A summary of their properties is shown in Table~\ref{tab:TheorySmParticles}.
 
-For every matter fermion ($f$) there is an equivalent antimatter partner ($\bar{f}$) which possesses the same characteristics as its matter companion but is opposite in electric charge. Thus 12 matter particles are combined with 12 antimatter partners for a total of 24 elementary particles which form all material in the universe.
+Each fermion has a set of so-called quantum numbers which dictate the type of interactions that can occur. For example each lepton has a lepton number associated with it, electrons have an electron lepton number ($L_e$) of +1, while the positron has $L_e=-1$. Muons and taus have their own respective lepton number ($L_{\mu}$ and $L_{\tau}$). Each neutrino has lepton number $L_{f}=1$ and their anti-matter counterpart have $L_f=-1$. Each of these lepton numbers is conserved separately across interaction vertices. Another example of a quantum number is baryon number ($B$), each quark has $B=\frac{1}{3}$ and anti-quarks have $B=-\frac{1}{3}$.
 
-The interaction between fermions occur via the exchange of spin one particles known as bosons. Each force is mediated by one or more bosons (Table~\ref{tab:TheoryForces}). The strong force is mediated by a set of massless bosons known as the gluons. The weak force is mediated by a neutral massive boson known as the \ZbosonText{} and a pair of charged massive bosons known as the W bosons. Finally, the elecromagentic force is mediated by a massless boson known as the photon. Note that each boson has an antimatter partner however some are indistinguishable from their matter partner. A summary of their properties is shown in Table~\ref{tab:TheorySmParticles}.
-
-%% Particle Table[]
+%% Particle Table
 \begin{table}[htpb]
   \centering
-    \begin{tikzpicture}[font=\sffamily, scale=0.6, transform shape]
-      \tikzstyle{FermionFill} = [fill=yellow!15]
-      \tikzstyle{QuarkFill} = [fill=yellow!15]
-      \tikzstyle{LeptonFill} = [fill=green!55]
-      
-      \tikzstyle{Fermion} = [draw=black, FermionFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
-      
-      \tikzstyle{Quark} = [Fermion, QuarkFill]
-      \tikzstyle{Lepton} = [Fermion, LeptonFill]
-
-      \tikzstyle{GenerationLabel} = [font={\sffamily\LARGE}, minimum width=2.75cm, node distance=3.0cm]
-
-      \node[name=Up, Quark] {\NaturalElementTextFormat{$+\frac{2}{3}$}{$2.3$\,MeV}{$u$}{Up}};
-      \node[name=Down, below of=Up, Quark] {\NaturalElementTextFormat{$-\frac{1}{3}$}{$4.8$\,MeV}{$d$}{Down}};
-      \node[name=Charm, right of=Up, Quark] {\NaturalElementTextFormat{$+\frac{2}{3}$}{$1.275$\,GeV}{$c$}{Charm}};
-      \node[name=Strange, below of=Charm, Quark] {\NaturalElementTextFormat{$-\frac{1}{3}$}{$95$\,MeV}{$s$}{Strange}};
-      \node[name=Top, right of=Charm, Quark] {\NaturalElementTextFormat{$+\frac{2}{3}$}{$173.07$\,GeV}{$t$}{Top}};
-      \node[name=Bottom, below of=Top, Quark] {\NaturalElementTextFormat{-$\frac{1}{3}$}{$4.18$\,GeV}{$b$}{Bottom}};
-      
-      \node[name=Electron, below of=Down, Lepton] {\NaturalElementTextFormat{$-1$}{$0.511$\,MeV}{$e$}{Electron}};
-      \node[name=Electron Neutrino, below of=Electron, Lepton] {\NaturalElementTextFormat{$0$}{$<2.2$\,eV}{$\nu_{e}$}{Electron Neutrino}};
-      \node[name=Muon, right of=Electron, Lepton] {\NaturalElementTextFormat{$-1$}{$105.7$\,MeV}{$\mu$}{Muon}};
-      \node[name=Muon Neutrino, below of=Muon, Lepton] {\NaturalElementTextFormat{$0$}{$<0.17$\,MeV}{$\nu_{\mu}$}{Muon Neutrino}};
-      \node[name=Tau, right of=Muon, Lepton] {\NaturalElementTextFormat{$-1$}{$1.777$\,GeV}{$\tau$}{Tau}};
-      \node[name=Tau Neutrino, below of=Tau, Lepton] {\NaturalElementTextFormat{$0$}{$15.5$\,MeV}{$\nu_{\tau}$}{Tau Neutrino}};
-
-      \node[name=Generation1, above of=Up, GenerationLabel] {I};
-      \node[name=Generation2, above of=Charm, GenerationLabel] {II};
-      \node[name=Generation3, above of=Top, GenerationLabel] {III};
-
-      \node[name=FermionName, above of=Generation2, GenerationLabel, node distance=1cm] {Fermions $(s=\frac{1}{2})$};
-  
-      \node[name=LeptonLabel, left of=Electron, GenerationLabel, rotate=90]{Leptons};
-      \node[name=QuarkLabel, left of=Up, GenerationLabel, rotate=90]{Quarks};
-
-      \tikzstyle{BosonFill} = [fill=blue!15]
-      \tikzstyle{HiggsFill} = [fill=orange!15]
-      \tikzstyle{Boson} = [draw=black, BosonFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
-      \tikzstyle{Higgs} = [Boson, HiggsFill]
-
-      \node[name=Photon, Boson, right of=Top, xshift=2cm] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$\gamma$}{Photon (EM)}};
-      \node[name=W, below of=Photon, Boson] {\NaturalElementTextFormat{$\pm1$}{$80.4$\,GeV}{$W^{\pm}$}{W boson (Weak)}};
-      \node[name=Z, below of=W, Boson] {\NaturalElementTextFormat{$0$}{$91.2$\,GeV}{$Z$}{\ZbosonText{} (Weak)}};
-      \node[name=Gluon, below of=Z, Boson] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$g$}{Gluon (Strong)}};
-      \node[name=Higgs, right of=Photon, Higgs, xshift=1cm] {\NaturalElementTextFormat{$0$}{$126.07$\,GeV}{$H^{0}$}{Higgs boson}};
-      \node[name=Legend, right of=Gluon, Boson, fill=white, xshift=1cm] {\NaturalElementTextFormat{q}{mass}{symbol}{name (force)}};
-      
-      \node[name=QuarkLabel, above of=Photon, GenerationLabel, node distance=4cm]{Bosons $(s=0)$};
-      \node[name=QuarkLabel, above of=Higgs, GenerationLabel, node distance=4cm]{Higgs $(s=1)$};
-    \end{tikzpicture}
+    \includegraphics[width=\textwidth]{PartTheory/Diagrams/ParticleTable.pdf}
     \caption{A summary of all elementary particles described by the SM\cite{Theory:PDGBooklet}. Note the various groupings and divisions including by spin, generation and particle type. Within the fermion sector the quarks are shown in yellow and the leptons are shown in green. These are grouped into three different generations traditionally denoted by roman numerals. The force mediators known as gauge bosons are shown in blue and finally the recently discovered Higgs boson with a spin of zero.} \label{tab:TheorySmParticles}
 \end{table}
 
@@ -136,11 +69,38 @@ By combining different forms of this vertex one can build every possible QED int
 
 \section{Quantum Chromodynamics}
 
-Interactions via the strong force are described in the theory of Quantum Chromodynamics or QCD. These interactions are mediated by a set of massless neutral bosons known as gluons. QCD introduces the concept of colour, which similarly to electrical charge, determines the possible interactions that can occur via the strong force. Colour can take three states: red (antired), blue (antiblue), green (antigreen). For example both quarks and gluons possess colour and as a result gluons, unlike photons, can self-interact (Figure~\ref{fig:TheoryQCDVertexes})). As with electrical charge, colour-charge must also be conserved. Thus in the scattering process $q\rightarrow q+g$ shown in Figure~\ref{fig:TheoryQCDColour} the flavour of the quark may not change but the colour-charge does and the gluon carries away the difference in colour. There are eight different gluons that can participate in QCD interactions each with a different colour-charge combination. \comment{EXPLAIN WHAT YOU MEAN BY THIS}Note that there is a ninth combination ($R\overline{R} + G\overline{G}+B\overline{B}$) which is overall colorless so it cannot take part in interactions.
+Interactions via the strong force are described in the theory of Quantum Chromodynamics or QCD. These interactions are mediated by a set of massless neutral bosons known as gluons. QCD introduces the concept of colour, which similarly to electrical charge, determines the possible interactions that can occur via the strong force. Colour can take three states: red (antired), blue (antiblue), green (antigreen):
 
-In an analogous fashion to screening which occurs with electric charges, quark-antiquark pairs act like dipoles which screen the true colour charge of the central quark. However since gluons also carry colour, they cause the opposite effect (anti-screening) to amplify and change the observed colour of the quark. Which effect wins out depends on the number of colours in the theory and the number of quark flavours. As it is with three colour states and six different quark flavours, anti-screening is the overall dominant effect. As a result the colour potential decreases with distance and quarks experience very little potential when very near to each other. This effect is known as asymptotic freedom and results in quarks only existing within colorless bound states known as hadrons.
+For example both quarks and gluons possess colour and as a result gluons, unlike photons, can self-interact in a three gluon vertex (Figure~\ref{fig:TheoryQCDThreeGluon}) or a four gluon vertex (Figure~\ref{fig:TheoryQCDFourGluon}). As with electrical charge, colour-charge must also be conserved. Thus in the scattering process $q\rightarrow q+g$ shown in Figure~\ref{fig:TheoryQCDColour} the flavour of the quark may not change but the colour-charge does and the gluon carries away the difference in colour. Thus each gluon has two color charges associated it. Naively one would expect nine different types of gluon that participate in interaction, owing to the nine possible combinations of colour and anticolour, however the SU(3) symmetry on which QCD is based results in a colour octet:
+\begin{equation*}
+\begin{aligned}[c]
+  &(r\overline{b}+b\overline{r})/\sqrt{2} \\
+  -i&(r\overline{b}-b\overline{r})/\sqrt{2} \\
+  &(r\overline{r}+b\overline{b})/\sqrt{2} \\
+  &(r\overline{g}+g\overline{r})/\sqrt{2}
+\end{aligned}
+\qquad\qquad
+\begin{aligned}[c]
+  -i&(r\overline{g}-g\overline{r})/\sqrt{2} \\
+  &(b\overline{g}+g\overline{b})/\sqrt{2} \\
+  -i&(b\overline{g}-g\overline{b})/\sqrt{2} \\
+  &(r\overline{r}+b\overline{b}-2g\overline{g})/\sqrt{6}
+\end{aligned}
+\end{equation*}
+%
+and a ``colour singlet'':
+%
+\begin{equation}
+  (r\overline{r} + g\overline{g} + b\overline{b})/\sqrt{3}
+\end{equation}
+%
+which is overall colourless.
 
-Hadrons can be divided into two categories: mesons, which contain a quark and an antiquark ($q\overline{q}$); and baryons which are made of three quarks (or antiquarks) each with a different (anti)colour-charge to result in a colourless composite particle. Common examples of baryons are protons (uud) and neutrons (udd) which are the building blocks of atomic nuclei. While $\pi^{0} (u\overline{u}/d\overline{d})$ is a commonly produced meson in hadron colliders. Note that due to the quark configuration, baryons have baryon number B=+1 while mesons have B=0.
+There are then eight different gluons that can participate in QCD interactions each with a different colour-charge combination. Additionally there is a ninth combination which is overall colorless so it cannot take part in interactions.
+
+In an analogous fashion to screening which occurs with electric charges, quark-antiquark pairs act like dipoles which screen the true colour charge of the central quark. However since gluons also carry colour, they cause the opposite effect (anti-screening) to amplify and change the observed colour of the quark. Which effect wins out depends on the number of colours in the theory and the number of quark flavours. As it is with three colour states and six different quark flavours, anti-screening is the overall dominant effect. As a result the colour potential decreases with distance and quarks experience very little potential when very near to each other. This effect is known as asymptotic freedom and results in quarks only existing within colorless bound states known as \textit{hadrons}.
+
+Hadrons can be divided into two categories: \textit{mesons}, which contain a quark and an antiquark ($q\overline{q}$); and \textit{baryons} which are made of three quarks (or antiquarks) each with a different (anti)colour-charge to result in a colourless composite particle. Common examples of baryons are protons ($uud$) and neutrons ($udd$) which are the building blocks of atomic nuclei. While $\pi^{0}$ ($u\overline{u}/d\overline{d}$) is a commonly produced meson in hadron colliders. Note that due to the quark configuration, baryons have baryon number $B=+1$ while mesons have $B=0$.
   
 %% Self-interacting QCD Gluon vertices
 \begin{figure}
@@ -163,7 +123,7 @@ Hadrons can be divided into two categories: mesons, which contain a quark and an
   \caption{Diagrams of the fundamental interaction vertices described by quantum chromodynamics.} \label{fig:TheoryQCDVertexes}
 \end{figure}
 
-\section{Weak Interactions}
+\section{Weak Interactions} \label{sec:TheoryWeakInteractions}
 
 The final type of interaction involves the so-called weak force. The weak force is responsible for $\beta^{-}$ decay ($n\rightarrow p +e^{-}+\overline{\nu}_{e}$) and $\beta^{+}$ decay. Interactions via the weak force are mediated by a single neutral massive boson and two charged massive bosons. Since the bosons responsible for weak interactions are massive, the range of interaction is very short, unlike electromagnetic interactions via a massless photon.
 
@@ -285,16 +245,16 @@ A\lambda^3(1-\rho-i\eta) & -A\lambda^2 & 1\\
 \end{pmatrix}
 \end{equation}
 %
-where A, $\rho$ and $\eta$ are all real numbers intended to express the order of magnitude differences between $s_{12}$ and the other elements in the matrix. Of course, the result should be the same irrespective of which parametrization is used.
+where A, $\rho$ and $\eta$ are all real numbers intended to express the order of magnitude differences between $s_{12}$ and the other elements in the matrix. Of course, all the elements should be the same irrespective of which parametrization is used.
 
 The elements of the CKM matrix have been measured and the latest accepted results are summarized in \ref{eq:TheoryWeakCKM}\cite{Theory:PDGBooklet}. The interaction strength is then proportional to $|V_{ij}|^{2}$. Including all three generations the sum of all possible transitions from a given quark, q, is unity:
 
 \begin{equation} 
-\label{eq:TheoryWeakMixingTotal}
-\sum|V_{qi}|^{2}=1
+  \label{eq:TheoryWeakMixingTotal}
+  \sum|V_{qi}|^{2}=1
 \end{equation}
 
-Note that the term $V_{tb}$ is approximately unity and by far dominates over the other $V_{tj}$ terms. This means that the top-quark transitions almost exclusively into a $b$-quark ($t\rightarrow Wb$) with transitions $t\rightarrow Ws$ and $t\rightarrow Wd$ being exceedingly rare. The soft muon tagger which is the focus of this thesis relies on weak semileptonic decays of $b$-quarks. From~\ref{eq:TheoryWeakCKM} one can see that the transition $b\rightarrow c$ dominates over $b\rightarrow u$.
+Note that the term $V_{tb}$ is approximately unity and by far dominates over the other $V_{tj}$ terms. This means that the top-quark transitions almost exclusively into a $b$-quark ($t\rightarrow Wb$) with transitions $t\rightarrow Ws$ and $t\rightarrow Wd$ being exceedingly rare. The soft muon tagger which is the focus of this thesis relies on weak semileptonic decays of $b$-quarks. From~\ref{eq:TheoryWeakCKM} one can see that the transition $b\rightarrow c$ dominates over $b\rightarrow u$. Additionally the focus of this theses is on semileptonic \ttbar\ events, where one of the $W$ bosons in the event decays to quarks as per the magnitude of $V_{ij}$.
 
 \begin{equation}
 \label{eq:TheoryWeakCKM}
@@ -307,17 +267,15 @@ V_{CKM}
 \end{pmatrix}
 \end{equation}
 
-An additional unique feature of weak interactions is that the charge conjugation-parity (CP) symmetry is violated. The operator C denotes the change of a particle by its antiparticle partner and P denotes a reversal of helicity (the projection of spin onto the momentum of a particle). A clear violation of C and P was observed in the radioactive decay of Cobalt-60, where the resulting electrons were preferentially emitted in the opposite direction of the nuclear spin of the Cobalt. Thus weak currents only couple to left-handed neutrinos (or right-handed antineutrinos) this is then a violation of parity. Additionally charge symmetry is also violated since a left-handed neutrino is preferentially picked over a left-handed antineutrino. Finally in 1964 CP violation was observed in the decay of neutral kaon.
+An additional unique feature of weak interactions is that the charge conjugation-parity ($CP$) symmetry is violated. The operator $C$ denotes the change of a particle by its antiparticle partner and $P$ denotes a reversal of helicity (the projection of spin onto the momentum of a particle). A clear violation of $C$ and $P$ was observed in the radioactive decay of Cobalt-60, where the resulting electrons were preferentially emitted in the opposite direction of the nuclear spin of the Cobalt. Thus weak currents only couple to left-handed neutrinos (or right-handed antineutrinos) this is then a violation of parity. Additionally charge symmetry is also violated since a left-handed neutrino is preferentially picked over a left-handed antineutrino. Finally in 1964 $CP$ violation was observed in the decay of neutral kaon.
 
-Thus the probability of $\overline{a}\rightarrow \overline{b}$ is not equal to that of $a\rightarrow b$. The existence of CP violation has interesting consequences for the formation of the early universe. The preferential production of matter over antimattter in CP violating interactions would shift the balance in favour of matter resulting in a universe similar to our own.
-
-Finally as with QCD, weak interactions couple weak bosons to each other. Thus the vertex $Z\rightarrow W^-W^+$ is allowed via the weak force.
+Thus the probability of $\overline{a}\rightarrow \overline{b}$ is not equal to that of $a\rightarrow b$. The existence of $CP$ violation has interesting consequences for the formation of the early universe. The preferential production of matter over antimattter in $CP$ violating interactions would shift the balance in favour of matter resulting in a universe similar to our own. Finally as with QCD, weak interactions couple weak bosons to each other. Thus the vertex $Z\rightarrow W^-W^+$ is allowed via the weak force.
 
 \subsection{Electroweak Unification and the Higgs mechanism}
 
 The unification of the electromagnetic and weak theories was first proposed by Glashow and later developed by Weinberg and Salam into the electroweak theory. The theory postulates that while at low energies the two forces are to be treated separately, at higher the two can be seen as a single force. Thus the two forces are different manifestation of the same ``electroweak'' interaction. There were several stumbling blocks to the unification of the forces. Firstly, the boson which drives the electromagnetic interaction, the photon, is massless while the weak bosons are both massive. Evidence for the massive nature of these bosons has been established by experimental results from \comment{Cite W and Z experiments} at CERN.
 
-Thus the symmetry of the theory must be spontenously broken in some way. A mechanism for ElectroWeak Symmetry Breaking (EWSB) was postulated by Higgs, Brout, Englert and others which introduces massess to the weak bosons and posits the existence of an additional scalar (spin-0) boson known as the Higgs boson.
+Thus the symmetry of the theory must be spontenously broken in some way. A mechanism for ElectroWeak Symmetry Breaking (EWSB) was postulated by Higgs, Brout, Englert and others which introduces massess to the weak bosons and posits the existence of an additional scalar (spin $S=0$) boson known as the Higgs boson.
 
 \subsubsection{Gauge Theories}
 
@@ -359,6 +317,3 @@ The SM Lagrangian in its current form including the Higgs potential is shown in 
           &+ \underbrace{ |D_{\mu}\phi^2| }_{ \text{Higgs Kinetic} }
            - \underbrace{ V(\phi) }_{ \text{Higgs Potential} } \nonumber
 \end{align}
-
-This is more text
-

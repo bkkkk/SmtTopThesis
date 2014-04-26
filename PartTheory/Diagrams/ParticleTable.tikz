@@ -1,0 +1,68 @@
+% -*- root: ../../Thesis.tex -*-
+\newcommand{\CommonElementTextFormat}[4]
+{
+  \begin{minipage}{3cm}
+    \centering
+      {\textbf{#1} \hfill #2}%
+      \linebreak \linebreak
+      {\textbf{#3}}%
+      \linebreak \linebreak
+      {{#4}}
+  \end{minipage}
+}
+
+\newcommand{\NaturalElementTextFormat}[4]
+{
+  \CommonElementTextFormat{#1}{#2}{\LARGE {#3}}{#4}
+}
+
+\begin{tikzpicture}[font=\sffamily, scale=0.6, transform shape]
+  \tikzstyle{FermionFill} = [fill=yellow!15]
+  \tikzstyle{QuarkFill} = [fill=yellow!15]
+  \tikzstyle{LeptonFill} = [fill=green!55]
+  
+  \tikzstyle{Fermion} = [draw=black, FermionFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
+  
+  \tikzstyle{Quark} = [Fermion, QuarkFill]
+  \tikzstyle{Lepton} = [Fermion, LeptonFill]
+
+  \tikzstyle{GenerationLabel} = [font={\sffamily\LARGE}, minimum width=2.75cm, node distance=3.0cm]
+
+  \node[name=Up, Quark] {\NaturalElementTextFormat{$+\frac{2}{3}$}{$2.3$\,MeV}{$u$}{Up}};
+  \node[name=Down, below of=Up, Quark] {\NaturalElementTextFormat{$-\frac{1}{3}$}{$4.8$\,MeV}{$d$}{Down}};
+  \node[name=Charm, right of=Up, Quark] {\NaturalElementTextFormat{$+\frac{2}{3}$}{$1.275$\,GeV}{$c$}{Charm}};
+  \node[name=Strange, below of=Charm, Quark] {\NaturalElementTextFormat{$-\frac{1}{3}$}{$95$\,MeV}{$s$}{Strange}};
+  \node[name=Top, right of=Charm, Quark] {\NaturalElementTextFormat{$+\frac{2}{3}$}{$173.07$\,GeV}{$t$}{Top}};
+  \node[name=Bottom, below of=Top, Quark] {\NaturalElementTextFormat{-$\frac{1}{3}$}{$4.18$\,GeV}{$b$}{Bottom}};
+  
+  \node[name=Electron, below of=Down, Lepton] {\NaturalElementTextFormat{$-1$}{$0.511$\,MeV}{$e$}{Electron}};
+  \node[name=Electron Neutrino, below of=Electron, Lepton] {\NaturalElementTextFormat{$0$}{$<2.2$\,eV}{$\nu_{e}$}{Electron Neutrino}};
+  \node[name=Muon, right of=Electron, Lepton] {\NaturalElementTextFormat{$-1$}{$105.7$\,MeV}{$\mu$}{Muon}};
+  \node[name=Muon Neutrino, below of=Muon, Lepton] {\NaturalElementTextFormat{$0$}{$<0.17$\,MeV}{$\nu_{\mu}$}{Muon Neutrino}};
+  \node[name=Tau, right of=Muon, Lepton] {\NaturalElementTextFormat{$-1$}{$1.777$\,GeV}{$\tau$}{Tau}};
+  \node[name=Tau Neutrino, below of=Tau, Lepton] {\NaturalElementTextFormat{$0$}{$15.5$\,MeV}{$\nu_{\tau}$}{Tau Neutrino}};
+
+  \node[name=Generation1, above of=Up, GenerationLabel] {I};
+  \node[name=Generation2, above of=Charm, GenerationLabel] {II};
+  \node[name=Generation3, above of=Top, GenerationLabel] {III};
+
+  \node[name=FermionName, above of=Generation2, GenerationLabel, node distance=1cm] {Fermions $(s=\frac{1}{2})$};
+
+  \node[name=LeptonLabel, left of=Electron, GenerationLabel, rotate=90]{Leptons};
+  \node[name=QuarkLabel, left of=Up, GenerationLabel, rotate=90]{Quarks};
+
+  \tikzstyle{BosonFill} = [fill=blue!15]
+  \tikzstyle{HiggsFill} = [fill=orange!15]
+  \tikzstyle{Boson} = [draw=black, BosonFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
+  \tikzstyle{Higgs} = [Boson, HiggsFill]
+
+  \node[name=Photon, Boson, right of=Top, xshift=2cm] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$\gamma$}{Photon (EM)}};
+  \node[name=W, below of=Photon, Boson] {\NaturalElementTextFormat{$\pm1$}{$80.4$\,GeV}{$W^{\pm}$}{W boson (Weak)}};
+  \node[name=Z, below of=W, Boson] {\NaturalElementTextFormat{$0$}{$91.2$\,GeV}{$Z$}{\ZbosonText{} (Weak)}};
+  \node[name=Gluon, below of=Z, Boson] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$g$}{Gluon (Strong)}};
+  \node[name=Higgs, right of=Photon, Higgs, xshift=1cm] {\NaturalElementTextFormat{$0$}{$126.07$\,GeV}{$H^{0}$}{Higgs boson}};
+  \node[name=Legend, right of=Gluon, Boson, fill=white, xshift=1cm] {\NaturalElementTextFormat{q}{mass}{symbol}{name (force)}};
+  
+  \node[name=QuarkLabel, above of=Photon, GenerationLabel, node distance=4cm]{Bosons $(s=0)$};
+  \node[name=QuarkLabel, above of=Higgs, GenerationLabel, node distance=4cm]{Higgs $(s=1)$};
+\end{tikzpicture}
