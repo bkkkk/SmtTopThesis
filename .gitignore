@@ -13,3 +13,4 @@ _build/
 *.fls
 *.gz
 *.ptex
+Output/
