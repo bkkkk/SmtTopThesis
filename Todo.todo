@@ -53,17 +53,16 @@ Introduction:
 --- ✄ -----------------------
 
 Theory:
-  ☐ Add references to section @medium
-     ☐ Find a few decent references from other thesis @short
-     ☐ Add to Bibtex file @short
-     ☐ Insert into text @medium
-   ☐ Edit @medium
+  ☐ Edit @medium
 
 --- ✄ -----------------------
 
 Boosted:
   ☐ Edit @medium
   
+  ☐ Figure out the correct procedure for jet/quark matching
+    ""
+
   ☐ Write b-tagging section ./boosted.tex:51 @short
     ☐ Describe matching of b-quark to muon @medium
     ☐ Describe results
@@ -132,17 +131,17 @@ Calibration:
 --- ✄ -----------------------
 
 Top-quark physics:
-  
-  ☐ Make outline @short
-  ☐ Write @long
-  ☐ Edit @long
-
-  Background:
-  ☐ Read through the Schilling paper @long
-  ☐ Read through Matt's section @medium
-  
+  ☐ Add description of the Boosted analysis
+  ☐ Write about the top mass measurements
+  ☐ Clean up section
+  ☐ Edit
+    
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Insert into text @medium @done (14-04-26 18:00) @project(Theory)
+ ✔ Find a few decent references from other thesis @short @done (14-04-26 18:00) @project(Theory)
+ ✔ Add to Bibtex file @short @done (14-04-26 18:00) @project(Theory)
+ ✔ Add references to section @medium @done (14-04-26 18:00) @project(Theory)
  ✔ Add plots showing dependence of eff and SF on d0 @done (14-04-23 22:42) @project(Calibration)
  ✔ Add table of SF for 2012 @done (14-04-23 22:41) @project(Calibration)
  ✔ Add plots of the 2012 Effs and SFs @done (14-04-23 22:41) @project(Calibration)

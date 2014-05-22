@@ -5,6 +5,17 @@ J.~Beringer et~al. (Particle Data~Group).
 \newblock {The Review of Particle Physics}.
 \newblock {\em {Physical Review D}}, 86:010001+, 2012.
 
+\bibitem{Kidonakis:2012rm}
+Nikolaos Kidonakis.
+\newblock {NNLL threshold resummation for top-pair and single-top production}.
+\newblock 2012.
+
+\bibitem{Czakon:2013goa}
+Michał Czakon, Paul Fiedler, and Alexander Mitov.
+\newblock {Total top-quark pair-production cross section at hadron colliders
+  through $O(α\frac{4}{S})$}.
+\newblock {\em Phys.Rev.Lett.}, 110(25):252004, 2013.
+
 \bibitem{Theory:AwesomeSM}
 B.~Odom, D.~Hanneke, B.~D'Urso, and G.~Gabrielse.
 \newblock New measurement of the electron magnetic moment using a one-electron
@@ -57,9 +68,9 @@ S.~W. Herb, D.~C. Hom, L.~M. Lederman, J.~C. Sens, H.~D. Snyder, J.~K. Yoh,
 \newblock {\em Phys. Rev. Lett.}, 39:252--255, Aug 1977.
 
 \bibitem{Top:ObservationCDF}
-CDF Collaboration.
+{CDF} Collaboration.
 \newblock Observation of top quark production in $p\bar{p}$ collisions with the
-  collider detector at fermilab.
+  collider detector at {Fermilab}.
 \newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
 
 \bibitem{Top:ObservationD0}
@@ -68,14 +79,29 @@ D0~Collaboration.
   $\sqrt{s}$=1.8 tev.
 \newblock {\em Phys. Rev. Lett.}, 74:2422--2426, Mar 1995.
 
+\bibitem{TopQuark:FirstTopAtATLAS}
+The~ATLAS Collaboration.
+\newblock {Search for top pair candidate events in ATLAS at $\sqrt{s}$=7 TeV}.
+\newblock Technical Report ATLAS-CONF-2010-063, CERN, Geneva, Jul 2010.
+
+\bibitem{TopQuark:FirstTopAtCMS}
+{Selection of top-like events in the dilepton and lepton-plus-Jets channels in
+  early 7 TeV Data}.
+\newblock Technical Report CMS-PAS-TOP-10-004, CERN, 2010. Geneva, 2010.
+
 \bibitem{Theory:TopQuarkDecayTooQuickly}
 Johann~H. Kuhn, A.~Reiter, and Peter~M. Zerwas.
 \newblock {Z Decays to Top Quarks}.
 \newblock {\em Nucl.Phys.}, B272:560, 1986.
 
+\bibitem{TopQuark:HATHORCrossSection}
+M.~Aliev, H.~Lacker, U.~Langenfeld, S.~Moch, P.~Uwer, et~al.
+\newblock {HATHOR: HAdronic Top and Heavy quarks crOss section calculatoR}.
+\newblock {\em Comput.Phys.Commun.}, 182:1034--1046, 2011.
+
 \bibitem{TopQuark:CPTViolation}
 O.W. Greenberg.
-\newblock {CPT violation implies violation of Lorentz invariance}.
+\newblock Cpt violation implies violation of lorentz invariance.
 \newblock {\em Phys.Rev.Lett.}, 89:231602, 2002.
 
 \bibitem{TopQuark:MassAsymmetryATLAS2014}
@@ -100,6 +126,26 @@ Serguei Chatrchyan et~al.
 \newblock {Measurements of the $t\bar{t}$ charge asymmetry using the dilepton
   decay channel in pp collisions at $\sqrt{s} = 7$ TeV}.
 \newblock 2014.
+
+\bibitem{LHC}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC} machine.
+\newblock {\em Journal of Instrumentation}, 3(08):S08001, 2008.
+
+\bibitem{Luminosity}
+The~ATLAS Collaboration.
+\newblock Luminosity determination in pp collisions at sqrt(s)=7 tev using the
+  atlas detector at the lhc.
+\newblock {\em The European Physical Journal C}, 71(4), 2011.
+
+\bibitem{Detector:ATLASExperimentGeneral}
+The~{ATLAS} Collaboration.
+\newblock The {ATLAS} experiment at the {CERN} {Large Hadron Collider}.
+\newblock {\em Journal of Instrumentation}, 3(08):S08003, 2008.
+
+\bibitem{Detector:ATLAS_TDR_vol1}
+{\em {ATLAS detector and physics performance: Technical Design Report, 1}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1999.
 
 \bibitem{Boosted:ATLASExclusion7TeV}
 Georges Aad et~al.

@@ -20,34 +20,50 @@
 \usepackage{slashed}
 \linenumbers
 
+\DeclareGraphicsRule{*}{mps}{*}{}
+
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
+
+% Units
+\newcommand{\TeV}{\ensuremath{\rm\ TeV}}
+\newcommand{\GeV}{\ensuremath{\rm\ GeV}}
+
+% Particle symbols
 \newcommand{\Zboson}{\ensuremath{Z^{0}}}
 \newcommand{\Wboson}{\ensuremath{W^{\pm}}}
-\newcommand{\ZbosonText}{\ensuremath{Z} boson}
-\newcommand{\WbosonText}{\ensuremath{W} boson}
 \newcommand{\Z}{\ensuremath{Z}}
 \newcommand{\W}{\ensuremath{W}}
 \newcommand{\Zprime}{\ensuremath{Z'}}
-\newcommand{\bquark}{$b$-quark}
-\newcommand{\tquark}{$t$-quark}
 \newcommand{\ttbar}{\ensuremath{t\bar{t}}}
+\newcommand{\jpsi}{\ensuremath{J\slash\psi}}
+\newcommand{\m}{\ensuremath{\mu}}
+\newcommand{\cms}{\ensuremath{\sqrt{s}}}
+\newcommand{\cmsS}{\ensuremath{\cms=7\TeV}}
+\newcommand{\cmsE}{\ensuremath{\cms=8\TeV}}
+
+
+% Variable names
 \newcommand{\xsq}{\ensuremath{\chi^{2}}}
 \newcommand{\xsd}{\ensuremath{\chi^{2}_{\textrm{DoF}}}}
 \newcommand{\xsm}{\ensuremath{\chi^{2}_{\textrm{match}}}}
-\newcommand{\jpsi}{\ensuremath{J\slash\psi}}
-\newcommand{\Lagr}{\mathcal{L}}
-
 \newcommand{\Et}{\ensuremath{E_{\rm T}}}
 \newcommand{\pt}{\ensuremath{p_{\rm T}}}
+\newcommand{\met}{\ensuremath{{\not\mathrel{E}}_T}}
+\newcommand{\cme}{\ensuremath{\sqrt{s}}}
+\newcommand{\DeltaR}{\ensuremath{\Delta R}}
 
-\newcommand{\m}{\ensuremath{\mu}}
+% Lagrangian symbol
+\newcommand{\Lagr}{\mathcal{L}}
 
+% Uncertainty labels
+\newcommand{\stat}{\ensuremath{\rm\ (stat.) \, }}
+\newcommand{\syst}{\ensuremath{\rm\ (syst.) \, }}
+
+% NAMES
 \newcommand{\staco}{\texttt{STACO}}
 
 \newcommand{\comment}[1]{} % This is used for inline commenting 
-
-\DeclareGraphicsRule{*}{mps}{*}{}
 
 \oddsidemargin 0.5 in %0.5
 \evensidemargin -0.25 in %
@@ -123,7 +139,7 @@ Jacobo Ezequiel Blanco
 \begin{center}
 \end{center}
 \vspace{1cm}
-
+\input{Preface.tex}
 \tableofcontents
 \listoffigures
 \listoftables
@@ -152,7 +168,6 @@ Jacobo Ezequiel Blanco
 \input{PartTheory/Theory.tex}
 \input{PartTopQuark/TopQuark.tex}
 \input{PartDetector/Detector.tex}
-\input{PartSMT/SMT.tex}
 \input{PartCalibration2012/Calibration2012.tex}
 \input{PartCrossSection/CrossSection.tex}
 \input{PartBoosted/Boosted.tex}
@@ -166,5 +181,5 @@ Jacobo Ezequiel Blanco
 
 \newpage
 \bibliographystyle{unsrt}
-\bibliography{Thesis}
+\bibliography{Thesis,Remote}
 \end{document}

@@ -1,18 +1,40 @@
 % !TEX root = ../Thesis.tex
 \chapter{Top-quark physics} \label{sec:top_quark_physics}
-The third generation of quarks was first proposed by Kobayashi and Maskawa in a paper published in 1973~\cite{Theory:CKMKobayashiMaskawa} as a way to exaplain the $CP$ violation observed in Kaon decays. The existence of the third generation was confirmed when the lighter of the two constituents, the $b$ quark, was discovered in 1977~\cite{Top:bQuarkDiscovered}.
+The third generation of quarks was first proposed by Kobayashi and Maskawa in a paper published in 1973~\cite{Theory:CKMKobayashiMaskawa} as a way to explain the $CP$ violation observed in Kaon decays. The existence of the third generation was confirmed when the lighter of the two constituents, the $b$ quark, was discovered in 1977~\cite{Top:bQuarkDiscovered}.
 
-Due to its large mass, direct confirmation of the existence of the top quark required the construction of very powerful accelerators. The top quark was discovered by the CDF and D0 experiments at Fermilab in 1995~\cite{Top:ObservationCDF,Top:ObservationD0}.
+Due to its large mass, direct confirmation of the existence of the top quark required the construction of very powerful accelerators. The top quark was discovered by the CDF and D0 experiments at Fermilab in 1995~\cite{Top:ObservationCDF,Top:ObservationD0} and then observed at CERN in 2010~\cite{TopQuark:FirstTopAtATLAS,TopQuark:FirstTopAtCMS}.
 
-Its large mass makes the top quark a very interesting object of study. The current world average for the mass of the top is $m_{t}=173.07\pm0.52\pm0.72$ GeV based on results from Tevatron and the LHC~\cite{Theory:PDGBooklet}. Due to its mass the top quark has an extremely short lifetime $\tau\approx0.5\times10^{-24}$ s, too short to interact via the strong force and hadronize into a bound state~\cite{Theory:TopQuarkDecayTooQuickly}. Instead the top quark decays weakly producing a $W$ boson and a $b$ quark almost exclusively. This allows experimentalist to directly study the properties of a bare quark. An impossibility with the other quarks which bind with other quarks to form hadrons. Measurement of top quark properties (mass, charge, forward-backward asymmetry, couplings, etc...) forms a large part of high energy physics research. Measurement of these properties provide rigorous tests of the SM, point towards the existence of new physics or exclude some BSM theories.
+The large mass of the top quark makes it a very interesting object of study. The current world average for the mass of the top quark is
+%
+\begin{equation}
+  m_{t}=173.07\pm0.52\stat\pm0.72\syst\GeV
+\end{equation}
+%
+based on results from Tevatron and the LHC~\cite{Theory:PDGBooklet}.
 
-From an experimental perspective, top quark decays can produce a very interesting signature which includes leptons, jets and missing energy due to the escaping neutrino\footnote{Neutrinos do not interact with the detector material and thus escape without being detected}. The study of top quark decays relies on all parts of a general purpose detector such as ATLAS or CMS. In additional \ttbar\ pair production constitutes a background for many other SM and BSM searches, as such understanding this process well is fundamental for almost all areas of HEP research.
+Due to its mass the top quark has an extremely short lifetime $\tau\approx0.5\times10^{-24}$ s, too short to interact via the strong force and hadronize into a bound state~\cite{Theory:TopQuarkDecayTooQuickly}. Instead the top quark decays weakly producing a $W$ boson and a $b$ quark almost exclusively. This allows experimentalist to directly study the properties of a bare quark. An impossibility with the other quarks which bind with other quarks to form hadrons. Measurement of top quark properties (mass, charge, forward-backward asymmetry, couplings, etc...) forms a large part of high energy physics research. Measurement of these properties provide rigorous tests of the SM, point towards the existence of new physics or exclude some BSM theories.
+
+From an experimental perspective, top quark decays can produce a very interesting signature which includes leptons, jets and transverse missing energy \met\ due to the escaping neutrino\footnote{Neutrinos do not interact with the detector material and thus escape without being detected, missing energy is described in more detail in Chapter~\ref{sec:lhc_atlas_detector}}. The study of top quark decays relies on all parts of a general purpose detector such as ATLAS or CMS. In additional \ttbar\ pair production constitutes a background for many other SM and BSM searches, as such understanding this process well is fundamental for almost all areas of HEP research.
 
 \section{Top quark production} \label{sec:top_quark_production}
 
-Top quarks can be produced in two manners, single top production and \ttbar\ pair production. In hadron colliders production dominantly takes place via the strong force through $qq \rightarrow t\bar{t}$ and $gg \rightarrow t\bar{t}$ at leading order. The feynman diagrams for these interactions are shown in Figure~\ref{fig:TopQuarkProduction}. \comment{MENTION THEORETICAL MEASUREMENTS OF XSECTION AND TEVATRON VS LHC}
+Top quarks can be produced in two manners, single top production and \ttbar\ pair production. In the SM, the dominant top quark pair production mechanism proceeds via the strong force. The production cross-section of $pp\rightarrow\ttbar$ depends on the mass of the top $m_{t}$, the centre-of-mass energy $s=4E^2_{\rm\ beam}$ and the fraction of the momentum taken by the partons\footnote{Constituents of the hadrons, so quarks and gluons} of the colliding protons.
 
-% tt-bar pair production plots
+In order to produce a \ttbar\ pair the total energy carried by the interacting partons must be larger than twice the mass of the top. Let us define the effective centre of mass energy $\hat{s}$ which reflects the true amount of energy available for interaction. Given two colliding partons, denoted $i$ and $j$ carrying $x_i$ and $x_j$ fractions of the centre of mass energy $\cme$, then
+%
+\begin{equation}
+  \hat{s} = x_{i}\cme x_{j}\cme = x_{i}x_{j}s
+\end{equation}
+%
+assumming that both partons carry the same fraction of the total energy, i.e. $x_i\approx x_j$ then the minimum value of $x$ required for \ttbar\ production is
+%
+\begin{equation}
+  x\approx\frac{2m_t}{\sqrt{s}}  
+\end{equation}
+
+At the LHC the minimum threshold at $\cme=7(14)\TeV$ is approximately 0.05(0.025). At such low values of $x$ the fraction of proton momentum carried by the gluons is large~\cite{TopQuark:HATHORCrossSection} and thus gluon fusion interactions dominate. Gluon fusion processes represent $80(90)\%$ of the total cross section at $\sqrt{s}=7(14)\TeV$, with the remainder contribution coming from quark pair annihilation. The feynman diagrams for these interactions are shown in Figure~\ref{fig:TopQuarkProduction}. The theoretical inclusive \ttbar\ production cross section at the LHC has been calculated at next-to-next-to-leading order (NNLO) to be $\sigma(t\bar{t})=158^{-12.2}_{+13.5}$ pb~\cite{TopPair} at $\cmsS$ and and at next-to-leading order (NLO) $246\pm10$ pb for $\cmsE$.
+%
+~
 \begin{figure}[tbph]
   \centering
   \begin{minipage}[][][t]{.47\textwidth}
@@ -43,10 +65,29 @@ Top quarks can be produced in two manners, single top production and \ttbar\ pai
   \label{fig:TopQuarkProduction}
 \end{figure}
 
-Single top production occurs via the weak force almost exclusively through the $Wtb$ vertex. The leading order weak interactions are shown in Figure~\ref{fig:TopSingleProduction}. As top quark pair production can proceed via the strong force it occurs overwhelmingly more often than single top production. 
+Single top production occurs via the weak force almost exclusively through the $Wtb$ vertex since $|V_{tb}|\gg|V_{ts}|,|V_{td}|$. At LO there are several production mechanisms for single-top events:
 
-% single top production plots
-\begin{figure}[tbph]
+\begin{itemize}
+  \item Weak quark-antiquark annihilation forming a \W\ which subsequently decays into a $t\bar{b}$ (Figure~\ref{fig:TopSingleSChannel}).
+  \item The so-called $tW$ production, where a $b$ quark absorbes a gluon and decays to a $t$ and $W$ (Figure~\ref{fig:TopSingletWChannel}).
+  \item $b$ quark scattering off a $W$ boson, where the $b$ comes from gluon splitting (Figure~\ref{fig:TopSingleqtbChannel}) or from the proton (Figure~\ref{fig:TopSingleqtChannel}).
+\end{itemize}
+
+As top quark pair production can proceed via the strong force it occurs overwhelmingly more often than single top production. The inclusive cross-sections for $pp\rightarrow \ttbar$ and $pp\rightarrow t+X$ at the LHC have been estimated at NLO~\cite{Kidonakis:2012rm,Czakon:2013goa}. As can be seen from Table~\ref{tab:TopQuarkPredictionCrossSection} the production cross section of \ttbar\ is approximately two times larger than the single-top cross-section.
+~
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{|l|c|c|}
+  \hline
+  Process &  $\sqrt{s}=7\TeV$ & $\sqrt{s}=8\TeV$ \\ \hline \hline
+  Single top $\sigma$(t-chan) [pb]  & $66\pm2$     & $87\pm3$     \\
+  Single top $\sigma(Wt)$ [pb]      & $15.6\pm1.2$ & $22.2\pm1.5$ \\
+  \hline
+  \end{tabular}
+  \caption{Summary of the predicted SM single top production~\cite{Kidonakis:2012rm} and top pair production~\cite{Czakon:2013goa} cross sections at the LHC for \cme=7 and 8 \TeV.} \label{tab:TopQuarkPredictionCrossSection}
+\end{table}
+~
+\begin{figure}[htpb]
   \centering
   \begin{minipage}[][][t]{.47\textwidth}
     \centering
@@ -79,7 +120,7 @@ Single top production occurs via the weak force almost exclusively through the $
 
 The top quark decays almost exclusively into a $W$ boson and a $b$-quark. The ratio of branching ratios $\Gamma(t\rightarrow Wb)/\Gamma(t\rightarrow Wq(q=b,s,d))$ is $0.91\pm0.04$~\cite{Theory:PDGBooklet}.
 
-As the LHC collides proton-proton beams, the overwhelming majority of events produced will feature multiple hadronic \textit{jets}, a stream of particles resulting from the hadronization of quarks in the detector, most of which will originate from ``light'' quarks\footnote{The term light quarks usually refers to quarks in the first two generations. Light jets are those originating from those quarks}. Unlike these light quarks, $b$ quarks leave a distinct signature in the detector as they travel a certain distance within a $B$ hadron before producing a jet. Additional features such as the semi-leptonic decay of $b$ quarks can be exploited to determine the presence of such a quark in the detector. Collectively analysis techniques that permit the detection of $b$-jets are known as \textit{b-tagging}. Top quark events will produce two $b$ quarks, making b-tagging techniques a central part of any \ttbar\ analysis.
+As the LHC collides proton-proton beams, the overwhelming majority of events produced will feature multiple hadronic \textit{jets}, a stream of particles resulting from the hadronization of quarks in the detector, most of which will originate from ``light'' quarks\footnote{The term light quarks usually refers to quarks in the first two generations. Light jets are those originating from those quarks}. Unlike light hadrons, $B$ hadrons have a sufficiently large lifetime that they travel a certain distance within a before deacying. Additional features such as the semi-leptonic decay of $b$ quarks can be exploited to determine the presence of such a quark in the detector. Collectively analysis techniques that permit the detection of $b$-jets are known as \textit{b-tagging}. Top quark events will produce two $b$ quarks, making b-tagging techniques a central part of any \ttbar\ analysis.
 
 The other part of the top decay, the $W$ boson is used to classify \ttbar\ events. As discussed in Section~\ref{sec:the_standard_model_of_particle_physics}, $W$ bosons can decay leptonically ($\ell\nu_{\ell}$) or hadronically ($W\rightarrow q\bar{q}'$) driven by the CKM vertex element, since $\Gamma\propto|V_{ij}|^2$. The various branching ratios of $W$ decays are presented in Table~\ref{tab:TopQuakWDecayBranchingRatios}.
 
@@ -87,14 +128,14 @@ The other part of the top decay, the $W$ boson is used to classify \ttbar\ event
   \centering
   \begin{tabular}{|c|c|}
     \hline
-    Decay      & Branching ratio \\ \hline\hline
+    Decay                   & Branching ratio \\ \hline\hline
     $W\rightarrow e+\nu$    & $(10.75\pm0.13)\%$ \\
     $W\rightarrow \mu+\nu$  & $(10.57\pm0.15)\%$ \\
     $W\rightarrow \tau+\nu$ & $(11.25\pm0.20)\%$ \\
-    hadrons    & $(67.60\pm0.27)\%$ \\
+    hadrons                 & $(67.60\pm0.27)\%$ \\
     \hline
   \end{tabular}
-  \caption{Branching ratios for the decay of $W$ boson. Note that the ``hadrons'' refers to a possible combination of $q\bar{q}'$ where $\bar{q}'$ denotes the antiquark of a flavour different to that of the first quark.}
+  \caption{Branching ratios for the decay of $W$ boson. Note that the ``hadrons'' refers to a possible combination of $q\bar{q}'$ where $\bar{q}'$ denotes the antiquark of a flavour different to that of the first quark.~\cite{Theory:PDGBooklet}}
   \label{tab:TopQuakWDecayBranchingRatios}
 \end{table}
 
@@ -109,27 +150,17 @@ Thus \ttbar\ events are labelled as ``dilepton'', ``all-hadronic'' or ``lepton +
 
 The all-hadronic final state includes four light quarks which will hadronize to form four Light Flavour (LF) jets and two $b$ quarks leading to two $b$ jets. Due to the large hadronic activity the all-hadronic channel is very challenging. As mentioned before, hadronic collisions produce events with a large number of quarks -- and thus jets -- in the final state. The background to the all-hadronic channel are therefore very high. As shown in Figure~\ref{fig:TopQuarkDecayModes}, the all-hadronic channel has the largest branching ratio of the three.
 
-The dilepton final state includes two leptons, large missing energy from two neutrinos which escape the detector and two $b$ jets. In constrast to the all-hadronic channel, dilepton events are very clean due to the presence of leptons and missing energy, however the branching ratio is very small and reconstruction of the top is challenging do the presence of two neutrinos which escape the detector without interacting.
+The dilepton final state includes two leptons, large \met\ from two neutrinos which escape the detector and two $b$ jets. In constrast to the all-hadronic channel, dilepton events are very clean due to the presence of leptons and \met, however the branching ratio is very small and reconstruction of the top is challenging due to the presence of two neutrinos which escape the detector without interacting.
 
-Finally, the lepton plus jets channel has a large branching ratio while having a distinct signature with an isolated lepton\footnote{A lepton produced far from other physics objects (jets, leptons, etc...)} and missing energy as well as LF and $b$ jets. Typical lepton plus jets are shown in  Note that leptons in this case refers to $e$ and $\mu$ and excludes the $\tau$. The $\tau$ lepton is unstable and sufficiently heavy to decay haronically via the weak force producing two quarks, losing the advantageous distinct signature of a lepton plus jets event. An example of the full lepton plus jets chain is shown in Figure~\ref{fig:TopQuarkFullLPlusJets}.
+Finally, the lepton plus jets channel has a large branching ratio while having a distinct signature with a lepton and \met\ as well as LF and $b$ jets. Lepton plus jets analyses usually do not directly include $\tau$ leptons as the signal lepton. The $\tau$ lepton is unstable and decays primarily via the weak force producing hadrons in the final state. The reconstruction of $\tau$ leptons is a complex task and $\tau$ plus jet events are treated separetely within dedicated analyses. An example of the full lepton plus jets chain is shown in Figure~\ref{fig:TopQuarkFullLPlusJets}.
 
 \begin{figure}[thbp]
   \centering
-  \begin{subfigure}[t]{0.30\textheight}
-    \includegraphics[height=0.30\textheight]{PartTopQuark/Diagrams/atlas-2010-063-fig_09.png}
-    \caption{\ttbar$\rightarrow$dilepton event at ATLAS } \label{fig:TopQuarkEventDisplayAtlas}
-  \end{subfigure} %
-  \hfill
-  \begin{subfigure}[t]{0.30\textheight}
-    \includegraphics[height=0.30\textheight]{PartTopQuark/Diagrams/cms-mu4Jets_140124_1749068_RPhi.png}
-    \caption{\ttbar$\rightarrow\ell$+jets event at CMS} \label{fig:TopQuarkEventDisplayCMS}
-  \end{subfigure}%
-  \caption{Example event displays of \subref{fig:TopQuarkEventDisplayAtlas} a dilepton \ttbar\ event recorded by ATLAS and \subref{fig:TopQuarkEventDisplayCMS} a $\ell$+jets event recorded at CMS.} \label{fig:TopQuarkEventDisplay}
+  \includegraphics[height=0.30\textheight]{PartTopQuark/Diagrams/atlas-2010-063-fig_09.png}
+  \caption{Example event display of a dilepton \ttbar\ event recorded by ATLAS.} \label{fig:TopQuarkEventDisplay}
 \end{figure}
 
-\subsection{Motivations for selecting the $\ell$+jets channel}
-
-Due to its distinct signature and high branching ratio the lepton plus jets channel was chosen as the focus for the analyses presented in this thesis. Additionally the presence of only one neutrino allows for a reconstruction of the mass of the leptonic top (the top whose associated $W$ decays leptonically) in the transverse plane and a full mass reconstruction of the top mass on the hadronic side\footnote{The methods used for this mass reconstruction is complex and not discussed in this thesis}.
+The lepton plus jets channel has the advantage of a more distinct signature than the all-hadronic event as well as a suffering from less background. Additionally the branching ratio of lepton plus jets event is approximately twice that of the dilepton channel. As a result the lepton plus jets channel has been chosen as the focus of this thesis.
 
 \begin{figure}[htbp]
   \centering
@@ -141,15 +172,13 @@ Due to its distinct signature and high branching ratio the lepton plus jets chan
 
 \section{Latest developments in top physics}
 
-\textit{This section discusses a few of the latest measurements in the area of top quark pair production with a focus on LHC results.}
-
-As discussed top quark decays provide the only probe to study the properties of a bare quark. Measurements of its properties provide a stringent test of the SM and could show hints of new physics from BSM theories. Moreover due to its final state signature, top quark pair production particularly in the lepton + jets channel, form the background to many searches for new physics. Additionally all parts of the detector are utilized in the reconstruction of $\ell$+jets events and as such it is possible to use these events to tune or \textit{calibrate} many analysis and reconstruction techniques.
+This section discusses a few of the latest measurements in the area of top quark pair production with a focus on LHC results. As discussed top quark decays provide the only probe to study the properties of a bare quark. Measurements of its properties provide a stringent test of the SM and could show hints of new physics from BSM theories. Moreover, due to its final state signature, top quark pair production, particularly in the lepton + jets channel, form the background to many searches for new physics. Additionally all parts of the detector are utilized in the reconstruction of $\ell$+jets events and as such it is possible to use these events to tune or \textit{calibrate} many analysis and reconstruction techniques.
 
 \subsubsection{Cross-section measurement}
 
 Measurement of the cross-section of the top quark is a benchmark test of the SM. Any statistically significant deviation from the predicted value could point to the presence of new physics. Some BSM theories posit the existence of particles which could decay to produce a \ttbar\ pair. If such theory is correct this would be observed in an increase in the cross section measured away from the predicted SM value.
 
-Experimentally measurement of the cross-section is vital when attempting to reduce and estimate the amount of top quark background present in other analyses. Searches for the Higgs boson, exploit many different channels, many of which include \ttbar\ events as a background. The type of events predicted by the BSM theory, Supersymmetry (SUSY) include a large amount of missing energy, leptons and jets in the final state. Top quark pair events mimmick these processes and constitute a large background.
+Experimentally measurement of the cross-section is vital when attempting to reduce and estimate the amount of top quark background present in other analyses. Searches for the Higgs boson exploit many different channels such as $t\bar{t}H\rightarrow t\bar{t}b\bar{b}$ which have \ttbar\ events as a background. The type of events predicted by the BSM theory, Supersymmetry (SUSY) include a large amount of \met, leptons and jets in the final state. Top quark pair events mimmick these processes and constitute a large background.
 
 A summary of all \ttbar\ cross section measurements from the LHC is shown in Figure~\ref{fig:TopQuarkPairProductionSummaryLHC} and a comparison against the Tevatron measurement at $\sqrt{s}=1.96$ TeV is shown in Figure~\ref{fig:TopQuarkPairProductionComparison}.
 
@@ -167,35 +196,31 @@ A summary of all \ttbar\ cross section measurements from the LHC is shown in Fig
   \label{fig:TopQuarkPairProductionComparison}
 \end{figure}
 
+\subsubsection{Top mass measurement}
+
+The mass of the top $m_{t}$ is a fundamental parameter of the SM.
+%
+\begin{comment}
+  Make sure to fill this in!!!
+\end{comment}
+
 \subsubsection{Mass asymmetry measurement}
 
-As mentioned in Section~\ref{sec:TheoryWeakInteractions}, the charge ($C$) and parity ($P$) symmetries are both violated in weak interactions. The CPT symmetry which includes time reversal ($T$) is the last remaining symmetry which no interaction appears to violate. Any deviations from this symmetry would have major implications on particles physics~\cite{TopQuark:CPTViolation} and could manifest itself as differences between matter and antimatter particles. As the only quark which can be studied directly, measurement of $\Delta m\equiv m_{t}-m_{\bar{t}}$ could hint at any such deviation produced by new physics. Such a measurement was conducted by the ATLAS~\cite{TopQuark:MassAsymmetryATLAS2014} experiment yielding the result:
+As discussed, in Section~\ref{sec:TheoryWeakInteractions}, the charge ($C$) and parity ($P$) symmetries are both violated in weak interactions. The CPT symmetry which includes time reversal ($T$) is the last remaining symmetry which no interaction appears to violate. Any deviations from this symmetry would have major implications on particles physics~\cite{TopQuark:CPTViolation} and could manifest itself as differences between matter and antimatter particles. As the only quark which can be studied directly, measurement of $\Delta m\equiv m_{t}-m_{\bar{t}}$ could hint at any such deviation produced by new physics. Such a measurement was conducted by the ATLAS~\cite{TopQuark:MassAsymmetryATLAS2014} experiment yielding the result:
 %
 \begin{equation}
-  \Delta m_{t}=-0.44\pm0.46\text{ (stat)}\pm0.27\text{ (stat) GeV}
+  \Delta m_{t}=-0.44\pm0.46\stat\pm0.27\syst\GeV
 \end{equation}
 %
 and by the CMS~\cite{TopQuark:MassAsymmetryCMS2012} experiment yielding the result:
 %
 \begin{equation}
-  \Delta m_{t}=0.67\pm0.61\text{ (stat)}\pm0.41\text{ (stat) GeV}
+  \Delta m_{t}=0.67\pm0.61\stat\pm0.41\syst\GeV
 \end{equation}
 %
 which are both consistent with the SM prediction and imply CPT invariance.
 
-\subsubsection{Charge asymmetry}
 
-Many BSM theories can affect the charge symmetry between top and antitop quarks. Once again any deviations from the SM prediction would point to the existence of new BSM physics. The charge asymmetry as measured by the ATLAS experiment~\cite{TopQuark:ChargeAsymmetryATLAS} is
-\begin{equation}
-  A_{c}=0.006\pm0.010
-\end{equation}
-%
-and as measured by CMS~\cite{TopQuark:ChargeAsymmetryCMS}
-%
-\begin{equation}
-  A_{c}=-0.010\pm0.017\text{ (stat)}\pm0.008\text{ (syst)}
-\end{equation}
-%
-which once again are consistent with the SM prediction.
+\subsubsection{Boosted top searches}
 
 
