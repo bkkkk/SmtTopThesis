@@ -4,10 +4,10 @@
 B.~Odom, D.~Hanneke, B.~D'Urso, and G.~Gabrielse.
 \newblock {New Measurement of the Electron Magnetic Moment Using a One-Electron
   Quantum Cyclotron}.
-\newblock {\em Phys. Rev. Lett.}, 97:030801, Jul 2006.
+\newblock {\em Physical Review Letters}, 97:030801, Jul 2006.
 
 \bibitem{Theory:HiggsDiscoveryATLAS}
-The~ATLAS Collaboration.
+{ATLAS Collaboration}.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
 \newblock {\em Physics Letters B}, 716(1):1 -- 29, 2012.
@@ -30,23 +30,23 @@ D.H. Perkins.
 \newblock Cambridge University Pres, 2000.
 
 \bibitem{Theory:IntroGriffiths}
-{D}. {G}riffiths.
+D.~Griffiths.
 \newblock {\em {Introcution to Elementary Particles}}.
-\newblock {J}ohn {W}iley \& {S}ons, {I}nc, 1987.
+\newblock {John Wiley \& Sons, Inc}, 1987.
 
 \bibitem{Theory:PDGBooklet}
-J.~Beringer et~al. ({P}article~{D}ata {G}roup).
+{Particle Data Group}, J.~Beringer, et~al.
 \newblock {The Review of Particle Physics}.
 \newblock {\em {Physical Review D}}, 86:010001+, 2012.
 
 \bibitem{Theory:CKMNicola}
-Nicola Cabibbo.
+N.~Cabibbo.
 \newblock {Unitary Symmetry and Leptonic Decays}.
-\newblock {\em Phys. Rev. Lett.}, 10:531--533, Jun 1963.
+\newblock {\em Physical Review Letters}, 10:531--533, Jun 1963.
 
 \bibitem{Theory:CKMKobayashiMaskawa}
-Makoto Kobayashi and Toshihide Maskawa.
-\newblock Cp-violation in the renormalizable theory of weak interaction.
+M.~Kobayashi and Toshihide Maskawa.
+\newblock {CP-Violation in the Renormalizable Theory of Weak Interaction}.
 \newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
 
 \bibitem{Comments}
@@ -57,7 +57,7 @@ Ling-Lie Chau and Wai-Yee Keung.
 \bibitem{Theory:CKMWolfenstein}
 Lincoln Wolfenstein.
 \newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
-\newblock {\em Phys. Rev. Lett.}, 51:1945--1947, Nov 1983.
+\newblock {\em Physical Review Letters}, 51:1945--1947, Nov 1983.
 
 \bibitem{Theory:WeakUniversaility}
 K.~Marathe.
@@ -73,7 +73,7 @@ J.~J. Aubert, U.~Becker, P.~J. Biggs, J.~Burger, M.~Chen, G.~Everhart,
 
 \bibitem{Evidence}
 J.~H. Christenson, J.~W. Cronin, V.~L. Fitch, and R.~Turlay.
-\newblock Evidence for the 2π decay of the k20 meson.
+\newblock Evidence for the $2\pi$ decay of the k20 meson.
 \newblock {\em Physical Review Letters}, 13(4):138--140, 1964.
 
 \bibitem{Model}
@@ -82,9 +82,9 @@ Steven Weinberg.
 \newblock {\em Physical Review Letters}, 19(21):1264--1266, 1967.
 
 \bibitem{Theory:WeakInteractionsGlashow}
-S.~L. Glashow, J.~Iliopoulos, and L.~Maiani.
-\newblock {Weak Interactions with Lepton-Hadron Symmetry}.
-\newblock {\em Phys. Rev. D}, 2:1285--1292, Oct 1970.
+Sheldon~L. Glashow.
+\newblock {Partial-symmetries of weak interactions}.
+\newblock {\em Nuclear Physics}, 22(4):579 -- 588, 1961.
 
 \bibitem{Theory:WeakAndEMSalam}
 Abdus Salam.
@@ -92,32 +92,9 @@ Abdus Salam.
 \newblock {\em Conf.Proc.}, C680519:367--377, 1968.
 
 \bibitem{Theory:WBosonObservationPaper}
-G.~Arnison, A.~Astbury, B.~Aubert, C.~Bacci, G.~Bauer, A.~BÃ©zaguet,
-  R.~BÃ¶ck, T.J.V. Bowcock, M.~Calvetti, T.~Carroll, P.~Catz, P.~Cennini,
-  S.~Centro, F.~Ceradini, S.~Cittolin, D.~Cline, C.~Cochet, J.~Colas,
-  M.~Corden, D.~Dallman, M.~DeBeer, M.~Della Negra, M.~Demoulin, D.~Denegri,
-  A.~Di Ciaccio, D.~DiBitonto, L.~Dobrzynski, J.D. Dowell, M.~Edwards,
-  K.~Eggert, E.~Eisenhandler, N.~Ellis, P.~Erhard, H.~Faissner, G.~Fontaine,
-  R.~Frey, R.~FrÃŒhwirth, J.~Garvey, S.~Geer, C.~GhesquiÃšre, P.~Ghez, K.L.
-  Giboni, W.R. Gibson, Y.~Giraud-HÃ©raud, A.~Givernaud, A.~Gonidec,
-  G.~Grayer, P.~Gutierrez, T.~{Hansl-Kozanecka}, W.J. Haynes, L.O. Hertzberger,
-  C.~Hodges, D.~Hoffmann, H.~Hoffmann, D.J. Holthuizen, R.J. Homer, A.~Honma,
-  W.~Jank, G.~Jorat, P.I.P. Kalmus, V.~KarimÃ€ki, R.~Keeler, I.~Kenyon,
-  A.~Kernan, R.~Kinnunen, H.~Kowalski, W.~Kozanecki, D.~Kryn, F.~Lacava, J.-P.
-  Laugier, J.-P. Lees, H.~Lehmann, K.~Leuchs, A.~LÃ©vÃªque, E.~Linglin,
-  E.~Locci, M.~Loret, J.-J. Malosse, T.~Markiewicz, G.~Maurin, T.~McMahon,
-  J.-P. Mendiburu, M.-N. Minard, M.~Moricca, H.~Muirhead, F.~Muller, A.K.
-  Nandi, L.~Naumann, A.~Norton, A.~Orkin-Lecourtois, L.~Paoluzi, G.~Petrucci,
-  G.Piano Mortari, M.~PimiÃ€, A.~Placci, E.~Radermacher, J.~Ransdell,
-  H.~Reithler, J.-P. Revol, J.~Rich, M.~Rijssenbeek, C.~Roberts, J.~Rohlf,
-  P.~Rossi, C.~Rubbia, B.~Sadoulet, G.~Sajot, G.~Salvi, J.~Salvini, J.~Sass,
-  A.~Saudraix, A.~Savoy-Navarro, D.~Schinzel, W.~Scott, T.P. Shah, M.~Spiro,
-  J.~Strauss, K.~Sumorok, F.~Szoncso, D.~Smith, C.~Tao, G.~Thompson, J.~Timmer,
-  E.~Tscheslog, J.~Tuominiemi, S.~Van der Meer, J.-P. Vialle, J.~Vrana,
-  V.~Vuillemin, H.D. Wahl, P.~Watkins, J.~Wilson, Y.G. Xie, M.~Yvert, and
-  E.~Zurfluh.
+G.~Arnison et~al.
 \newblock {Experimental observation of isolated large transverse energy
   electrons with associated missing energy at $\sqrt{s}=$540 GeV}.
-\newblock {\em {P}hysics {L}etters {B}}, 122(1):103 -- 116, 1983.
+\newblock {\em Physics Letters B}, 122(1):103 -- 116, 1983.
 
 \end{thebibliography}

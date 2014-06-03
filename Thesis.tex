@@ -1,14 +1,17 @@
 \documentclass[11pt,a4paper]{report}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage{feynmp-auto}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
 \usepackage{amsfonts}
-\usepackage{pifont}
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{pifont}
 \usepackage{graphicx}
-\usepackage[headheight=15pt]{geometry}
+\usepackage[margin=2.54cm,includeheadfoot,headheight=15pt]{geometry}
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage[subrefformat=parens]{subcaption}
@@ -17,62 +20,22 @@
 \usepackage[toc,page]{appendix}
 \usepackage{nicefrac}
 \usepackage{lineno}
-\usepackage{slashed}
+\usepackage{libertine}
+\usepackage{siunitx}
+\sisetup{
+  binary-units = true
+}
 \linenumbers
 
+\usepackage{slashed}
+\usepackage{MacroDefs}
+
+\DeclareUnicodeCharacter{00A0}{ }
 \DeclareGraphicsRule{*}{mps}{*}{}
 
-\newcommand{\cmark}{\ding{51}}%
-\newcommand{\xmark}{\ding{55}}%
-
-% Units
-\newcommand{\TeV}{\ensuremath{\rm\ TeV}}
-\newcommand{\GeV}{\ensuremath{\rm\ GeV}}
-
-% Particle symbols
-\newcommand{\Zboson}{\ensuremath{Z^{0}}}
-\newcommand{\Wboson}{\ensuremath{W^{\pm}}}
-\newcommand{\Z}{\ensuremath{Z}}
-\newcommand{\W}{\ensuremath{W}}
-\newcommand{\Zprime}{\ensuremath{Z'}}
-\newcommand{\ttbar}{\ensuremath{t\bar{t}}}
-\newcommand{\jpsi}{\ensuremath{J\slash\psi}}
-\newcommand{\m}{\ensuremath{\mu}}
-\newcommand{\cms}{\ensuremath{\sqrt{s}}}
-\newcommand{\cmsS}{\ensuremath{\cms=7\TeV}}
-\newcommand{\cmsE}{\ensuremath{\cms=8\TeV}}
-
-
-% Variable names
-\newcommand{\xsq}{\ensuremath{\chi^{2}}}
-\newcommand{\xsd}{\ensuremath{\chi^{2}_{\textrm{DoF}}}}
-\newcommand{\xsm}{\ensuremath{\chi^{2}_{\textrm{match}}}}
-\newcommand{\Et}{\ensuremath{E_{\rm T}}}
-\newcommand{\pt}{\ensuremath{p_{\rm T}}}
-\newcommand{\met}{\ensuremath{{\not\mathrel{E}}_T}}
-\newcommand{\cme}{\ensuremath{\sqrt{s}}}
-\newcommand{\DeltaR}{\ensuremath{\Delta R}}
-
-% Lagrangian symbol
-\newcommand{\Lagr}{\mathcal{L}}
-
-% Uncertainty labels
-\newcommand{\stat}{\ensuremath{\rm\ (stat.) \, }}
-\newcommand{\syst}{\ensuremath{\rm\ (syst.) \, }}
-
-% NAMES
-\newcommand{\staco}{\texttt{STACO}}
-
-\newcommand{\comment}[1]{} % This is used for inline commenting 
-
-\oddsidemargin 0.5 in %0.5
-\evensidemargin -0.25 in %
+\oddsidemargin 0.5 in
+\evensidemargin -0.25 in 
 \textwidth 5.93 in
-
-\geometry{
-  includeheadfoot,
-  margin=2.54cm
-}
 
 \doublespacing
 
@@ -80,14 +43,17 @@
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
+
 \fancyfoot[RO,R]{\thepage}
+
 \fancyhead[RO]{\leftmark}
 \fancyhead[LO]{\rightmark}
 \cfoot{}
 
 \fancypagestyle{plain}{\renewcommand{\headrulewidth}{1pt}%
-        \renewcommand{\plainfootrulewidth}{0pt}%
-        \fancyhead[RO,LO]{}}
+         \renewcommand{\plainfootrulewidth}{0pt}%
+         \fancyhead[RO,LO]{}}
+
 \renewcommand{\baselinestretch}{1.5}
 
 \oddsidemargin 1.36cm
@@ -95,51 +61,14 @@
 
 %% Title page
 \begin{document}
-\begin{titlepage}
-\begin{center}
-{\LARGE \textbf{Muon tagging using a Match-$\chi^{2}$ based Soft Muon Tagger in top quark analyses using data from the ATLAS detector\\}}
-\vspace{1cm}
-{\Large Jacobo Ezequiel Blanco\\}
-\vspace{1cm}
-{\large Department of Physics\\}
-{\large Royal Holloway, University of London\\}
-
-\end{center}
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[scale=0.3]{./res/RHULCrest.png}
-\end{center}
-\end{figure}
-
-% Submission admission
-\begin{center}
-    {A thesis submitted to the University of London for the \\Degree of Doctor of Philosophy\\}
-\vspace{1cm}
-{\today\\}
-\end{center}
-\end{titlepage}
-
+\input{BoilerPlate/PageTitle.tex}
 \newpage
-\begin{center}
-\vspace{3cm}
-{\LARGE DECLARATION} \newline
-\vspace*{1cm}
-\end{center}
-I confirm that the work presented in this thesis is my own. Where information has been derived from other sources, I confirm that this has been indicated in the document.
-%Insert Signature here
-Jacobo Ezequiel Blanco
-
+\input{BoilerPlate/Declaration.tex}
 \newpage
-
-\begin{abstract}
 \input{PartAbstract/Abstract.tex}
-\end{abstract}
-
-\thispagestyle{empty}
-\begin{center}
-\end{center}
-\vspace{1cm}
+\input{BoilerPlate/Acknowledgements.tex}
 \input{Preface.tex}
+
 \tableofcontents
 \listoffigures
 \listoftables
@@ -150,7 +79,6 @@ Jacobo Ezequiel Blanco
 \addtolength{\headwidth}{\marginparsep}
    %remember chapter title
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-    %section number and title
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}{}}
 \fancyfoot[RO,R]{\thepage}
 \fancyhead[RO]{\leftmark}
@@ -158,8 +86,9 @@ Jacobo Ezequiel Blanco
 \cfoot{}
 
 \fancypagestyle{plain}{\renewcommand{\headrulewidth}{0pt}%
-       \renewcommand{\plainfootrulewidth}{0pt}%
-        \fancyhead[RO,LO]{}}
+                       \renewcommand{\plainfootrulewidth}{0pt}%
+                       \fancyhead[RO,LO]{}}
+
 \renewcommand{\baselinestretch}{1.5} 
 
 \newpage
@@ -171,15 +100,16 @@ Jacobo Ezequiel Blanco
 \input{PartCalibration2012/Calibration2012.tex}
 \input{PartCrossSection/CrossSection.tex}
 \input{PartBoosted/Boosted.tex}
-\chapter{Conclusions} \label{prt:conclusions}
+\chapter{Conclusions} \label{ch:conclusions}
 
 \begin{appendices}
-% Calibration
+\input{PartDetector/CovMatrix.tex}
 \input{PartCalibration2012/CalibrationApp.tex}
 \input{PartCalibration2012/CalibrationMCPCuts.tex}
 \end{appendices}
 
 \newpage
+\pagestyle{plain}
 \bibliographystyle{unsrt}
 \bibliography{Thesis,Remote}
 \end{document}

@@ -1,5 +1,4 @@
 General:
-  ☐ Make diagram of semi-leptonic tt-bar decay @medium @diagram
   ☐ Write acknowledgements @medium
   ☐ Make generic plotting script @medium
     ☐ Basic plotter style setter @medium
@@ -20,18 +19,6 @@ General:
     'Spelling mistakes'
 
 --- ✄ -----------------------
-
-SMT Tagger:
-  
-  ☐ Make outline @short
-    ☐ Make list of relevant plots/diagrams @short
-    ☐ Make list of tables @short
-    ☐ Make list of topics @short
-
-  Background:
-    ☐ Read SMT paper @medium
-    ☐ Read Matt's SMT section @medium
-
   Plots:
     ☐ Make a good SMT diagram @medium @diagram
 
@@ -53,18 +40,18 @@ Introduction:
 --- ✄ -----------------------
 
 Theory:
-  ☐ Edit @medium
+  ☐ Edit @medium:
+    ☐ Ensure that the theory be renormalizable ./PartTheory/Theory.tex:348
+    ☐ Write about the connection between the weak bosons having to be massive due to Local Gauge Invariance ./PartTheory/Theory.tex:352
+    ☐ Quite vague, start with gauge theories first ./PartTheory/Theory.tex:323
+    
 
 --- ✄ -----------------------
 
 Boosted:
   ☐ Edit @medium
   
-  ☐ Figure out the correct procedure for jet/quark matching
-    ""
-
-  ☐ Write b-tagging section ./boosted.tex:51 @short
-    ☐ Describe matching of b-quark to muon @medium
+  ☐ Write b-tagging section ./PartBoosted/Boosted.tex:51 @short
     ☐ Describe results
     ☐ Add efficiency results
     ☐ Add plot of dR(b, soft muon)
@@ -90,32 +77,17 @@ Cross-section:
       ☐ Make list of relevant tables @medium
 
   Background:
-    ☐ Read about the Matrix Method @medium
-      ☐ Add paper to bibtex .\Thesis.bib\ @short
-    ☐ Re-read cross-section paper @long
-
-  Plots:
-    ☐ Make diagram for the ABCD method @short @diagram
-
+  ☐ Read about the Matrix Method @medium
+    ☐ Add paper to bibtex .\Thesis.bib @short
+  ☐ Re-read cross-section paper @long
   ☐ Write @long
   ☐ Edit @medium
   
 --- ✄ -----------------------
 
 Detector:
-  ☐ Make outline @short:
-    ☐ Make list of needed diagrams @short
-    ☐ Make list of important sectors to discuss @short
-
   ☐ Write @long
   ☐ Edit @long
-
-  Background:
-    ☐ Leaf through Matt's detector page @medium
-    ☐ Get references @long
-  
-  Plots:
-    ☐ Get detector diagrams @medium
   
 --- ✄ -----------------------
 
@@ -138,6 +110,12 @@ Top-quark physics:
     
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Make outline @short: @done (14-05-22 11:59) @project(Detector)
+ ✔ Make list of needed diagrams @short @done (14-05-22 11:59) @project(Detector)
+ ✔ Make list of important sectors to discuss @short @done (14-05-22 11:59) @project(Detector)
+ ✔ Make diagram for the ABCD method @short @diagram @done (14-05-22 11:59) @project(Cross-section / Plots)
+ ✔ Describe matching of b-quark to muon @medium @done (14-05-22 11:58) @project(Boosted)
+ ✔ Make diagram of semi-leptonic tt-bar decay @medium @diagram @done (14-05-22 11:56) @project(General)
  ✔ Insert into text @medium @done (14-04-26 18:00) @project(Theory)
  ✔ Find a few decent references from other thesis @short @done (14-04-26 18:00) @project(Theory)
  ✔ Add to Bibtex file @short @done (14-04-26 18:00) @project(Theory)
