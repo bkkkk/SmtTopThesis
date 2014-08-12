@@ -1,0 +1,19 @@
+% !TEX root = ../../../Thesis.tex
+\begin{fmffile}{ZJetsEx}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(85,80)
+\fmfleft{q,qBar}
+\fmfright{b,bbar,lep,lep2}
+\fmf{fermion,tension=0.5}{q,v1}
+\fmf{gluon,label=$g$}{v1,v2}
+\fmf{fermion,tension=0.5}{v3,qBar}
+\fmf{fermion,tension=0.25}{v1,v3}
+\fmf{boson,label=$Z$}{v4,v3}
+\fmf{fermion,tension=0.5}{bbar,v2,b}
+\fmf{fermion,tension=0.5}{lep2,v4,lep}
+\fmflabel{$q$}{q} \fmflabel{$\bar{q}$}{qBar}
+\fmflabel{$\ell$}{lep} \fmflabel{$(\ell)$}{lep2}
+\fmflabel{$\bar{b}$}{bbar} \fmflabel{$b$}{b}
+\end{fmfgraph*}
+}
+\end{fmffile}

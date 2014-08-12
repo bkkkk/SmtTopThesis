@@ -1,0 +1,19 @@
+% !TEX root = ../../../Thesis.tex
+\begin{fmffile}{WJetsEx}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(85,80)
+\fmfleft{qPrime,qBar}
+\fmfright{b,bbar,lep,nu}
+\fmf{fermion,tension=0.5}{qPrime,v1}
+\fmf{gluon,label=$g$}{v1,v2}
+\fmf{fermion,tension=0.5}{v3,qBar}
+\fmf{fermion,tension=0.25}{v1,v3}
+\fmf{boson,label=$W$}{v4,v3}
+\fmf{fermion,tension=0.5}{bbar,v2,b}
+\fmf{fermion,tension=0.5}{nu,v4,lep}
+\fmflabel{$q'$}{qPrime} \fmflabel{$\bar{q}$}{qBar}
+\fmflabel{$\ell$}{lep} \fmflabel{$\nu$}{nu}
+\fmflabel{$\bar{b}$}{bbar} \fmflabel{$b$}{b}
+\end{fmfgraph*}
+}
+\end{fmffile}

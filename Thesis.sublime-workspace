@@ -4,6 +4,174 @@
 		"selected_items":
 		[
 			[
+				"iffalse",
+				"iffalse..\\fi	tex"
+			],
+			[
+				"jetP",
+				"jetPt"
+			],
+			[
+				"he_",
+				"he_mv1_jet_pt"
+			],
+			[
+				"Eff",
+				"EffCollector"
+			],
+			[
+				"fina",
+				"finalTopBarSeq"
+			],
+			[
+				"prin",
+				"printParticleInfo"
+			],
+			[
+				"W",
+				"W"
+			],
+			[
+				"is",
+				"isInteresting"
+			],
+			[
+				"print",
+				"printf	printf …"
+			],
+			[
+				"m_evtStaco",
+				"m_evtStacoRecoCuts"
+			],
+			[
+				"neare",
+				"nearestMuonIdx"
+			],
+			[
+				"stacoMu",
+				"stacoMuonIdx"
+			],
+			[
+				"SMTMuo",
+				"SMTMuonCandidate"
+			],
+			[
+				"m_mipa",
+				"m_evtMi10Overlaped"
+			],
+			[
+				"m_truth",
+				"m_evtMuidTruthMatched"
+			],
+			[
+				"m_evtSMPas",
+				"m_evtSmtPassOverlaped"
+			],
+			[
+				"passTru",
+				"passTruthMatched"
+			],
+			[
+				"muonI",
+				"muonIndexes"
+			],
+			[
+				"sumOfTr",
+				"sumOfTrackPtMi10"
+			],
+			[
+				"slec",
+				"selectionModes"
+			],
+			[
+				"yield_",
+				"yield_mv1"
+			],
+			[
+				"yiel",
+				"yield_mv1"
+			],
+			[
+				"yield",
+				"yield_smt"
+			],
+			[
+				"m_bquark",
+				"m_bQuarksMatched"
+			],
+			[
+				"m_bq",
+				"m_bQuarksPresent"
+			],
+			[
+				"short",
+				"shorttask{arg1}{arg2}	Thesis.tex"
+			],
+			[
+				"muon",
+				"muonProbeSelector"
+			],
+			[
+				"Tn",
+				"TnPPair"
+			],
+			[
+				"general",
+				"generalStack"
+			],
+			[
+				"sampleId",
+				"sampleIdxGeneral"
+			],
+			[
+				"fill",
+				"hfill	tex"
+			],
+			[
+				"m_match",
+				"m_evtStacoMatchedToJet"
+			],
+			[
+				"matched",
+				"matchedMuon"
+			],
+			[
+				"fla",
+				"flavor_weight_MV1"
+			],
+			[
+				"m_jet",
+				"m_jetSmtTagged"
+			],
+			[
+				"end",
+				"end{subfigure}	Thesis.tex"
+			],
+			[
+				"cite",
+				"cite{keylist}	latex-document"
+			],
+			[
+				"subsection",
+				"subsection{title}	latex-document"
+			],
+			[
+				"lab",
+				"label{key}	latex-document"
+			],
+			[
+				"caption",
+				"caption{title}	latex-document"
+			],
+			[
+				"hfi",
+				"hfill	tex"
+			],
+			[
+				"makeat",
+				"makeatother	latex-document"
+			],
+			[
 				"p",
 				"pt	Thesis.tex"
 			],
@@ -154,10 +322,6 @@
 			[
 				"LOG_D",
 				"LOG_DEBUG3"
-			],
-			[
-				"fla",
-				"flatSlices"
 			],
 			[
 				"ptcour",
@@ -350,233 +514,158 @@
 			[
 				"GetSigm",
 				"GetSigmaAndMu"
-			],
-			[
-				"fFit",
-				"fFitOptions"
-			],
-			[
-				"backg",
-				"backgroundFunction"
-			],
-			[
-				"Pol",
-				"PolyPlusDoubleGaus"
-			],
-			[
-				"Para",
-				"ParamsSettings"
-			],
-			[
-				"Tn",
-				"TnPJPsiFitter"
-			],
-			[
-				"PU",
-				"PUPROFILE"
-			],
-			[
-				"PRO",
-				"PROCESSINGFLAG"
-			],
-			[
-				"INPUT",
-				"INPUTDIRNAME"
-			],
-			[
-				"DATA",
-				"DATASETDIRHEAD"
-			],
-			[
-				"PO",
-				"PROCESSINGTAGNAME"
-			],
-			[
-				"jp",
-				"jpsiClassifier"
-			],
-			[
-				"chosen",
-				"chosenMuonProbe"
-			],
-			[
-				"muonP",
-				"muonProbeHisto"
-			],
-			[
-				"compo",
-				"compositeFunction"
-			],
-			[
-				"highB",
-				"highBkgFit"
-			],
-			[
-				"sig",
-				"signalFitMean"
-			],
-			[
-				"poly",
-				"polyPlusDoubleGaus"
-			],
-			[
-				"pol",
-				"polyPlusDoubleGaus"
-			],
-			[
-				"val",
-				"val_histogram"
-			],
-			[
-				"m_pol",
-				"m_poly"
-			],
-			[
-				"m_poly",
-				"m_polyPlusDoubleGaus"
-			],
-			[
-				"m_sin",
-				"m_signalMass"
-			],
-			[
-				"m_signalM",
-				"m_signalMass"
-			],
-			[
-				"m_signal",
-				"m_signalFitMean"
-			],
-			[
-				"func",
-				"funcStyle"
-			],
-			[
-				"higBkg",
-				"highBkgHistoName"
-			],
-			[
-				"lo",
-				"lowBkgHisto"
-			],
-			[
-				"color",
-				"colorIdx"
-			],
-			[
-				"m_s",
-				"m_signalFitMax"
-			],
-			[
-				"m_si",
-				"m_signalFitMin"
-			],
-			[
-				"m_",
-				"m_signalFitMean"
-			],
-			[
-				"fun",
-				"functionMap"
-			],
-			[
-				"m_f",
-				"m_fitRangeMax"
-			],
-			[
-				"com",
-				"compLinearFunc"
-			],
-			[
-				"comp",
-				"compQuadFunc"
-			],
-			[
-				"match",
-				"matchChi2TotalErr"
-			],
-			[
-				"Event",
-				"EventWeighting"
-			],
-			[
-				"Histogram",
-				"HistogramCollector"
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "PartDetector/Detector.tex",
-			"settings":
-			{
-				"buffer_size": 41353,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Thesis.tex",
-			"settings":
-			{
-				"buffer_size": 2679,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "MacroDefs.sty",
-			"settings":
-			{
-				"buffer_size": 1416,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Thesis.bib",
-			"settings":
-			{
-				"buffer_size": 19192,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "PartTheory/Theory.tex",
-			"settings":
-			{
-				"buffer_size": 29060,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 147.0,
+		"height": 347.0,
 		"selected_items":
 		[
 			[
+				"Snippet: ",
+				"Snippet: BibTeX Article"
+			],
+			[
+				"Snippet: Bibtex book",
+				"Snippet: BibTeX Book"
+			],
+			[
+				"latexing",
+				"LaTeXing: Documentation"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"Latexing log",
+				"LaTeXing: Show Log Panel"
+			],
+			[
 				"cancel",
-				"Build: Cancel"
+				"Tasks: Cancel"
+			],
+			[
+				"subfi",
+				"Snippet: subfigure_two"
+			],
+			[
+				"toggle blo",
+				"Toggle Block Comment"
+			],
+			[
+				"Block ",
+				"Toggle Block Comment"
+			],
+			[
+				"toglecomm",
+				"Toggle Block Comment"
+			],
+			[
+				"toggle",
+				"LaTeXing: Toggle TikZ Live Preview"
+			],
+			[
+				"tikz",
+				"Set Syntax: LaTeXing (TikZ)"
+			],
+			[
+				"prefernces",
+				"Preferences: Settings - User"
+			],
+			[
+				"Latexing tikz",
+				"Set Syntax: LaTeXing (TikZ)"
+			],
+			[
+				"Thesis",
+				"Snippet: BibTeX PhD Thesis"
+			],
+			[
+				"Snippet: Bibtex article",
+				"Snippet: BibTeX Article"
+			],
+			[
+				"",
+				"Build: Build"
 			],
 			[
 				"build",
-				"Build: Cancel"
+				"Build: Choose Quick Build"
 			],
 			[
-				"synch",
-				"LaTeXing: Synchronise Remote Data"
+				"mardowngit",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"gitmarkdown",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"makrdobn",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"open",
+				"Tasks: Open URL"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"fold sec",
+				"LaTeXing: Fold Section"
+			],
+			[
+				"fold section ",
+				"LaTeXing: Fold Section"
+			],
+			[
+				"fold",
+				"LaTeXing: Fold Section"
+			],
+			[
+				"pdf",
+				"LaTeXing: Jump To PDF"
+			],
+			[
+				"check",
+				"LaTeXing: Check System"
+			],
+			[
+				"bibtex",
+				"Snippet: BibTeX Misc"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
 			],
 			[
 				"align",
 				"Preferences: Alignment Key Bindings – Default"
 			],
 			[
-				"lineno",
-				"LaTeXing: Insert TeX Symbol"
+				"synch",
+				"LaTeXing: Synchronise Remote Data"
 			],
 			[
-				"comment",
-				"Toggle Comment"
+				"lineno",
+				"LaTeXing: Insert TeX Symbol"
 			],
 			[
 				"sync",
@@ -591,10 +680,6 @@
 				"Build: Primary Quick Build"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"Snippet: Bibtex arti",
 				"Snippet: BibTeX Article"
 			],
@@ -604,10 +689,6 @@
 			],
 			[
 				"Synch",
-				"LaTeXing: Synchronise Remote Data"
-			],
-			[
-				"latexing",
 				"LaTeXing: Synchronise Remote Data"
 			],
 			[
@@ -647,10 +728,6 @@
 				"Code Folding: Unfold All"
 			],
 			[
-				"fold sec",
-				"LaTeXing: Fold Section"
-			],
-			[
 				"fold secio",
 				"LaTeXing: Fold Section"
 			],
@@ -659,20 +736,8 @@
 				"LaTeXing: Fold Section"
 			],
 			[
-				"fold",
-				"LaTeXing: Fold Section"
-			],
-			[
 				"latexing par",
 				"Snippet: LaTeXing Option Program"
-			],
-			[
-				"toggle",
-				"LaTeXing: Toggle Star Environment"
-			],
-			[
-				"check",
-				"LaTeXing: Check System"
 			],
 			[
 				"phras",
@@ -799,10 +864,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"pdf",
-				"LaTeXTools: View PDF"
-			],
-			[
 				"L",
 				"Set Syntax: LaTeX Memoir"
 			],
@@ -844,10 +905,6 @@
 			],
 			[
 				"markd",
-				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
-			],
-			[
-				"markdown",
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
 			],
 			[
@@ -911,7 +968,7 @@
 				"Set Syntax: C++"
 			]
 		],
-		"width": 504.0
+		"width": 491.0
 	},
 	"console":
 	{
@@ -940,134 +997,134 @@
 	},
 	"file_history":
 	[
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/CovMatrix.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationMCPCuts.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationApp.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ParticleTable.tikz",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/PageTitle.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Preface.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/MacroDefs.sty",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Makefile",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakMuonDecay.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD3.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleTopSChannel.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD4.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ColorQCD.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/Thesis.bbl",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Zotero.bib",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Remote.bib",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.ptex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartAbstract/Abstract.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Acknowledgements.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Declaration.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartSMT/SMT.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdCrossGG2ttbar.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Todo.todo",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/TopQuark.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDSimple.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdgg2g2ttbar.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.gitignore",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/partial/TopQuark/Thesis.bbl",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bbl",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/FlowChart.svg",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
-		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Classes/Person.rb",
-		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Classes/Airline.rb",
-		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Classes/Accounts.rb",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakNeutral.tex",
-		"/Users/jayb88/Dropbox/test.cpp",
-		"/etc/exports",
-		"/Users/jayb88/Dropbox/TopWork/PhD Reports/Year2 Report/YearReport.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/atlas-2010-063-fig_09.png",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/README.md",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/SoftMuonHFJetTagger/SoftMuonHFJetTagger/SMTMuonCandidate.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/BtagEff.cxx",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/SMTMuonSelection.cxx",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/btagSamples/h_staco_chi2.png",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDSelection/Root/MuonSelection.cxx",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDSelection/Root/SemiLeptonic.cxx",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/SoftMuonHFJetTagger/Root/SMTMuonCandidate.cxx",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/SMTMuonSelection.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/LogB2000.log",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthMatching.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/Decay.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/TruthMatching.cxx",
-		"/Users/jayb88/Downloads/testt2/TopQuark/couplings/couplings.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleProdTWChannel.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleQtb.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleqb2qt.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-workspace",
-		"/Users/jayb88/Downloads/extract/topreview.tex",
-		"/Users/jayb88/Downloads/extract/tex/xsection.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/SF_ext_h_pt_Forward A_smt_SF.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD3.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdqq2ttbar.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDTreeA.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDTreeB.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkDecayPie.tikz",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.ptex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdStraightGGtott.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TestDiagram.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/BuildFMP.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/LaTeXing/Default (OSX).sublime-keymap",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ParticleTable.ptex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDSimple.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD4.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakChargedQuarks.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakNeutral.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakCharged.tex",
-		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/Media/TestReadMap.cpp",
-		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/Media/MapLoader.cpp",
-		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/Media/Map.h",
-		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/Media/Map.cpp",
-		"/Users/jayb88/Dropbox/Projects/GameDev/Awesome/AwesomePlatformer/AwesomePlatformer/Media/MapLoader.hpp",
-		"/Users/jayb88/Downloads/science.bib",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdqq2ttbar.tex",
-		"/Users/jayb88/Downloads/ckm.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/README.md",
-		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/Fibonacci.rb",
-		"/Users/jayb88/Dropbox/Projects/LearnRuby/Projects/Numbers/Fibonacci.r",
-		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/efficiency.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/subfigure_two.sublime-snippet",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.svg",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.svg",
-		"/Users/jayb88/Dropbox/TopWork/SMTCalibrationNote/SMTchi2/smtChi2.tex",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
-		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
-		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/FitEfficiency.cxx",
-		"/Users/jayb88/jblanco/CalibrationWork/MuonEfficiency/Root/SummaryPlotMaker.cxx",
-		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/TnPFitter/FitIntegral.h",
-		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/FitIntegral.cxx",
-		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/SingleGausFit.cxx",
-		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/TnPFitter/FitInterface.h",
-		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/DoubleGausFit.cxx",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runPlotter.sh",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ColorQCD.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/TopQuark.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/cms-mu4Jets_140124_1749068_RPhi.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleProdTWChannel.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ParticleTable.tikz",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/FlowChart.tikz",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Diagrams/IPDiagram.tikz",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/PageTitle.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/MultijetRealLepton.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/Transition_A_reco.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/EditingTrigger.todo",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Todo.todo",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakMuonDecay.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Preface.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TestDiagram.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/TopEff.cxx",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/MacroDefs.sty",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runAllBEff.sh",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/Transition_C_reco.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationApp.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/README.md",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayBPlotter.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopAnalysisBase/Root/LoggingUtility.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopAnalysisBase/TopAnalysisBase/LoggingUtility.h",
+		"/Users/jayb88/Dropbox/Projects/com.personal/LoggingUtility/LoggingUtility/OutputToFile.hpp",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopAnalysisBase/TopAnalysisBase/LoggingUtility",
+		"/Users/jayb88/jblanco/CalibrationWork/JacobUtils/Root/LoggingUtility.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runBPlotter.sh",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/BtagEff.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayPlotter.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/MiniHisto.cxx",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/MiniHisto.h",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runPlotter.sh",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/TruthMatching.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/TruthUtils.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthUtils.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthSequence.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthTypedefs.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthTy",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/FlowChart.svg",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runZ1300.sh",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runZ1600.sh",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runZ2000.sh",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runZ2500.sh",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runZ3000.sh"
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/setup.sh",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthMatching.h",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/setu",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runAllTopEff.sh",
+		"/Users/jayb88/jblanco/CrossLatest/SMTnTupAnalysis/Root/SMTttbarLplusJetsAnalysis.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/control/ztt_file_list.txt",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/eta_reco.png",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/SMTMuonSelection.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/TopEfficiencyTabulator.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/Mini",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/DetectorMuonID.tex",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runAllHadEff.sh",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runkTVariations.sh",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/MiniHisto.h",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/HadronicEff.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDSelection/Root/SemiLeptonicSMT.cxx",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/atlas-2010-063-fig_09.png",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runTabulatorEff.sh",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/EfficiencyTabulator.cxx",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runTabulatorB.sh",
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayPlotter",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/DetectorElectronID.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/CovMatrix.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/DibosonEx.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/untitled",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdgg2g2ttbar.tex",
+		"/Users/jayb88/jblanco/CalibrationWork/RunSimpleMatchChi2/jobOptions/SimpleMatchChi2Plotter.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/SingleGausFit.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/TnPFitter/Root/FitEfficiency.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/RunMakeSF/jobOptions/MakeEfficiency.cxx",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex",
+		"/Users/jayb88/jblanco/CalibrationWork/TnPSelector/TnPSelector/TJPsiClassifier.h",
+		"/Users/jayb88/jblanco/CalibrationWork/TnPSelector/Root/TJPsiClassifier.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/TnPSelector/Root/TJPsiPairSelector.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/RunMakeSF/jobOptions/Tabulator.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/RunMakeSF/scripts/runPlotter.sh",
+		"/Users/jayb88/jblanco/CalibrationWork/RunMakeSF/jobOptions/Plotter.cxx",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationMCPCuts.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/SingleTop.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/FlowChart.eps",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/Thesis.lof",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdCrossGG2ttbar.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdStraightGGtott.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleqb2qt.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleQtb.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkDecayPie.tikz",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleTopSChannel.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/btagSamples/h_staco_chi2.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PhDThesis.cls",
+		"/Users/jayb88/Dropbox/MessageToKurtAndPeter",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/ZJetsEx.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/WJetsEx.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.ptex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/WJetsTest.tikz",
+		"/Users/jayb88/jblanco/CalibrationWork/RunKinematics/jobOptions/AllPlotter.cxx",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/ParticleTable.ptex",
+		"/Users/jayb88/jblanco/MuonEfficiency/Root/SummaryPlotMaker.cxx",
+		"/Users/jayb88/jblanco/RunMakeSF/jobOptions/MakeEfficiency.cxx",
+		"/Users/jayb88/jblanco/RunKinematics/jobOptions/AllPlotterThree.cxx",
+		"/Users/jayb88/jblanco/RunKinematics/jobOptions/MatchChi2Plotter.cxx",
+		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationReco.tex",
+		"/Users/jayb88/jblanco/CalibrationWork/RunSimpleMatchChi2/jobOptions/RunSimpleMatchChi2Local.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/RunPairing/jobOptions/MakeHistogramsLocal.cxx",
+		"/Users/jayb88/jblanco/CalibrationWork/RunSkim/jobOptions/RunSkimLocal.cxx",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Preface.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.ptex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Resources/BreakDown.txt",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/Transition_C_smt.png"
 	],
 	"find":
 	{
@@ -1086,134 +1143,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"T",
-			"equation",
-			"align",
-			"T",
-			"Cross section",
-			"DetectorEventGeneratorSketch",
-			"Monte Carlo",
-			"KHz",
-			"mega\\electronvolt",
-			"giga\\electronvolt",
-			"single",
-			"range",
-			"single",
-			"giga\\electronvolt",
-			"\\milli\\meter",
-			"\\centi\\meter",
-			"\\micro\\meter",
-			"\\tera\\electronvolt",
-			"\\nano\\second",
-			"newblock",
-			"𝛼",
-			"&",
+			"ATLAS-CONF-2013-102",
+			"{",
+			"anticolour",
+			"antiscreening",
+			"Bourt",
+			"=",
+			"high-energy physics",
+			"\\Z-boson",
+			"$Z$-boson",
+			"(",
+			"-0",
+			"+0",
+			"\\substack",
+			"\\fbox{",
+			",",
+			"Baryon Number",
+			"30",
+			"32",
+			"17",
+			"\\overline",
+			"leading order",
+			"leading-order",
+			"tab:TheorySmParticles",
+			"%",
+			"anti-quarks",
+			"AcerMC",
+			"POWHEG",
+			"Frixione",
+			"=",
+			"\\mtw",
+			"SMT tagger",
+			"inner detect",
+			"top_quark",
+			"electron channel",
+			"fig:label",
+			"asym",
+			"  he",
+			"TEfficiency",
+			"Width",
+			"BoostedBTaggEffs",
+			"%",
+			"earestMuon",
+			"arestMuo",
+			"arestMuon",
+			"pt_dr ",
+			"pt_dr",
+			"TEfficiency*",
+			"0.,",
+			"0.",
+			"_pt_dr",
+			"he_muid_tr_pt",
+			"jetPt",
+			"h_jet_pt",
+			"10,",
+			"10",
+			"mHi",
+			"mHistCollection",
+			"m",
+			"he_mv1_jet_pt",
+			"(",
+			"effCollection[",
+			"8,",
+			"4,",
+			",",
+			"5, jet_pt",
+			"jet->pt()",
+			"he_s",
+			"\"h",
+			"he_staco_smt_dr",
+			"= new TEfficiency",
+			"%",
+			"h_muid_pConeSize",
+			"h_muid_sumOverPt",
+			"\",",
+			"h_",
+			"histogramNames",
+			" %",
+			"LOG_DEBUG()",
+			"tu",
+			"INFO",
+			"topMuonFound",
+			"topItr",
+			"topBarItr",
+			"finalTopSeq",
+			"topSequence",
+			"*/",
+			";",
+			"topBarFinalItr",
+			"finalTopSeq",
+			"topItr",
+			"isInteresting",
+			"m_isNonRes",
+			"mIsNonRes",
+			"\"\\t\"",
+			"h_",
+			"{Measurement",
+			"}",
+			"{",
+			"=",
+			"m_isqcdMM",
+			"calcQCDMMSF",
+			"m_llmmB",
+			"=",
+			"b tagg",
+			"b quark",
+			"b jet",
+			"$b$ jet",
+			"$b$ tag",
+			"$b$ dec",
+			"$b$ qua",
+			"semileptonic",
+			"\\ra{1.3}",
+			"\\pt",
+			"\\BoxFormat{",
+			"BoxFormat",
 			"\\\\",
-			"\\",
-			"&",
-			"cm",
-			"current",
-			"numrnage",
-			" {",
-			"-",
-			"GeV",
-			"<\\pt",
-			" GeV",
-			"GeV",
-			"MeV",
-			"GeV",
-			"TeV",
-			"MeV",
-			"TeV",
-			"8 TeV",
-			"7 TeV",
-			"\\microm\\",
-			"cmark",
-			"_{",
-			"{SMT",
-			"align",
-			"equation",
-			"LF",
-			"equation",
-			"N^{\\textrm{MC}}_{W^{+}",
-			"N_",
-			"b ",
-			"Part",
-			"\\ref",
-			"equation",
-			", ",
-			"equation",
-			"pseudo-rapidity",
-			"\\text{",
-			"\\text",
-			"down",
-			"denominator",
-			"numerator",
-			"text",
-			"p_{\\textrm{T}}",
-			"p_{T}",
-			"resonance",
-			"b-",
-			"b",
-			"k_{T}",
-			"\\fancyhead[RO,LO]{}",
-			"prt",
-			"prt:cross_section",
-			"prt:",
-			"prt:cross_section",
-			"prt:",
-			"\\fancypagestyle{plain}{\\renewcommand{\\headrulewidth}{0pt}%\n       \\renewcommand{\\plainfootrulewidth}{0pt}%\n        \\fancyhead[RO,LO]{}}\n\\renewcommand{\\baselinestretch}{1.5} ",
-			"\n\\fancypagestyle{plain}{\\renewcommand{\\headrulewidth}{0pt}%\n       \\renewcommand{\\plainfootrulewidth}{0pt}%\n        \\fancyhead[RO,LO]{}}\n\\renewcommand{\\baselinestretch}{1.5} ",
-			"\\cite",
-			" \\cite",
-			"\\cite",
-			"~\\",
-			"\\cite",
-			"\\begin{center}",
-			"\\bf",
-			"\\rm",
-			"align",
-			"540",
-			"Aad, Georges and others",
-			"Phys. Rev. Lett.",
-			"autor         = \"The ATLAS Collaboration\",",
-			"techreport",
-			"=",
-			"},",
-			"= {",
-			"},",
-			"}",
-			"= ",
-			"{",
-			"=",
-			" =",
-			"}",
-			" {",
-			"{",
-			"=",
-			"}",
-			"{",
-			"=",
-			"=\"",
-			"=",
-			"{",
-			"}",
-			"{",
-			"\\begin{comment",
-			"}",
-			"{",
-			"}",
-			"{",
-			"unitary ",
-			"\\sqrt",
-			"}",
-			"{",
-			"}",
-			"{",
-			"}",
-			"{",
-			"}",
-			"{"
+			".",
+			"matrix-method",
+			"\\\\",
+			"\\tabin ",
+			"\\\\",
+			"1",
+			"|",
+			"TH1F",
+			");",
+			"\");",
+			"h_mi10_sumOverPt",
+			"color"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1228,155 +1285,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "PartDetector/Detector.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41353,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40897,
-								40897
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 15163.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Thesis.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2679,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2438,
-								2438
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1427.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "MacroDefs.sty",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								794,
-								799
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/TeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Thesis.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19192,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14987,
-								14956
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7778.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "PartTheory/Theory.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29060,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29039,
-								29039
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 25.0
@@ -1416,7 +1324,10 @@
 	{
 		"height": 0.0
 	},
-	"project": "Thesis.sublime-project",
+	"output.markdown":
+	{
+		"height": 112.0
+	},
 	"replace":
 	{
 		"height": 64.0
@@ -1428,28 +1339,372 @@
 		"selected_items":
 		[
 			[
-				"partcalibra",
-				"PartCalibration2012/CalibrationMCPCuts.tex"
-			],
-			[
-				"macr",
-				"MacroDefs.sty"
-			],
-			[
 				"thesis",
-				"Thesis.tex"
+				"Thesis.bib"
 			],
 			[
-				"thesis.",
-				"Thesis.bib"
+				"treeb",
+				"PartTheory/Diagrams/TheoryQEDTreeB.tex"
+			],
+			[
+				"qed",
+				"PartTheory/Diagrams/TheoryQEDTreeA.tex"
+			],
+			[
+				"tree",
+				"PartTheory/Diagrams/TheoryQEDTreeB.tex"
+			],
+			[
+				"qedtree",
+				"PartTheory/Diagrams/TheoryQEDTreeA.tex"
+			],
+			[
+				"qedsim",
+				"PartTheory/Diagrams/TheoryQEDSimple.tex"
+			],
+			[
+				"weakchar",
+				"PartTheory/Diagrams/WeakChargedQuarks.tex"
+			],
+			[
+				"weakneu",
+				"PartTheory/Diagrams/WeakNeutral.tex"
+			],
+			[
+				"weak",
+				"PartTheory/Diagrams/WeakCharged.tex"
+			],
+			[
+				"color",
+				"PartTheory/Diagrams/ColorQCD.tex"
+			],
+			[
+				"qcd3",
+				"PartTheory/Diagrams/SelfQCD3.tex"
+			],
+			[
+				"qcd",
+				"PartTheory/Diagrams/SelfQCD4.tex"
+			],
+			[
+				"tikz",
+				"PartTheory/Diagrams/ParticleTable.tikz"
+			],
+			[
+				"",
+				"PartTheory/Diagrams/SelfQCD4.tex"
+			],
+			[
+				"qc3",
+				"PartTheory/Diagrams/SelfQCD3.tex"
+			],
+			[
+				"qedsimpl",
+				"PartTheory/Diagrams/TheoryQEDSimple.tex"
+			],
+			[
+				"qeed",
+				"PartTheory/Diagrams/TheoryQEDSimple.tex"
+			],
+			[
+				"weakqu",
+				"PartTheory/Diagrams/WeakChargedQuarks.tex"
+			],
+			[
+				"weakne",
+				"PartTheory/Diagrams/WeakNeutral.tex"
+			],
+			[
+				"trigger",
+				"EditingTrigger.todo"
 			],
 			[
 				"theory",
 				"PartTheory/Theory.tex"
 			],
 			[
+				"wea",
+				"PartTheory/Diagrams/WeakNeutral.tex"
+			],
+			[
+				"colorqc",
+				"PartTheory/Diagrams/ColorQCD.tex"
+			],
+			[
+				"theoryq",
+				"PartTheory/Diagrams/TheoryQEDSimple.tex"
+			],
+			[
 				"dete",
 				"PartDetector/Detector.tex"
+			],
+			[
+				"detect",
+				"PartDetector/Detector.tex"
+			],
+			[
+				"cross",
+				"PartCrossSection/CrossSection.tex"
+			],
+			[
+				"thesis.b",
+				"Thesis.bib"
+			],
+			[
+				"cros",
+				"PartCrossSection/CrossSection.tex"
+			],
+			[
+				"topqu",
+				"PartTopQuark/TopQuark.tex"
+			],
+			[
+				"top",
+				"PartTopQuark/Diagrams/TopProdqq2ttbar.tex"
+			],
+			[
+				"booste",
+				"PartBoosted/Boosted.tex"
+			],
+			[
+				"pref",
+				"Preface.tex"
+			],
+			[
+				"preface",
+				"Preface.tex"
+			],
+			[
+				"intr",
+				"PartIntroduction/Introduction.tex"
+			],
+			[
+				"theis.",
+				"Thesis.tex"
+			],
+			[
+				"calibr",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"titl",
+				"BoilerPlate/PageTitle.tex"
+			],
+			[
+				"thes",
+				"Thesis.tex"
+			],
+			[
+				"my",
+				"MacroDefs.sty"
+			],
+			[
+				"todo",
+				"Todo.todo"
+			],
+			[
+				"boosted",
+				"PartBoosted/Boosted.tex"
+			],
+			[
+				"theo",
+				"PartTheory/Theory.tex"
+			],
+			[
+				"deteelec",
+				"PartDetector/DetectorElectronID.tex"
+			],
+			[
+				"thesi",
+				"Thesis.tex"
+			],
+			[
+				"cali",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"calib",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"thesis.bib",
+				"Thesis.bib"
+			],
+			[
+				"detec",
+				"PartDetector/Detector.tex"
+			],
+			[
+				"page",
+				"BoilerPlate/PageTitle.tex"
+			],
+			[
+				"thesis.tex",
+				"Thesis.tex"
+			],
+			[
+				"topfull",
+				"PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex"
+			],
+			[
+				"mul",
+				"PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex"
+			],
+			[
+				"multij",
+				"PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex"
+			],
+			[
+				"crosss",
+				"PartCrossSection/CrossSection.tex"
+			],
+			[
+				"mult",
+				"PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex"
+			],
+			[
+				"id",
+				"PartDetector/Diagrams/IPDiagram.tikz"
+			],
+			[
+				"parti",
+				"PartTheory/Diagrams/ParticleTable.tikz"
+			],
+			[
+				"deteco",
+				"PartDetector/Detector.tex"
+			],
+			[
+				"wjets",
+				"PartCrossSection/Diagram/Feynman/WJetsEx.tex"
+			],
+			[
+				"thi",
+				"Thesis.tex"
+			],
+			[
+				"mac",
+				"MacroDefs.sty"
+			],
+			[
+				"topquark",
+				"PartTopQuark/TopQuark.tex"
+			],
+			[
+				"part",
+				"PartTheory/Diagrams/ParticleTable.tikz"
+			],
+			[
+				"particle",
+				"PartTheory/Diagrams/ParticleTable.tikz"
+			],
+			[
+				"calibration",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"calibra",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"macro",
+				"MacroDefs.sty"
+			],
+			[
+				"macr",
+				"MacroDefs.sty"
+			],
+			[
+				"calibrat",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"thesisbib",
+				"Thesis.bib"
+			],
+			[
+				"thesisb",
+				"Thesis.bib"
+			],
+			[
+				"elec",
+				"PartDetector/DetectorElectronID.tex"
+			],
+			[
+				"electro",
+				"PartDetector/DetectorElectronID.tex"
+			],
+			[
+				"thesis.",
+				"Thesis.bib"
+			],
+			[
+				"macros",
+				"MacroDefs.sty"
+			],
+			[
+				"meet",
+				"ForMeetingWithVB.todo"
+			],
+			[
+				"thesis.bi",
+				"Thesis.bib"
+			],
+			[
+				"theis",
+				"Thesis.tex"
+			],
+			[
+				"coss",
+				"PartCrossSection/CrossSection.tex"
+			],
+			[
+				"topquarkleptonplusjetsfull",
+				"PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex"
+			],
+			[
+				"topq",
+				"PartTopQuark/TopQuark.tex"
+			],
+			[
+				"theite",
+				"Thesis.tex"
+			],
+			[
+				"the",
+				"Thesis.bib"
+			],
+			[
+				"ac",
+				"BoilerPlate/Acknowledgements.tex"
+			],
+			[
+				"thesi.bib",
+				"Thesis.bib"
+			],
+			[
+				"topquar",
+				"PartTopQuark/TopQuark.tex"
+			],
+			[
+				"theoryqed",
+				"PartTheory/Diagrams/TheoryQEDTreeB.tex"
+			],
+			[
+				"cro",
+				"PartCrossSection/CrossSection.tex"
+			],
+			[
+				"theiss",
+				"Thesis.bib"
+			],
+			[
+				"macf",
+				"MacroDefs.sty"
+			],
+			[
+				"partcalibra",
+				"PartCalibration2012/CalibrationMCPCuts.tex"
 			],
 			[
 				"self",
@@ -1460,10 +1715,6 @@
 				"PartTheory/Theory.tex"
 			],
 			[
-				"qcd",
-				"PartTheory/Diagrams/ColorQCD.tex"
-			],
-			[
 				"remote",
 				"Remote.bib"
 			],
@@ -1472,28 +1723,8 @@
 				"Zotero.bib"
 			],
 			[
-				"thesis.bi",
-				"Thesis.bib"
-			],
-			[
-				"thesis.bib",
-				"Thesis.bib"
-			],
-			[
-				"thesi",
-				"Thesis.tex"
-			],
-			[
-				"calibrat",
-				"PartCalibration2012/Calibration2012.tex"
-			],
-			[
 				"calibratio",
 				"PartCalibration2012/CalibrationApp.tex"
-			],
-			[
-				"calib",
-				"PartCalibration2012/Calibration2012.tex"
 			],
 			[
 				"paget",
@@ -1504,14 +1735,6 @@
 				"MacroDefs.sty"
 			],
 			[
-				"cross",
-				"PartCrossSection/CrossSection.tex"
-			],
-			[
-				"pref",
-				"Preface.tex"
-			],
-			[
 				"abst",
 				"PartAbstract/Abstract.tex"
 			],
@@ -1520,23 +1743,7 @@
 				"Preface.tex"
 			],
 			[
-				"cros",
-				"PartCrossSection/CrossSection.tex"
-			],
-			[
 				"boos",
-				"PartBoosted/Boosted.tex"
-			],
-			[
-				"detect",
-				"PartDetector/Detector.tex"
-			],
-			[
-				"cali",
-				"PartCalibration2012/Calibration2012.tex"
-			],
-			[
-				"boosted",
 				"PartBoosted/Boosted.tex"
 			],
 			[
@@ -1544,40 +1751,16 @@
 				"Thesis.tex"
 			],
 			[
-				"thesis.tex",
-				"Thesis.tex"
-			],
-			[
 				"todo.",
 				"Todo.todo"
-			],
-			[
-				"todo",
-				"Todo.todo"
-			],
-			[
-				"topquar",
-				"PartTopQuark/TopQuark.tex"
 			],
 			[
 				"topqua",
 				"PartTopQuark/TopQuark.tex"
 			],
 			[
-				"the",
-				"Thesis.tex"
-			],
-			[
-				"detec",
-				"PartDetector/Detector.tex"
-			],
-			[
 				"remote.",
 				"Remote.bib"
-			],
-			[
-				"thesisbib",
-				"Thesis.bib"
 			],
 			[
 				"thesibib",
@@ -1592,10 +1775,6 @@
 				"Thesis.tex"
 			],
 			[
-				"booste",
-				"PartBoosted/Boosted.tex"
-			],
-			[
 				"single",
 				"PartTopQuark/Diagrams/TopSingleProdTWChannel.tex"
 			],
@@ -1604,32 +1783,12 @@
 				"PartTopQuark/Diagrams/TopSingleTopSChannel.tex"
 			],
 			[
-				"calibration",
-				"PartCalibration2012/Calibration2012.tex"
-			],
-			[
-				"topqu",
-				"PartTopQuark/TopQuark.tex"
-			],
-			[
 				"thesis.bb",
 				"Thesis.bib"
 			],
 			[
 				"theory.tex",
 				"PartTheory/Theory.tex"
-			],
-			[
-				"topq",
-				"PartTopQuark/TopQuark.tex"
-			],
-			[
-				"top",
-				"PartTopQuark/Diagrams/TopProdgg2g2ttbar.tex"
-			],
-			[
-				"parti",
-				"PartTheory/Diagrams/ParticleTable.tikz"
 			],
 			[
 				"self4",
@@ -1656,10 +1815,6 @@
 				"PartIntroduction/Introduction.tex"
 			],
 			[
-				"topquark",
-				"PartTopQuark/TopQuark.tex"
-			],
-			[
 				"toppro",
 				"PartTopQuark/Diagrams/TopProdgg2g2ttbar.tex"
 			],
@@ -1668,16 +1823,8 @@
 				"PartTopQuark/Diagrams/TopSingleTopSChannel.tex"
 			],
 			[
-				"weak",
-				"PartTheory/Diagrams/WeakMuonDecay.tex"
-			],
-			[
 				"bib",
 				"Thesis.bib"
-			],
-			[
-				"calibra",
-				"PartCalibration2012/CalibrationMCPCuts.tex"
 			],
 			[
 				"minihi",
@@ -1696,259 +1843,23 @@
 				"PartCrossSection/CrossSection.tex"
 			],
 			[
-				"theis.",
-				"Thesis.bbl"
-			],
-			[
 				"projec",
 				"Thesis.sublime-project"
 			],
 			[
 				"boo",
 				"PartBoosted/Boosted.tex"
-			],
-			[
-				"th",
-				"Thesis.tex"
-			],
-			[
-				"theo",
-				"PartTheory/Theory.tex"
-			],
-			[
-				"make",
-				"Makefile"
-			],
-			[
-				"sublime",
-				"thesis.sublime-project"
-			],
-			[
-				"thes",
-				"Thesis.tex"
-			],
-			[
-				"summ",
-				"Source/SummaryPlotMaker.cxx"
-			],
-			[
-				"samplehi",
-				"Headers/SampleHistograms.h"
-			],
-			[
-				"sample",
-				"Source/SampleHistograms.cxx"
-			],
-			[
-				"summar",
-				"Source/SummaryPlotMaker.cxx"
-			],
-			[
-				"tnp",
-				"Source/TnPNtupleMaker.cxx"
-			],
-			[
-				"makehis",
-				"~/jblanco/RunPairing/jobOptions/MakeHistogramsFaraday.cxx"
-			],
-			[
-				"histog",
-				"Source/HistogramFactory.cxx"
-			],
-			[
-				"slice",
-				"Source/TnPSlices.cxx"
-			],
-			[
-				"histofa",
-				"Headers/HistogramFactory.h"
-			],
-			[
-				"histocc",
-				"Source/HistogramCollector.cxx"
-			],
-			[
-				"slices",
-				"Headers/TnPSlices.h"
-			],
-			[
-				"histogra",
-				"Source/HistogramFactory.cxx"
-			],
-			[
-				"collec",
-				"Headers/HistogramCollector.h"
-			],
-			[
-				"histogr",
-				"Source/HistogramFactory.cxx"
-			],
-			[
-				"tnps",
-				"Source/TnPSlices.cxx"
-			],
-			[
-				"tn",
-				"Headers/TnPSlices.h"
-			],
-			[
-				"histogramfac",
-				"Source/HistogramFactory.cxx"
-			],
-			[
-				"menusta",
-				"Hello World/source/MenuState.hx"
-			],
-			[
-				"hisog",
-				"Headers/HistogramFactory.h"
-			],
-			[
-				"historam",
-				"Headers/HistogramFactory.h"
-			],
-			[
-				"fit",
-				"Source/FitEfficiency.cxx"
-			],
-			[
-				"fitinte",
-				"Source/FitInterface.cxx"
-			],
-			[
-				"ut_setu",
-				"unit-tests/ut_SetupDoubleGaus.cxx"
-			],
-			[
-				"fitinteface",
-				"Header/FitInterface.h"
-			],
-			[
-				"fitterd",
-				"Source/FitterDraw.cxx"
-			],
-			[
-				"fitef",
-				"Source/FitEfficiency.cxx"
-			],
-			[
-				"fiteff",
-				"Source/FitEfficiency.cxx"
-			],
-			[
-				"fitinter",
-				"Source/FitInterface.cxx"
-			],
-			[
-				"ut_setp",
-				"unit-tests/ut_SetupDoubleGaus.cxx"
-			],
-			[
-				"ut_set",
-				"unit-tests/ut_SetupDoubleGaus.cxx"
-			],
-			[
-				"double",
-				"Source/DoubleGausFit.cxx"
-			],
-			[
-				"fitit",
-				"Header/FitIntegral.h"
-			],
-			[
-				"su",
-				"MuonEfficiency/Root/SummaryPlotMaker.cxx"
-			],
-			[
-				"sum",
-				"MuonEfficiency/Root/SummaryPlotMaker.cxx"
-			],
-			[
-				"summary",
-				"MuonEfficiency/MuonEfficiency/SummaryPlotMaker.h"
-			],
-			[
-				"",
-				"~/jblanco/CalibrationWork/TODO"
-			],
-			[
-				"tod",
-				"MuonEfficiency/TODO"
-			],
-			[
-				"instu",
-				"instructions.tex"
-			],
-			[
-				"ut_scalefac",
-				"MuonEfficiency/test/ut_ScaleFactorPlotter.cxx"
-			],
-			[
-				"ut_",
-				"MuonEfficiency/test/ut_SingleGausFit.cxx"
-			],
-			[
-				"sca",
-				"MuonEfficiency/Root/ScaleFactorPlotter.cxx"
-			],
-			[
-				"scalefac",
-				"MuonEfficiency/MuonEfficiency/ScaleFactorPlotter.h"
-			],
-			[
-				"linkd",
-				"Sources/LinkDef.h"
-			],
-			[
-				"ut",
-				"Unit tests/ut_SampleList.cxx"
-			],
-			[
-				"runam",
-				"RunKinematics/scripts/runMakeKinematics.sh"
-			],
-			[
-				"link",
-				"MuonEfficiency/Root/LinkDef.h"
-			],
-			[
-				"eff",
-				"MuonEfficiency/Root/EfficiencyMaker.cxx"
-			],
-			[
-				"ef",
-				"MuonEfficiency/Root/EfficiencyMaker.cxx"
-			],
-			[
-				"fitsca",
-				"Source/FitScaleFactor.cxx"
-			],
-			[
-				"fief",
-				"Source/FitEfficiency.cxx"
-			],
-			[
-				"fitconf",
-				"Header/FitConfig.h"
-			],
-			[
-				"integ",
-				"Source/FitIntegral.cxx"
-			],
-			[
-				"integra",
-				"Header/FitIntegral.h"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -1961,7 +1872,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,

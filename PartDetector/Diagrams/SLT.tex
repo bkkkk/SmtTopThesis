@@ -1,0 +1,93 @@
+% !TEX root = ../../Thesis.tex
+\begin{fmffile}{SemileptonicBOne}
+  \fmfframe(5,17)(20,17) {
+    \begin{fmfgraph*}(70,70)
+      % Layout
+      \fmfstraight
+      \fmfleft{uBarIn,bIn,dum1,dum2,dum4}
+      \fmfright{uBarOut,cOut,muOut,nuOut,dum3}
+      % FC current
+      \fmf{fermion}{bIn,v1}
+      \fmf{fermion}{v1,cOut}
+      \fmffreeze
+      % Spectator
+      \fmf{fermion}{uBarIn,uBarOut}
+      \fmffreeze
+      % W decay
+      \fmf{boson,lab.side=left,label=$W^-$}{v1,v2}
+      \fmf{fermion}{muOut,v2,nuOut}
+      \fmf{phantom,tension=1.2}{v2,dum2}
+      % Labels
+      \fmflabel{$\bar{u}$}{uBarIn} \fmflabel{$\bar{u}$}{uBarOut}
+      \fmflabel{$b$}{bIn} \fmflabel{$c$}{cOut}
+      \fmflabel{$\bar{\nu}$}{nuOut} \fmflabel{$\mu^-$}{muOut}
+    \end{fmfgraph*}
+  }
+\end{fmffile}
+
+\begin{fmffile}{SemileptonicBTwo}
+  \fmfframe(5,17)(20,17) {
+    \begin{fmfgraph*}(70,70)
+      \fmfstraight
+      \fmfleft{uBarIn,cIn,dum1,dum2,dum4}
+      \fmfright{uBarOut,dOut,muOut,nuOut,dum3}
+      \fmf{fermion}{cIn,v1}
+      \fmf{fermion}{v1,dOut}
+      \fmffreeze
+      \fmf{fermion}{uBarIn,uBarOut}
+      \fmffreeze
+      \fmf{boson,lab.side=left,label=$W^+$}{v1,v2}
+      \fmf{fermion}{muOut,v2,nuOut}
+      \fmf{phantom,tension=1.2}{v2,dum2}
+      \fmflabel{$\bar{u}$}{uBarIn} \fmflabel{$\bar{u}$}{uBarOut}
+      \fmflabel{$c$}{cIn} \fmflabel{$d$}{dOut}
+      \fmflabel{$\nu$}{nuOut} \fmflabel{$\mu^+$}{muOut}
+    \end{fmfgraph*}
+  }
+\end{fmffile}
+\begin{fmffile}{SemileptonicBThree}
+  \fmfframe(5,17)(20,17) {
+    \begin{fmfgraph*}(70,70)
+      \fmfstraight
+      \fmfleft{uBarIn,cIn,dum1,dum2,dum4}
+      \fmfright{uBarOut,sOut,muOut,nuOut,dum3}
+      \fmf{fermion}{cIn,v1}
+      \fmf{fermion}{v1,sOut}
+      \fmffreeze
+      \fmf{fermion}{uBarIn,uBarOut}
+      \fmffreeze
+      \fmf{boson,lab.side=left,label=$W^+$}{v1,v2}
+      \fmf{fermion}{muOut,v2,nuOut}
+      \fmf{phantom,tension=1.2}{v2,dum2}
+      \fmflabel{$\bar{u}$}{uBarIn} \fmflabel{$\bar{u}$}{uBarOut}
+      \fmflabel{$c$}{cIn} \fmflabel{$s$}{sOut}
+      \fmflabel{$\nu$}{nuOut} \fmflabel{$\mu^+$}{muOut}
+    \end{fmfgraph*}
+  }
+\end{fmffile}
+
+\end{fmffile}
+\begin{fmffile}{SemileptonicBStart}
+  \fmfframe(5,17)(20,17) {
+    \begin{fmfgraph*}(70,70)
+      \fmfstraight
+      \fmfleft{bIn}
+      \fmfright{bOut,uBarOut,uOut,dBarOut}
+      \fmf{fermion}{bIn,bOut}
+      \fmf{gluon}{}
+      \fmflabel{$\bar{u}$}{uBarIn} \fmflabel{$\bar{u}$}{uBarOut}
+      \fmflabel{$c$}{cIn} \fmflabel{$s$}{sOut}
+      \fmflabel{$\nu$}{nuOut} \fmflabel{$\mu^+$}{muOut}
+    \end{fmfgraph*}
+  }
+\end{fmffile}
+
+\scalebox{2.0}{$\left\}D^{0}\right\{$}
+
+\scalebox{2.0}{$\left\}\pi^+\right\{$}
+
+\scalebox{2.0}{$\left\}\pi^-\right\{$}
+
+\scalebox{2.0}{$\left\}K^-\right\{$}
+
+\scalebox{2.0}{$\left\}B^{-}\right\{$}

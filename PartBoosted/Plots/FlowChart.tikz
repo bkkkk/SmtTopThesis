@@ -1,0 +1,36 @@
+% -*- root: ../../Thesis.tex -*-
+\definecolor{smtColor}{HTML}{FDAE61}
+\definecolor{miColor}{HTML}{3182BD}
+\definecolor{eventColor}{HTML}{2CA25F}
+
+\tikzstyle{line} = [draw, -latex',thick]
+\tikzstyle{cutBox} = [rectangle,draw,thick,align=center,rounded corners,text=black]
+\tikzstyle{miBox} = [cutBox,color=miColor]
+\tikzstyle{smtBox} = [cutBox,color=smtColor]
+
+\begin{tikzpicture}[node distance=2cm,auto]
+  \draw[eventColor,thick,dashed] (-6,-3.2) rectangle (6,5.2);
+  \node[text=eventColor] at (0.0,5.5) (wEvents) {Events with $W\rightarrow\mu$ (from truth)};
+  
+  % Mini Isolation
+  \draw[miColor,thick,dotted] (-5.8,-3.0) rectangle (-0.2,4.6);
+  \node[text=miColor] at (-3.0,4.9) {Mini-isolation};
+  \node[miBox] at (-3.0,3.7) (MI) {MUID Tight, MCP Cuts \\ $|\eta|<2.5$, $\pt<20\;\textrm{GeV}$ };
+  \node[miBox] at (-3.0,2.0) (MImatch) {Truth-matching to $W$ muon};
+  \path[line,miColor] (MI) -- (MImatch);
+  \node[miBox] at (-3.0,0.8) (MImatchtojet) {Match muon to jet};
+  \path[line,miColor] (MImatch) -- (MImatchtojet);
+  \node[miBox] at (-3.0,-1.0) (MIFinal) {$\textrm{MI10}/\pt<5\%$};
+  \path[line,miColor] (MImatchtojet) -- (MIFinal);
+
+  % SMT
+  \draw[smtColor,thick,dotted] (0.2,-3.0)rectangle (5.8,4.6);
+  \node[text=smtColor] at (3.0,4.9) {\xsd\ tagging};
+  \node[smtBox] at (3.0,3.7) (SMT) {STACO CB, MCP Cuts \\ $|\eta|<2.5$, $\pt<20\;\textrm{GeV}$};
+  \node[smtBox] at (3.0,2.0) (SMTmatch) {Truth-matching to $W$ muon};
+  \path[line,smtColor] (SMT) -- (SMTmatch);
+  \node[smtBox] at (3.0,0.8) (SMTmatchtojet) {Match muon to jet};
+  \path[line,smtColor] (SMTmatch) -- (SMTmatchtojet);
+  \node[smtBox] at (3.0,-1.7) (SMTFinal) {$z_{0}<3\,\textrm{mm}$\\$d_{0}<3\,\textrm{mm}$\\$\xsd<3.2$};
+  \path[line,smtColor] (SMTmatchtojet) -- (SMTFinal);
+\end{tikzpicture}

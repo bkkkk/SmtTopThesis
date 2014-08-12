@@ -1,11 +1,11 @@
 \begin{fmffile}{ColourQCD}
-\fmfframe(5,17)(20,17) {
-\begin{fmfgraph*}(100,80)
-\fmftop{qin,qout} \fmfbottom{glu}
-\fmf{quark}{qin,vertex1,qout}
-\fmf{gluon,label=$g$,l.d=10}{vertex1,glu}
-\fmfdot{vertex1}
-\fmflabel{$q$}{qin} \fmflabel{$q$}{qout}
-\end{fmfgraph*}  
-}
+  \fmfframe(5,10)(2,10) { % left, top, right, bottom
+    \begin{fmfgraph*}(100,80)
+      \fmftop{qin,qout} \fmfbottom{glu}
+      \fmf{quark}{qin,vertex1,qout}
+      \fmf{gluon,label=$g$,l.d=10}{vertex1,glu}
+      \fmfdot{vertex1}
+      \fmflabel{$q$}{qin} \fmflabel{$q$}{qout}
+    \end{fmfgraph*}
+  }
 \end{fmffile}

@@ -1,9 +1,5 @@
 \ProvidesPackage{MacroDefs}[2014/07/25 v1.0 My Physics Macros]
 
-% Units
-\newcommand{\TeV}{\ensuremath{\textrm{TeV}}}
-\newcommand{\GeV}{\ensuremath{\textrm{GeV}}}
-
 % Particle symbols
 \newcommand{\Zboson}{\ensuremath{Z^{0}}}
 \newcommand{\Wboson}{\ensuremath{W^{\pm}}}
@@ -14,8 +10,8 @@
 \newcommand{\jpsi}{\ensuremath{J\slash\psi}}
 \newcommand{\m}{\ensuremath{\mu}}
 \newcommand{\cms}{\ensuremath{\sqrt{s}}}
-\newcommand{\cmsS}{\ensuremath{\cms=7\TeV}}
-\newcommand{\cmsE}{\ensuremath{\cms=8\TeV}}
+\newcommand{\cmsS}{\ensuremath{\cms=\SI{7}{\TeV}}}
+\newcommand{\cmsE}{\ensuremath{\cms=\SI{8}{\TeV}}}
 \newcommand{\mtw}{\ensuremath{m_{\textrm{T},W}}}
 
 % Variable names
@@ -25,18 +21,31 @@
 \newcommand{\xsm}{\ensuremath{\chi^{2}_{\textrm{match}}}}
 \newcommand{\Et}{\ensuremath{E_{\textrm{T}}}}
 \newcommand{\pt}{\ensuremath{p_{\textrm{T}}}}
-\newcommand{\met}{\ensuremath{{\not\mathrel{E}}_\textrm{T}}}
+\newcommand{\met}{\ensuremath{E^{\textrm{miss}}_{\textrm{T}}}}
 \newcommand{\cme}{\ensuremath{\sqrt{s}}}
 \newcommand{\DeltaR}{\ensuremath{\Delta R}}
 
 % Lagrangian symbol
 \newcommand{\Lagr}{\mathcal{L}}
+\newcommand{\aeta}{\ensuremath{\lvert\eta\rvert}}
 
 % Uncertainty labels
-\newcommand{\stat}{\ensuremath{\textrm{(stat.) }}}
-\newcommand{\syst}{\ensuremath{\textrm{(syst.) }}}
+\newcommand{\stat}{\ensuremath{\textrm{\,(stat.)}}}
+\newcommand{\syst}{\ensuremath{\textrm{\,(syst.)\,}}}
+\newcommand{\lumi}{\ensuremath{\textrm{\,(lumi.)\,}}}
+
+% Isolation
+\newcommand{\etcone}[1]{\ensuremath{\Et^{\textrm{cone}#1}}}
+\newcommand{\ptcone}[1]{\ensuremath{\pt^{\textrm{cone}#1}}}
+\newcommand{\nucone}[1]{\ensuremath{N_{\textrm{trk}}^{\textrm{cone}#1}}}
+
+% Integral
+\newcommand{\dd}{\ensuremath{\, \mathrm{d}}}
 
 % Names
 \newcommand{\staco}{\texttt{STACO}}
 
 \newcommand{\comment}[1]{} % This is used for inline commenting 
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\newcommand*{\tabin}{\hspace*{0.3cm}}%

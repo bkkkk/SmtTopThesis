@@ -1,88 +1,48 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{Theory:CKMKobayashiMaskawa}
-Makoto Kobayashi and Toshihide Maskawa.
-\newblock Cp-violation in the renormalizable theory of weak interaction.
+M.~Kobayashi and T.~Maskawa.
+\newblock {CP-Violation in the Renormalizable Theory of Weak Interaction}.
 \newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
 
 \bibitem{Top:bQuarkDiscovered}
 S.~W. Herb, D.~C. Hom, L.~M. Lederman, J.~C. Sens, H.~D. Snyder, J.~K. Yoh,
   J.~A. Appel, B.~C. Brown, C.~N. Brown, W.~R. Innes, K.~Ueno, T.~Yamanouchi,
   A.~S. Ito, H.~Jostlein, D.~M. Kaplan, and R.~D. Kephart.
-\newblock {Observation of a Dimuon Resonance at 9.5 GeV in 400-GeV
-  Proton-Nucleus Collisions}.
-\newblock {\em Phys. Rev. Lett.}, 39:252--255, Aug 1977.
+\newblock {Observation of a Dimuon Resonance at \SI{9.5}{\GeV} in
+  \SI{400}{\GeV} Proton-Nucleus Collisions}.
+\newblock {\em Physical Review Letters}, 39:252--255, Aug 1977.
 
 \bibitem{Top:ObservationCDF}
-{CDF} Collaboration.
-\newblock Observation of top quark production in $p\bar{p}$ collisions with the
-  collider detector at {Fermilab}.
-\newblock {\em Phys. Rev. Lett.}, 74:2626--2631, Apr 1995.
+{CDF Collaboration}.
+\newblock {Observation of Top Quark Production in $p\bar{p}$ Collisions with
+  the Collider Detector at Fermilab}.
+\newblock {\em Physical Review Letters}, 74:2626--2631, Apr 1995.
 
 \bibitem{Top:ObservationD0}
-D0~Collaboration.
-\newblock Search for high mass top quark production in $p\bar{p}$ collisions at
-  $\sqrt{s}$=1.8 tev.
-\newblock {\em Phys. Rev. Lett.}, 74:2422--2426, Mar 1995.
+{D0 Collaboration}.
+\newblock {Search for High Mass Top Quark Production in $p\bar{p}$ Collisions
+  at $\sqrt{s}=\SI{1.8}{\TeV}$}.
+\newblock {\em Physical Review Letters}, 74:2422--2426, Mar 1995.
 
 \bibitem{TopQuark:FirstTopAtATLAS}
-The~ATLAS Collaboration.
-\newblock {Search for top pair candidate events in ATLAS at $\sqrt{s}$=7 TeV}.
-\newblock Technical Report ATLAS-CONF-2010-063, CERN, Geneva, Jul 2010.
+{The ATLAS Collaboration}.
+\newblock {Search for top pair candidate events in ATLAS at $\sqrt{s}$=7 TeV},
+  Jul 2010.
 
 \bibitem{TopQuark:FirstTopAtCMS}
-The~CMS Collaboration.
+{CMS Collaboration}.
 \newblock {Selection of top-like events in the dilepton and lepton-plus-Jets
-  channels in early 7 TeV Data}.
-\newblock Technical Report CMS-PAS-TOP-10-004, CERN, 2010. Geneva, 2010.
+  channels in early 7 TeV Data}, 2010.
 
 \bibitem{Theory:PDGBooklet}
-J.~Beringer et~al. ({P}article~{D}ata {G}roup).
-\newblock {The Review of Particle Physics}.
-\newblock {\em {Physical Review D}}, 86:010001+, 2012.
+J.~Beringer et~al.
+\newblock Review of particle physics.
+\newblock {\em Physical Review D}, 86:010001, Jul 2012.
 
 \bibitem{Theory:TopQuarkDecayTooQuickly}
 Johann~H. Kuhn, A.~Reiter, and Peter~M. Zerwas.
 \newblock {Z Decays to Top Quarks}.
-\newblock {\em Nucl.Phys.}, B272:560, 1986.
-
-\bibitem{TopQuark:HATHORCrossSection}
-M.~Aliev, H.~Lacker, U.~Langenfeld, S.~Moch, P.~Uwer, et~al.
-\newblock {HATHOR: HAdronic Top and Heavy quarks crOss section calculatoR}.
-\newblock {\em Comput.Phys.Commun.}, 182:1034--1046, 2011.
-
-\bibitem{TopPair}
-Matteo Cacciari, Michal Czakon, Michelangelo~L. Mangano, Alexander Mitov, and
-  Paolo Nason.
-\newblock Top-pair production at hadron colliders with next-to-next-to-leading
-  logarithmic soft-gluon resummation.
-\newblock {\em arXiv:1111.5869 [hep-ph]}, 2011.
-
-\bibitem{Kidonakis:2012rm}
-Nikolaos Kidonakis.
-\newblock {NNLL threshold resummation for top-pair and single-top production}.
-\newblock 2012.
-
-\bibitem{Czakon:2013goa}
-Michał Czakon, Paul Fiedler, and Alexander Mitov.
-\newblock {Total top-quark pair-production cross section at hadron colliders
-  through $O(α\frac{4}{S})$}.
-\newblock {\em Phys.Rev.Lett.}, 110(25):252004, 2013.
-
-\bibitem{TopQuark:CPTViolation}
-O.W. Greenberg.
-\newblock {CPT violation implies violation of Lorentz invariance}.
-\newblock {\em Phys.Rev.Lett.}, 89:231602, 2002.
-
-\bibitem{TopQuark:MassAsymmetryATLAS2014}
-Georges Aad et~al.
-\newblock {Measurement of the mass difference between top and anti-top quarks
-  in pp collisions at $\sqrt(s) = 7$ TeV using the ATLAS detector}.
-\newblock {\em Phys.Lett.}, B728:363--379, 2014.
-
-\bibitem{TopQuark:MassAsymmetryCMS2012}
-Serguei Chatrchyan et~al.
-\newblock {Measurement of the mass difference between top and antitop quarks}.
-\newblock {\em JHEP}, 1206:109, 2012.
+\newblock {\em Nuclear Physics}, B272:560, 1986.
 
 \end{thebibliography}

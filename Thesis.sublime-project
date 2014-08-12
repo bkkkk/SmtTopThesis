@@ -9,7 +9,7 @@
                                  "*.lot", "*.log", "*.synctex.gz",
                                  "*.fdb_*", "clear.tex", "ls.tex",
                                  "*.mp", "*.t1", "*.1",".DS_Store",
-                                 "*.pdf" ]
+                                 "*.pdf", "*.ptex","Thesis.sublime-workspace", "Remote.bib" ]
 		}
 	]
 }

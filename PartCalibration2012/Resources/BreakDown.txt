@@ -1,0 +1,19 @@
+[INFO] :: Sample: Data ~~ pT = 5-6 GeV ~~ eta = 0.10-1.10
+[INFO] ::
+[INFO] :: Relative Uncertainty Breakdown==> Bkg: 0.00219641, Signal: 0.0101986, Stats = 0.00160018
+[INFO] :: Total Uncertainty = 0.0105544
+[INFO] :: Reconstruction efficiency: 0.791376±0.0105544
+[INFO] ::
+[INFO] :: Relative Uncertainty Breakdown==> Bkg: 0.00316635, Signal: 0.000190141, Stats = 0.00103875
+[INFO] :: Total Uncertainty = 0.0033378
+[INFO] :: SMT efficiency: 0.941523±0.0033378
+ 
+[INFO] :: Sample: MC ~~ pT = 5-6 GeV ~~ eta = 0.10-1.10
+[INFO] ::
+[INFO] :: Relative Uncertainty Breakdown==> Bkg: 0.000117191, Signal: 0.000585399, Stats = 0.000521541
+[INFO] :: Total Uncertainty = 0.000792737
+[INFO] :: Reconstruction efficiency: 0.930156±0.000792737
+[INFO] ::
+[INFO] :: Relative Uncertainty Breakdown==> Bkg: 5.99986e-05, Signal: 9.08897e-05, Stats = 0.000663691
+[INFO] :: Total Uncertainty = 0.000672567
+[INFO] :: SMT efficiency: 0.890055±0.000672567

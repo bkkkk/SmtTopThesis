@@ -1,9 +1,11 @@
 \begin{fmffile}{WeakNeutral}
-\begin{fmfgraph*}(100,80)
-\fmftop{fi,fo} \fmfbottom{ZBoson}
-\fmf{fermion}{fi,vx1,fo}
-\fmf{boson,label=$Z^{0}$}{vx1,ZBoson}
-\fmflabel{$f$}{fi} \fmflabel{$\overline{f}$}{fo}
-\fmfdot{vx1}
-\end{fmfgraph*}
+  \fmfframe(5,10)(6,10) { % left, top, right, bottom
+    \begin{fmfgraph*}(100,80)
+      \fmftop{fi,fo} \fmfbottom{ZBoson}
+      \fmf{fermion}{fi,vx1,fo}
+      \fmf{boson,label=$Z^{0}$}{vx1,ZBoson}
+      \fmflabel{$f$}{fi} \fmflabel{$\overline{f}$}{fo}
+      \fmfdot{vx1}
+    \end{fmfgraph*}
+  }
 \end{fmffile}

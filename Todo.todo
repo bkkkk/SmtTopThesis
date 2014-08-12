@@ -1,147 +1,94 @@
-General:
-  ☐ Write acknowledgements @medium
-  ☐ Make generic plotting script @medium
-    ☐ Basic plotter style setter @medium
-    'Add ATLAS and CM labels using standard format'
-  ☐ Rotate all gluon lines so curls face downward.
-  ☐ Make editing trigger list @medium
-    'Plots'
-      'Range'
-      'Labels'
-      'Axis Labels'
-      'Colour, line style'
-      'Legend position'
-      'Caption'
-    'Repetition'
-    'Clarity'
-    'Conciseness'
-    'Correct tone'
-    'Spelling mistakes'
-
---- ✄ -----------------------
-  Plots:
-    ☐ Make a good SMT diagram @medium @diagram
-
---- ✄ -----------------------
+EDITING:
+  ☐ Fix out of order citations due to list of figures
+    'use alternate caption: \caption[<Figure title>]{<Figure title> \cite{<Source>}}'
+  ☐ 
+---- ✄ -----------------------
 
 Abstract:
-  ☐ Figure out what the hell goes in an abstract @medium
-  ☐ Outline @short
-  ☐ Write @medium
-  ☐ Edit @medium
+  ☐ Figure out what the hell goes in an abstract @?
+  ☐ Write it @medium
 
---- ✄ -----------------------
-
-Introduction:
-  ☐ Outline introduction @short
-  ☐ Write introduction @long
-  ☐ Edit @medium
-
---- ✄ -----------------------
-
-Theory:
-  ☐ Edit @medium:
-    ☐ Ensure that the theory be renormalizable ./PartTheory/Theory.tex:348
-    ☐ Write about the connection between the weak bosons having to be massive due to Local Gauge Invariance ./PartTheory/Theory.tex:352
-    ☐ Quite vague, start with gauge theories first ./PartTheory/Theory.tex:323
-    
-
---- ✄ -----------------------
+Calibration:     
+  ☐ Add isolation plots from Matt thesis @short
 
 Boosted:
-  ☐ Edit @medium
+  ☐ Talk about other models @long @text
   
-  ☐ Write b-tagging section ./PartBoosted/Boosted.tex:51 @short
-    ☐ Describe results
-    ☐ Add efficiency results
-    ☐ Add plot of dR(b, soft muon)
+Cross-section:  
+  ☐ Why are the MET and mtw cuts different in mu vs e @medium @text
+    'not sure'
+Conclusion:
+  ☐ Write it @medium
+
+EXTRA:
+  Theory:
+  ☐ Discuss radiative corrections to the Higgs mass in introduction @long @WTF
+
+  Detector:
+  ☐ Give examples. ./PartDetector/Detector.tex:Pileup @medium
+  ☐ Add a plot of the pT of SMT muon and W lepton @medium
+  ☐ Give outer radius of beam-pipe @short @extra 
+     'Cant find shit on this!'
+
+  Boosted:
+    ☐ Add non-resonant ttbar to tables @short @data
+    ☐ Bin DeltaR efficiency of SMT and MI10 by pT @medium
+    ☐ Add nominal isolation requirements @medium
+      ☐ Add results to table @medium
+
+  Calibration: 
+    ☐ Try to add non-prompt isolation
+    ☐ Calibration: Fit double gaussian and show bad fit @medium
+  
+---- ✄ -----------------------
+
+NOT GONNA HAPPEN:
+ ☐ Add shapes obtained from using MM @long @plot
+
+---- ✄ -----------------------
+
+
+Viva Notes:
+  Detector:
+    ☐ Review sliding-window algorithm of electron reconstruction
+    ☐ Learn what non-compensation means
       
-        Kinematics:
-          ☐ Add labels @medium
-            ☐ ATLAS label @medium
-            ☐ CM Energy label @medium
-
---- ✄ -----------------------
-
-Cross-section:
-  
-  ☐ Redo background analysis @long
-      ☐ Update TRC @long
-      ☐ Email jacob to ask where the samples are @short
-      ☐ Re-run on data and MC
-      ☐ Get new results @long
-
-  ☐ Make an outline @long
-      ☐ Make list of topics @medium
-      ☐ Make list of plots @medium
-      ☐ Make list of relevant tables @medium
-
-  Background:
-  ☐ Read about the Matrix Method @medium
-    ☐ Add paper to bibtex .\Thesis.bib @short
-  ☐ Re-read cross-section paper @long
-  ☐ Write @long
-  ☐ Edit @medium
-  
---- ✄ -----------------------
-
-Detector:
-  ☐ Write @long
-  ☐ Edit @long
-  
---- ✄ -----------------------
-
-Calibration:   
-  ☐ Write @long:
-    ☐ Add list of MCP cuts to appendix .\CalibrationMCPCuts.tex\.
-    ☐ Write the section on the 2011 analysis
-      ☐ Get some plots from the 2011 analysis
-      ☐ Get table of scale factors from 2011
-    ☐ Add section comparing 2012 to 2011
-  ☐ Edit @long
-
---- ✄ -----------------------
-
-Top-quark physics:
-  ☐ Add description of the Boosted analysis
-  ☐ Write about the top mass measurements
-  ☐ Clean up section
-  ☐ Edit
-    
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
- ✔ Make outline @short: @done (14-05-22 11:59) @project(Detector)
- ✔ Make list of needed diagrams @short @done (14-05-22 11:59) @project(Detector)
- ✔ Make list of important sectors to discuss @short @done (14-05-22 11:59) @project(Detector)
- ✔ Make diagram for the ABCD method @short @diagram @done (14-05-22 11:59) @project(Cross-section / Plots)
- ✔ Describe matching of b-quark to muon @medium @done (14-05-22 11:58) @project(Boosted)
- ✔ Make diagram of semi-leptonic tt-bar decay @medium @diagram @done (14-05-22 11:56) @project(General)
- ✔ Insert into text @medium @done (14-04-26 18:00) @project(Theory)
- ✔ Find a few decent references from other thesis @short @done (14-04-26 18:00) @project(Theory)
- ✔ Add to Bibtex file @short @done (14-04-26 18:00) @project(Theory)
- ✔ Add references to section @medium @done (14-04-26 18:00) @project(Theory)
- ✔ Add plots showing dependence of eff and SF on d0 @done (14-04-23 22:42) @project(Calibration)
- ✔ Add table of SF for 2012 @done (14-04-23 22:41) @project(Calibration)
- ✔ Add plots of the 2012 Effs and SFs @done (14-04-23 22:41) @project(Calibration)
- ✔ Write Higgs section @medium @done (14-04-23 11:37) @project(Theory)
- ✔ Delta R (Muon, b-quark) @short @done (14-04-10 14:38) @project(Boosted / B-tagging)
- ✔ dR(W_mu, b) For 3 TeV @long @done (14-04-07 17:31) @project(Boosted / Kinematics)
-  'Index to b quark and W muon'
- ✔ Top p_{T} For all @long @done (14-04-07 17:31) @project(Boosted / Kinematics)
-  'Index top quark'
- ✔ Add plot to MiniHisto @medium @done (14-04-07 17:31) @project(Boosted / Kinematics)
- ✔ Add plot to MiniHisto @long @done (14-04-07 17:31) @project(Boosted / Kinematics)
- ✔ Check plot titles in MiniHisto @short: @done (14-04-02 16:55) @project(Boosted / Kinematics)
- ✔ Check plot ranges in MiniHisto @short @done (14-04-02 16:55) @project(Boosted / Kinematics)
- ✔ Track word count @side @medium @done (14-04-01 00:34) @project(General)
- ✔ Find a PDF word counter or a latext word counter @done (14-04-01 00:34) @project(General)
- ✔ SMT @done (14-03-27 13:25) @project(Boosted / Tables / Fake rate)
- ✔ Mini-Isolation @done (14-03-27 13:25) @project(Boosted / Tables / Fake rate)
- ✔ SMT @done (14-03-27 00:01) @project(Boosted / Tables)
- ✔ Mini-Isolation @done (14-03-27 00:01) @project(Boosted / Tables)
- ✔ SMT @done (14-03-24 15:27) @project(Boosted / Plots / Efficiency)
- ✔ Mini-isolation @done (14-03-24 15:27) @project(Boosted / Plots / Efficiency)
- ✔ Efficiency as a function of angular separation between the reconstructed muon and the nearest reconstructed jet: @done (14-03-24 15:27) @project(Boosted / Plots / Efficiency)
- ✔ Reference latest limits @done (14-03-22 14:49) @project(Boosted / Quote limits)
- ✔ Quote latest limits @done (14-03-22 14:49) @project(Boosted / Quote limits)
- ✔ Find the latest limits @done (14-03-22 14:49) @project(Boosted / Quote limits)
+ ✔ Describe signal simulation uncertainties @medium @text @done (14-08-10 14:51) @project(Boosted)
+ ✔ Write introduction @long @done (14-08-10 02:03) @project(Introduction)
+ ✔ Write a preface @medium @done (14-08-09 23:12) @project(Introduction)
+ ✔ Add feynman diagrams of semileptonic b decays @long @feynman @done (14-08-09 22:31) @project(Detector)
+ ✔ Why anti-kt @medium @text @done (14-08-09 21:32) @project(Detector)
+ ✔ Mention the requirements of a good jet reconstruction algorithm @long @text @done (14-08-09 21:32) @project(Detector)
+ ✘ See if you can find a plot of the efficiency vs LF rejection for MV1 @medium @plot @cancelled (14-08-08 20:07) @project(Detector)
+  'couldn't find anything in the past
+ ✔ Start with describing the gauge theories first ./PartTheory/Theory.tex:(Electroweak Unification and the Higgs mechanism) @medium @done (14-08-08 20:02) @project(Theory)
+ ✔ Bin btagging efficiency by b-jet pt @medium @done (14-08-08 19:56) @project(Boosted)
+ ✔ Include non-resonant ttbar into plots...not sure if can be assed. @medium @plot @done (14-08-06 17:14) @project(Boosted)
+ ✔ Get passed and total histograms and calculate effs that way @short @done (14-08-06 17:14) @project(Boosted)
+ ✔ Change truth matching to work with ttbar sample @done (14-08-06 17:14) @project(Boosted)
+ ✔ Change markers to histograms for efficiency plots @short @plot @done (14-08-06 17:14) @project(Boosted)
+  'Its a TGraph, fuck TGraphs'
+ ✔ Get non-res sample @short @done (14-08-04 12:47) @project(Boosted)
+ ✔ Get a reference for the W charge asymmetry method @done (14-08-03 17:17) @project(Cross-section)
+ ✔ Add reference to statement about ratio of +/- W cross-section being well understood @done (14-08-03 17:17) @project(Cross-section)
+ ✔ Add plots for region B @long @plot @nope @done (14-08-03 17:17) @project(Cross-section / Nope)
+ ✔ Add table of yields in each region for the multijet including contamination @medium @table @done (14-08-03 17:05) @project(Cross-section)
+ ✔ Add explanation for uncertainty in average R^SMT Table 1.2 @medium @text @done (14-08-03 17:04) @project(Cross-section)
+ ✔ Implement fix in tables @done (14-08-01 18:30) @project(Calibration)
+ ✔ Update text to fixed analysis @done (14-08-01 18:29) @project(Calibration)
+ ✔ Fix analysis @done (14-08-01 18:29) @project(Calibration)
+ ✔ Add table with e_{reco}, e_{match}, e_{non-isolated} @medium @table @done (14-07-30 18:39) @project(Calibration)
+ ✔ Add statistical uncertainty to number in table 7.1 @medium @table @done (14-07-29 23:33) @project(Calibration)
+ ✔ Switch to maximal background @short @done (14-07-28 16:26) @project(Calibration)
+ ✔ Include final plots in thesis @short @done (14-07-28 16:26) @project(Calibration)
+ ✔ Explain why bb is dominant background 7.5.1 @medium @text @done (14-07-28 16:26) @project(Calibration)
+ ✔ Add the definition of each alignment sample in the text @medium @done (14-07-28 16:26) @project(Calibration)
+ ✔ Include data figure of the Crystal Ball @short @done (14-07-28 15:54) @project(Calibration)
+ ✔ Data curve should be from T&P @medium @done (14-07-28 15:54) @project(Calibration)
+  "lets say it is"
+ ✔ Explain why the data has the Crystal Ball shape @medium @done (14-07-28 14:56) @project(Calibration)
+ ✔ Define Muon Identification criteria @medium @done (14-07-28 14:40) @project(Detector)
+ ✔ Add more text to legend entry for mc11d @short @done (14-07-24 20:32) @project(Calibration)
+ ✔ Add table of pseudo-efficiency for momentum imbalance with cut at (mom. imb. < 0.1) @short @done (14-07-24 18:36) @project(Calibration)

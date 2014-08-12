@@ -1,0 +1,40 @@
+Theory Editing:
+Bibliography:
+  ☐ Check that source name are rendered correctly
+  ☐ Check that journal names are consistent
+  ☐ Check that as much information is provided as possible
+  ☐ Change all collaboration authors as "{ATLAS Collaboration}"
+  ☐ Check that none of the sources are set as website
+
+Formatting:
+  ☐ Cleanup symbols
+  ☐ Cleanup equations
+  ☐ Cleanup tables
+  ☐ Cleanup diagrams
+  ☐ Cleanup plots
+
+Flow:
+  ☐ Does one section flow to the other
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ Check acronyms/abbreviations @done (14-08-11 15:29) @project(Conventions)
+ ✔ Check fix all under/overfulls @done (14-08-11 15:29) @project(Conventions)
+ ✔ Spelling mistakes @done (14-08-11 15:17) @project(Writing style)
+ ✔ Repetition @done (14-08-11 15:17) @project(Writing style)
+ ✔ Correct tone @done (14-08-11 15:17) @project(Writing style)
+ ✔ Conciseness @done (14-08-11 15:17) @project(Writing style)
+ ✔ Clarity @done (14-08-11 15:17) @project(Writing style)
+ ✔ Rendered correctly @done (14-08-11 15:11) @project(For Diagrams)
+ ✔ If there is a @done (14-08-11 15:11) @project(For Diagrams)
+ ✔ Good Size @done (14-08-11 15:11) @project(For Diagrams)
+ ✔ Caption is clear @done (14-08-11 15:11) @project(For Diagrams)
+ ✔ Aligned well @done (14-08-11 15:11) @project(For Diagrams)
+ ✔ Must be at the bottom @done (14-08-11 00:03) @project(For Tables)
+ ✔ Don't repeat units or headings @done (14-08-11 00:03) @project(For Tables)
+ ✔ Caption @done (14-08-11 00:03) @project(For Tables)
+ ✔ Range @done (14-08-10 23:56) @project(For Plot)
+ ✔ Legend position @done (14-08-10 23:56) @project(For Plot)
+ ✔ Labels @done (14-08-10 23:56) @project(For Plot)
+ ✔ Colour, line style @done (14-08-10 23:56) @project(For Plot)
+ ✔ Caption @done (14-08-10 23:56) @project(For Plot)
+ ✔ Axis Labels @done (14-08-10 23:56) @project(For Plot)

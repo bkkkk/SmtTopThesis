@@ -1,0 +1,18 @@
+% !TEX root = ../../../Thesis.tex
+\begin{fmffile}{SingleTop}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(120,80)
+\fmfleft{qIn,gluIn}
+\fmfright{qOut,tOut,bBar}
+\fmf{fermion}{qIn,v1,qOut}
+\fmf{gluon}{v3,gluIn}
+\fmf{fermion}{bBar,v3}
+\fmf{fermion,label=$b$}{v3,v2}
+\fmf{boson,label=$W$}{v1,v2}
+\fmf{fermion}{v2,tOut}
+\fmflabel{$g$}{gluIn} \fmflabel{$q'$}{qIn}
+\fmflabel{$q$}{qOut} \fmflabel{$\bar{b}$}{bBar}
+\fmflabel{$t$}{tOut}
+\end{fmfgraph*}
+}
+\end{fmffile}

@@ -1,0 +1,19 @@
+% !TEX root = ../../../Thesis.tex
+\begin{fmffile}{MultijetFakeLepton}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(120,80)
+\fmfleft{gluIn2,gluIn1}
+\fmfright{qOut,gluOut,qBarOut}
+\fmf{gluon}{v1,gluIn2}
+\fmf{gluon}{v1,gluIn1}
+\fmf{gluon,label=$g$}{v2,v1}
+\fmf{fermion}{v2,v3}
+\fmf{fermion,tension=0.5}{v2,qOut}
+\fmf{gluon,tension=0}{v3,gluOut}
+\fmf{fermion}{v3,qBarOut}
+\fmflabel{$g$}{gluIn2} \fmflabel{$g$}{gluIn1}
+\fmflabel{$q$, ``$e$''}{qOut} \fmflabel{$\bar{q}$}{qBarOut}
+\fmflabel{$g$}{gluOut}
+\end{fmfgraph*}
+}
+\end{fmffile}

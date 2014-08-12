@@ -1,9 +1,11 @@
 \begin{fmffile}{WeakCharged}
-\begin{fmfgraph*}(100,80)
-\fmftop{fi,fo} \fmfbottom{WBoson}
-\fmf{fermion}{fi,vx1,fo}
-\fmf{boson,label=$W$}{vx1,WBoson}
-\fmflabel{$\ell$}{fi} \fmflabel{$\nu_{\ell}$}{fo}
-\fmfdot{vx1}
-\end{fmfgraph*}
+  \fmfframe(5,10)(6,10) { % left, top, right, bottom 
+    \begin{fmfgraph*}(100,80)
+      \fmftop{fi,fo} \fmfbottom{WBoson}
+      \fmf{fermion}{fi,vx1,fo}
+      \fmf{boson,label=$W$}{vx1,WBoson}
+      \fmflabel{$\ell$}{fi} \fmflabel{$\nu_{\ell}$}{fo}
+      \fmfdot{vx1}
+    \end{fmfgraph*}
+  }
 \end{fmffile}

@@ -1,100 +1,131 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{Theory:AwesomeSM}
+\bibitem[Odom et~al.(2006)Odom, Hanneke, D'Urso, and
+  Gabrielse]{Theory:AwesomeSM}
 B.~Odom, D.~Hanneke, B.~D'Urso, and G.~Gabrielse.
 \newblock {New Measurement of the Electron Magnetic Moment Using a One-Electron
   Quantum Cyclotron}.
-\newblock {\em Physical Review Letters}, 97:030801, Jul 2006.
+\newblock \emph{Physical Review Letters}, 97:\penalty0 030801, Jul 2006.
+\newblock \doi{10.1103/PhysRevLett.97.030801}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.97.030801}.
 
-\bibitem{Theory:HiggsDiscoveryATLAS}
-{ATLAS Collaboration}.
+\bibitem[{The ATLAS Collaboration}(2012)]{Theory:HiggsDiscoveryATLAS}
+{The ATLAS Collaboration}.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Physics Letters B}, 716(1):1 -- 29, 2012.
+\newblock \emph{Physics Letters B}, 716\penalty0 (1):\penalty0 1--29, 2012.
 
-\bibitem{Theory:HiggsDiscoveryCMS}
-Serguei Chatrchyan et~al.
+\bibitem[{The CMS Collaboration}(2012)]{Theory:HiggsDiscoveryCMS}
+{The CMS Collaboration}.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
   experiment at the LHC}.
-\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+\newblock \emph{Physics Letters B}, 716\penalty0 (1):\penalty0 30--61, 2012.
 
-\bibitem{Theory:DarkMatter}
+\bibitem[Ade et~al.(2013)]{Theory:DarkMatter}
 P.A.R. Ade et~al.
 \newblock {Planck 2013 results. I. Overview of products and scientific
   results}.
 \newblock 2013.
 
-\bibitem{Theory:Perkins}
+\bibitem[Perkins(2000)]{Theory:Perkins}
 D.H. Perkins.
-\newblock {\em {Introduction to High Energy Physics}}.
+\newblock \emph{{Introduction to High Energy Physics}}.
 \newblock Cambridge University Pres, 2000.
 
-\bibitem{Theory:IntroGriffiths}
+\bibitem[Griffiths(2008)]{Theory:IntroGriffiths}
 D.~Griffiths.
-\newblock {\em {Introcution to Elementary Particles}}.
-\newblock {John Wiley \& Sons, Inc}, 1987.
+\newblock \emph{{Introduction to Elementary Particles}}.
+\newblock {John Wiley \& Sons, Inc}, August 2008.
 
-\bibitem{Theory:PDGBooklet}
-{Particle Data Group}, J.~Beringer, et~al.
-\newblock {The Review of Particle Physics}.
-\newblock {\em {Physical Review D}}, 86:010001+, 2012.
+\bibitem[Beringer et~al.(2012)]{Theory:PDGBooklet}
+J.~Beringer et~al.
+\newblock Review of particle physics.
+\newblock \emph{Physical Review D}, 86:\penalty0 010001, Jul 2012.
+\newblock \doi{10.1103/PhysRevD.86.010001}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevD.86.010001}.
 
-\bibitem{Theory:CKMNicola}
+\bibitem[Cabibbo(1963)]{Theory:CKMNicola}
 N.~Cabibbo.
 \newblock {Unitary Symmetry and Leptonic Decays}.
-\newblock {\em Physical Review Letters}, 10:531--533, Jun 1963.
+\newblock \emph{Physical Review Letters}, 10:\penalty0 531--533, Jun 1963.
 
-\bibitem{Theory:CKMKobayashiMaskawa}
-M.~Kobayashi and Toshihide Maskawa.
+\bibitem[Kobayashi and Maskawa(1973)]{Theory:CKMKobayashiMaskawa}
+M.~Kobayashi and T.~Maskawa.
 \newblock {CP-Violation in the Renormalizable Theory of Weak Interaction}.
-\newblock {\em Progress of Theoretical Physics}, 49(2):652--657, 1973.
+\newblock \emph{Progress of Theoretical Physics}, 49\penalty0 (2):\penalty0
+  652--657, 1973.
 
-\bibitem{Comments}
-Ling-Lie Chau and Wai-Yee Keung.
+\bibitem[Chau and Keung(1984)]{Theory:ChauKungCKM}
+L.L. Chau and W.Y. Keung.
 \newblock Comments on the parametrization of the kobayashi-maskawa matrix.
-\newblock {\em Phys.Rev.Lett.}, 53:1802, 1984.
+\newblock \emph{Physical Review Letters}, 53:\penalty0 1802, 1984.
+\newblock \doi{10.1103/PhysRevLett.53.1802}.
 
-\bibitem{Theory:CKMWolfenstein}
-Lincoln Wolfenstein.
+\bibitem[Wolfenstein(1983)]{Theory:CKMWolfenstein}
+L.~Wolfenstein.
 \newblock {Parametrization of the Kobayashi-Maskawa Matrix}.
-\newblock {\em Physical Review Letters}, 51:1945--1947, Nov 1983.
+\newblock \emph{Physical Review Letters}, 51:\penalty0 1945--1947, Nov 1983.
+\newblock \doi{10.1103/PhysRevLett.51.1945}.
 
-\bibitem{Theory:WeakUniversaility}
+\bibitem[Marathe(2010)]{Theory:WeakUniversaility}
 K.~Marathe.
-\newblock {\em {Topics in Physical Mathematics}}.
+\newblock \emph{{Topics in Physical Mathematics}}.
 \newblock Springer, 2010.
+\newblock ISBN 9781848829398.
+\newblock URL \url{http://books.google.co.uk/books?id=Rf7pqYEb4PQC}.
 
-\bibitem{Experimentalb}
-J.~J. Aubert, U.~Becker, P.~J. Biggs, J.~Burger, M.~Chen, G.~Everhart,
-  P.~Goldhagen, J.~Leong, T.~McCorriston, T.~G. Rhoades, M.~Rohde, Samuel C.~C.
-  Ting, Sau~Lan Wu, and Y.~Y. Lee.
-\newblock Experimental observation of a heavy particle j.
-\newblock {\em Physical Review Letters}, 33(23):1404--1406, 1974.
+\bibitem[Collaboration(1983)]{Experimentalb}
+The~UA1 Collaboration.
+\newblock Experimental observation of isolated large transverse energy
+  electrons with associated missing energy at s=540 gev.
+\newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103--116, 1983.
+\newblock ISSN 0370-2693.
+\newblock \doi{10.1016/0370-2693(83)91177-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383911772}.
 
-\bibitem{Evidence}
+\bibitem[Christenson et~al.(1964)Christenson, Cronin, Fitch, and
+  Turlay]{Evidence}
 J.~H. Christenson, J.~W. Cronin, V.~L. Fitch, and R.~Turlay.
 \newblock Evidence for the $2\pi$ decay of the k20 meson.
-\newblock {\em Physical Review Letters}, 13(4):138--140, 1964.
+\newblock \emph{Physical Review Letters}, 13\penalty0 (4):\penalty0 138--140,
+  1964.
+\newblock \doi{10.1103/PhysRevLett.13.138}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.13.138}.
 
-\bibitem{Model}
+\bibitem[Weinberg(1967)]{Model}
 Steven Weinberg.
 \newblock A model of leptons.
-\newblock {\em Physical Review Letters}, 19(21):1264--1266, 1967.
+\newblock \emph{Physical Review Letters}, 19\penalty0 (21):\penalty0
+  1264--1266, 1967.
+\newblock \doi{10.1103/PhysRevLett.19.1264}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.19.1264}.
 
-\bibitem{Theory:WeakInteractionsGlashow}
-Sheldon~L. Glashow.
+\bibitem[Glashow(1961)]{Theory:WeakInteractionsGlashow}
+S.L. Glashow.
 \newblock {Partial-symmetries of weak interactions}.
-\newblock {\em Nuclear Physics}, 22(4):579 -- 588, 1961.
+\newblock \emph{Nuclear Physics}, 22\penalty0 (4):\penalty0 579 -- 588, 1961.
+\newblock ISSN 0029-5582.
+\newblock \doi{http://dx.doi.org/10.1016/0029-5582(61)90469-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0029558261904692}.
 
-\bibitem{Theory:WeakAndEMSalam}
-Abdus Salam.
+\bibitem[Salam(1968)]{Theory:WeakAndEMSalam}
+A.~Salam.
 \newblock {Weak and Electromagnetic Interactions}.
-\newblock {\em Conf.Proc.}, C680519:367--377, 1968.
+\newblock \emph{Conference Proceedings}, C680519:\penalty0 367--377, 1968.
 
-\bibitem{Theory:WBosonObservationPaper}
+\bibitem[Arnison et~al.(1983)]{Theory:WBosonObservationPaper}
 G.~Arnison et~al.
 \newblock {Experimental observation of isolated large transverse energy
-  electrons with associated missing energy at $\sqrt{s}=$540 GeV}.
-\newblock {\em Physics Letters B}, 122(1):103 -- 116, 1983.
+  electrons with associated missing energy at $\sqrt{s}=\SI{540}{\GeV}$}.
+\newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103 -- 116,
+  1983.
+\newblock ISSN 0370-2693.
 
 \end{thebibliography}

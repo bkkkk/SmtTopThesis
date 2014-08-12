@@ -1,0 +1,19 @@
+% !TEX root = ../../../Thesis.tex
+\begin{fmffile}{DibosonEx}
+\fmfframe(5,17)(20,17) {
+\begin{fmfgraph*}(85,80)
+\fmfleft{q,qBar}
+\fmfright{qOut,qBarOut,lep,nu}
+\fmf{fermion,tension=0.5}{q,v1}
+\fmf{boson,label=$W$}{v1,v2}
+\fmf{fermion,tension=0.5}{v3,qBar}
+\fmf{fermion,tension=0.25}{v1,v3}
+\fmf{boson,label=$W$}{v4,v3}
+\fmf{fermion,tension=0.5}{qBarOut,v2,qOut}
+\fmf{fermion,tension=0.5}{nu,v4,lep}
+\fmflabel{$q'$}{q} \fmflabel{$\bar{q}$}{qBar}
+\fmflabel{$\ell$}{lep} \fmflabel{$\nu$}{nu}
+\fmflabel{$\bar{q}$}{qBarOut} \fmflabel{$q$}{qOut}
+\end{fmfgraph*}
+}
+\end{fmffile}

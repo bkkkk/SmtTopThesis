@@ -1,4 +1,19 @@
 % !TEX root = ../Thesis.tex
-\chapter{List of combined muon performance (MCP) cuts} \label{app:CalibrationMCPCuts}
+\newcommand{\trtHits}{\ensuremath{N_{\textrm{TRT hits}}}}
+\newcommand{\trtOut}{\ensuremath{N_{\textrm{TRT outliers}}}}
 
-%% Add cuts
+\chapter{List of muon combined performance cuts} \label{app:CalibrationMCPCuts}
+
+The following selection is the recommended track-based quality criteria as defined by the muon combined performance group~\cite{Calibration:MCP2012}.
+
+\begin{itemize}
+  \item Require a pixel b-layer hit on the muon EXCEPT where the extrapolated muon track passed an uninstrumented or dead area of the b-layer.
+  \item Number of pixel hits + number of crossed dead pixel sensors $>0$.
+  \item Number of SCT hits + number of crossed dead SCT sensors $>4$.
+  \item Number of pixel holes + number of SCT holes $<3$.
+  \item A successful TRT extension where expected (i.e. in the $\eta$ acceptance of the TRT). An unsuccessful extension corresponds to either no TRT hit associated, or a set of TRT hits associated as outliers. Let \trtHits\ denote the number of TRT hits on the muon track, \trtOut\ the number of TRT outliers on the muon track, and $n=\trtHits + \trtOut$:
+  \begin{itemize}
+    \item \textbf{Case 1}: $0.1<|\eta|<1.9$. Require $n>5$ and $\trtOut<0.9n$.
+    \item \textbf{Case 2}: $|\eta|\geq0.1$ or $|\eta|\leq1.9$. If $n>5$, then require $\trtOut<0.9n$.
+  \end{itemize}
+\end{itemize}

@@ -1,0 +1,30 @@
+% !TEX root = ../Thesis.tex
+\newcommand{\OR}{\textbf{OR}}
+\newcommand{\AND}{\textbf{AND}}
+\chapter{Muon identification criteria} \label{app:DetectorMuonID}
+
+Muon identification criteria are defined for MUID are presented below:
+
+\begin{itemize}
+  \item \textbf{Tight}:
+  \begin{itemize}
+    \item Passes MUID Combined selection \OR
+    \item MUID Standalone at $|\eta|>2.5$ \AND\ has atleast three MDT+CSC stations \OR
+    \item MuGirl with extended track \AND\ (at least two MDT+CSC stations \OR\ less than six MDT+CSC holes on track)
+  \end{itemize}
+  \item \textbf{Medium}:
+  \begin{itemize}
+    \item Tight \OR
+    \item MuGirl with extended track \OR\ $|\eta|<0.2$ \OR\ has at least two muon track segments \OR
+    \item MuTagIMO at $|\eta|<0.2$ \OR\ has at least two muon track segments
+  \end{itemize} 
+  \item \textbf{Loose}:
+  \begin{itemize}
+    \item Medium \OR
+    \item MuGirl \OR
+    \item MuTagIMO \OR
+    \item MuidStandalone
+  \end{itemize}
+\end{itemize}
+
+

@@ -1,15 +1,15 @@
 \begin{fmffile}{TheoryQEDTreeB}
-\fmfframe(5,17)(20,17) {
-\begin{fmfgraph*}(100,80)
-\fmfleft{ele1,pos1}
-\fmfright{ele2,pos2}
-\fmf{fermion}{ele1,v1}
-\fmf{fermion}{v1,ele2}
-\fmf{photon,label=$\gamma$}{v1,v2}
-\fmf{fermion}{v2,pos1}
-\fmf{fermion}{pos2,v2}
-\fmflabel{$e^{+}$}{pos1} \fmflabel{$e^{+}$}{pos2}
-\fmflabel{$e^{-}$}{ele1} \fmflabel{$e^{-}$}{ele2}
-\end{fmfgraph*}
-}
+  \fmfframe(3,12)(1,14) { % left, top, right, bottom
+    \begin{fmfgraph*}(100,80)
+      \fmfleft{ele1,pos1}
+      \fmfright{ele2,pos2}
+      \fmf{fermion}{ele1,v1}
+      \fmf{fermion}{v1,ele2}
+      \fmf{photon,label=$\gamma$}{v1,v2}
+      \fmf{fermion}{v2,pos1}
+      \fmf{fermion}{pos2,v2}
+      \fmflabel{$e^{+}$}{pos1} \fmflabel{$e^{+}$}{pos2}
+      \fmflabel{$e^{-}$}{ele1} \fmflabel{$e^{-}$}{ele2}
+    \end{fmfgraph*}
+  }
 \end{fmffile}
