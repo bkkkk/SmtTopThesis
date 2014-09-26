@@ -1,11 +1,11 @@
 % !TEX root = ../Thesis.tex
 \chapter{Electron identification criteria} \label{app:DetectorElectronID}
 
-Three sets of identification criteria are defined and labelled as loose, medium and tight. The selection criteria include tracking, calorimeter and track-cluster variables as detailed in Table~\ref{tab:DetectorAppElectronIDVariables}.
+Three sets of identification criteria are defined and labelled as loose, medium and tight~\cite{Cross:ElectronIDKeywords}. The selection criteria include tracking, calorimeter and track-cluster variables as detailed below.
 
 \begin{table}[hbtp]
   \centering
-  \begin{longtable}{@{}p{0.30\textwidth}p{0.55\textwidth}l@{}}
+  \begin{tabular}{@{}p{0.29\textwidth}p{0.54\textwidth}l@{}}
     \toprule
     Category & Description & Variable \\
     \midrule
@@ -16,27 +16,49 @@ Three sets of identification criteria are defined and labelled as loose, medium 
     Middle layer of the EM & Ratio of energies in $3\times7$ cells over $7\times7$ cells & $R_{\eta}$ \\
                            & Lateral width of the shower & $\omega_{\eta2}$ \\
     Front layer of EM & Total shower width & $\omega_{stot}$ \\
-                      & Energy difference of the largest and second largest energy deposists in the cluster divided by their sum & $E_{\textrm{ratio}}$ \\
-    Track quality and track-cluster matching & Number of hits in the pixel detector $(>0)$ & \\
+                      & Energy difference of the largest and second largest energy deposits in the cluster divided by their sum & $E_{\textrm{ratio}}$ \\
+    Track quality and track-cluster matching & Number of hits in the pixel detector $(>0)$ \\
                                              & Number of hits int he silicon detectors $(\ge7)$ \\ 
                                              & $|\Delta\eta|$ between the cluster position in the first layer and the extrapolated track $(<0.015)$ & $\Delta\eta_{1}$ \\
+    \bottomrule
+  \end{tabular}
+  \caption{Loose electron identification criteria.}
+  \label{tab:DetectorAppElectronLoose}
+\end{table}
+
+\begin{table}[hbtp]
+  \centering
+  \begin{tabular}{@{}p{0.29\textwidth}p{0.54\textwidth}l@{}}
+    \toprule
+    Category & Description & Variable \\
     \midrule
     \multicolumn{3}{c}{\textbf{Medium}} \\
-    Track quality and track-cluster matching & Number of hits in the b-layer $>0$ for $|\eta|<2.01$ & \\
+    Track quality and track-cluster matching & Number of hits in the b-layer $>0$ for $|\eta|<2.01$ \\
     & Number of hits in the pixel detector $>1$ for $|\eta|<2.01$ \\
     & Transverse impact parameter $|d_0|<\SI{5}{\mm}$ & $d_{0}$ \\
     & Tighter $|\eta_{1}|$ cut $(<0.005)$ \\
-    TRT & Loos cut on TRT high-treshold fraction \\
-    \midrule
-    \multicolumn{3}{c}{\textbf{Tight}} \\ 
-    Track quality and track-cluster matching & Transverse impact parameter cut $|d_0|<\SI{1}{\mm}$ \\ 
-    & Asymmetric cut on $\Delta\phi$ between the cluster position in the middle layer and the extrapolated track & $\Delta\phi$ \\
-    & Ratio of the cluster energy to the track momentum & $E/p$ \\
-    TRT & Total number of hits in the TRT \\
-    & Tighter cut on the TRT high-threshold fraction \\
-    Conversions & Reject electron candidates matched to reconstructed photon conversions \\
+    TRT & Loose cut on TRT high-threshold fraction \\
     \bottomrule
-  \end{longtable}
-  \caption{Electron identification criteria~\cite{ElectronIDKeywords}.}
-  \label{tab:DetectorAppElectronIDVariables}
+  \end{tabular}
+  \caption{Medium electron identification criteria.}
+  \label{tab:DetectorAppElectronMedium}
+\end{table}
+
+\begin{table}[hbtp]
+  \centering
+    \begin{tabular}{@{}p{0.29\textwidth}p{0.54\textwidth}l@{}}
+      \toprule
+      Category & Description & Variable \\
+      \midrule
+      \multicolumn{3}{c}{\textbf{Tight}} \\ 
+      Track quality and track-cluster matching & Transverse impact parameter cut $|d_0|<\SI{1}{\mm}$ \\ 
+      & Asymmetric cut on $\Delta\phi$ between the cluster position in the middle layer and the extrapolated track & $\Delta\phi$ \\
+      & Ratio of the cluster energy to the track momentum & $E/p$ \\
+      TRT & Total number of hits in the TRT \\
+      & Tighter cut on the TRT high-threshold fraction \\
+      Conversions & Reject electron candidates matched to reconstructed photon conversions \\
+      \bottomrule
+    \end{tabular}
+    \caption{Tight electron identification criteria.}
+  \label{tab:DetectorAppElectronTight}
 \end{table}

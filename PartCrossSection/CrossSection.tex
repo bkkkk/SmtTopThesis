@@ -14,16 +14,15 @@
 \chapter[Measurement of the \texorpdfstring{\ttbar}{top-antitop} cross section]{Measurement of the $\bm{\ttbar}$ cross section in the $\bm{\ell}$+jets channel using SMT}
 \label{ch:CrossSection}
 
-This section describes a \ttbar\ cross section measurement carried out by the joint RHUL and QMUL SMT group.
-Measurement of the \ttbar\ production cross section is important for many reasons. First, the value of the \ttbar\ cross section at various \cms\footnote{Production cross sections depend on the \cms\ of the collision.} is a powerful test of the SM and perturbative QCD. New physics processes could have a similar final-state signature so any significant deviations from the prediction would point to the presence of new physics. Additionally, \ttbar\ events constitute a background to other analyses such as SUSY searches and Higgs boson searches and properties studies.
+This section describes a \ttbar\ cross section measurement carried out by the joint RHUL and QMUL group.
 
-Presented here is a measurement of the top-pair production cross section at \cmsS\ in the lepton plus jets channel, with at least one of the $b$-quarks in the event decaying semileptonically producing a soft muon. The presence of such a jet is determined by the use of the \xsm-based SMT tagger described in Section~\ref{sec:DetectorSLT}.
+Presented here is a measurement of the top quark pair production cross section at \cmsS\ in the lepton plus jets channel, with at least one of the $b$-quarks in the event decaying semileptonically producing a soft muon. The presence of such a jet is determined by the use of the \xsm-based SMT tagger described in Section~\ref{sec:DetectorSLT}.
 
-\section{Data and Monte Carlo samples} \label{sec:CrossSectionSamplesMC}
+\section{Collision data and simulated samples} \label{sec:CrossSectionSamplesMC}
 
-This measurement is based on collision data recorded by ATLAS in 2011 at the LHC. After applying quality cuts based on the beam and detector conditions, the dataset contains an integrated luminosity of \SI{4.66(8)}{\per\femto\barn}. Several simulation samples are used in this analysis. The \ttbar\ signal sample was simulated with MC@NLO v4.01~\cite{CrossSection:MCNLOFirst,CrossSection:MCNLOSecond} interfaced to HERWIG~\cite{Herwig} for parton showering and hadronisation and JIMMY~\cite{CrossSection:Jimmy} for underlying event simulation. The $W/Z$+jets samples were generated using ALPGEN~\cite{CrossSection:ALPGEN} interfaced into HERWIG+JIMMY. The single top samples were generated using MC@NLO interfaced to HERWIG+JIMMY for the $s$ and $Wt$ channels and AcerMC~\cite{CrossSection:ACERMC} interfaced to PYTHIA~\cite{Pythia} for the the $t$ channel. Finally the diboson samples ($WW/WZ/ZZ$) were generated using HERWIG alone. 
+This measurement is based on collision data recorded by ATLAS in 2011 at the LHC running with \cmsS. After applying quality cuts based on the beam and detector conditions, the dataset contains an integrated luminosity of \SI{4.66(8)}{\per\femto\barn}. Several simulated samples are used in this analysis, including the signal process and all backgrounds excluding the multijet background source. The \ttbar\ signal sample was simulated with MC@NLO v4.01~\cite{CrossSection:MCNLOFirst,CrossSection:MCNLOSecond} interfaced to HERWIG~\cite{Herwig} for parton showering and hadronization, and JIMMY~\cite{CrossSection:Jimmy} for underlying event simulation. The $W/Z$+jets samples were generated using ALPGEN~\cite{CrossSection:ALPGEN} interfaced into HERWIG+JIMMY. The single top samples were generated using MC@NLO interfaced to HERWIG+JIMMY for the $s$ and $Wt$ channels, and AcerMC~\cite{CrossSection:ACERMC} interfaced to PYTHIA~\cite{Pythia} for the $t$ channel. Finally, the diboson samples ($WW/WZ/ZZ$) were generated using HERWIG alone. 
 
-This analysis is based on the tagging of muons from semileptonic decays of $b$-quarks. In order to obtain the correct event yields it is important that the simulation used correctly models the inclusive production rate of soft muons and the individual BR for all production chains (Table~\ref{tab:DetectorSLTBR}). To this end, each event with a soft muon is reweighted such that the BR conforms with the latest measured value as quoted in Ref.~\cite{Theory:PDGBooklet}. The reference BR and the values used for HERWIG and PYTHIA are shown in Table~\ref{tab:CrossSectionBRbTomu}.
+This analysis is based on the tagging of muons from semileptonic decays of $b$-quarks. In order to obtain accurate event yields it is important that the simulation correctly models the inclusive production rate of soft muons, and the individual BR for all production chains (Table~\ref{tab:DetectorSLTBR}). To this end, each event with a soft muon is re-weighted such that the BRs conform with the latest measured values as quoted in Ref.~\cite{Theory:PDGBooklet}. The reference BR and the values used by HERWIG and PYTHIA are shown in Table~\ref{tab:CrossSectionBRbTomu}.
 
 \begin{table}
   \centering
@@ -31,36 +30,45 @@ This analysis is based on the tagging of muons from semileptonic decays of $b$-q
                     l%
                     S[table-format=2.2(2)]%
                     S[table-format=2.2(2)]%
-                    @{\;}
-                    S[table-format=1.2(2),tight-spacing=true]%
+                    @{~(}
+                    S[table-format=1.2(2),tight-spacing=true,table-space-text-pre=(,table-space-text-post=)]%
+                    @{)\;}
                     S[table-format=2.2(2)]%
-                    @{\;}
-                    S[table-format=1.2(2),tight-spacing=true]%
-                  @{}}
+                    @{~(}
+                    S[table-format=1.2(2),tight-spacing=true,table-space-text-pre=(,table-space-text-post=)]%
+                  @{)}}
     \toprule
     Source & \multicolumn{5}{c}{Branching Ratio [\si{\percent}] (Ratio to PDG)} \\
     \cmidrule{2-6}
                                     & {PDG} & \multicolumn{2}{c}{HERWIG} & \multicolumn{2}{c}{PYTHIA} \\
     \midrule
-    $b\rightarrow \mu$                         & 10.95(29) & 9.57(3) & 1.14(3)  & 10.01(3) & 1.09(3)  \\
-    $b\rightarrow \tau \rightarrow \mu$        & 0.42(4)   & 0.70(2) & 0.60(6)  & 0.67(1)  & 0.62(6)  \\
-    $b\rightarrow c \rightarrow \mu^{+}$       & 8.02(19)  & 8.24(3) & 0.97(2)  & 8.89(3)  & 0.90(2)  \\
+    $b\rightarrow \mu$                         & 10.95(29) & 9.57(3) & 1.14(3) & 10.01(3) & 1.09(3)   \\
+    $b\rightarrow \tau \rightarrow \mu$        & 0.42(4)   & 0.70(2) & 0.60(6) & 0.67(1)  & 0.62(6)   \\
+    $b\rightarrow c \rightarrow \mu^{+}$       & 8.02(19)  & 8.24(3) & 0.97(2) & 8.89(3)  & 0.90(2)   \\
     $b\rightarrow \bar{c} \rightarrow \mu^{-}$ & 1.60(50)  & 2.51(2) & 0.64(20) & 2.66(2)  & 0.60(19) \\
     \bottomrule
   \end{tabular}
-  \caption{List of branching ratios as used in HERWIG and PYTHIA generators compared to the reference PDG values~\cite{Theory:PDGBooklet}.}
+  \caption[List of the $b\rightarrow\mu$ branching ratios used in the HERWIG and PYTHIA generators compared to the reference PDG values.]{List of the $b\rightarrow\mu$ branching ratios used in the HERWIG and PYTHIA generators compared to the reference PDG values~\cite{Theory:PDGBooklet}.}
   \label{tab:CrossSectionBRbTomu}
 \end{table}
 
-\section{Object selection and event selection} \label{sec:CrossSectionEventSelection}
+\section{Object identification and event selection} \label{sec:CrossSectionEventSelection}
 
-The selection criteria used in this analysis are based on the nominal \cmsS\ selections recommended by the ATLAS top group. Some alterations have been implemented to adapt to the usage of the \xsm\ tagger instead of the standard MV1 method for $b$-jet tagging. Collision and simulation events are required to have fired an inclusive single electron or muon trigger with offline-reconstructed candidates with $\pt>\SI{25}{\GeV}$ for electrons and $\pt>\SI{20}{\GeV}$ for muons. Electrons are required to have $|\eta|<\num{2.47}$ and not lie within the transition between the barrel and endcap calorimeters ($\num{1.37}<|\eta|<\num{1.52}$). They must satisfy the \emph{tight} identification criteria set as described in Appendix~\ref{app:DetectorElectronID}. Electrons are required to be isolated using cuts on calorimeter isolation (\etcone{20}) and momentum isolation (\ptcone{30}) as defined in Section~\ref{sec:CalibrationEfficienciesIsolation}. The cut value for both is defined such as to maintain an efficiency of \SI{90}{\percent}. The isolation requirements are designed to reduce the amount of multijet background, where reconstructed electrons are not produced in isolation.
+The selection criteria used in this analysis are based on the nominal \cmsS\ selections recommended by the ATLAS top group. Some alterations have been implemented to adapt to the usage of the \xsm\ tagger instead of the standard MV1 method for $b$-jet tagging. Collision and simulation events are required to have fired an inclusive single electron or muon trigger with offline-reconstructed candidates with $\pt>\SI{25}{\GeV}$ for electrons and $\pt>\SI{20}{\GeV}$ for muons. Electrons are required to have $|\eta|<\num{2.47}$ and not lie within the transition between the barrel and end-cap calorimeters ($\num{1.37}<|\eta|<\num{1.52}$). They must satisfy the \emph{tight} identification criteria as described in Appendix~\ref{app:DetectorElectronID}. Electrons are required to be isolated using cuts on calorimeter isolation (\etcone{20}) and momentum isolation (\ptcone{30}) as defined in Section~\ref{sec:CalibrationEfficienciesIsolation}. The cut values for both are defined so as to maintain an efficiency of \SI{90}{\percent}. The isolation requirements are designed to reduce the amount of multijet background where reconstructed electrons are not produced in isolation.
 
-Muon candidates are reconstructed using the MUID combined algorithm, and must lie within the coverage of ID ($|\eta|<2.5$). The combined track is obtained from a fit using both ID and MS information. The muon is required to be isolated in both tracking and calorimeter isolation with $\etcone{20}<\SI{4}{\GeV}$ and $\ptcone{30}<\SI{2.5}{\GeV}$ and to be well separated from the jet by at least $\DeltaR>0.4$. Events must contain exactly one ``good'' muon or one ``good'' electron.
+Muon candidates are reconstructed using the MUID combined algorithm (see Section~\ref{sec:MUID}), and must lie within the coverage of ID ($|\eta|<2.5$). The combined track is obtained by fitting hits in the ID and MS. The muon is required to be isolated in both tracking and calorimeter isolation with $\etcone{20}<\SI{4}{\GeV}$ and $\ptcone{30}<\SI{2.5}{\GeV}$, and to be well separated from the jet by at least $\DeltaR>0.4$. Events must contain exactly one ``good'' muon or one ``good'' electron.
 
-Jets are reconstructed using the anti-$k_{t}$ algorithm with a distance parameter $R=0.4$. Calorimeter topological clusters at the EM scale are used as inputs to the algorithm and JES corrections are applied to the resulting jets. In addition, Jets are required to have a $\pt>\SI{25}{\GeV}$ and $|\eta|<2.5$. An additional requirement is applied on the jet vertex fraction (JVF), which is defined as the sum \pt\ of all tracks matched to a jet that originated from a given vertex divded by the sum \pt\ of all tracks that make up the jet. The JVF is normally defined with respect to the primary vertex. Jets are required to have a JVF larger than \num{0.75}. Finally, jets within $\DeltaR<0.2$ of an electron are rejected.
+Jets are reconstructed using the anti-$k_{t}$ algorithm with a distance parameter $R=0.4$. Topo-clusters at the EM scale are used as inputs to the algorithm and JES corrections are applied to the resulting jets. They are also required to have a $\pt>\SI{25}{\GeV}$ and $|\eta|<2.5$. The \emph{jet vertex fraction} (JVF) defined as:
 
-In the \ejets\ analysis, a large amount of missing transverse energy is required ($>\SI{30}{\GeV}$) to account for escaping neutrino. The transverse mass of the $W$ boson \mtw\ is reconstructed from the signal lepton and the missing transverse energy:
+\begin{equation}
+  \textrm{JVF} = \frac{\sum \pt \textrm{ of jet tracks from PV}}{\sum \pt \textrm{ of all jet tracks}}
+\end{equation}
+%
+has to be larger than \num{0.75}. The JVF cut is implemented to remove jets from minimum bias interactions.
+
+Finally, jets within $\DeltaR<0.2$ of an electron are rejected.
+
+In the \ejets\ analysis, a large amount of missing transverse energy is required ($>\SI{30}{\GeV}$) to account for the escaping neutrino. The transverse mass of the $W$ boson \mtw\ is reconstructed from the signal lepton and the missing transverse energy:
 
 \begin{equation}
   \mtw=\sqrt{2\pt^{\ell}\pt^{\nu}[1-\cos{\phi^{\ell}-\phi^{\nu}}]}
@@ -70,77 +78,89 @@ where \met\ is associated with the neutrino to calculate $\pt^{\nu}$ and $\phi^{
 
 In the electron channel the measured \mtw\ must be larger than \SI{30}{\GeV}. The \met\ requirement in the \mujets\ channel is looser ($\met>\SI{20}{\GeV}$) and a triangular cut $\met+\mtw>\SI{60}{\GeV}$ is applied.
 
-For both channels, a minimum of three ``good'' jets is required. All events which pass these selections are labelled as ``pretag'' events. Pretag events which contain at least one jet tagged by the SMT algorithm are labelled as ``tagged'' events. In the \mujets\ channel, requirements are placed on the invariant mass of the soft muon and the signal muon $m_{\mu\mu}$ to remove contributions from dimuon $\Upsilon$ ($\SI{8}{\GeV}\leq m_{\mu\mu} \leq\SI{11}{\GeV}$) and $Z$ ($\SI{80}{\GeV}\leq m_{\mu\mu}\leq\SI{100}{\GeV}$) decays. Finally, the signal muon must not be the soft muon ($\DeltaR>0.01$).
+For both channels, a minimum of three ``good'' jets is required. Given the final-state signature, it is reasonable to request four or more jets in the event. It was found that the three jets inclusive selection yielded a lower statistical uncertainty, and more importantly a smaller event generator systematic uncertainty. These uncertainties are described in more detail in Section~\ref{sec:systematics_uncertainties}.
+
+All events which pass these selections are labelled as ``pretag'' events. Those events which contain at least one jet tagged by the SMT algorithm are labelled as ``tagged'' events. In the \mujets\ channel, requirements are placed on the invariant mass of the soft muon and the signal muon $m_{\mu\mu}$ to remove contributions from dimuon $\Upsilon$ ($\SI{8}{\GeV}\leq m_{\mu\mu} \leq\SI{11}{\GeV}$) and $Z$ ($\SI{80}{\GeV}\leq m_{\mu\mu}\leq\SI{100}{\GeV}$) decays. Finally, the signal muon must be a different object than the soft muon ($\DeltaR>0.01$).
 
 The efficiency of the full selection as measured on the \ttbar\ signal sample is \SI{1.42}{\percent} in the \ejets\ channel and \SI{2.15}{\percent} in the \mujets\ channel. These efficiencies include both lepton plus jets and dilepton events with at least three jets and at least one jet tagged by the SMT algorithm. Acceptance to fully hadronic events is negligible.
 
 \section{Background estimation} \label{sec:CrossSectionBacgkround}
 
-Lepton plus jets \ttbar\ events have a varied final state signature that includes a lepton, multiple jets including $b$-jets and missing energy. As a result \ttbar\ analyses must take into account many different types of background: diboson, \W+jets, \Z+jets, single-top and multijet. \W+jets events (e.g. Figure~\ref{fig:WbbJets}) enter the signal region due to the presence of a real lepton, missing transverse energy and one or two real $b$-jets or mistagged LF jets. Gluon emissions can also occur resulting in additional jets. The \W+jets background is estimated using data-driven methods. $Z$+jets events (e.g. Figure~\ref{fig:ZbbJets}) can pass the selection if one of the two leptons is not identified if, for example the lepton enters the crack region. This results in an overall imbalance of momentum interpreted as missing energy. The $Z$ boson can be created in association with a gluon which result in real $b$-jets or LF jets that could be mistagged. Diboson production (e.g. Figure~\ref{fig:WW}) such as $WW$, $ZZ$ or $WZ$ enters the signal region due to the presence of real leptons, missing energy (real or from missed leptons) and HF jet or mistagged LF jets.
+Lepton plus jets \ttbar\ events have a varied final state signature that includes a lepton, multiple jets including $b$-jets and missing energy. As a result \ttbar\ analyses must take into account several sources of background: diboson, \W+jets, \Z+jets, single-top and multijet.
+
+\W+jets events (e.g. Figure~\ref{fig:WbbJets}) enter the signal region due to the presence of a real lepton, missing transverse energy, and one or two real $b$-jets or mistagged LF jets. Gluon emissions can also occur resulting in additional jets. The \W+jets background is estimated using data-driven methods.
+
+$Z$+jets events (e.g. Figure~\ref{fig:ZbbJets}) can pass the selection if one of the two leptons is not identified. This can happen if, for example, the lepton enters the crack region. This results in an overall imbalance of momentum interpreted as missing energy. The $Z$ boson can be created in association with a gluon which results in real $b$-jets or mistagged LF jets. This source of background, along with single-top and diboson, is estimated from MC simulation.
+
+Diboson production (e.g. Figure~\ref{fig:WW}) such as $WW$, $ZZ$ or $WZ$ enters the signal region due to the presence of real leptons, missing energy (from real or missed leptons), and HF or mistagged LF jets.
 
 \begin{figure}[htbp]
   \centering
-    \begin{minipage}[][][t]{.32\textwidth}
+    \begin{minipage}[][][t]{.45\textwidth}
       \centering
         \input{PartCrossSection/Diagram/Feynman/WJetsEx.tex}
         \subcaption{$W\bar{b}b$+jets production.}
       \label{fig:WbbJets}
     \end{minipage}
     \,
-    \begin{minipage}[][][t]{.32\textwidth}
+    \begin{minipage}[][][t]{.45\textwidth}
       \centering
         \input{PartCrossSection/Diagram/Feynman/ZJetsEx.tex}
         \subcaption{$Z\bar{b}b$+jets production.}
       \label{fig:ZbbJets}
     \end{minipage}
     
-    \begin{minipage}[][][t]{.32\textwidth}
+    \begin{minipage}[][][t]{.45\textwidth}
       \centering
         \input{PartCrossSection/Diagram/Feynman/DibosonEx.tex}
         \subcaption{$WW$ production.}
       \label{fig:WW}
     \end{minipage}
     \,
-    \begin{minipage}[][][t]{.32\textwidth}
+    \begin{minipage}[][][t]{.45\textwidth}
       \centering
         \input{PartCrossSection/Diagram/Feynman/SingleTop.tex}
         \subcaption{Single-top production.}
       \label{fig:SingleTop}
     \end{minipage}
-    \caption{Feynman diagrams of some $V$+jets and diboson background processes to \ttbar\ in the $\ell$+jets channel.}
+    \caption{Some of the Feynman diagrams of background processes from $W/Z$+jets, diboson and single-top.}
   \label{fig:CrossSectionWJetsFeynman}
 \end{figure}
 
-Multijet events which contain LF and/or $b$-quarks enter the signal region when they contain a fake lepton which passes the isolation requirement. Fake electrons include both real electrons: such as those from photon conversions in the detector material and semileptonic decay of $b$- and $c$-quarks, and objects that fake the electron signature such as tracks overlapping with photons and jets with few charged tracks or small amounts of energy deposited in the hardonic calorimeter. 
+Multijet events which contain LF and/or $b$-quarks enter the signal region when they contain a reconstructed lepton that passes the isolation requirement. These can include both real electrons and objects that fake electrons. Real electron sources include photon conversions in the detector material, and semileptonic decay of $b$- and $c$-quarks. Fake electrons can be reconstructed from tracks overlapping with photons, and jets with few charged tracks or small amounts of energy deposited in the hadronic calorimeter.
 
-Fake muon sources include real muons from decay-in-flight of pions or kaons within the tracking region, and objects that fake the muon signature such as hadrons that do not shower in the detector material and \emph{punch-through} hadrons from hadronic showers. Additionally, the semileptonic decay of $b$- and $c$-quarks can also produce muons which constitutes a background to the signal $W$-muon. However, in this analysis these soft muons are those tagged by the SMT tagger. A significant amount of fake \met\ must also be reconstructed for the multijet events to pass the selection. Missing energy is reconstructed by combining all energy depositions in the detector, any imbalance is then treated as missing energy. There are numerous sources of fake \met\ including uninstrumented sections of the detector, noisy or dead calorimeter cells, misreconstruction of physics objects, fake muons from punch-through and pile-up. Although the probability of each of these processes is small, the large production cross section for multijet make it an important background. The simulation of these effects for the purpose of background estimation is impractical due to the sample size required. Additionally the simulation of these effects is difficult to model precisely. As a result the multijet background is estimated using data-driven methods.
+There are several sources of real muons including those from the decay-in-flight of pions or kaons within the tracking region. There are also several objects that fake the muon signature such as hadrons that do not shower in the detector material, and \emph{punch-through} hadrons from hadronic showers~\footnote{Hadrons which are not contained within the calorimetry and enter the muon system}. The semileptonic decay of $b$- and $c$-quarks can also produce muons which constitute a background to the signal $W$-muon. However, in this analysis these soft muons are exploited by the SMT tagger.
+
+A significant amount of fake \met\ must also be reconstructed for the multijet events to pass the selection. Missing energy is reconstructed by combining all energy depositions in the detector, any imbalance is then treated as missing energy. There are numerous sources of fake \met\ such as uninstrumented sections of the detector, noisy or dead calorimeter cells, misreconstruction of physics objects, fake muons from punch-through and pile-up. Although the probability of each of these processes is small, the large production cross section for multijet make it an important background.
+
+Using simulation to model these effects is not possible as they depend on the conditions in the detector, some of which are random or short-lived. The data sample required for such a study would also have to be very large, making this approach impractical. As a result the multijet background is estimated using data-driven methods.
 
 \begin{figure}[htbp]
   \centering
-    \begin{minipage}[][][t]{.32\textwidth}
+    \begin{minipage}[][][t]{\textwidth}
       \centering
         \input{PartCrossSection/Diagram/Feynman/MultijetRealLepton.tex}
-        \subcaption{Multijet production with real lepton.}
+        \subcaption{Multijet with real lepton}
       \label{fig:MultiJetBkgReal}
     \end{minipage}
-    \,
-    \begin{minipage}[][][t]{.32\textwidth}
+    
+    \begin{minipage}[][][t]{\textwidth}
       \centering
         \input{PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex}
-        \subcaption{Multijet production with fake lepton.}
+        \subcaption{Multijet with fake lepton}
       \label{fig:MultiJetBkgFake}
     \end{minipage}
-    \caption{Feynman diagrams of some single-top and multijet background processes to \ttbar\ in the $\ell$+jets channel.}
+    \caption[Feynman diagrams of some of the multijet background sources.]{Feynman diagrams of some of the multijet background sources. Shown are \subref{fig:MultiJetBkgReal} $b\bar{b}$ which produce a real lepton and multiple jets, and \subref{fig:MultiJetBkgFake} where one of the quark jets is misidentified as an electron.}
   \label{fig:MultiJetBkg}
 \end{figure}
 
-Diboson, single-lepton and $Z$+jets backgrounds are estimated using MC simulation.
+\subsection{Multijet in the electron channel} \label{sec:CrossMultijetElectron}
 
-\subsection{Multijet in the electron channel}
-\label{sec:CrossMultijetElectron}
-This analysis makes use of two different methodologies, the so-called \emph{matrix method}~\cite{CrossSection:MatrixMethod} is used for the central value of the estimate and the so-called \emph{ABCD method} is used for verification.
+The estimation of the multijet background in the electron channel is done using two different methodologies. The \emph{matrix method}~\cite{CrossSection:MatrixMethod}, which is used to obtain the central value, and the so-called \emph{ABCD method} as a cross-check.
 
-At pretag level the multijet content in the signal region is estimated by using the matrix method. In addition to the standard electron selection, a looser selection is defined where the isolation requirement is removed. Events are categorized by whether they pass the standard selection or only loose selection\footnote{All muons that pass the standard selection by construction also pass the loose selection}. The number of events in each category is the sum of events with ``real'' electrons and ``fake'' electrons as follows:
+The pretag estimate is obtained using the matrix method, while the tagged estimate is obtained by scaling the pretag values by an SMT multijet event tagging-rate.
+
+The matrix method is implemented as follows: in addition to the standard electron selection, a looser selection is defined where the isolation requirement is removed. Events are categorized by whether they pass the standard selection or only loose selection\footnote{All muons that pass the standard selection by construction also pass the loose selection}. The number of events in each category is the sum of events with ``real'' electrons and ``fake'' electrons\footnote{Here, fake means background muons that are not the signal muon.} as follows:
 %
 \begin{align}
   N^{\textrm{loose}} &= N_{\textrm{real}}^{\textrm{loose}} + N_{\textrm{fake}}^{\textrm{loose}} \\
@@ -148,17 +168,17 @@ At pretag level the multijet content in the signal region is estimated by using 
   N^{\textrm{std}} &= rN_{\textrm{real}}^{\textrm{loose}} + fN_{\textrm{fake}}^{\textrm{loose}}
 \end{align}
 %
-where $r$ and $f$ are the ``real'' and ``fake'' efficiencies for the loose event to also pass the standard selection. Given a measured $N^{\textrm{std}}$ and $N^{\textrm{loose}}$ in data, and if $f$ and $r$ are known the number of events with a fake electron that passes the standard selection can be calculated as
+where $r$ and $f$ are the portion of loose events that pass the standard selection, given that the event contains a ``real'' or ``fake'' electron.
+
+Given a measured $N^{\textrm{std}}$ and $N^{\textrm{loose}}$ in data, and if $f$ and $r$ are known the number of events with a fake electron that passes the standard selection can be calculated:
 %
 \begin{equation}
   N_{\textrm{fake}}^{\textrm{std}} = fN_{\textrm{fake}}^{\textrm{loose}} = f\frac{N^{\textrm{std}}-r N^{\textrm{loose}} }{(f-r)}
 \end{equation}
-%
-thus $N_{\textrm{fake}}^{\textrm{std}}$ is the final estimate of the multijet background in the signal region.
 
-The relative efficiency $r$ is measured from an inclusive sample of $Z\rightarrow ee$ events and $f$ is measured from a sample of events with exactly one loose electron, at least one jet with a $\pt>\SI{25}{\GeV}$ and $\met<\SI{20}{\GeV}$. This sample is enriched with events that have low missing energy and one electron likely coming from a jet faking a lepton. An uncertainty of \SI{50}{\percent} is assigned to the pretag estimate to cover the respective uncertainties on $f$ and $r$.
+The relative efficiency $r$ is measured from an inclusive sample of $Z\rightarrow ee$ events and $f$ is measured from a sample of events with exactly one loose electron, at least one jet with a $\pt>\SI{25}{\GeV}$, and $\met<\SI{20}{\GeV}$. This sample is enriched with events that have low missing energy and one electron likely coming from a jet faking a lepton. An uncertainty of \SI{50}{\percent} is assigned to the pretag estimate to cover the respective uncertainties on $f$ and $r$. The values of $r$ and $f$ are binned as a function of lepton pseudorapidity.
 
-To derive the tagged estimate the pretag estimates are scaled by the probability of SMT tagging an event. The tagging probability of multijet events $R_{\textrm{SMT}}^{\textrm{multijet}}$ is derived from control regions defined by the isolation of the electron and the \met\ cut that forms part of the event selection, as shown in Figure~\ref{fig:CrossSectionABCDRegions}.
+To derive the tagged estimate, the pretag estimates are scaled by the probability of SMT tagging a multijet event. The tagging probability of multijet events $R_{\textrm{SMT}}^{\textrm{multijet}}$ is derived from control regions defined by the isolation of the electron and the \met\ cut defined in the event selection, as shown in Figure~\ref{fig:CrossSectionABCDRegions}.
 
 \begin{figure}[htbp]
   \centering
@@ -177,23 +197,25 @@ To derive the tagged estimate the pretag estimates are scaled by the probability
   \node[name=highMetLabel, xLabel, below of = signal] {High-\met};
   \node[name=lowMetLabel, xLabel, below of = control2] {Low-\met};
   \end{tikzpicture}  
-  \caption{A diagram of the \met-isolation phase space. Shown are the four regions as defined by the event selection.}
+  \caption{Diagram of the \met-isolation phase space. Shown are the four regions as defined by the event selection.}
   \label{fig:CrossSectionABCDRegions}
 \end{figure}
 
-These four regions, labelled A through D, can be identified as a background-dominated region, containing events with low-\met\ and a non-isolated electron; a signal region, with events that pass the event selection; and two control regions, containing events with high-\met\ or an isolated electron. The events in each of the regions then represents a different aspect of multijet events that pass the event selection. The tagging rate is simply defined as
+These four regions are labelled A through D: A) a background-dominated region, containing events with low-\met\ and no isolated electrons; B) a control region with an isolated electron; C) a control region with low-\met; and D) the signal region, with events that pass the event selection. Events in each region represent a different multijet process that allows these to pass the event selection.
+
+The tagging-rate is simply defined as
 %
 \begin{equation}
-  R_{\textrm{SMT}} = \frac{N_{\textrm{Tagged}}}{N_{\textrm{Pretag}}} 
+  R_{\textrm{SMT}}^{\textrm{multijet}} = \frac{N^{\textrm{multijet}}_{\textrm{tagged}}}{N^{\textrm{multijet}}_{\textrm{pretag}}} 
 \end{equation}
 %
-where $N$ is the number of events in the region. Contaminations from non-multijet events such as $W$+jets, $Z$+jets, \ttbar, single-top and diboson events are subtracted using MC simulation. Thus the yield in each region is defined as
+where $N$ is the number of events in the region. Contaminations from non-multijet events such as $W$+jets, $Z$+jets, \ttbar, single-top, and diboson events are subtracted using MC simulation. Thus the yield in each region is defined as
 %
 \begin{equation}
-  N^{\textrm{Multijet}} = N^{\textrm{Data}} - N^{W\textrm{+jets}} - N^{Z\textrm{+jets}} - N^{\textrm{Diboson}} - N^{\ttbar} - N^{\textrm{Single-top}}
+  N^{\textrm{multijet}} = N^{\textrm{data}} - N^{W\textrm{+jets}} - N^{Z\textrm{+jets}} - N^{\ttbar} - N^{\textrm{diboson}} - N^{\textrm{single-top}}
 \end{equation}
 
-The largest sources of contaminations in all regions come from \ttbar, \W+jets and \Z+jets. The amount of contamination in each region is summarized in Table~\ref{tbl:CrossContRegion} at pretag level and in Table~\ref{tbl:CrossContRegionTagged} for tag level. Single-top and diboson contribute less than \SI{1}{\percent} in most bins and are therefore not shown here. As expected, Region A contains the least amount of contamination from other processes and is dominated by multijet. Regions B and C are dominated by \W+jets in all jet-bins because of the presence a real lepton and \met\ from the neutrino. The \Z+jets contamination is most significant in region C due to the requirement of an isolated electron but low-\met. 
+The largest sources of contamination are \ttbar, \W+jets, and \Z+jets, as shown in Table~\ref{tab:CrossContRegion} for pretag level and in Table~\ref{tab:CrossContRegionTagged} for tag level. Single-top and diboson contribute less than \SI{1}{\percent} in most bins and are therefore not shown here. As expected, Region A contains the least amount of contamination from other processes and is dominated by multijet events. Regions B and C are dominated by \W+jets in all jet-bins because of the presence a real lepton and \met\ from a real neutrino. The \Z+jets contamination is most significant in region C due to the requirement of an isolated electron but low-\met. 
 
 \begin{table}[htbp]
   \centering
@@ -222,8 +244,8 @@ The largest sources of contaminations in all regions come from \ttbar, \W+jets a
       $\geq$3 & 8.77(11) & 28.0(2)   & 29.2(2)   \\
       \bottomrule
     \end{tabular}
-    \caption{Summary of contamination in all control regions at pretag level. The contamination here is shown out of the total number of events in data. The uncertainties shown include statistical and systematic contributions.}
-  \label{tbl:CrossContRegion}
+    \caption[The portion of contamination in data in all control regions at pretag level.]{The portion of contamination in data in all control regions at pretag level. The uncertainties shown include statistical and systematic contributions.}
+  \label{tab:CrossContRegion}
 \end{table}
 
 \begin{table}[htbp]
@@ -253,11 +275,11 @@ The largest sources of contaminations in all regions come from \ttbar, \W+jets a
       $\geq$3 & 40.5(13)  & 24.2(10) & 10.1(6)   \\
       \bottomrule
     \end{tabular}
-    \caption{Summary of contamination in all control regions at tagged level. The contamination here is shown out of the total number of events in data. The uncertainties shown include statistical and systematic contributions.}
-  \label{tbl:CrossContRegionTagged}
+    \caption[The portion of contamination in data in all control regions at tagged level.]{The portion of contamination in data in all control regions at tagged level. The uncertainties shown include statistical and systematic contributions.}
+  \label{tab:CrossContRegionTagged}
 \end{table}
 
-The distribution of various kinematic variables is show in Figure~\ref{fig:CrossRegionB}. There appears to be a large tail in the pretag \met\ distribution (Figure~\ref{fig:CrossRegionBpreMET}) due to the aforementioned sources of fake \met. The momentum distributions at both pretag and tag level point to the presence of hard leptons present in the multijet background likely coming from misidentified jets. The \xsd\ distribution of the SMT muons peaks at low \xsd\ values pointing to a good quality of fit between the ID and MS tracks of the muon. As expected the SMT muons are soft just as those in \ttbar\ events. One possible source of these soft muons is semileptonic $b$-decays in from $b\bar{b}$ production.
+The distributions of various kinematic variables are shown in Figure~\ref{fig:CrossRegionB} after contamination is removed in region B. The \met\ distribution exhibits a long tail due to the aforementioned sources of fake reconstructed missing energy. The momentum distributions at both pretag and tag level point to the presence of  hard objects reconstructed as leptons in the multijet background likely coming from misidentified jets. The \xsd\ distribution of the SMT muons peaks at low \xsd\ values pointing to a good quality of fit between the ID and MS tracks of the muon. As expected the SMT muons are soft just as those in \ttbar\ events. One possible source of these soft muons is semileptonic decays of HF quarks.
 
 % Multijet shapes region B
 \begin{figure}[htbp]
@@ -291,17 +313,15 @@ The distribution of various kinematic variables is show in Figure~\ref{fig:Cross
       \includegraphics[width=0.95\textwidth]{PartCrossSection/Plots/Electron/h_el_tag_SMT_pt_wgt.pdf}
       \caption{SMT muon \pt\ at tag level} \label{fig:CrossRegionBSMTPt}
     \end{subfigure}
-    \caption{Kinematic distributions in region B (high-\met\ + non-isolated electron) at pretag and tag level. These distributions are obtained by subtracting non-multijet contributions using simulation.}
+    \caption[Kinematic distributions measured in region B (high-\met\ and non-isolated) at pretag and tagged level.]{Kinematic distributions measured in region B (high-\met\ and non-isolated) at pretag and tagged level. These distributions are obtained by subtracting non-multijet contributions using simulation.}
   \label{fig:CrossRegionB}
 \end{figure}
 
-The contribution from \ttbar\ is initially based on the theoretical cross section. An estimate for the multijet contribution is determined using this cross section and a new measured \ttbar\ cross section is obtained. The measured cross section is used to rescale the \ttbar\ contribution and a new cross section is obtained. This process is repeated until the measured cross section stabilizes. Only two iterations are needed.
+The normalization of the \ttbar\ contribution is initially based on the theoretical cross section. An estimate for the multijet contribution is determined using this cross section and a new measured \ttbar\ cross section is obtained. This cross section is used to rescale the \ttbar\ contribution and a new cross section is obtained. This process is repeated until the measured cross section stabilizes. Only two iterations are needed.
 
-The uncertainty on the tagging-rate contains statistical and systematic contributions. The systematic uncertainty includes the uncertainty on the cross section of the \ttbar\ and $W$+jets samples, uncertainty arising from the SMT tagger and finally uncertainties arising from the BR re-weighting described earlier. The dominant source of uncertainty depends on the region and jet-bin. in regions where contamination is high the uncertainty from \W+jets and \ttbar\ are more significant. 
+The uncertainty on the tagging-rate contains statistical and systematic contributions. The systematic uncertainty includes the uncertainty on the cross section of the \ttbar\ and $W$+jets samples, \SI{15}{\percent} and \SI{25}{\percent} respectively; uncertainty from the calibration of the SMT tagger; and uncertainties associated with the BR re-weighting. For more detail on the tagger-specific uncertainty, see Section~\ref{sec:systematics_uncertainties}. The dominant source of uncertainty depends on the region and jet-bin. In regions where contamination is high, the uncertainty from \W+jets and \ttbar\ are more significant.
 
-The final tagging-rate is the unweighted average of all the regions. This definition was chosen as no single type of multijet event is favoured over the others. The uncertainty is the difference between regions A and C, as this is larger than the uncertainty on any individiual region. 
-
-The tagging-rates per region for each jet-bin are shown in Table~\ref{tab:rsmt}. Finally, the multijet background estimates in the $e$+jets channel are shown in Table~\ref{tab:rsmtest}. The uncertainties on the final pretag and tagged estimates are dominated by the \SI{50}{\percent} uncertainty on the efficiencies associated with the matrix method pretag estimate.
+The final tagging-rate is the unweighted average of all three regions. This definition was chosen as no single type of multijet process is favoured over the others. The uncertainty is half the largest difference in rates between the regions. This covers the entire range of possible tagging-rate values. The tagging-rates per region for each jet-bin, including uncertainty, are shown in Table~\ref{tab:rsmt}.
 
 \begin{table}[htbp]
   \centering
@@ -312,7 +332,7 @@ The tagging-rates per region for each jet-bin are shown in Table~\ref{tab:rsmt}.
                        S[table-format=1.3(3)] %
                     @{}}
         \toprule
-        {Jet-bin} & \multicolumn{4}{c}{SMT tagging rate $R^{\textrm{SMT}}$ [\si{\percent}]} \\
+        {Jet-bin} & \multicolumn{4}{c}{SMT tagging-rate $R^{\textrm{SMT}}$ [\si{\percent}]} \\
         \cmidrule{2-5}
                 & {Region A} & {Region B} & {Region C} & {Average}   \\ 
         \midrule
@@ -324,9 +344,11 @@ The tagging-rates per region for each jet-bin are shown in Table~\ref{tab:rsmt}.
         % $\ge$4  & 5.33(25)   & 7.17(95)   & 3.58(390)  & 5.36(271)  \\
         \bottomrule
     \end{tabular}
-    \caption{Multijet SMT event tagging-rate in regions A) inverted-\met, non-isolated, B) High-\met, non-isolated and C) low-\met, isolated.}
+    \caption{Results of the SMT multijet tagging-rate measurement in region A) inverted-\met, non-isolated, B) High-\met, non-isolated and C) low-\met, isolated.}
   \label{tab:rsmt}
 \end{table}
+
+The multijet background estimates in the $e$+jets channel are shown in Table~\ref{tab:rsmtest}. The uncertainties on the final pretag and tagged estimates are dominated by the \SI{50}{\percent} uncertainty on the efficiencies associated with the matrix method pretag estimate.
 
 \begin{table}[!htbp]
   \centering
@@ -348,20 +370,20 @@ The tagging-rates per region for each jet-bin are shown in Table~\ref{tab:rsmt}.
       % $\ge$4    & 4860(2430)    & 260(130)        \\
       \bottomrule
     \end{tabular}
-    \caption{Multijet estimates in the $e$+jets channel. The uncertainties are combined statistical and systematics. A systematic uncertainty of \SI{50}{\percent} is used on the matrix method pretag event yields in addition to the uncertainties obtained on the tagging rate.}
+    \caption[Results of the matrix method estimation of the multijet background in the $e$+jets channel.]{Results of the matrix method estimation of the multijet background in the $e$+jets channel. The uncertainties are combined statistical and systematics.}
   \label{tab:rsmtest}
 \end{table}
 
 \subsubsection{The ABCD method}
-The ABCD method relies on a pair of uncorrelated variables to extrapolate the amount of multijet events from a set of control regions into the signal region. First a two-dimensional phase-space is constructed, in this case the same two variables, transverse missing energy and lepton isolation are used. If these two variables are uncorrelated then the following relation holds
+The ABCD method relies on a pair of uncorrelated variables to extrapolate the amount of multijet events from a set of control regions into the signal region. First, a two-dimensional phase-space is constructed, in this case the same construct shown in Figure~\ref{fig:CrossSectionABCDRegions} is used. If these two variables are uncorrelated then the following relation holds
 %
-\begin{equation}
-  \frac{N^{\textrm{Multijet}}_{\textrm{D}}}{N^{\textrm{Multijet}}_{\textrm{C}}} = \frac{N^{\textrm{Multijet}}_{\textrm{B}}}{N^{\textrm{Multijet}}_\textrm{A}}
-\end{equation} 
+\begin{align}
+  \frac{N^{\textrm{multijet}}_{\textrm{D}}}{N^{\textrm{multijet}}_{\textrm{C}}} &= \frac{N^{\textrm{multijet}}_{\textrm{B}}}{N^{\textrm{multijet}}_\textrm{A}}
+\end{align} 
 %
-where $N^{\textrm{Multijet}}_{\textrm{X}}$ is the number of multijet events in region X. As with the matrix method, the value of $N^{\textrm{Multijet}}$ is obtained by subtracting the contribution of other processes from the data value using simulation. The contamination and uncertainties at pretag level are shown in Table~\ref{tbl:CrossContRegion}. The contamination present at tag level are summarized in Table~\ref{tbl:CrossContRegionTagged}.
+where $N^{\textrm{Multijet}}_{\textrm{X}}$ is the number of multijet events in region X. As with the matrix method, the value of $N^{\textrm{Multijet}}$ is obtained by subtracting the contribution of other processes from the data value using simulation.
 
-This allows an estimation of the number of multijet events that pass the event selection by extrapolating from the background region into the signal region. The uncertainty on the final estimate includes statistical contributions from the yield in each region and the systematic uncertainty on the $W$+jets and \ttbar\ samples as described. The multijet estimates in all regions at pretag and tagged level are presented in Table~\ref{tbl:CrossABCDEstimates}. The uncertainty on the estimate in some jet-bins is smaller than the matrix method estimate. However, in the signal jet-bin ($\geq$3) the uncertainty at tag level is very large. As a result the matrix method estimate is used and the ABCD estimate is used as a cross section. Comparing the results from the matrix method and the ABCD method, it appears that both yield compatible results within their uncertainties.
+This allows an estimation of the number of multijet events that pass the event selection by extrapolating from the background region into the signal region. The uncertainty on the final estimate includes statistical contributions from the yield in each region and the systematic uncertainty on the $W$+jets and \ttbar\ samples as described. The multijet estimates in all regions at pretag and tagged level are presented in Table~\ref{tab:CrossABCDEstimates}. The uncertainty on the estimate in some jet-bins is smaller than the matrix method estimate. However, in the signal jet-bin ($\geq$3) the uncertainty at tag level is very large. The matrix method estimate is therefore used as the central value and the ABCD estimate is used as a cross-check. Comparing the results from the matrix method and the ABCD method, it appears that both produce compatible results within their uncertainties.
 
 \begin{table}
   \centering
@@ -383,8 +405,8 @@ This allows an estimation of the number of multijet events that pass the event s
       % $\geq$4   & 3380(1700)   & 162(254)                  \\
       \bottomrule
       \end{tabular}
-    \caption{Multijet estimates obtained using the ABCD method. The uncertainty contains statistical and systemtaic components.}
-  \label{tbl:CrossABCDEstimates}
+    \caption[Results of the ABCD method estimation of the multijet background in the $e$+jets channel.]{Results of the ABCD method estimation of the multijet background in the $e$+jets channel. The uncertainty contains statistical and systematic components.}
+  \label{tab:CrossABCDEstimates}
 \end{table}
 
 \subsection{Multijet background in the muon channel}
@@ -392,19 +414,19 @@ This allows an estimation of the number of multijet events that pass the event s
 The procedure in the muon channel is similar to that used for the electron channel. A pretag estimate of the multijet fraction in the signal region is obtained using the matrix method. The ``real'' muon selection efficiency $r$ is measured from an inclusive sample of $Z\rightarrow\mu\mu$ events. The ``fake'' muon selection efficiency $f$ is obtained from data using two different samples:
 
 \begin{itemize}
-  \item a background-dominated control region where the $\met+\mtw$ cut is inverted and an additional cut of $\mtw<\SI{20}{\GeV}$ is applied,
-  \item and a fit to the transverse impact parameter significance $\sigma_{d_{0}}$ distribution where both $\met+\mtw$ and \met\ cuts are inverted.
+  \item A background-dominated control region where the $\met+\mtw$ cut is inverted and an additional cut of $\mtw<\SI{20}{\GeV}$ is applied.
+  \item A fit to the transverse impact parameter significance  distribution where both $\met+\mtw$ and \met\ cuts are inverted.
 \end{itemize}
 
 The central value of the pretag estimate is obtained from an average of these two regions and was found to be \num{27000(5400)}. An uncertainty of \SI{20}{\percent} is assigned to the final estimate to account for the uncertainty associated with each region and the difference between them. 
 
-The SMT event tagging rate is obtained from two control regions, defined by inverting the \met\ and $\met+\mtw$ cuts, and by inverting the muon isolation requirement. As with the electron analysis, contamination from other non-multijet processes is subtracted using MC simulation. Finally, the sources of uncertainty are also the same as those considered in the electron channel.
+The SMT event tagging-rate is obtained from two control regions defined by inverting the \met\ and $\met+\mtw$ cuts, and by inverting the muon isolation requirement. As with the electron analysis, contamination from other non-multijet processes is subtracted using MC simulation. The associated sources of uncertainty are the same as those considered in the electron channel.
 
 \begin{table}
   \centering
     \begin{tabular}{@{}lS[table-format=1.1(1)]@{}}
       \toprule
-      Control region & {SMT tagging rate [\si{\percent}]}  \\
+      Control region & {SMT tagging-rate [\si{\percent}]}  \\
       \midrule
       Inverted isolation      & 5.7(1) \\
       Inverted triangular cut & 4.0(5) \\
@@ -412,17 +434,17 @@ The SMT event tagging rate is obtained from two control regions, defined by inve
       Unweighted average      & 4.9(8) \\
       \bottomrule
     \end{tabular}
-    \caption{Summary of tagging-rates as measured in data in the two multijet-dominated regions. The uncertainty quoted includes statistical and systematic contributions. The uncertainty on the unweighted average is set as half of the difference between control regions~\cite{Cross:SMTCrossSectionPaper}.}
+    \caption[Summary of tagging-rates as measured in data in the two multijet-dominated regions.]{Summary of tagging-rates as measured in data in the two multijet-dominated regions. The uncertainty quoted includes statistical and systematic contributions. The uncertainty on the unweighted average is set as half of the difference between control regions~\cite{Cross:SMTCrossSectionPaper}.}
   \label{tab:CrossMuonQCDTaggings}
 \end{table}
 
-The final multijet estimate at tagged level is obtained by multiplying the average pretag estimate by the unweighted tagging rate. The uncertainty on the unweighted tagging rate is set to half the difference between the two control regions, as this is larger than the individual uncertainties combined. The final uncertainty is obtained by combining the uncertainty on the pretag estimate and the uncertainty on the tagging-rate. The final tagged estimate was found to be \num{1310(350)}.
+The final multijet estimate at tagged level is obtained by multiplying the average pretag estimate by the unweighted tagging-rate. The uncertainty on the unweighted tagging-rate is set to half the difference between the two control regions, as this is larger than the individual uncertainties combined. The final uncertainty is obtained by combining the uncertainties on the pretag estimate and the tagging-rate. The final tagged estimate was found to be \num{1310(350)}.
 
 \subsection{\emph{W}+jets background}
 
 The \W+jets background is the most dominant background since these events contain a real lepton and \met\ from the escaping neutrino. Events can be classified into \W+HF, which is the largest contribution; and \W+LF where a LF jet is mistagged. Due to the significant uncertainty on the overall normalization of \W+jets and the presence of a mistagged LF jet, a data-driven method known as \W\ charge asymmetry~\cite{Measurement} is used to estimate this background.
 
-The \W\ charge asymmetry method relies on the charge asymmetry in the production of \W-bosons. As the LHC is a proton-proton collider, up-type valance quarks are more prevalent, resulting in an increased rate of \Wplus\ production via $u\bar{d}\rightarrow\Wplus$ or $c\bar{s}\rightarrow\Wplus$ compared to \Wminus\ production involving down-type quarks. The ratio of these production cross sections $r$ is theoretically well understood~\cite{Cross:WChargeAsymmetry}. It is thus possible to use this ratio as measured in MC simulation to determine an overall normalization in data from the following formula: 
+The \W\ charge asymmetry method relies on the charge asymmetry in the production of \W-bosons. As the LHC is a proton-proton collider, up-type valence quarks are more prevalent, resulting in an increased rate of \Wplus\ production via $u\bar{d}\rightarrow\Wplus$ or $c\bar{s}\rightarrow\Wplus$ compared to \Wminus\ production involving down-type quarks. The ratio of these production cross sections $r$ is theoretically well understood~\cite{Cross:WChargeAsymmetry}. It is thus possible to use this ratio as measured in MC simulation to determine an overall normalization in data from the following formula: 
 %
 \begin{align}
   N_{W^{+}}+N_{W^{-}} &= \frac{N^{\textrm{MC}}_{W^{+}} + N^{\textrm{MC}}_{W^{-}} }{ N^{\textrm{MC}}_{W^{+}} - N^{\textrm{MC}}_{W^{-}} } (D^{+} - D^{-}) \\
@@ -435,38 +457,39 @@ where $r_{\textrm{MC}}$ is the ratio as measured in MC and $D^{\pm}$ are the num
   W_{\textrm{tag}} = R^{\textrm{LF}}_{\textrm{tag}}W^{\textrm{LF}}_{\textrm{pretag}} + \sum_{\textrm{HF}}^{\textrm{HF}=c,cc,bb} R^{\textrm{HF}}_{\textrm{tag}}W^{\textrm{HF}}_{\textrm{pretag}}
 \end{equation}
 % 
-where $R^{\textrm{LF}}_{\textrm{tag}}$ is defined as the probability to mistag a LF event and $R^{\textrm{HF}}_{\textrm{tag}}$ is the probability to correctly tag a HF event. The tagging rates are obtained from simulation with the SMT scale factors and BR reweighing applied to each tagged jet. The results of the estimation are summarized in Table~\ref{tab:CrossWJetsSummary}.
+where $R^{\textrm{LF}}_{\textrm{tag}}$ is defined as the probability to mistag a LF event and $R^{\textrm{HF}}_{\textrm{tag}}$ is the probability to correctly tag a HF event. The tagging-rates are obtained from simulation with the SMT scale factors and BR reweighing applied to each tagged jet. The results of the estimation are summarized in Table~\ref{tab:CrossWJetsSummary}.
 
 \begin{table}
   \centering
     \begin{tabular}{@{}lS[table-format=6(4)]S[table-format=4(3)]@{}}
       \toprule
-      Channel  & {Pretag}     & {Tagged}  \\
+      Channel  & \multicolumn{2}{c}{$W$+jets event yield} \\
+               & {Pretag}     & {Tagged}  \\
       \midrule
       \ejets\  & 59300(5400)  & 1640(330) \\
       \mujets\ & 117200(9300) & 2900(500) \\
       \bottomrule
     \end{tabular}
-    \caption{Summary of the $W$+jets background estimates for the electron and muon channels~\cite{Cross:SMTCrossSectionPaper}.}
+    \caption[Results of the $W$+jets background estimation at pretag and tagged level for the three-jets inclusive selection.]{Results of the $W$+jets background estimation at pretag and tagged level for the three-jets inclusive selection~\cite{Cross:SMTCrossSectionPaper}.}
   \label{tab:CrossWJetsSummary}
 \end{table}
 
-\subsection{Background Shapes}
+\subsection{Background shapes}
 
-Kinematic distributions are shown at the tagged level in Figures~\ref{fig:CrossBackgroundShapes} for events with at least three jets in both electron and muon channels. The multijet distributions are taken from data normalized to the obtained estimates. In the electron channel the shapes obtained from region B as defined in Figure~\ref{fig:CrossSectionABCDRegions} with contamination from non-multijet processes has been removed. The multijet shapes in the muon channel are obtained from the loose selection in data, after the application of per-event weights obtained from the matrix method.
+Kinematic distributions are shown at the tagged level in Figures~\ref{fig:CrossBackgroundShapes} for events with at least three jets in both electron and muon channels. The multijet distributions are taken from data normalized to the obtained estimates. In the electron channel, the multijet shapes are obtained from region B, as defined in Figure~\ref{fig:CrossSectionABCDRegions}, with the contamination from non-multijet processes removed. The multijet shapes in the muon channel are obtained from the loose selection in data, after the application of per-event weights obtained from the matrix method.
 SMT muon distributions for both background and signal are shown in Figure~\ref{fig:CrossBackgroundSMTShapes}. It is noted that the \xsd\ distribution is shifted in both channels in data compared to the simulation. Any such discrepancies are accounted for by the \xsd\ scale factor. Good agreement between data and estimations, both simulation-based and data-driven, is observed in all distributions.
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.90\textwidth]{PartCrossSection/Plots/h_stacks_elmu_evt_pars.pdf}
-    \caption{Distributions for tagged events in the \ejets\ (left) and \mujets\ (right) channels of, from top to bottom, lepton \pt, transverse $W$ mass and missing transverse energy~\cite{Cross:SMTCrossSectionPaper}.}
+    \caption[Distributions for tagged events in the \ejets\ (left) and \mujets\ (right) channels of (from top to bottom): lepton \pt, transverse $W$ mass, and missing transverse energy.]{Distributions for tagged events in the \ejets\ (left) and \mujets\ (right) channels of (from top to bottom): lepton \pt, transverse $W$ mass, and missing transverse energy~\cite{Cross:SMTCrossSectionPaper}.}
   \label{fig:CrossBackgroundShapes}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.90\textwidth]{PartCrossSection/Plots/h_stacks_elmu_SMT_pars.pdf}
-    \caption{Distributions of SMT variables in the \ejets\ (left) and \mujets\ (right) of, from top to bottom, SMT muon \pt and SMT muon \xsd~\cite{Cross:SMTCrossSectionPaper}.}
+    \caption[Distributions of SMT variables in the \ejets\ (left) and \mujets\ (right) of (from top to bottom): SMT muon \pt\ and SMT muon \xsd.]{Distributions of SMT variables in the \ejets\ (left) and \mujets\ (right) of (from top to bottom): SMT muon \pt\ and SMT muon \xsd~\cite{Cross:SMTCrossSectionPaper}.}
   \label{fig:CrossBackgroundSMTShapes}
 \end{figure}
 
@@ -475,9 +498,9 @@ SMT muon distributions for both background and signal are shown in Figure~\ref{f
 
 The uncertainties associated with the cross section include various sources such as signal simulation, object reconstruction, background estimation, integrated luminosity determination and tagger uncertainties (Table~\ref{tab:CrossSectionUncertainty}). The SMT tagger uncertainty is made of the STACO CB reconstruction uncertainty and the uncertainty on the \xsm\ efficiency measurement. 
 
-The signal modelling uncertainties are evaluated by repeating the cross section measurement while substituting the main \ttbar\ sample with alternate ones. The NLO generator uncertainty covers any differences in the modelling of kinematic distributions at parton level as a result of the hard interaction in different generators. This is evaluated by comparing the signal acceptance in ALPGEN and POWHEG~\cite{Cross:PowHegGeneral,Cross:PowHegBox} samples to the nominal sample. Initial and final state radiation (ISR/FSR) uncertainty covers the differences in modelling of soft radiation from initia and final state particles. Soft radiation can affect the number of LF jets reconstructed in the event. This uncertainty is evaluated in studies on samples generated with AcerMC and PYTHIA, and by varying parameters which affect ISR/FSR simulation in the range consistent with experimental data~\cite{Cross:ISRFSROne,Cross:ISRFSRTwo}. Finally the PDF uncertainty is evaluated using three PDF sets: the nominal CT10, MSTW and NNPDF. Several uncertainties are related to each PDF. Each variation is evaluated by reweighting each event in the signal \ttbar\ MC. The total uncertainty assigned to $\sigma_{\ttbar}$ is then half the spread of the envelope of al PDF uncertainties~\cite{Cross:SMTCrossSectionPaper}.
+The signal modelling uncertainties are evaluated by repeating the cross section measurement while substituting the main \ttbar\ sample with alternate ones. The NLO generator uncertainty covers any differences in the modelling of kinematic distributions at parton level as a result of the hard interaction in different generators. This is evaluated by comparing the signal acceptance in ALPGEN and POWHEG~\cite{Cross:PowHegGeneral,Cross:PowHegBox} samples to the nominal sample. Initial and final state radiation (ISR/FSR) uncertainty covers the differences in modelling of soft radiation from initial and final state particles. This uncertainty is evaluated in studies on samples generated with AcerMC and PYTHIA, and by varying parameters which affect ISR/FSR simulation in the range consistent with experimental data~\cite{Cross:ISRFSROne,Cross:ISRFSRTwo}. The PDF uncertainty is evaluated using three PDF sets: the nominal CT10~\cite{Cross:CT10}, MSTW~\cite{Cross:MSTW2008}, and NNPDF~\cite{Cross:NNPDF}. Several uncertainties are related to each PDF set. Each variation is evaluated by an event-by-event re-weighting of the signal \ttbar\ MC. The total uncertainty assigned to $\sigma_{\ttbar}$ is then half the spread of the envelope of all PDF uncertainties~\cite{Cross:SMTCrossSectionPaper}.
 
-The largest uncertainties come from the background estimation methods, JES and SMT tagger uncertainties. In the multijet background estimate, the uncertainty associated with the matrix method pretag estimates is the largest contribution at \SI{50}{\percent} of the estimate. The tagger uncertainties, including the $b\rightarrow\mu X$ BR reweighting uncertainty, contribute approximately $^{+\;\SI{3.2}{\percent}}_{-\;\SI{3.4}{\percent}}$ to the total uncertainty. In comparison, the total $b$-tagging uncertainty as measured by another $\ell$+jets analysis using JetProb is $^{+\;\SI{4.1}{\percent}}_{-\;\SI{3.8}{\percent}}$~\cite{Cross:BtaggingExample}. This is larger than the total SMT tagger uncertainty despite including the BR reweighting uncertainty and the analysis quoted above being more recent. The analysis uncertainty is dominated by the systematic contributions. The reduced acceptance due to the BR of $b\rightarrow \mu$ is not significant in this case.
+The largest uncertainties come from the background estimation methods, JES corrections, and SMT tagger uncertainties. In the multijet background estimate, the uncertainty associated with the matrix method pretag estimates is the largest contribution at \SI{50}{\percent} of the estimate. The tagger uncertainties, including the $b\rightarrow\mu X$ BR re-weighting uncertainty, contribute approximately $+\SI{3.2}{\percent}/-\SI{3.4}{\percent}$ to the total uncertainty. In comparison, the total $b$-tagging uncertainty as measured by another $\ell$+jets analysis using JetProb is $+\SI{4.1}{\percent}/-\SI{3.8}{\percent}$~\cite{Cross:BtaggingExample}. This is larger than the total SMT tagger uncertainty despite including the BR re-weighting uncertainty. Overall, the analysis is dominated by the systematic uncertainty and reduced acceptance due to the BR of $b\rightarrow \mu$ is not significant in this case.
 
 \begin{table}[htpb]
   \centering
@@ -490,7 +513,7 @@ The largest uncertainties come from the background estimation methods, JES and S
     \textbf{Statistical Uncertainty}     & $\pm1.5$          & $\pm1.3$       & $\pm1.0$       \\
     \textbf{Object Selection}                                                                  \\
     \tabin Lepton Energy Resolution      & $+0.4/-0.3$       & $+0.2/-0.01$   & $+0.2/-0.1$    \\
-    \tabin Lepton Reco, ID, Trigger      & $+2.4/-2.5$       & $+1.5/-1.5$    & $+1.5/-1.8$    \\
+    \tabin Lepton Reco., ID, Trigger     & $+2.4/-2.5$       & $+1.5/-1.5$    & $+1.5/-1.8$    \\
     \tabin Jet Energy Scale              & $+3.8/-4.3$       & $+3.2/-3.6$    & $+3.5/-3.8$    \\
     \tabin Jet Energy Resolution         & $\pm0.2$          & $\pm0.5$       & $\pm0.2$       \\
     \tabin Jet Reconstruction Efficiency & $\pm0.06$         & $\pm0.06$      & $\pm0.06$      \\
@@ -505,8 +528,8 @@ The largest uncertainties come from the background estimation methods, JES and S
     \tabin Other Bkg Normalisation       & $\pm\num{0.2}$    & $\pm\num{0.2}$ & $\pm\num{0.1}$ \\
     \tabin Other Bkg Systematics         & $+1.6/-1.5$       & $+2.5/-2.0$    & $+2.2/-1.8$    \\
     \textbf{Signal Simulation}                                                                 \\
-    \tabin $b\rightarrow \mu X$%
-           Branching Ratio               & $+2.9/-3.0$       & $+2.9/-3.1$    & $+2.9/-3.1$    \\ 
+    \tabin $b\rightarrow \mu X$ %
+            Branching Ratio              & $+2.9/-3.0$       & $+2.9/-3.1$    & $+2.9/-3.1$    \\
     \tabin ISR/FSR                       & $\pm\num{2.4}$    & $\pm\num{0.9}$ & $\pm\num{1.5}$ \\
     \tabin PDF                           & $\pm\num{3.2}$    & $\pm\num{3.0}$ & $\pm\num{3.1}$ \\
     \tabin NLO Generator                 & $\pm\num{3.2}$    & $\pm\num{3.2}$ & $\pm\num{3.2}$ \\
@@ -516,7 +539,7 @@ The largest uncertainties come from the background estimation methods, JES and S
     \textbf{Integrated Luminosity}       & $\pm\num{1.8}$    & $\pm\num{1.8}$ & $\pm\num{1.8}$ \\
     \bottomrule
   \end{tabular}
-  \caption{List of cross section uncertainty sources for the three-jets inclusive selection~\cite{Cross:SMTCrossSectionPaper}.} \label{tab:CrossSectionUncertainty}
+  \caption[List of cross section uncertainty sources for the three-jets inclusive selection.]{List of cross section uncertainty sources for the three-jets inclusive selection~\cite{Cross:SMTCrossSectionPaper}.} \label{tab:CrossSectionUncertainty}
 \end{table}
 
 \section{Results and conclusion} \label{sec:results_and_conclusion}
@@ -546,7 +569,7 @@ The event yields in data, signal \ttbar\ MC and background contributions that pa
     Measured \ttbar     &                          & 6000(500)           &&                           & 8900(600) \\
     \bottomrule
   \end{tabular}
-  \caption{Event yields for signal and background events, as well as the yield measured in data~\cite{Cross:SMTCrossSectionPaper}.}
+  \caption[Summary of event yields for signal and background events, as well as the yield measured in data.]{Summary of event yields for signal and background events, as well as the yield measured in data~\cite{Cross:SMTCrossSectionPaper}.}
   \label{tab:CrossSectionFullTable}
 \end{table}
 
@@ -556,7 +579,7 @@ The final cross section is determined by a cut-and-count method and is calculate
   \sigma_{\ttbar} = \frac{ N_{\textrm{data}} - N_{\textrm{bkg}} } {\int L \dd t \times \epsilon \times \textrm{BR(noFullHad)}}
 \end{equation}
 %
-where $N_{\textrm{data}}$ is the number of events in collision data that pass the event selection, $N_{\textrm{bkg}}$ is the number of events that pass the event selection as estimated using the aforementioned methods, $\epsilon$ is the estimated selection efficiency (Table~\ref{tab:CrossSectionSelectionEffs}) and $\textrm{BR(noFullHad)}=\num{0.543}$ is the semileptonic and dilepton total branching ratio using a $W\rightarrow\ell\nu$ branching ratio of \num{0.108} per flavour. The combined cross section is obtained by combining $e$+jets and \mujets\ event yields.
+where $N_{\textrm{data}}$ is the total number of events in collision data that pass the event selection, $N_{\textrm{bkg}}$ is the estimated number of background events that pass the event selection, $\epsilon$ is the estimated selection efficiency (Table~\ref{tab:CrossSectionSelectionEffs}), and $\textrm{BR(noFullHad)}$ is the semileptonic and dilepton total branching ratio. This BR was calculated using a $W\rightarrow\ell\nu$ branching ratio of \num{0.108} per flavour, and has a value of \num{0.543}. The combined cross section is obtained by combining $e$+jets and \mujets\ event yields.
 
 \begin{table}
   \centering
@@ -565,18 +588,19 @@ where $N_{\textrm{data}}$ is the number of events in collision data that pass th
                     S[table-format=1.2(1)] % Eff
                     @{}}
       \toprule
-      {Channel}  & {Selection Efficiency [\si{\percent}]} \\
+      {Channel}  & {Event selection efficiency [\si{\percent}]} \\
       \midrule
       $e$+jets   & 1.42(2) \\ 
       \mujets\   & 2.15(2) \\
+      \midrule
       Combined   & 3.57(3) \\
       \bottomrule
     \end{tabular}
-    \caption{Summary of event selection efficiencies for the muon, electron and combined channels as measured on the signal \ttbar\ sample~\cite{Cross:SMTCrossSectionPaper}.}
+    \caption[The event selection efficiencies for the muon, electron and combined channels as measured on the signal \ttbar\ sample.]{The event selection efficiencies for the muon, electron and combined channels as measured on the signal \ttbar\ sample~\cite{Cross:SMTCrossSectionPaper}.}
   \label{tab:CrossSectionSelectionEffs}
 \end{table}
 
-The final cross sections were measured to be 
+The final measured cross sections at \cmsS\ are 
 %
 \begin{align}
   \sigma^{e\textrm{+jets}}_{\ttbar}   &= 167\pm3\stat\pm20\syst\pm3\lumi\si{\pico\barn} \\
@@ -584,4 +608,4 @@ The final cross sections were measured to be
   \sigma_{\ttbar}                     &= 165\pm2\stat\pm17\syst\pm3\lumi\si{\pico\barn}
 \end{align}
 
-The two channels appear to be in agreement with eachother. No excess of events is observed and the combined cross section is in good agreement with the latest theoretical SM cross section at $\sigma_{\ttbar}=\asymUnc{158}{13.5}{12.2}{\si{\pico\barn}}$. The result is also in agreement within uncertainty with other ATLAS measurements made with different methods. These results, including the one obtained in this analysis, are summarized in Figure~\ref{fig:TopQuarkPairProductionSummaryLHC}.
+The two channels appear to be in agreement with each other. No excess of events is observed and the combined cross section is in good agreement with the latest theoretical SM cross section at $\sigma_{\ttbar}=\asymUnc{158}{13.5}{12.2}{\si{\pico\barn}}$. The result is also in agreement within uncertainty with other ATLAS measurements made with different methods. These results, including the one obtained in this analysis, are summarized in Figure~\ref{fig:TopQuarkPairProductionSummaryLHC}.

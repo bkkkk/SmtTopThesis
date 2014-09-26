@@ -4,7 +4,7 @@
 \label{ch:Theory}
 
 Particle physics is the study of the fundamental constituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the twentieth century and has stood the test of time and rigorous examination by numerous experiments. Many of its parameters have also been measured with great precision e.g. the electron magnetic moment $g$ is known to \num{e-13}~\cite{Theory:AwesomeSM}. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of this particle was observed by the ATLAS and CMS experiments at CERN in 2013~\cite{Theory:HiggsDiscoveryATLAS,Theory:HiggsDiscoveryCMS} .
-Despite its tremendous success, the SM cannot explain all observed phenomena in the universe. Firstly, the theory does not a priori predict the value of all of its parameters and many of them, the number of particle generations, must be measured empirically. The theory also does not describe gravity the most familiar of the fundamental forces. Furthermore, the SM does not provide a candidate for dark matter or dark energy, which according to recent measurements accounts for more than \SI{90}{\percent} of the total energy density in the universe~\cite{Theory:DarkMatter}. The clear asymmetry between matter and antimatter is also not fully explained in the realm of the SM. Because of these deficiencies there is a strong focus on developing theories which go beyond the standard model (BSM) to provide an answer to these open questions.
+Despite its tremendous success, the SM cannot explain all observed phenomena in the universe. Firstly, the theory does not predict the value of all of its parameters and many of them, like the number of particle generations, must be measured empirically. The theory also does not describe gravity the most familiar of the fundamental forces. Furthermore, the SM does not provide a candidate for dark matter or dark energy, which according to recent measurements accounts for more than \SI{90}{\percent} of the total energy density in the universe~\cite{Theory:DarkMatter}. The clear asymmetry between matter and antimatter is also not fully explained in the realm of the SM. Because of these deficiencies there is a strong focus on developing theories which go beyond the standard model (BSM) to provide an answer to these open questions.
 
 In this chapter an introductory overview of the Standard Model is provided. For a more detailed description of the theory see references~\cite{Theory:Perkins,Theory:IntroGriffiths} on which this chapter is largely based.
 
@@ -21,7 +21,7 @@ Interactions between fermions occur via the exchange of spin one particles known
 Each fermion has a set of so-called quantum numbers which classify the type of interactions that can occur. For example, each lepton has a \emph{lepton number} associated with it, electrons have an electron lepton number $L_e=+1$, while the positron has $L_e=-1$. Muons and taus have their own respective lepton numbers, $L_{\mu}$ and $L_{\tau}$. Each neutrino has lepton number $L_{f}=1$ and their anti-matter counterpart have $L_f=-1$. Each of these lepton numbers is approximately conserved separately across interaction vertices. The conservation is only approximate due to the non-zero mass of neutrinos. Another example of a quantum number is \emph{baryon number} $B$. Each quark has $B=\frac{1}{3}$ and antiquarks have $B=-\frac{1}{3}$.
 
 %% Particle Table
-\begin{table}[htpb]
+\begin{table}[p]
   \centering
     \includegraphics[width=0.95\textwidth]{PartTheory/Diagrams/ParticleTable.pdf}
     \caption[A summary of all elementary particles described by the SM]{A summary of all elementary particles described by the SM \cite{Theory:PDGBooklet}. Note the various groupings and divisions including by spin, generation and particle type. For each particle the charge ($q$), mass and name are shown as per the legend on the bottom-right.} \label{tab:TheorySmParticles}
@@ -140,7 +140,7 @@ Both quarks and gluons possess colour and as a result gluons can self-interact i
   \end{aligned}
 \end{equation}
 %
-and a the overall colourless ``colour singlet'':
+and the overall colourless ``colour singlet'':
 %
 \begin{equation}
   (r\bar{r} + g\bar{g} + b\bar{b})/\sqrt{3}
@@ -148,7 +148,7 @@ and a the overall colourless ``colour singlet'':
 
 There are eight different gluons that can participate in interactions each with a different colour-charge combination, and a ninth colourless gluon that does not interact. Gluons being colour-charged has far reaching consequences for QCD.
 
-In the realm of QED the vacuum around an electric charge becomes polarized as opposite charges get attracted and like charges are repelled. This has the effect of partially cancelling out the electric field experienced at a finite distance from the central charge. This effect is known as screening and also occurs with colour-charge. Quark-antiquark pairs screen the the true colour-charge of the central real quark.
+In the realm of QED the vacuum around an electric charge becomes polarized as opposite charges get attracted and like charges are repelled. This has the effect of partially cancelling out the electric field experienced at a finite distance from the central charge. This effect is known as screening and also occurs with colour-charge. Quark-antiquark pairs screen the true colour-charge of the central real quark.
 
 However, since gluons also carry colour they cause the opposite effect (anti-screening) to amplify and change the observed colour of the quark. Which effect, screening or anti-screening, wins out depends on the number of colours in the theory and the number of quark flavours. Currently, three colour states and six different quark flavours are known. This makes screening the overall dominant effect and as a result, the colour potential decreases with distance and quarks experience very little potential when very near to each other. This phenomenon is known as asymptotic freedom and forces quarks to form bound colourless states known as \emph{hadrons}.
 
@@ -179,11 +179,11 @@ Hadrons can be divided into two categories: \emph{mesons}, which contain a quark
   \label{fig:TheoryQCDVertexes}
 \end{figure}
 
-\section{Weak Interactions} \label{sec:TheoryWeakInteractions}
+\section{Weak interactions} \label{sec:TheoryWeakInteractions}
 
 The final type of interaction involves the so-called weak force. The weak force is responsible for common nuclear processes such as for $\beta^{-}$ decay ($n\rightarrow pe^{-}\bar{\nu}_{e}$). Interactions via the weak force are mediated by three massive bosons: the neutral $Z^{0}$ boson and the $W^{+}$ and $W^{-}$ bosons. Since these posses mass the range of interaction is very short, unlike electromagnetic interactions via a massless photon.
 
-All fermions can interact via the weak force, but to start lets consider weak interactions involving only leptons. A valid interaction via the weak force occurs via a combination of the fundamental vertices shown in Figure~\ref{fig:TheoryWeakVertexes}, while conserving electric charge and lepton flavour. Weak interactions couple weak bosons to each other as well and the vertex $Z\rightarrow W^{-}W^{+}$ is allowed. Interestingly, as the $W$ bosons have charge they also couple to the photon.
+All fermions can interact via the weak force, but to start lets consider weak interactions involving only leptons. A valid interaction via the weak force occurs via a combination of the fundamental vertices shown in Figure~\ref{fig:TheoryWeakVertexes}, while conserving electric charge and lepton flavour. Weak bosons also couple to each other via the vertex $Z\rightarrow W^{-}W^{+}$. As the $W$ bosons have charge they also couple to the photon.
 
 %% Weak Neutral Vertexes
 \begin{figure}[htbp]
@@ -210,7 +210,7 @@ All fermions can interact via the weak force, but to start lets consider weak in
   \label{fig:TheoryWeakVertexes}
 \end{figure}
 
-Weak interactions involving quarks are more complicated then those with only leptons. The neutral vertex is similar to that of the leptonic version, a quark scattering off a \Z\ boson. However, the charged current changes the flavour of an up-type quark into a down-type quark (or vice-versa) with an associated \W\ boson of the appropriate charge (Figure~\ref{fig:TheoryWeakChargedQuarks}). This change in flavour can also happen across quark generations. The semileptonic decay of $b$-quarks is an example of flavour changing charged weak interactions. The $b$-quark (in a $B$ meson bound state) transitions into a $c$-quark by emitting a $W$ boson. In order to account for such an interaction and preserve the universality of weak interactions, Nicola Cabibbo postulated~\cite{Theory:CKMNicola} that the states that couple to the charged current are really a mixture of 'rotated' quark states:
+Weak interactions involving quarks are more complicated than those with only leptons. The neutral vertex is similar to that of the leptonic version, a quark scattering off a \Z\ boson. However, the charged current changes the flavour of an up-type quark into a down-type quark (or vice-versa) with an associated \W\ boson of the appropriate charge (Figure~\ref{fig:TheoryWeakChargedQuarks}). This change in flavour can also happen across quark generations. The semileptonic decay of $b$-quarks is an example of flavour changing charged weak interactions. The $b$-quark (in a $B$ meson bound state) transitions into a $c$-quark by emitting a $W$ boson. In order to account for such an interaction and preserve the universality of weak interactions, Nicola Cabibbo postulated~\cite{Theory:CKMNicola} that the states that couple to the charged current are really a mixture of 'rotated' quark states:
 %
 \begin{equation}
   \begin{pmatrix}
@@ -308,7 +308,7 @@ The unitarity of the CKM matrix implies that the probability of transition from 
 \end{equation}
 %
 for all $i$ quark generations~\cite{Theory:WeakUniversaility}.
-The term $V_{tb}$ is approximately unity and by far dominates over the other $V_{tj}$ terms. This means that the top-quark transitions almost exclusively into a $b$-quark ($t\rightarrow Wb$) with transitions $t\rightarrow Ws$ and $t\rightarrow Wd$ having a probability of less than $1\%$. The soft muon tagger which is the focus of this thesis relies on weak semileptonic decays of $b$-quarks. From~\ref{eq:TheoryWeakCKM} one can see that the transition $b\rightarrow c$ dominates over $b\rightarrow u$. This thesis concerns itself with \ttbar\ events in the lepton plus jets channel where one $W$ boson decays hadronically with a rate governed by the elements of the matrix.
+The term $V_{tb}$ is approximately unity and by far dominates over the other $V_{tj}$ terms. This means that the top quark transitions almost exclusively into a $b$-quark ($t\rightarrow Wb$) with transitions $t\rightarrow Ws$ and $t\rightarrow Wd$ having a probability of less than $1\%$. The soft muon tagger which is the focus of this thesis relies on weak semileptonic decays of $b$-quarks. From~\ref{eq:TheoryWeakCKM} one can see that the transition $b\rightarrow c$ dominates over $b\rightarrow u$. This thesis concerns itself with \ttbar\ events in the lepton plus jets channel where one $W$ boson decays hadronically with a rate governed by the elements of the matrix.
 
 \begin{equation}
   V_{CKM}
@@ -323,11 +323,11 @@ The term $V_{tb}$ is approximately unity and by far dominates over the other $V_
 
 An additional unique feature of weak interactions is that the charge conjugation-parity ($CP$) symmetry is violated. The operator $C$ denotes the change of a particle by its antiparticle partner and $P$ denotes a reversal of helicity (the projection of spin onto the momentum of a particle). A clear violation of $C$ and $P$ was observed in the radioactive decay of Cobalt-60, where the resulting electrons were preferentially emitted in the opposite direction of the nuclear spin of the Cobalt~\cite{Experimentalb}. Thus weak currents only couple to left-handed neutrinos (or right-handed anti-neutrinos) which is a violation of parity. Additionally charge symmetry is also violated since a left-handed neutrino is preferentially picked over a left-handed anti-neutrino. Finally in 1964 $CP$ violation was observed in the decay of neutral kaon~\cite{Evidence}.
 
-Thus the probability of $\bar{a}\rightarrow \bar{b}$ is not equal to that of $a\rightarrow b$. The existence of $CP$ violation has interesting consequences for the formation of the early universe. The preferential production of matter over antimattter in $CP$ violating interactions would shift the balance in favour of matter resulting in a universe similar to our own. In terms of the Wolfenstein parametrization of the CKM matrix, if $\eta=0$ there is no $CP$ violation.
+Thus the probability of $\bar{a}\rightarrow \bar{b}$ is not equal to that of $a\rightarrow b$. The existence of $CP$ violation has interesting consequences for the formation of the early universe. The preferential production of matter over antimatter in $CP$ violating interactions would shift the balance in favour of matter resulting in a universe similar to our own. In terms of the Wolfenstein parametrization of the CKM matrix, if $\eta=0$ there is no $CP$ violation. This parameter has been measured to be non-zero pointing to $CP$ violation.
 
-\subsection{Electroweak Unification and the Englert-Brout-Higgs mechanism}
+\subsection{Electroweak unification and the Englert-Brout-Higgs mechanism}
 
-The unification of the electromagnetic and weak theories was first proposed by Glashow and later developed by Weinberg and Salam into the electroweak theory~\cite{Model,Theory:WeakInteractionsGlashow,Theory:WeakAndEMSalam}. The theory postulates that while at low energies the two forces are to be treated separately, at higher the two can be seen as a single force. Thus the two forces are different manifestation of the same ``electroweak'' interaction. There were several stumbling blocks to the unification of the forces. Firstly, the boson which drives the electromagnetic interaction, the photon, is massless while the weak bosons are both massive. Evidence for the massive nature of these bosons has been established by experimental results from the UA1 experiment at CERN~\cite{Theory:WBosonObservationPaper}.
+The unification of the electromagnetic and weak theories was first proposed by Glashow and later developed by Weinberg and Salam into the electroweak theory~\cite{Model,Theory:WeakInteractionsGlashow,Theory:WeakEMInteractions}. The theory postulates that while at low energies the two forces are to be treated separately, at higher the two can be seen as a single force. Thus the two forces are different manifestation of the same ``electroweak'' interaction. There were several stumbling blocks to the unification of the forces. Firstly, the boson which drives the electromagnetic interaction, the photon, is massless while the weak bosons are both massive. Evidence for the massive nature of these bosons has been established by experimental results from the UA1 experiment at CERN~\cite{Theory:WBosonObservationPaper}.
 
 Thus the symmetry of the theory must be spontaneously broken in some way. A mechanism for electroweak symmetry breaking (EWSB) was postulated by Higgs, Brout, Englert and others which introduces masses to the weak bosons and posits the existence of an additional scalar (spin $S=0$) boson known as the Higgs boson.
 
@@ -360,7 +360,7 @@ A similar procedure can be applied to the colour quark model and obtain a descri
 
 \subsubsection{The Englert-Brout-Higgs mechanism}
 
-The Englert-Brout-Higgs (EBH) mechanism posits the existence of a complex scalar field doublet that when introduced into the electroweak Lagrangian results in the weak fields acquiring a mass term. In other words the $W^{\pm}$ and $Z^{0}$ interact with the Higgs field and obtain a mass. An additional consequence of introducing the Higgs field is the inclusion of a scalar boson particle, the so-called ``Higgs boson''. Finally the Higgs field also couples to fermions via the Yukawa coupling generating gauge invariant mass terms for the fermions as well\footnote{For a more complete description of the mathematical procedure see~\cite{Theory:IntroGriffiths}.}.
+The Englert-Brout-Higgs (EBH) mechanism posits the existence of a complex scalar field doublet that when introduced into the electroweak Lagrangian results in the weak fields acquiring a mass term. In other words the $W^{\pm}$ and $Z^{0}$ interact with the Higgs field and obtain a mass. An additional consequence of introducing the Higgs field is the inclusion of a scalar boson particle, the so-called ``Higgs boson''. Finally, the Higgs field also couples to fermions via the Yukawa coupling generating gauge invariant mass terms for the fermions as well\footnote{For a more complete description of the mathematical procedure see~\cite{Theory:IntroGriffiths}.}. This coupling is dependent on the mass of the fermion involved, for a more massive particle the coupling is stronger. This is another reason for the top quark being an object of much study.
 
 The SM Lagrangian in its current form including the Higgs potential is shown in Equation~\ref{eq:TheorySMLagrangian}. This expression describes all possible particle interactions that form part of the SM, of particular interest are the fermion mass term which couples the fermion field $\psi$ to the scalar Higgs field $\phi$ and the Higgs kinetic and potential terms.
 
@@ -373,3 +373,5 @@ The SM Lagrangian in its current form including the Higgs potential is shown in 
           &+ \underbrace{ |D_{\mu}\phi^2| }_{ \text{Higgs Kinetic} }
            - \underbrace{ V(\phi) }_{ \text{Higgs Potential} } \nonumber
 \end{align}
+
+The Higgs boson, and consequently the EBH mechanism, was the last remaining piece of the SM that resisted experimental confirmation. In late 2012, the ATLAS and CMS collaborations announced~\cite{Theory:HiggsDiscoveryCMS,Theory:HiggsDiscoveryATLAS} the discovery of a Higgs-like particle with a mass around \SI{125}{\GeV}~\cite{Theory:HiggsMass}, confirming the last missing component of the SM. However, the remaining unexplained phenomenon have yet to be theoretically described and experimentally confirmed. Due to its large mass, the top quark is of much interest to BSM searches.

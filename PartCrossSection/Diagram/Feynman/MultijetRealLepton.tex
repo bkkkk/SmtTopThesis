@@ -1,26 +1,33 @@
 % !TEX root = ../../../Thesis.tex
 \begin{fmffile}{MultijetRealLepton}
-  \fmfframe(5,17)(20,17){
+  \fmfframe(7,15)(10,15){
   \begin{fmfgraph*}(180,180)
   % Layout
   \fmfstraight
   % In
-  \fmfleft{dummy1,gluIn1,gluIn2,dummy2}
+  \fmfleft{dummy1,gluon1,gluon2,dummy2}
   % Out
-  \fmfright{dummy3,mu,nu,c,cBar,qBar,qPrime,dummy4}
+  \fmfright{c,mu,nu,qBar,qPrime,cBar}
   % Process
   % GG Fusion
-  \fmf{gluon,tension=1.5}{v1,gluIn1} \fmf{gluon,tension=1.5}{v1,gluIn2}
-  \fmf{gluon,label=$g$,tension=2}{v2,v1}
+  \fmf{gluon,tension=1.5}{v1,gluon1}
+  \fmf{gluon,tension=1.5}{v1,gluon2}
+  \fmf{gluon,label=$g$,l.d=10,tension=2}{v2,v1}
   % b and bBar output
-  \fmf{fermion,tension=1.5,label=$\bar{b}$,l.d=-14}{bBar,v2} \fmf{fermion,tension=1.5,label=$b$}{v2,b}
+  \fmf{fermion,tension=1.5,label=$\bar{b}$,l.d=-14}{bBar,v2}
+  \fmf{fermion,tension=1.5,label=$b$}{v2,b}
+  \fmf{fermion}{b,c}
+  \fmf{fermion}{cBar,bBar}
+  \fmffreeze
   % Lepton Side
-  \fmf{boson,tension=1.5}{b,v3} \fmf{fermion,tension=0.5}{mu,v3,nu} \fmf{fermion,tension=0.5}{b,c}
+  \fmf{boson,label=$W^{-}$}{v3,b}
+  \fmf{fermion}{mu,v3,nu}
   % Hadronic Side
-  \fmf{boson}{bBar,v4} \fmf{fermion,tension=0.5}{qBar,v4,qPrime} \fmf{fermion,tension=0.5}{bBar,cBar}
+  \fmf{boson,label=$W^{+}$}{bBar,v4}
+  \fmf{fermion}{qBar,v4,qPrime}
   % Labels
-  \fmflabel{$g$}{gluIn1} \fmflabel{$g$}{gluIn2}
-  \fmflabel{$\mu^{+}$}{mu} \fmflabel{$\nu_{\mu}$}{nu} \fmflabel{$c$}{c}
+  \fmflabel{$g$}{gluon1} \fmflabel{$g$}{gluon2}
+  \fmflabel{$\mu^{-}$}{mu} \fmflabel{$\bar{\nu}_{\mu}$}{nu} \fmflabel{$c$}{c}
   \fmflabel{$\bar{c}$}{cBar} \fmflabel{$q'$}{qPrime} \fmflabel{$\bar{q}$}{qBar}
   \end{fmfgraph*}
   }

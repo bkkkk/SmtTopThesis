@@ -2,20 +2,33 @@
 \definecolor{smtColor}{HTML}{FDAE61}
 \definecolor{miColor}{HTML}{3182BD}
 \definecolor{eventColor}{HTML}{2CA25F}
+\definecolor{nominalColor}{HTML}{BA1C1C}
 
 \tikzstyle{line} = [draw, -latex',thick]
 \tikzstyle{cutBox} = [rectangle,draw,thick,align=center,rounded corners,text=black]
 \tikzstyle{miBox} = [cutBox,color=miColor]
 \tikzstyle{smtBox} = [cutBox,color=smtColor]
+\tikzstyle{nominalBox} = [cutBox,color=nominalColor]
 
 \begin{tikzpicture}[node distance=2cm,auto]
-  \draw[eventColor,thick,dashed] (-6,-3.2) rectangle (6,5.2);
-  \node[text=eventColor] at (0.0,5.5) (wEvents) {Events with $W\rightarrow\mu$ (from truth)};
+  \draw[eventColor,thick,dashed] (-12.4 ,-3.2) rectangle (6,5.2);
+  \node[text=eventColor] at (-3.2,5.5) (wEvents) {Events with $W\rightarrow\mu$ (from truth)};
   
+  % Nominal
+  \draw[nominalColor,thick,dotted] (-12.2,-3.0) rectangle (-6.2,4.6);
+  \node[text=nominalColor] at (-9.4,4.9) {Nominal isolation};
+  \node[nominalBox] at (-9.4,3.7) (NOM) {MUID Tight, MCP Cuts \\ $|\eta|<2.5$, $\pt>20\;\textrm{GeV}$ };
+  \node[nominalBox] at (-9.4,2.0) (NOMmatch) {Truth-matching to $W$ muon};
+  \path[line,nominalColor] (NOM) -- (NOMmatch);
+  \node[nominalBox] at (-9.4,0.8) (NOMmatchtojet) {Match muon to jet};
+  \path[line,nominalColor] (NOMmatch) -- (NOMmatchtojet);
+  \node[nominalBox] at (-9.4,-1.0) (NOMFinal) {$p^{\textrm{cone30}}_{\textrm{T}}$ and $E^{\textrm{cone20}}_{\textrm{T}}$ };
+  \path[line,nominalColor] (NOMmatchtojet) -- (NOMFinal);
+
   % Mini Isolation
   \draw[miColor,thick,dotted] (-5.8,-3.0) rectangle (-0.2,4.6);
   \node[text=miColor] at (-3.0,4.9) {Mini-isolation};
-  \node[miBox] at (-3.0,3.7) (MI) {MUID Tight, MCP Cuts \\ $|\eta|<2.5$, $\pt<20\;\textrm{GeV}$ };
+  \node[miBox] at (-3.0,3.7) (MI) {MUID Tight, MCP Cuts \\ $|\eta|<2.5$, $\pt>20\;\textrm{GeV}$ };
   \node[miBox] at (-3.0,2.0) (MImatch) {Truth-matching to $W$ muon};
   \path[line,miColor] (MI) -- (MImatch);
   \node[miBox] at (-3.0,0.8) (MImatchtojet) {Match muon to jet};
@@ -26,7 +39,7 @@
   % SMT
   \draw[smtColor,thick,dotted] (0.2,-3.0)rectangle (5.8,4.6);
   \node[text=smtColor] at (3.0,4.9) {\xsd\ tagging};
-  \node[smtBox] at (3.0,3.7) (SMT) {STACO CB, MCP Cuts \\ $|\eta|<2.5$, $\pt<20\;\textrm{GeV}$};
+  \node[smtBox] at (3.0,3.7) (SMT) {STACO CB, MCP Cuts \\ $|\eta|<2.5$, $\pt>20\;\textrm{GeV}$};
   \node[smtBox] at (3.0,2.0) (SMTmatch) {Truth-matching to $W$ muon};
   \path[line,smtColor] (SMT) -- (SMTmatch);
   \node[smtBox] at (3.0,0.8) (SMTmatchtojet) {Match muon to jet};

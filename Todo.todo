@@ -1,60 +1,102 @@
-EDITING:
-  ☐ Fix out of order citations due to list of figures
-    'use alternate caption: \caption[<Figure title>]{<Figure title> \cite{<Source>}}'
-  ☐ 
----- ✄ -----------------------
-
-Abstract:
-  ☐ Figure out what the hell goes in an abstract @?
-  ☐ Write it @medium
-
-Calibration:     
-  ☐ Add isolation plots from Matt thesis @short
-
-Boosted:
-  ☐ Talk about other models @long @text
-  
-Cross-section:  
-  ☐ Why are the MET and mtw cuts different in mu vs e @medium @text
-    'not sure'
-Conclusion:
-  ☐ Write it @medium
-
-EXTRA:
-  Theory:
-  ☐ Discuss radiative corrections to the Higgs mass in introduction @long @WTF
-
-  Detector:
-  ☐ Give examples. ./PartDetector/Detector.tex:Pileup @medium
-  ☐ Add a plot of the pT of SMT muon and W lepton @medium
-  ☐ Give outer radius of beam-pipe @short @extra 
-     'Cant find shit on this!'
-
-  Boosted:
-    ☐ Add non-resonant ttbar to tables @short @data
-    ☐ Bin DeltaR efficiency of SMT and MI10 by pT @medium
-    ☐ Add nominal isolation requirements @medium
-      ☐ Add results to table @medium
-
-  Calibration: 
-    ☐ Try to add non-prompt isolation
-    ☐ Calibration: Fit double gaussian and show bad fit @medium
-  
----- ✄ -----------------------
-
-NOT GONNA HAPPEN:
- ☐ Add shapes obtained from using MM @long @plot
-
----- ✄ -----------------------
-
-
-Viva Notes:
-  Detector:
-    ☐ Review sliding-window algorithm of electron reconstruction
-    ☐ Learn what non-compensation means
-      
-＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Post-viva Corrections:
+  ☐ Correct pagination @short
+    
 Archive:
+ ✘ Try to add non-prompt results isolation @cancelled (14-09-17 21:53) @project(NOT GONNA HAPPEN)
+ ✘ Review sliding-window algorithm of electron reconstruction @cancelled (14-09-17 21:53) @project(Viva Notes)
+ ✘ Learn what non-compensation means @cancelled (14-09-17 21:53) @project(Viva Notes)
+ ✘ Expand a bit more on top mass: Mention the current precision is not reaching the theoretical definition of the top mass, since that theoretical definition is not clear cut because the quark is a colored object, mention that most traditional methods to measure the top mass rely on reconstructing the decay products of the top and hence are dominated by JES, but alternative methods of measuring the top mass are coming out recently. @long @cancelled (14-09-17 21:53) @project(Top Quark)
+ ✘ Discuss radiative corrections to the Higgs mass in introduction @long @WTF @cancelled (14-09-17 21:53) @project(EXTRA)
+ ✘ Add shapes obtained from using MM @long @plot @cancelled (14-09-17 21:53) @project(NOT GONNA HAPPEN)
+ ✘ Talk about other models @long @text @cancelled (14-09-17 21:52) @project(Top Quark)
+ ✘ Give outer radius of beam-pipe @short @extra  @cancelled (14-09-17 21:52) @project(Top Quark)
+  'Cant find shit on this!'
+ ✘ Fit double gaussian and show bad fit @medium @cancelled (14-09-17 21:52) @project(Top Quark)
+ ✘ Bin DeltaR efficiency of SMT and MI10 by pT @medium @cancelled (14-09-17 21:52) @project(Top Quark)
+ ✘ L1795: Make a plot of etcone40 for muons inside a 50-100 GeV jet vs 300-500 GeV jet ? @cancelled (14-09-11 16:44) @project(Boosted)
+ ✘ L1719: do you mean that if you change the MI10 cone size you see the dip flatten a bit? if so, please provide plot. @cancelled (14-09-11 16:44) @project(Boosted)
+ ✘ L1319: explain why the MET and MTW cuts are different between electron and muon channels. @short @cancelled (14-09-11 16:44) @project(Cross Section)
+  'no idea'
+ ✔ Table 7.9: this is eff_incSMT right?? @done (14-09-11 15:17) @project(Boosted)
+  'Ehmm What?'
+ ✔ Table 7.7 : include a column which is the e_SMT to see if the X2Match changes or not. @done (14-09-11 15:17) @project(Boosted)
+  'Ehmm what?'
+ ✔ X-axis title be b-jet pt @done (14-09-11 15:16) @project(Boosted)
+ ✔ Figure 7.10: @done (14-09-11 15:16) @project(Boosted)
+ ✔ x axis: Change scale @done (14-09-11 14:13) @project(Boosted)
+ ✔ x axis: Add units @done (14-09-11 14:13) @project(Boosted)
+ ✔ Figure 7.3: @done (14-09-11 14:13) @project(Boosted)
+ ✔ Show on exclusion plot from an ATLAS ttbar resonance result @long @SHOULD @done (14-09-10 22:41) @project(Top Quark)
+ ✔ Remove data from momentum imbalance. @short @done (14-09-10 20:59) @project(Calibration)
+ ✔ ECAL: include the plot which shows X0 as a function of z (so the amount of material of ATLAS depending on z) @short @done (14-09-09 16:33) @project(Detector)
+  'Which plot?!'
+ ✔ Refer to MUID bit in Section 4 in Section 6.2. @done (14-09-09 13:46) @project(Cross Section)
+ ✔ Describe briefly MUID since this is what is used for the signal muons of the cross section analysis and in your chapter 7. @long @done (14-09-09 13:46) @project(Detector)
+ ✔ I don’t know if you have that extra JES corrections in your code, possibly not… I’m not saying to add it in, just to check whether you have it or not and to mention this. @done (14-09-09 00:03) @project(Boosted)
+ ✔ And actually you should present as well the official public plot that we prepared for the 7 TeV b-tag paper (which is not yet out). I’ll try to find this for you… @done (14-09-09 00:03) @project(Boosted)
+ ✔ L1783: I think this is a known fact that the tagging performance degrades at high jet pT, so even though you show your own plot, also show a public plot of this. Also, what does the ttbar resonance say about the performance of MV1 at higher Z’ mass? you need to explain why the performance gets worse… I am not quite sure why that is… but surely b-tagging papers should talk about this. @done (14-09-09 00:02) @project(Boosted)
+ ✔ Add MV1 tagger efficiency plot as a function of pT @done (14-09-08 23:43) @project(Boosted)
+ ✔ Good to mention the deal with the tau, but your pie chart includes tau, so it is a bit misleading as this won’t be our L+J branching ratio, do you want to also quote the BR when the tau are kept separate? @medium @done (14-09-05 22:03) @project(Top Quark)
+ ✔ Find the plot of PDF vs x and use this to explain why at the Tevatron ttbar is dominated by qq production instead of gg. @askVB @done (14-09-05 20:43) @project(Top Quark)
+ ✔ Talk briefly about the ATLAS and CMS Higgs discovery here then. @medium @done (14-09-05 20:30) @project(Theory)
+ ✔ Mention the Yukawa coupling between the H and top, which is part of why top physics is important @medium @done (14-09-05 20:30) @project(Theory)
+ ✔ L1418: give the values for the system of ttbar and W+jets, for the systematics related with tagger refer to section 6.4 @short @done (14-09-05 20:01) @project(Cross Section)
+ ✔ Eq 6.3 and 6.4: somewhere give the numbers for r and f @short @done (14-09-05 20:01) @project(Cross Section)
+ ✔ L1489: “In the electron channel, the multi jet shapes are obtained from Region B, as defined in Figure 6.3, with the contamination from non-multijets processes removed.” @short @done (14-09-05 19:50) @project(Cross Section)
+ ✔ L1472: “valence” I think? @short @done (14-09-05 19:48) @project(Cross Section)
+ ✔ L1448: values of r and f @short @done (14-09-05 19:44) @project(Cross Section)
+ ✔ L1320 Explains that we looked into >=4 jets selection and decided to choose >=3 jets since not only increased stats but more importantly the systematics are less because that is more inclusive so we suffer less from the generator systematics, for example the comparison with Alpgen. @done (14-09-05 18:02) @project(Cross Section)
+ ✔ L1311: what is the point of the JVF cut? @done (14-09-05 17:56) @project(Cross Section)
+ ✔ L1229: I thought that the 2011d sample is one where GEANT 4 was updated to have a better multiple scattering treatment @short @done (14-09-05 17:50) @project(Detector)
+ ✔ Find out whats in mc11d @short @done (14-09-05 17:50) @project(Detector)
+ ✔ Correct text as a result @short @done (14-09-05 17:50) @project(Detector)
+ ✔ SMT eff is weird for 1.0 TeV, so cross check this. @done (14-09-05 15:34) 'stats issue' @project(Boosted)
+ ✔ L1782: as shown in Table 7.9 @done (14-09-05 15:18) @project(Boosted)
+ ✔ Table 7.5: I still believe the scale of the different between those efficiencies, so eff_x2match and eff_MI10 have the same denominator right? the only reason it is not exactly the same number is because of STACO vs MUID, but that is a small effect… so cross check those numbers again, of course I expect eff_MI10 to be better than eff_x2match, but really by that much? @done (14-09-05 15:14) @project(Boosted)
+ ✔ Better to present all the tables first since you’ve just defined them and then put the plots @done (14-09-05 15:13) @project(Boosted)
+ ✔ L1729: smaller or small? @done (14-09-05 15:11) @project(Boosted)
+ ✔ L1729: Highlight that those efficiencies are much higher than the ones in table 7.3 for Res @done (14-09-05 15:11) @project(Boosted)
+ ✔ -l. 1689: e_reco parenthesis @done (14-09-05 14:52) @project(Cross Section)
+ ✔ -l. 1685: e_match parenthesis @done (14-09-05 14:52) @project(Cross Section)
+ ✔ -l. 1652: with regards twice @done (14-09-05 14:52) @project(Cross Section)
+ ✔ -l. 1635 “they share” @done (14-09-05 14:51) @project(Cross Section)
+ ✔ -l. 1637: “both”? “all require” @done (14-09-05 14:50) @project(Cross Section)
+ ✔ -l. 1624: make Rel MI an equation @done (14-09-05 14:49) @project(Cross Section)
+ ✔ 1569: “using both a resolved and boosted” @done (14-09-05 14:48) @project(Cross Section)
+ ✔ 1554: “fat jet.” @done (14-09-05 14:48) @project(Cross Section)
+ ✔ L1388 and following: use the letters A,B,C,D where describing each regions @done (14-09-04 21:34) @project(Cross Section)
+ ✔ L1374: you have not defined the loose selection I believe! @done (14-09-04 21:27) @project(Cross Section)
+ ✔ L1354: explain punch-through @done (14-09-04 21:23) @project(Cross Section)
+ ✔ L1314 “the escaping neutrino” @done (14-09-04 21:22) @project(Cross Section)
+ ✔ Section 6.2 title: Object Identification and Event Selection @done (14-09-04 21:20) @project(Detector)
+ ✔ L1111: 1st sentence not clear, you are mixing mean and width also have you made this change in your results? @done (14-09-04 21:04) @project(Detector)
+ ✔ L958-970: also provide a summary of those cuts in a table! @done (14-09-04 20:52) @project(Detector)
+ ✔ L918: “in section 4.4.4”? @done (14-09-04 20:35) @project(Detector)
+ ✔ L911: “is a variety” @done (14-09-04 20:35) @project(Detector)
+ ✔ you saw that the Z’ preferentially decay into ttbar: that is not true, the basic Z’ models actually prefer to decay into light quarks, so this is very model dependent @done (14-09-04 19:47) @project(Abstract)
+ ✔ Theory: l. 16-17: be careful about making clear that the top mass is not predicted by any SM or BSM, it has to be measured and then it enters into various quantities (like cross section) @done (14-09-04 19:46) @project(Abstract)
+ ✘ Add non-resonant ttbar to tables @short @data @cancelled (14-08-30 20:08) @project(EXTRA)
+ ✔ Write it @medium @done (14-08-26 17:16) @project(Abstract)
+ ✔ Figure out what the hell goes in an abstract @? @done (14-08-26 17:16) @project(Abstract)
+ ✔ Redo estimation @short @done (14-08-26 12:39) @project(Boosted)
+ ✔ Cry @despair @done (14-08-26 12:39) @project(Boosted)
+ ✔ Add text explaining shit @short @done (14-08-26 12:39) @project(Boosted)
+ ✔ Add results table @short @done (14-08-26 12:39) @project(Boosted)
+ ✔ Add overlap removal to hadronic estimation @medium @done (14-08-26 12:39) @project(Boosted)
+ ✔ Write it @medium @done (14-08-26 12:38) @project(Conclusion)
+ ✔ Add results to table @medium @done (14-08-22 22:15) @project(Boosted)
+ ✔ Add nominal isolation requirements @medium @done (14-08-22 22:15) @project(Boosted)
+ ✔ Fix resolved diagram, remove muon in b-jet @short @done (14-08-22 16:54) @project(Boosted)
+ ✔ Give examples. ./PartDetector/Detector.tex:Pileup @medium @done (14-08-21 21:57) @project(EXTRA)
+ ✔ Fix the ratio values so they stand out or are in bracket: ./PartCrossSection/CrossSection.tex:tab:CrossSectionBRbTomu @done (14-08-21 21:53) @project(Boosted)
+ ✔ Fix out of order citations due to list of figures @done (14-08-21 21:52) @project(EDITING)
+  'use alternate caption: \caption[<Figure title>]{<Figure title> \cite{<Source>}}'
+ ✔ Add third isolation into diagram @short @done (14-08-21 19:34) @project(Boosted)
+ ✔ Add covariance matrix to appendix @done (14-08-17 02:52) @project(Detector)
+ ✔ Improve legends @short @done (14-08-17 02:12) @project(Calibration)
+ ✔ Change labels in single variable eff dist plots: @done (14-08-17 02:12) @project(Calibration)
+ ✔ Add 8 TeV label @short @done (14-08-17 02:12) @project(Calibration)
+ ✔ Fix TopQuarkLeptonPlusJetsFull.tex diagram file @done (14-08-14 00:25) @project(EDITING)
  ✔ Describe signal simulation uncertainties @medium @text @done (14-08-10 14:51) @project(Boosted)
  ✔ Write introduction @long @done (14-08-10 02:03) @project(Introduction)
  ✔ Write a preface @medium @done (14-08-09 23:12) @project(Introduction)

@@ -1,15 +1,17 @@
 % !TEX root = ../../../Thesis.tex
 \begin{fmffile}{SingleTop}
-\fmfframe(5,17)(20,17) {
+\fmfframe(5,17)(15,17) {
 \begin{fmfgraph*}(120,80)
+\fmfstraight
 \fmfleft{qIn,gluIn}
 \fmfright{qOut,tOut,bBar}
-\fmf{fermion}{qIn,v1,qOut}
-\fmf{gluon}{v3,gluIn}
-\fmf{fermion}{bBar,v3}
-\fmf{fermion,label=$b$}{v3,v2}
-\fmf{boson,label=$W$}{v1,v2}
-\fmf{fermion}{v2,tOut}
+\fmf{fermion,tension=1}{qIn,v1}
+\fmf{gluon,tension=1}{v3,gluIn}
+\fmf{fermion,label=$b$,tension=0.50}{v3,v2}
+\fmf{boson,label=$W^+$,tension=0.50}{v2,v1}
+\fmf{fermion,tension=0.5}{bBar,v3}
+\fmf{fermion,tension=0}{v2,tOut}
+\fmf{fermion,tension=0.5}{v1,qOut}
 \fmflabel{$g$}{gluIn} \fmflabel{$q'$}{qIn}
 \fmflabel{$q$}{qOut} \fmflabel{$\bar{b}$}{bBar}
 \fmflabel{$t$}{tOut}

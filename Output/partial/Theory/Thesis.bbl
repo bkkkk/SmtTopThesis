@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -28,9 +28,8 @@ B.~Odom, D.~Hanneke, B.~D'Urso, and G.~Gabrielse.
 
 \bibitem[Ade et~al.(2013)]{Theory:DarkMatter}
 P.A.R. Ade et~al.
-\newblock {Planck 2013 results. I. Overview of products and scientific
-  results}.
-\newblock 2013.
+\newblock {Overview of products and scientific results}.
+\newblock \emph{Planck 2013 results}, I, 2013.
 
 \bibitem[Perkins(2000)]{Theory:Perkins}
 D.H. Perkins.
@@ -79,15 +78,12 @@ K.~Marathe.
 \newblock ISBN 9781848829398.
 \newblock URL \url{http://books.google.co.uk/books?id=Rf7pqYEb4PQC}.
 
-\bibitem[Collaboration(1983)]{Experimentalb}
-The~UA1 Collaboration.
-\newblock Experimental observation of isolated large transverse energy
-  electrons with associated missing energy at s=540 gev.
-\newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103--116, 1983.
-\newblock ISSN 0370-2693.
-\newblock \doi{10.1016/0370-2693(83)91177-2}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/0370269383911772}.
+\bibitem[Wu et~al.(1957)Wu, Ambler, Hayward, Hoppes, and Hudson]{Experimentalb}
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
+\newblock Experimental test of parity conservation in beta decay.
+\newblock \emph{Physical Review}, 105\penalty0 (4):\penalty0 1413--1415, 1957.
+\newblock \doi{10.1103/PhysRev.105.1413}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRev.105.1413}.
 
 \bibitem[Christenson et~al.(1964)Christenson, Cronin, Fitch, and
   Turlay]{Evidence}
@@ -99,7 +95,7 @@ J.~H. Christenson, J.~W. Cronin, V.~L. Fitch, and R.~Turlay.
 \newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.13.138}.
 
 \bibitem[Weinberg(1967)]{Model}
-Steven Weinberg.
+S.~Weinberg.
 \newblock A model of leptons.
 \newblock \emph{Physical Review Letters}, 19\penalty0 (21):\penalty0
   1264--1266, 1967.
@@ -115,7 +111,7 @@ S.L. Glashow.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/0029558261904692}.
 
-\bibitem[Salam(1968)]{Theory:WeakAndEMSalam}
+\bibitem[Salam(1968)]{Theory:WeakEMInteractions}
 A.~Salam.
 \newblock {Weak and Electromagnetic Interactions}.
 \newblock \emph{Conference Proceedings}, C680519:\penalty0 367--377, 1968.
@@ -127,5 +123,12 @@ G.~Arnison et~al.
 \newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103 -- 116,
   1983.
 \newblock ISSN 0370-2693.
+
+\bibitem[{The ATLAS Collaboration}(2014)]{Theory:HiggsMass}
+{The ATLAS Collaboration}.
+\newblock {Measurement of the Higgs boson mass from the $H\rightarrow
+  \gamma\gamma$ and $H \rightarrow ZZ^{*}\rightarrow 4\ell$ channels with the
+  ATLAS detector using 25 fb$^{-1}$ of $pp$ collision data}.
+\newblock 2014.
 
 \end{thebibliography}

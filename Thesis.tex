@@ -8,16 +8,18 @@
 \usepackage{etoolbox}
 \usepackage{booktabs}
 \usepackage{feynmp-auto}
-\usepackage{colortbl}
+\usepackage{color}
+\usepackage{transparent}
 \usepackage[bottom]{footmisc}
-\usepackage{hyperref}
+\usepackage[breaklinks]{hyperref}
 \usepackage{tikz}
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes,arrows,patterns,plotmarks}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{pifont}
 \usepackage{graphicx}
+\usepackage{bibentry}
 \usepackage{geometry}
 \usepackage[numbers]{natbib}
 \geometry{%
@@ -42,7 +44,7 @@
   binary-units = true,
   separate-uncertainty = true
 }
-\captionsetup{width=0.9\textwidth}
+\captionsetup{labelfont=bf}
 \usepackage{slashed}
 \usepackage{MacroDefs}
 
@@ -51,27 +53,36 @@
 \newcommand{\mediumtask}[2]{\todo[color=yellow!40]{#1}}
 \newcommand{\longtask}[2]{\todo[color=green!40]{#1}}
 
+% Increases row distance for tables
 \ra{1.3}
 
+% Work around to help autocompile feynmp diagrams
 \DeclareUnicodeCharacter{00A0}{ }
 \DeclareGraphicsRule{*}{mps}{*}{}
 
+% Set up fancy page style
 \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{}{Chapter \thechapter: #1}}
+% Setup header titles
+\renewcommand{\chaptermark}[1]{\markright{Chapter \thechapter: #1}}
 \renewcommand{\sectionmark}[1]{}
+% Place header titles
+% Single-sided setup:
+% |                                      Chapter 1: Chapter title |
+\fancyhead[R]{\slshape \rightmark}
+\fancyhead[L]{}
+% Footer, page number on the right
+\fancyfoot[R]{\thepage} % Page number
+\fancyfoot[C]{} % Clear center footer
 
-\fancyfoot[R]{\thepage}
-\cfoot{}
-
+% Setup page style for front matter
 \fancypagestyle{plain}{%
-  \renewcommand{\headrulewidth}{0pt}%
-  \renewcommand{\plainfootrulewidth}{0pt}%
-  \fancyhead[RO,LO]{}%
+  \renewcommand{\headrulewidth}{0pt} % Clear header rule
+  \renewcommand{\plainfootrulewidth}{0pt} % Clear footer rule
+  \fancyhead[RO,LO]{} % Remove headers
 }
 
 %% Title page
 \begin{document}
-\renewcommand{\thepage}{\roman{page}}
 \input{BoilerPlate/PageTitle.tex}
 \newpage
 \input{BoilerPlate/Declaration.tex}
@@ -86,10 +97,6 @@
 
 \newpage
 
-\renewcommand{\thepage}{\arabic{page}}
-
-\linenumbers % Start numbering lines
-
 \input{PartIntroduction/Introduction.tex}
 \input{PartTheory/Theory.tex}
 \input{PartTopQuark/TopQuark.tex}
@@ -97,7 +104,7 @@
 \input{PartCalibration2012/Calibration2012.tex}
 \input{PartCrossSection/CrossSection.tex}
 \input{PartBoosted/Boosted.tex}
-\chapter{Conclusions} \label{ch:conclusions}
+\input{Conclusions.tex}
 
 \begin{appendices}
 \input{PartDetector/DetectorElectronID.tex}
@@ -105,13 +112,10 @@
 \input{PartDetector/CovMatrix.tex}
 \input{PartCalibration2012/CalibrationApp.tex}
 \input{PartCalibration2012/CalibrationMCPCuts.tex}
-\input{PartCalibration2012/CalibrationReco.tex}
 \end{appendices}
 
 \newpage
 \bibliographystyle{unsrtnat}
 \bibliography{Thesis,Remote}
-
-\listoftodos
 
 \end{document}

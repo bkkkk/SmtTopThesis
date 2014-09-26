@@ -1,4 +1,25 @@
 % !TEX root = ../Thesis.tex
-\chapter{STACO Combined Covarience Matrix} \label{app:DetectorCov}
+\newcommand{\diag}[1]{\ensuremath{\sigma^{2}(#1)}}
+\newcommand{\offdiag}[2]{\ensuremath{cov(#1, #2)}}
+\chapter{STACO Combined covariance matrix} \label{app:DetectorCov}
 
+The STACO CB covariance matrix encodes the uncertainty on each of the five track parameters (diagonal terms) as well as the correlation in the uncertainty between parameters (off-diagonal terms). Given the five track parameters:
 
+\begin{equation}
+  \mathbf{T} = (d_0,z_0,\phi,\theta,q/p)
+\end{equation}
+%
+the covariance matrix is:
+
+\begin{equation}
+  \mathbf{C}_{\textrm{MS/ID}}=
+  \begin{pmatrix}
+    \diag{d_{0}} & \offdiag{d_{0}}{z_0} & \offdiag{d_{0}}{\phi} & \offdiag{d_{0}}{\theta} & \offdiag{d_{0}}{q/p}  \\
+    .            & \diag{z_{0}}         & \offdiag{z_{0}}{\phi} & \offdiag{z_{0}}{\theta} & \offdiag{z_{0}}{q/p}  \\
+    .            & .                    & \diag{\phi}           & \offdiag{\phi}{\theta}  & \offdiag{\phi}{q/p}   \\
+    .            & .                    & .                     & \diag{\theta}           & \offdiag{\theta}{q/p} \\
+    .            & .                    & .                     & .                       & \diag{q/p}            \\
+  \end{pmatrix}
+\end{equation}
+
+A covariance matrix is associated with each set of parameters, those measured in the inner detector, and those measured in the muon systems.

@@ -1,14 +1,14 @@
 % !TEX root = ../../Thesis.tex
 \begin{fmffile}{TopProdqq2ttbar}
-\fmfframe(5,17)(20,17) {
+\fmfframe(5,17)(5,17) {
 \begin{fmfgraph*}(150,70)
 \fmfleft{q,qbar}
 \fmfright{tbar,top}
 \fmf{fermion}{qbar,v1,q}
-\fmf{gluon,label=$g$,l.d=10}{v1,v2}
+\fmf{gluon,label=$g$,l.d=10}{v2,v1}
 \fmf{fermion}{tbar,v2,top}
 \fmflabel{$q$}{q} \fmflabel{$t$}{top}
-\fmflabel{$\overline{q}$}{qbar} \fmflabel{$\overline{t}$}{tbar}
+\fmflabel{$\bar{q}$}{qbar} \fmflabel{$\bar{t}$}{tbar}
 \end{fmfgraph*}
 }
 \end{fmffile}
