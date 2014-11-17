@@ -3,8 +3,8 @@
 \chapter{The Standard Model of particle physics}
 \label{ch:Theory}
 
-Particle physics is the study of the fundamental constituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the twentieth century and has stood the test of time and rigorous examination by numerous experiments. Many of its parameters have also been measured with great precision e.g. the electron magnetic moment $g$ is known to \num{e-13}~\cite{Theory:AwesomeSM}. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of this particle was observed by the ATLAS and CMS experiments at CERN in 2013~\cite{Theory:HiggsDiscoveryATLAS,Theory:HiggsDiscoveryCMS} .
-Despite its tremendous success, the SM cannot explain all observed phenomena in the universe. Firstly, the theory does not predict the value of all of its parameters and many of them, like the number of particle generations, must be measured empirically. The theory also does not describe gravity the most familiar of the fundamental forces. Furthermore, the SM does not provide a candidate for dark matter or dark energy, which according to recent measurements accounts for more than \SI{90}{\percent} of the total energy density in the universe~\cite{Theory:DarkMatter}. The clear asymmetry between matter and antimatter is also not fully explained in the realm of the SM. Because of these deficiencies there is a strong focus on developing theories which go beyond the standard model (BSM) to provide an answer to these open questions.
+Particle physics is the study of the fundamental constituents of matter and their interactions. The best current description of these interactions is known as The Standard Model of Particle Physics (SM); a group of theories that cover all currently known particles and their interactions. The SM was developed through-out the latter half of the twentieth century and has stood the test of time and rigorous examination by numerous experiments. Many of its parameters have also been measured with great precision e.g.\ the electron magnetic moment $g$ is known to \num{e-13}~\cite{Theory:AwesomeSM}. The last piece to be confirmed was the existence of the Higgs boson, which in turn points to the existence of the so-called Higgs field. Evidence of this particle was observed by the ATLAS and CMS experiments at CERN in 2013~\cite{Theory:HiggsDiscoveryATLAS,Theory:HiggsDiscoveryCMS}.
+Despite its tremendous success, the SM cannot explain all observed phenomena in the universe. Firstly, the theory does not predict the value of all of its parameters and many of them, like the number of particle generations, must be measured empirically. The theory also does not describe gravity the most familiar of the fundamental forces. Furthermore, the SM does not provide a candidate for dark matter or dark energy, which according to recent measurements accounts for more than \SI{90}{\percent} of the total energy density in the universe~\cite{Theory:DarkMatter}. The clear asymmetry between matter and antimatter is also not fully explained in the realm of the SM.\@ Because of these deficiencies there is a strong focus on developing theories which go beyond the standard model (BSM) to provide an answer to these open questions.
 
 In this chapter an introductory overview of the Standard Model is provided. For a more detailed description of the theory see references~\cite{Theory:Perkins,Theory:IntroGriffiths} on which this chapter is largely based.
 
@@ -24,7 +24,7 @@ Each fermion has a set of so-called quantum numbers which classify the type of i
 \begin{table}[p]
   \centering
     \includegraphics[width=0.95\textwidth]{PartTheory/Diagrams/ParticleTable.pdf}
-    \caption[A summary of all elementary particles described by the SM]{A summary of all elementary particles described by the SM \cite{Theory:PDGBooklet}. Note the various groupings and divisions including by spin, generation and particle type. For each particle the charge ($q$), mass and name are shown as per the legend on the bottom-right.} \label{tab:TheorySmParticles}
+    \caption[A summary of all elementary particles described by the SM]{A summary of all elementary particles described by the SM~\cite{Theory:PDGBooklet}. Note the various groupings and divisions including by spin, generation and particle type. For each particle the charge ($q$), mass and name are shown as per the legend on the bottom-right.}\label{tab:TheorySmParticles}
 \end{table}
 
 %% Table of Forces
@@ -36,24 +36,22 @@ Each fermion has a set of so-called quantum numbers which classify the type of i
       \midrule
       Strong          & \num{e38}         & Gluons \\
       Electromagnetic & \num{e36}         & Photon \\ 
-      Weak            & \num{e25}         & \Wboson and \Zboson \\
+      Weak            & \num{e25}         & $W$ and $Z$ \\
       Gravity         & \num{1}           & Graviton* \\
       \bottomrule
     \end{tabular}
-    \caption[A summary of the four fundamental forces ordered by relative strength.]{A summary of the four fundamental forces ordered by approximated relative strength. These are included to demonstrate the large differences in strength that span many orders of magnitude. A more accurate determination of the interaction strength depends on the details of the interaction itself. $^*$ The graviton is the theoretical boson responsible for mediating gravitational interactions and is not part of the SM.}
-  \label{tab:TheoryForces} 
+    \caption[A summary of the four fundamental forces ordered by relative strength.]{A summary of the four fundamental forces ordered by approximated relative strength. These are included to demonstrate the large differences in strength that span many orders of magnitude. A more accurate determination of the interaction strength depends on the details of the interaction itself. $^*$ The graviton is the theoretical boson responsible for mediating gravitational interactions and is not part of the SM.}\label{tab:TheoryForces} 
 \end{table}
 
 \section{Quantum electrodynamics}
 
-The interaction of particles via the electromagnetic force is described by \emph{quantum electrodynamics} (QED). These interactions are mediated by the massless neutral boson known as the photon and the strength of the interaction is characterized by the fine-structure constant $\alpha$. All electrically charged fermions are allowed to interact and since the photon itself is not charged, no self-interaction is allowed within QED. Figure~\ref{fig:TheorySimpleQED} shows the single vertex described by QED where two fermions interact via a photon. Note that the electric charge is conserved across the vertex, so for example $\gamma\rightarrow e^{+}e^{+}$ is not allowed within QED.
+The interaction of particles via the electromagnetic force is described by \emph{quantum electrodynamics} (QED). These interactions are mediated by the massless neutral boson known as the photon and the strength of the interaction is characterized by the fine-structure constant $\alpha$. All electrically charged fermions are allowed to interact and since the photon itself is not charged, no self-interaction is allowed within QED\@. Figure~\ref{fig:TheorySimpleQED} shows the single vertex described by QED where two fermions interact via a photon. Note that the electric charge is conserved across the vertex, so for example $\gamma\rightarrow e^{+}e^{+}$ is not allowed within QED\@.
 
 %% Simple QED Vertex
 \begin{figure}[htbp]
   \centering
     \input{PartTheory/Diagrams/TheoryQEDSimple.tex}
-    \caption[The fundamental interaction vertex described by QED.]{The fundamental interaction vertex described by QED. The straight-lines represent any charged fermion, while the wavy line is a photon. All possible QED vertices can be obtained by simply rotating this vertex.}
-  \label{fig:TheorySimpleQED}
+    \caption[The fundamental interaction vertex described by QED.]{The fundamental interaction vertex described by QED. The straight-lines represent any charged fermion, while the wavy line is a photon. All possible QED vertices can be obtained by simply rotating this vertex.}\label{fig:TheorySimpleQED}
 \end{figure}
 
 By combining different forms of this vertex one can build every possible QED interaction. The interaction $e^{+}e^{-}\rightarrow e^{+}e^{-}$ is known as Bhabha scattering. Two leading order (LO)\footnote{The simplest diagram with the least number of vertices} diagrams contribute to this interaction, annihilation (Figure~\ref{fig:TheoryQEDTreeA}) and scattering (Figure~\ref{fig:TheoryQEDTreeB}).
@@ -64,18 +62,15 @@ By combining different forms of this vertex one can build every possible QED int
     \begin{minipage}[][][t]{.47\textwidth}
       \centering
         \input{PartTheory/Diagrams/TheoryQEDTreeA.tex}
-        \subcaption{Electron-positron pair annihilation.}
-      \label{fig:TheoryQEDTreeA}
+        \subcaption{Electron-positron pair annihilation.}\label{fig:TheoryQEDTreeA}
     \end{minipage}
     \,
     \begin{minipage}[][][t]{.47\textwidth}
       \centering
         \input{PartTheory/Diagrams/TheoryQEDTreeB.tex}
-        \subcaption{Electron-positron pair scattering.}
-      \label{fig:TheoryQEDTreeB}
+        \subcaption{Electron-positron pair scattering.}\label{fig:TheoryQEDTreeB}
     \end{minipage}
-    \caption[Feynman diagrams of the process $e^{+}e^{-}\rightarrow e^{+}e^{-}$ allowed in QED at leading order.]{Feynman diagrams of the process $e^{+}e^{-}\rightarrow e^{+}e^{-}$ allowed in QED at leading order. Additional vertices can be added to produce higher-order diagrams of the same process.}
-  \label{fig:TheoryQEDTree}
+    \caption[Feynman diagrams of the process $e^{+}e^{-}\rightarrow e^{+}e^{-}$ allowed in QED at leading order.]{Feynman diagrams of the process $e^{+}e^{-}\rightarrow e^{+}e^{-}$ allowed in QED at leading order. Additional vertices can be added to produce higher-order diagrams of the same process.}\label{fig:TheoryQEDTree}
 \end{figure}
 
 \section{Quantum chromodynamics}
@@ -146,7 +141,7 @@ and the overall colourless ``colour singlet'':
   (r\bar{r} + g\bar{g} + b\bar{b})/\sqrt{3}
 \end{equation}
 
-There are eight different gluons that can participate in interactions each with a different colour-charge combination, and a ninth colourless gluon that does not interact. Gluons being colour-charged has far reaching consequences for QCD.
+There are eight different gluons that can participate in interactions each with a different colour-charge combination, and a ninth colourless gluon that does not interact. Gluons being colour-charged has far reaching consequences for QCD\@.
 
 In the realm of QED the vacuum around an electric charge becomes polarized as opposite charges get attracted and like charges are repelled. This has the effect of partially cancelling out the electric field experienced at a finite distance from the central charge. This effect is known as screening and also occurs with colour-charge. Quark-antiquark pairs screen the true colour-charge of the central real quark.
 
@@ -160,26 +155,22 @@ Hadrons can be divided into two categories: \emph{mesons}, which contain a quark
     \begin{minipage}[][][t]{.32\textwidth}
       \centering
       \input{PartTheory/Diagrams/ColorQCD.tex}
-      \subcaption{Quark-gluon vertex}
-    \label{fig:TheoryQCDColour}
+      \subcaption{Quark-gluon vertex}\label{fig:TheoryQCDColour}
     \end{minipage}
     \begin{minipage}[][][t]{.32\textwidth}
       \centering
         \input{PartTheory/Diagrams/SelfQCD3.tex}
-        \subcaption{Three-gluon vertex}
-      \label{fig:TheoryQCDThreeGluon}
+        \subcaption{Three-gluon vertex}\label{fig:TheoryQCDThreeGluon}
     \end{minipage}
     \begin{minipage}[][][t]{.32\textwidth}
       \centering
         \input{PartTheory/Diagrams/SelfQCD4.tex}
-        \subcaption{Four-gluon vertex} 
-      \label{fig:TheoryQCDFourGluon}
+        \subcaption{Four-gluon vertex}\label{fig:TheoryQCDFourGluon}
     \end{minipage}  
-    \caption[The fundamental interaction vertices described by quantum chromodynamics.]{The fundamental interaction vertices described by quantum chromodynamics. Shown are \subref{fig:TheoryQCDColour} gluon emission from a quark, \subref{fig:TheoryQCDThreeGluon} gluon emission from a gluon, and \subref{fig:TheoryQCDFourGluon} the four-gluon vertex.}
-  \label{fig:TheoryQCDVertexes}
+    \caption[The fundamental interaction vertices described by quantum chromodynamics.]{The fundamental interaction vertices described by quantum chromodynamics. Shown are \subref{fig:TheoryQCDColour} gluon emission from a quark, \subref{fig:TheoryQCDThreeGluon} gluon emission from a gluon, and \subref{fig:TheoryQCDFourGluon} the four-gluon vertex.}\label{fig:TheoryQCDVertexes}
 \end{figure}
 
-\section{Weak interactions} \label{sec:TheoryWeakInteractions}
+\section{Weak interactions}\label{sec:TheoryWeakInteractions}
 
 The final type of interaction involves the so-called weak force. The weak force is responsible for common nuclear processes such as for $\beta^{-}$ decay ($n\rightarrow pe^{-}\bar{\nu}_{e}$). Interactions via the weak force are mediated by three massive bosons: the neutral $Z^{0}$ boson and the $W^{+}$ and $W^{-}$ bosons. Since these posses mass the range of interaction is very short, unlike electromagnetic interactions via a massless photon.
 
@@ -191,26 +182,22 @@ All fermions can interact via the weak force, but to start lets consider weak in
     \begin{minipage}[][][t]{.32\textwidth}
       \centering
         \input{PartTheory/Diagrams/WeakNeutral.tex}
-        \subcaption{Neutral vertex}
-      \label{fig:TheoryWeakNeutralFermions}
+        \subcaption{Neutral vertex}\label{fig:TheoryWeakNeutralFermions}
     \end{minipage}
     \begin{minipage}[][][t]{.32\textwidth}
       \centering
         \input{PartTheory/Diagrams/WeakCharged.tex}
-        \subcaption{Charged vertex (leptons)} 
-      \label{fig:TheoryWeakChargedLeptons}
+        \subcaption{Charged vertex (leptons)}\label{fig:TheoryWeakChargedLeptons}
     \end{minipage}
     \begin{minipage}[][][t]{.32\textwidth}
       \centering
         \input{PartTheory/Diagrams/WeakChargedQuarks.tex}
-        \subcaption{Charged vertex (quarks)}
-      \label{fig:TheoryWeakChargedQuarks}
+        \subcaption{Charged vertex (quarks)}\label{fig:TheoryWeakChargedQuarks}
     \end{minipage}
-    \caption[The fundamental interaction vertices described by the weak theory.]{The fundamental interaction vertices described the weak theory. Shown are the \subref{fig:TheoryWeakNeutralFermions} neutral vertex, \subref{fig:TheoryWeakChargedLeptons} charged vertex with leptons, and \subref{fig:TheoryWeakChargedQuarks} charged vertex with quarks. Where $f=e\textrm{, }\mu\textrm{, }\tau$ and $\nu_{\ell}$ is the corresponding lepton neutrino of the same flavour.}
-  \label{fig:TheoryWeakVertexes}
+    \caption[The fundamental interaction vertices described by the weak theory.]{The fundamental interaction vertices described the weak theory. Shown are the \subref{fig:TheoryWeakNeutralFermions} neutral vertex, \subref{fig:TheoryWeakChargedLeptons} charged vertex with leptons, and \subref{fig:TheoryWeakChargedQuarks} charged vertex with quarks. Where $f=e\textrm{, }\mu\textrm{, }\tau$ and $\nu_{\ell}$ is the corresponding lepton neutrino of the same flavour.}\label{fig:TheoryWeakVertexes}
 \end{figure}
 
-Weak interactions involving quarks are more complicated than those with only leptons. The neutral vertex is similar to that of the leptonic version, a quark scattering off a \Z\ boson. However, the charged current changes the flavour of an up-type quark into a down-type quark (or vice-versa) with an associated \W\ boson of the appropriate charge (Figure~\ref{fig:TheoryWeakChargedQuarks}). This change in flavour can also happen across quark generations. The semileptonic decay of $b$-quarks is an example of flavour changing charged weak interactions. The $b$-quark (in a $B$ meson bound state) transitions into a $c$-quark by emitting a $W$ boson. In order to account for such an interaction and preserve the universality of weak interactions, Nicola Cabibbo postulated~\cite{Theory:CKMNicola} that the states that couple to the charged current are really a mixture of 'rotated' quark states:
+Weak interactions involving quarks are more complicated than those with only leptons. The neutral vertex is similar to that of the leptonic version, a quark scattering off a \Z\ boson. However, the charged current changes the flavour of an up-type quark into a down-type quark (or vice-versa) with an associated \W\ boson of the appropriate charge (Figure~\ref{fig:TheoryWeakChargedQuarks}). This change in flavour can also happen across quark generations. The semileptonic decay of $b$-quarks is an example of flavour changing charged weak interactions. The $b$-quark (in a $B$ meson bound state) transitions into a $c$-quark by emitting a $W$ boson. In order to account for such an interaction and preserve the universality of weak interactions, Nicola Cabibbo postulated~\cite{Theory:CKMNicola} that the states that couple to the charged current are really a mixture of `rotated' quark states:
 %
 \begin{equation}
   \begin{pmatrix}
@@ -374,4 +361,4 @@ The SM Lagrangian in its current form including the Higgs potential is shown in 
            - \underbrace{ V(\phi) }_{ \text{Higgs Potential} } \nonumber
 \end{align}
 
-The Higgs boson, and consequently the EBH mechanism, was the last remaining piece of the SM that resisted experimental confirmation. In late 2012, the ATLAS and CMS collaborations announced~\cite{Theory:HiggsDiscoveryCMS,Theory:HiggsDiscoveryATLAS} the discovery of a Higgs-like particle with a mass around \SI{125}{\GeV}~\cite{Theory:HiggsMass}, confirming the last missing component of the SM. However, the remaining unexplained phenomenon have yet to be theoretically described and experimentally confirmed. Due to its large mass, the top quark is of much interest to BSM searches.
+The Higgs boson, and consequently the EBH mechanism, was the last remaining piece of the SM that resisted experimental confirmation. In late 2012, the ATLAS and CMS collaborations announced~\cite{Theory:HiggsDiscoveryCMS,Theory:HiggsDiscoveryATLAS} the discovery of a Higgs-like particle with a mass around \SI{125}{\GeV}~\cite{Theory:HiggsMass}, confirming the last missing component of the SM\@. However, the remaining unexplained phenomenon have yet to be theoretically described and experimentally confirmed. Due to its large mass, the top quark is of much interest to BSM searches.
