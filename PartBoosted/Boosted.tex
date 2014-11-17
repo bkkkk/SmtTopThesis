@@ -3,8 +3,7 @@
 \newcommand{\mzp}{\ensuremath{m_{\Zprime}}}
 \newcommand{\eff}[2]{\ensuremath{\epsilon_{#1}^{#2}}}
 
-\chapter{Muon identification in a boosted \ttbar\ environment}
-\label{ch:Boosted}
+\chapter{Muon identification in a boosted \ttbar\ environment}\label{ch:Boosted}
 
 The search for BSM theories is an important part of particle physics research. Many of these theories posit the existence of very heavy particles that can only be produced by very energetic collisions. The LHC provides a unique opportunity to produce such collisions and search for very heavy particles. 
 
@@ -40,18 +39,16 @@ In order to perform an effective feasibility study it is important to understand
     \centering
       \def\svgwidth{184pt}
       \input{PartBoosted/Plots/NonBoosted.pdf_tex}
-      \caption{Resolved top quark topology}
-    \label{fig:NonBoostedDiagram}
-  \end{subfigure}%
-  ~
+      \caption{Resolved top quark topology}\label{fig:NonBoostedDiagram}
+  \end{subfigure}
+~%
   \begin{subfigure}[b]{0.46\textwidth}
     \centering
       \def\svgwidth{147pt}
       \input{PartBoosted/Plots/Boosted.pdf_tex}
-      \caption{Boosted top quark topology}
-    \label{fig:BoostedDiagram}
+      \caption{Boosted top quark topology}\label{fig:BoostedDiagram}
   \end{subfigure}
-  \caption[Diagrams of possible configurations of final-state objects in a boosted and a resolved event.]{Diagrams of possible configurations of final-state objects in~\subref{fig:BoostedDiagram} a boosted and~\subref{fig:NonBoostedDiagram} a resolved event.} \label{fig:SimpleAngularDiagrams}
+  \caption[Diagrams of possible configurations of final-state objects in a boosted and a resolved event.]{Diagrams of possible configurations of final-state objects in~\subref{fig:BoostedDiagram} a boosted and~\subref{fig:NonBoostedDiagram} a resolved event.}\label{fig:SimpleAngularDiagrams}
 \end{figure}
 
 As can be seen from Figure~\ref{fig:ExampleCollimation}, the increase in boost does result in the \W\ muon and $b$-quark emerging closer to each other. Note that the fraction of events below the \xsm\ tagger requirement of $\DeltaR_{\mu}^{\textrm{jet}}<0.5$ increases with top quark \pt. Additionally, as can be seen in Figure~\ref{fig:ExampleBoost} the top \pt\ distribution peaks at just below half of the mass of the \Zprime\ boson, thus the large portion of the candidate muons in the sample will pass the aforementioned separation requirement. The decay products of the boosted top quark appear to emerge primarily back to back as seen in Figure~\ref{fig:ExampleBackToBack}, while the $b$-quarks from non-resonant \ttbar\ emerge closer more often.
@@ -59,22 +56,19 @@ As can be seen from Figure~\ref{fig:ExampleCollimation}, the increase in boost d
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.75\textwidth]{PartBoosted/Plots/h_trmu_b_dr.pdf}
-    \caption{The angular separation (\DeltaR) between the truth \W\ muon and the corresponding $b$-quark for all examined \Zprime\ mass points and non-resonant \ttbar.}\tabularnewline
-  \label{fig:ExampleCollimation}
+    \caption{The angular separation (\DeltaR) between the truth \W\ muon and the corresponding $b$-quark for all examined \Zprime\ mass points and non-resonant \ttbar.}\label{fig:ExampleCollimation}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.75\textwidth]{PartBoosted/Plots/h_trtop_pt.pdf}
-    \caption{The transverse momentum of the top/anti-top quarks in the event for all examined \Zprime\ mass points and non-resonant \ttbar.}
-  \label{fig:ExampleBoost}
+    \caption{The transverse momentum of the top/anti-top quarks in the event for all examined \Zprime\ mass points and non-resonant \ttbar.}\label{fig:ExampleBoost}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.75\textwidth]{PartBoosted/Plots/h_b_bbar_dr.pdf}
-    \caption{The angular separation (\DeltaR) between the $b$ and $\bar{b}$ in the event for all examined \Zprime\ mass points  and non-resonant \ttbar.}
-  \label{fig:ExampleBackToBack}
+    \caption{The angular separation (\DeltaR) between the $b$ and $\bar{b}$ in the event for all examined \Zprime\ mass points and non-resonant \ttbar.}\label{fig:ExampleBackToBack}
 \end{figure}
 
 \section{Signal muon selection}
@@ -103,57 +97,56 @@ The distribution of pseudorapidity for \xsm\ tagged muons, as expected, is simil
   \centering
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_smt_pt.pdf}
-    \caption{Muon transverse momentum} \label{fig:BoostedControlSMTpt}
+    \caption{Muon transverse momentum}\label{fig:BoostedControlSMTpt}
   \end{subfigure}
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_smt_eta.pdf}
-    \caption{Muon pseudorapidity} \label{fig:BoostedControlSMTeta}
+    \caption{Muon pseudorapidity}\label{fig:BoostedControlSMTeta}
   \end{subfigure}
 
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_smt_jet_dr.pdf}
-    \caption{Angular separation from nearest jet} \label{fig:BoostedControlSMTdr}
+    \caption{Angular separation from nearest jet}\label{fig:BoostedControlSMTdr}
   \end{subfigure}
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_smt_chi2.pdf}
-    \caption{STACO combined \xsd} \label{fig:BoostedControlSMTchi2}
+    \caption{STACO combined \xsd}\label{fig:BoostedControlSMTchi2}
   \end{subfigure}
 
-  \caption[Distributions for all tested \Zprime\ mass points of the transverse momentum and pseudorapidity of muons which pass the \xsm\ tagger selection, the angular separation between those muons and the nearest jet in the event, and the \xsm\ used in the selection.]{Distributions for all tested \Zprime\ mass points of~\subref{fig:BoostedControlSMTpt} the transverse momentum and~\subref{fig:BoostedControlSMTeta} pseudorapidity of muons which pass the \xsm\ tagger selection, the~\subref{fig:BoostedControlSMTdr} angular separation between those muons and the nearest jet in the event, and~\subref{fig:BoostedControlSMTchi2} the \xsm\ used in the selection. All distributions normalized to unit area.} \label{fig:BoostedControlSMT}
+  \caption[Distributions for all tested \Zprime\ mass points of the transverse momentum and pseudorapidity of muons which pass the \xsm\ tagger selection, the angular separation between those muons and the nearest jet in the event, and the \xsm\ used in the selection.]{Distributions for all tested \Zprime\ mass points of~\subref{fig:BoostedControlSMTpt} the transverse momentum and~\subref{fig:BoostedControlSMTeta} pseudorapidity of muons which pass the \xsm\ tagger selection, the~\subref{fig:BoostedControlSMTdr} angular separation between those muons and the nearest jet in the event, and~\subref{fig:BoostedControlSMTchi2} the \xsm\ used in the selection. All distributions normalized to unit area.}\label{fig:BoostedControlSMT}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_mi10_pt.pdf}
-    \caption{Muon transverse momentum} \label{fig:BoostedControlMI10Pt}
+    \caption{Muon transverse momentum}\label{fig:BoostedControlMI10Pt}
   \end{subfigure}
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_mi10_eta.pdf}
-    \caption{Muon pseudorapidity} \label{fig:BoostedControlMI10Eta}
+    \caption{Muon pseudorapidity}\label{fig:BoostedControlMI10Eta}
   \end{subfigure}
 
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_mi10_jet_dr.pdf}
-    \caption{Angular separation from nearest jet} \label{fig:BoostedControlMI10Dr}
+    \caption{Angular separation from nearest jet}\label{fig:BoostedControlMI10Dr}
   \end{subfigure}
   \begin{subfigure}{0.48\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/h_mi10_coneSize.pdf}
-    \caption{Size of isolation cone} \label{fig:BoostedControlMI10Cone}
+    \caption{Size of isolation cone}\label{fig:BoostedControlMI10Cone}
   \end{subfigure}
 
-  \caption[Distributions for all tested \Zprime\ mass points of the transverse momentum and pseudorapidity of muons which pass the MI10 selection, the angular separation between those muons and the nearest jet in the event, and the cone size used in the selection.]{Distributions for all tested \Zprime\ mass points of a) the transverse momentum and b) pseudorapidity of muons which pass the MI10 selection, the c) angular separation between those muons and the nearest jet in the event, and d) the cone size used in the selection. All distributions normalized to unit area.} \label{fig:BoostedControlMI10}
+  \caption[Distributions for all tested \Zprime\ mass points of the transverse momentum and pseudorapidity of muons which pass the MI10 selection, the angular separation between those muons and the nearest jet in the event, and the cone size used in the selection.]{Distributions for all tested \Zprime\ mass points of~\subref{fig:BoostedControlMI10Pt} the transverse momentum and~\subref{fig:BoostedControlMI10Eta} pseudorapidity of muons which pass the MI10 selection, the~\subref{fig:BoostedControlMI10Dr} angular separation between those muons and the nearest jet in the event, and~\subref{fig:BoostedControlMI10Cone} the cone size used in the selection. All distributions normalized to unit area.}\label{fig:BoostedControlMI10}
 \end{figure}
 
-\section{Efficiency definition} \label{sec:BoostedEfficiencyDefinition}
+\section{Efficiency definition}\label{sec:BoostedEfficiencyDefinition}
 
 The efficiency measurement was designed to provide an accurate representation of the performance of the \xsm\ tagger and a fair comparison with mini-isolation. Additional sources of inefficiency such as muon reconstruction are separated out into an additional efficiency which is also quoted. See Figure~\ref{fig:BoostedFlowChart} for a summary of the efficiency measurement.
 
 \begin{figure}[htpb]
   \centering
     \includegraphics[width=0.85\textwidth]{PartBoosted/Plots/FlowChart.pdf}
-    \caption{Structure of the efficiency measurement including both cut-flows.}
-  \label{fig:BoostedFlowChart}
+    \caption{Structure of the efficiency measurement including both cut-flows.}\label{fig:BoostedFlowChart}
 \end{figure}
 
 Firstly, events where a \W\ boson decays into a muon are selected using truth information. These events are then used to measure the efficiency. Note that at each stage the denominator is the numerator of the previous efficiency. Thus the complete efficiency is given by the product of all the efficiency components. This allows for an estimation of the number of \W\ muons that would be selected.
@@ -214,8 +207,7 @@ The results of the reconstruction portion of the analysis chains are summarized 
     3000 & 15300(100) & 91.8(2) & 87.5(3) & 51.4(5)  \\
     \bottomrule
   \end{tabular}
-  \caption{Results of constructing the muon sample used to estimate the efficiency of the \xsm\ tagger. Uncertainty is statistical only.}
-  \label{tab:BoostedRecoSTACO}
+  \caption{Results of constructing the muon sample used to estimate the efficiency of the \xsm\ tagger. Uncertainty is statistical only.}\label{tab:BoostedRecoSTACO}
 \end{table}
 
 % MUID Reconstruction Results
@@ -241,8 +233,7 @@ The results of the reconstruction portion of the analysis chains are summarized 
   3000 & 15300(100) & 92.1(2) & 88.5(3) & 51.2(4) \\
   \bottomrule  
   \end{tabular}
-  \caption[Results of constructing the muon sample used to estimate the efficiency of mini-isolation and resolved isolation.]{Results of constructing the muon sample used to estimate the efficiency of mini-isolation and resolved isolation. The uncertainty is statistical only.}
-  \label{tab:BoostedRecoMUID}
+  \caption[Results of constructing the muon sample used to estimate the efficiency of mini-isolation and resolved isolation.]{Results of constructing the muon sample used to estimate the efficiency of mini-isolation and resolved isolation. The uncertainty is statistical only.}\label{tab:BoostedRecoMUID}
 \end{table}
 
 The efficiency of the resolved isolation as expected is low and decreases with increasing boost as shown in Table~\ref{tab:BoostedFinalResolved}. The efficiency of the resolved isolation with overlap removal at \SI{3.0}{\TeV} is \SI{18}{\percent} highlighting the need for a better isolation requirement.
@@ -267,8 +258,7 @@ The efficiency of the resolved isolation as expected is low and decreases with i
     3000 & 20.8(5)  & 18.6(5)  \\
     \bottomrule
   \end{tabular}
-  \caption{Efficiency of selecting a muon by using the resolved isolation. Uncertainty is statistical only.}
-  \label{tab:BoostedFinalResolved}
+  \caption{Efficiency of selecting a muon by using the resolved isolation. Uncertainty is statistical only.}\label{tab:BoostedFinalResolved}
 \end{table}
 
 The performance of MI and the \xsm\ tagger was studied as a function of the angular separation between the muon and the jet (Figure~\ref{fig:BoostedEfficiencyVsDRmuj}), and the \pt\ of the muon (Figure~\ref{fig:BoostedEfficiencyVsPt}). The \xsm\ tagger efficiency shows some minor dependence on the angular separation to the jet and as expected exhibits a dependence on the \pt\ of the muon. Mini-isolation has a strong dependence on the \pt\ of the muon particularly in the low range. The efficiency at high \pt\ plateaus at approximately \SI{100}{\percent}, due to the mini-isolation cone containing only the muon itself. The decrease in efficiency at lower momentum is due to the increase in the cone size and the inclusion of more tracks from the nearby jet in the cone. Note that the cone size is larger than the one used for the nominal analysis for muons with $\pt<\SI{50}{\GeV}$. The mini-isolation efficiency distribution exhibits a strong dependence on $\DeltaR^{\textrm{jet}}_{\mu}$ which varies as a function of top boost in the event.
@@ -302,39 +292,39 @@ The \xsm\ tagger efficiency is very high and fairly stable with \Zprime\ mass as
     3000 & 96.3(2) & 92.5(3) & 87.6(4) & 85.1(4)  \\
     \bottomrule
   \end{tabular}
-  \caption{Efficiency of selecting a muon by using the \xsm\ tagger against MI, including the additional acceptance provided by the \xsm\ tagger. Uncertainty is statistical only.} \label{tab:BoostedFinalEfficiencySummary}
+  \caption{Efficiency of selecting a muon by using the \xsm\ tagger against MI, including the additional acceptance provided by the \xsm\ tagger. Uncertainty is statistical only.}\label{tab:BoostedFinalEfficiencySummary}
 \end{table}
 
 \begin{figure}[htbp]
   \begin{subfigure}{0.49\linewidth}
     \centering
     \includegraphics[width=\textwidth]{PartBoosted/Plots/he_staco_smt_dr.pdf}
-    \caption{\xsm\ muon tagger} \label{fig:BoostedSMTeffVsDRmuj}
+    \caption{\xsm\ muon tagger}\label{fig:BoostedSMTeffVsDRmuj}
   \end{subfigure}
-  ~
+~%
   \begin{subfigure}{0.49\linewidth}
     \centering
     \includegraphics[width=\textwidth]{PartBoosted/Plots/he_muid_mi10_dr.pdf}
-    \caption{MI with $\kT=10$} \label{fig:BoostedMIeffVsDRmuj}
+    \caption{MI with $\kT=10$}\label{fig:BoostedMIeffVsDRmuj}
   \end{subfigure}
 
-  \caption[Efficiency of MI ($\kT=10$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet.]{Efficiency of MI ($\kT=10$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet. The dip in the MI efficiency at low $\DeltaR$ is removed in the nominal analysis by cutting at $\DeltaR<0.1$} \label{fig:BoostedEfficiencyVsDRmuj}
+  \caption[Efficiency of MI ($\kT=10$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet.]{Efficiency of MI ($\kT=10$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet. The dip in the MI efficiency at low $\DeltaR$ is removed in the nominal analysis by cutting at $\DeltaR<0.1$}\label{fig:BoostedEfficiencyVsDRmuj}
 \end{figure}
 
 \begin{figure}[htbp]
   \begin{subfigure}{0.49\linewidth}
     \centering
     \includegraphics[width=\textwidth]{PartBoosted/Plots/he_staco_smt_pt.pdf}
-    \caption{\xsm\ muon tagger} \label{fig:BoostedSMTeffVsPt}
+    \caption{\xsm\ muon tagger}\label{fig:BoostedSMTeffVsPt}
   \end{subfigure}
-  ~
+~%
   \begin{subfigure}{0.49\linewidth}
     \centering
     \includegraphics[width=\textwidth]{PartBoosted/Plots/he_muid_mi10_pt.pdf}
-    \caption{Mini-isolation with $\kT=10$} \label{fig:BoostedMIeffVsPt}
+    \caption{Mini-isolation with $\kT=10$}\label{fig:BoostedMIeffVsPt}
   \end{subfigure}
 
-  \caption{Efficiency of mini-isolation ($\kT=10$) and the \xsm\ muon tagger as a function of the transverse momentum of the muon.} \label{fig:BoostedEfficiencyVsPt}
+  \caption{Efficiency of mini-isolation ($\kT=10$) and the \xsm\ muon tagger as a function of the transverse momentum of the muon.}\label{fig:BoostedEfficiencyVsPt}
 \end{figure}
 
 \subsection{Background}
@@ -375,8 +365,7 @@ The increase in signal acceptance does not make this methodology sufficiently ad
       3000 & 90.1(3) & 6.6(2) & 46.1(5)  & 5.7(2)\\
       \bottomrule
     \end{tabular}
-    \caption{Fake rate of the \xsm\ tagger and mini-isolation with and without overlap removal as measured using all \Zprime\ mass points. The uncertainty is statistical only.}
-  \label{tab:BoostedBackgroundResults}
+    \caption{Fake rate of the \xsm\ tagger and mini-isolation with and without overlap removal as measured using all \Zprime\ mass points. The uncertainty is statistical only.}\label{tab:BoostedBackgroundResults}
 \end{table}
 
 \section{B-tagging potential in boosted events}
@@ -413,8 +402,7 @@ The matching efficiency remains above \SI{80}{\percent} through-out the tested m
       3000 && 180000(400) & 156000(400) && 86.8(1) \\
       \bottomrule
     \end{tabular}
-    \caption[Summary of $b$-quark to jet matching efficiencies for all tested \Zprime\ masses.]{Summary of $b$-quark to jet matching efficiencies for all tested \Zprime\ masses. The uncertainty is statistical only.}
-  \label{tab:BoostedBJetMatching}
+    \caption[Summary of $b$-quark to jet matching efficiencies for all tested \Zprime\ masses.]{Summary of $b$-quark to jet matching efficiencies for all tested \Zprime\ masses. The uncertainty is statistical only.}\label{tab:BoostedBJetMatching}
 \end{table}
 
 The tagging efficiency can be defined in two ways. The first folds the effect of the low $b\rightarrow\mu$ branching ratio into the final efficiency. This makes the comparison with other taggers possible and is denoted by $\epsilon_{\textrm{Inc. SMT}}$.
@@ -454,8 +442,7 @@ As expected, as the boost increases the distance between the muon and the jet de
       3000 & 32800(200) & 21.5(2) \\
       \bottomrule
     \end{tabular}
-    \caption{Results of the muon to jet association in MC simulated inclusive \Zprime\ samples.}
-  \label{tab:BoostedMatchingMuonToJet}
+    \caption{Results of the muon to jet association in MC simulated inclusive \Zprime\ samples.}\label{tab:BoostedMatchingMuonToJet}
 \end{table}
 
 The tagging yields as well as the overlap yield between the taggers are shown in Table~\ref{tab:BoostedSummaryBtaggingEff}. As expected the MV1 tagger selects the vast majority of the $b$-jets while the effect of the semileptonic $b$-decay is also noted in the lower SMT yields.
@@ -483,8 +470,7 @@ The SMT tagging efficiency appears to increase with \mzp\ as shown in Table~\ref
       3000 & 27200(200) & 89400(300)  & 16200(100) \\
       \bottomrule
     \end{tabular}
-    \caption[Results of the $b$-jet tagging study. Shown are the number of jets tagged by the SMT tagger, the MV1 tagger, and both.]{Results of the $b$-jet tagging study. Shown are the number of jets tagged by the SMT tagger, the MV1 tagger, and both. These jets have been truth-matched to $b$-quarks.}
-  \label{tab:BoostedSummaryBtaggingEff}
+    \caption[Results of the $b$-jet tagging study. Shown are the number of jets tagged by the SMT tagger, the MV1 tagger, and both.]{Results of the $b$-jet tagging study. Shown are the number of jets tagged by the SMT tagger, the MV1 tagger, and both. These jets have been truth-matched to $b$-quarks.}\label{tab:BoostedSummaryBtaggingEff}
 \end{table}
 
 \begin{table}[htbp]
@@ -505,8 +491,7 @@ The SMT tagging efficiency appears to increase with \mzp\ as shown in Table~\ref
       3000 & 17.4(1) & 57.3(1) & 60.0(1) & 12 \\
       \bottomrule
     \end{tabular}
-    \caption[Results of the $b$-tagging efficiency estimation for the MV1 and SMT taggers.]{Results of the $b$-tagging efficiency estimation for the MV1 and SMT taggers. The amount of overlap is shown out of the SMT tagged jets, while the added acceptance is measured as the number of jets tagged only by SMT over the number of MV1 tagged jets. The uncertainties are statistical only.}
-  \label{tab:BoostedBTagEffs}
+    \caption[Results of the $b$-tagging efficiency estimation for the MV1 and SMT taggers.]{Results of the $b$-tagging efficiency estimation for the MV1 and SMT taggers. The amount of overlap is shown out of the SMT tagged jets, while the added acceptance is measured as the number of jets tagged only by SMT over the number of MV1 tagged jets. The uncertainties are statistical only.}\label{tab:BoostedBTagEffs}
 \end{table}
 
 The efficiency for both taggers as a function of the jet \pt\ is shown in Figure~\ref{fig:BoostedBTaggEffs}. The performance of the MV1 tagger is clearly \pt\ dependant while the SMT tagger is more stable with respect to jet \pt. The performance of the MV1 tagger is lower at both extremes of the momentum distribution. At low jet \pt\ the performance of secondary vertex reconstruction is degraded due to the lower decay length. In contrast, at high jet \pt\ the primary source of $b$-tagging efficiency loss comes from the shift in the jet axis away from the the $b$-hadron direction. If the shift is very large, some of the $b$-hadron components may not be associated with the jet and not enter into the discriminants that make up the MV1 tagger~\cite{Boosted:MV1TaggerHighPt}.
@@ -515,14 +500,14 @@ The efficiency for both taggers as a function of the jet \pt\ is shown in Figure
   \centering
   \begin{subfigure}[b]{0.75\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/he_mv1_jet_pt.pdf}
-    \caption{MV1 Tagger} \label{fig:BoostedBTaggMV1}
+    \caption{MV1 Tagger}\label{fig:BoostedBTaggMV1}
   \end{subfigure}
   
   \begin{subfigure}[b]{0.75\textwidth}
     \includegraphics[width=\textwidth]{PartBoosted/Plots/he_smt_jet_pt.pdf}
-    \caption{SMT Tagger} \label{fig:BoostedBTaggSMT}
+    \caption{SMT Tagger}\label{fig:BoostedBTaggSMT}
   \end{subfigure}
-  \caption{The $b$-tagging efficiency distributions as a function of jet \pt\ for the MV1 tagger and the SMT tagger as measured in all \Zprime\ mass points.} \label{fig:BoostedBTaggEffs}
+  \caption{The $b$-tagging efficiency distributions as a function of jet \pt\ for the MV1 tagger and the SMT tagger as measured in all \Zprime\ mass points.}\label{fig:BoostedBTaggEffs}
 \end{figure}
 
 The performance of the SMT tagger in a boosted environment looks promising from this preliminary study, however a more careful measurement of the performance needs to be conducted. In addition, it is important to also perform a fake-rate study in such a boosted environment. As was observed in the calibration of the tagger on both 2012 and 2011 data, the efficiency of tagging a soft muon is not affected by the isolation of that muon.
