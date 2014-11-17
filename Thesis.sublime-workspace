@@ -520,9 +520,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 387.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
 			[
 				"package",
 				"Package Control: List Packages"
@@ -1030,13 +1034,9 @@
 			[
 				"package ",
 				"Package Control: Discover Packages"
-			],
-			[
-				"ar",
-				"Tasks: Archive"
 			]
 		],
-		"width": 331.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -1067,49 +1067,60 @@
 	},
 	"file_history":
 	[
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Preface.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Conclusions.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Todo.todo",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdgg2g2ttbar.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Declaration.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/TopQuark.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/TheoryEditi.todo",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/SingleTop.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bbl",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Acknowledgements.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/DetectorElectronID.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartAbstract/Abstract.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/README.md",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationApp.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleProdTWChannel.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdqq2ttbar.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdgg2g2ttbar.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdCrossGG2ttbar.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/PageTitle.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/cms-mu4Jets_140124_1749068_RPhi.png",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Diagrams/IPDiagram.tikz",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakMuonDecay.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdStraightGGtott.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.pdf_tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.pdf_tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Conclusions.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Declaration.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Acknowledgements.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Preface.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/TheoryEditi.todo",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/NewTableNotSure",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleTopSChannel.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Diagrams/IPDiagram.tikz",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/MultijetFakeLeptoin.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD3.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/SingleTop.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/README.md",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/MacroDefs.sty",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/EditingTrigger.todo",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.svg",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Sig.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/PageTitle.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Todo.todo",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.sublime-project",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bib",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.bbl",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/TopQuark.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/cms-mu4Jets_140124_1749068_RPhi.png",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakMuonDecay.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayBPlotter.cxx",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/Thesis.bbl",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayPlotter.cxx",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakCharged.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
 		"/Users/jayb88/jblanco/CalibrationWork/RunSimpleMatchChi2/jobOptions/SimpleMatchChi2Plotter.cxx",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.ptex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/partial/Detector/Thesis.bbl",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/NewTableNotSure",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDTreeA.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/partial/Theory/Thesis.bbl",
 		"/Users/jayb88/jblanco/Main2D3PD/FakesMacros/data/EJetsMatrixMethod_data.C",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/MacroDefs.sty",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkDecayPie.tikz",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartIntroduction/Introduction.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.svg",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/Boosted.pdf_tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/BtagEff.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/TopEff.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/MiniHisto.cxx",
@@ -1122,34 +1133,27 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationMCPCuts.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/HadronicEff.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/HadEffTabulator.cxx",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/DetectorElectronID.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/runTabulatorHad.sh",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/util/Bta",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/MakeNonBoosted.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.pdf",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.pdf_tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/NonBoosted.svg",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/DibosonEx.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TheoryQEDTreeB.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/bibtex_check_0.2.0.py",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationApp.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/CalibrationReco.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Plots/FlowChart.tikz",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/WJetsEx.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/EditingTrigger.todo",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/MultijetRealLepton.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakNeutral.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/SelfQCD3.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/Diagram/Feynman/ZJetsEx.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/DetectorMuonID.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleqb2qt.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleProdTWChannel.tex",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/atlas-2010-063-fig_09.png",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Output/partial/Calibration2012/Thesis.bbl",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/Transition_A_reco.png",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/eta_smt.png",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/.latexmkrc",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/Barrel_A_reco.png",
 		"/Users/jayb88/jblanco/CalibrationWork/RunKinematics/jobOptions/AllPlotterThree.cxx",
 		"/Users/jayb88/jblanco/CalibrationWork/RunKinematics/scripts/runPlotter.sh",
@@ -1170,11 +1174,8 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/phi_reco.png",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/SF_ext_h_pt_Forward A_smt_SF.png",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/TestDiagram.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleTopSChannel.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakChargedQuarks.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdqq2ttbar.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopSingleQtb.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopProdStraightGGtott.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Plots/Latest/nucone20_smt.png",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/untitled",
 		"/Users/jayb88/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -1193,12 +1194,11 @@
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/Root/TruthUtils.cxx",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthUtils.h",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/scripts/setup.sh",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthMatching.h",
-		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/setu"
+		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/TopD3PDAnalysis/TruthMatching.h"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -1215,6 +1215,20 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"semilpe",
+			"\\tabin",
+			"      \\label",
+			"      \\label{fig:WbbJets}",
+			"} \\labe",
+			"} \\lab",
+			"\\textrm{max}",
+			"\\textrm{min}",
+			"\\tabin",
+			" \\numrange",
+			"} \\label",
+			" \\lab",
+			" \\l",
+			" \\label",
 			"feynman",
 			"75",
 			"cut away",
@@ -1328,21 +1342,7 @@
 			"=",
 			"Nucl.Phys",
 			"= ",
-			"Eur.Phys.J.",
-			"=",
-			"ElectronIDVariables",
-			"ElectronID",
-			"longtable",
-			"label",
-			"Calibration:2011Note",
-			"~\\subref",
-			"[range-units=single]",
-			"Branching ratios of all possible",
-			"Branching ratios of ",
-			"top-qu",
-			"top-q",
-			"top-quark",
-			"\\emph{mini"
+			"Eur.Phys.J."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1411,7 +1411,7 @@
 	},
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1419,6 +1419,66 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"electro",
+				"PartDetector/DetectorElectronID.tex"
+			],
+			[
+				"app",
+				"PartCalibration2012/CalibrationApp.tex"
+			],
+			[
+				"tex",
+				"PartBoosted/Boosted.tex"
+			],
+			[
+				"pref",
+				"Preface.tex"
+			],
+			[
+				"int",
+				"PartIntroduction/Introduction.tex"
+			],
+			[
+				"ab",
+				"PartAbstract/Abstract.tex"
+			],
+			[
+				"conc",
+				"Conclusions.tex"
+			],
+			[
+				"",
+				"Preface.tex"
+			],
+			[
+				"prefa",
+				"Preface.tex"
+			],
+			[
+				"thesis",
+				"Thesis.tex"
+			],
+			[
+				"cross",
+				"PartCrossSection/CrossSection.tex"
+			],
+			[
+				"topqu",
+				"PartTopQuark/TopQuark.tex"
+			],
+			[
+				"theory",
+				"PartTheory/Theory.tex"
+			],
+			[
+				"calib",
+				"PartCalibration2012/Calibration2012.tex"
+			],
+			[
+				"booste",
+				"PartBoosted/Boosted.tex"
+			],
 			[
 				"todo",
 				"Todo.todo"
@@ -1428,16 +1488,8 @@
 				"PartDetector/Detector.tex"
 			],
 			[
-				"theory",
-				"PartTheory/Theory.tex"
-			],
-			[
 				"topquar",
 				"PartTopQuark/TopQuark.tex"
-			],
-			[
-				"thesis",
-				"Thesis.bib"
 			],
 			[
 				"thesis.bib",
@@ -1448,20 +1500,12 @@
 				"Preface.tex"
 			],
 			[
-				"conc",
-				"Conclusions.tex"
-			],
-			[
 				"thesis.tex",
 				"Thesis.tex"
 			],
 			[
 				"ac",
 				"BoilerPlate/Acknowledgements.tex"
-			],
-			[
-				"pref",
-				"Preface.tex"
 			],
 			[
 				"page",
@@ -1480,32 +1524,16 @@
 				"PartCalibration2012/Calibration2012.tex"
 			],
 			[
-				"calib",
-				"PartCalibration2012/Calibration2012.tex"
-			],
-			[
 				"cali",
 				"PartCalibration2012/Calibration2012.tex"
-			],
-			[
-				"topqu",
-				"PartTopQuark/TopQuark.tex"
 			],
 			[
 				"calibra",
 				"PartCalibration2012/Calibration2012.tex"
 			],
 			[
-				"cross",
-				"PartCrossSection/CrossSection.tex"
-			],
-			[
 				"abst",
 				"PartAbstract/Abstract.tex"
-			],
-			[
-				"booste",
-				"PartBoosted/Boosted.tex"
 			],
 			[
 				"boosted",
@@ -1788,10 +1816,6 @@
 				"PartTheory/Diagrams/SelfQCD4.tex"
 			],
 			[
-				"",
-				"PartTheory/Diagrams/SelfQCD4.tex"
-			],
-			[
 				"qc3",
 				"PartTheory/Diagrams/SelfQCD3.tex"
 			],
@@ -1906,30 +1930,6 @@
 			[
 				"thesisb",
 				"Thesis.bib"
-			],
-			[
-				"elec",
-				"PartDetector/DetectorElectronID.tex"
-			],
-			[
-				"electro",
-				"PartDetector/DetectorElectronID.tex"
-			],
-			[
-				"thesis.",
-				"Thesis.bib"
-			],
-			[
-				"meet",
-				"ForMeetingWithVB.todo"
-			],
-			[
-				"thesis.bi",
-				"Thesis.bib"
-			],
-			[
-				"theis",
-				"Thesis.tex"
 			]
 		],
 		"width": 0.0
