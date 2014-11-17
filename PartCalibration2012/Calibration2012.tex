@@ -7,23 +7,23 @@
 
 \chapter[Calibration of the soft muon tagger]{Calibration of the soft muon tagger for 2012 ATLAS data}\label{ch:Calibration}
 
-High-energy physics relies heavily on the use of simulated data to inform the development of analysis techniques. It paramount that the simulation reflect nature as closely as possible. However, the simulation cannot perfectly recreate conditions within the detector and some kinematic variables are not accurately simulated. This includes the quality of matching between ID and MS tracks which if fundamental for the SMT tagger.
+High-energy physics relies heavily on the use of simulated data to inform the development of analysis techniques. It is paramount that the simulation describe nature as closely as possible. However, the simulation cannot perfectly recreate conditions within the detector and some kinematic variables are not accurately simulated. This includes the quality of matching between ID and MS tracks which is fundamental for the SMT tagger.
 
 Selection and reconstruction techniques are said to be calibrated when the discrepancy between simulation and collision data is quantified. This process has to be repeated on new collision data and/or when simulation is changed in a relevant and significant way.
 
-In the case of muon reconstruction method and the \xsm\ tagger it is important that the difference in efficiency between simulation and collision data be accounted for. This is done by defining a scale factor (SF),
+The difference in efficiency between collision data and simulation of the muon reconstruction procedure and the \xsm\ tagger selection are accounted for by a scale factor (SF),
 
 \begin{equation}
   \textrm{SF} = \frac{\epsilon^{\textrm{Data}}}{\epsilon^{\textrm{MC}}}
 \end{equation}
 %
-which is used to rescale the simulation so that it better represents the data.
+which is used to rescale the simulation so that it matches the data more closely.
 
 One of the advantages of using the \xsm\ tagger over other forms of $b$-tagging is that the presence of a jet is not required to measure the \xsm\ of a muon. This means that the calibration can be performed on isolated muons such as those from \JMu\ or \ZMu\ using the so called tag and probe method. This calibration relies on muons with low \pt\ from \jpsi\ decays.
 
-The tag and probe method is implemented as follows: a STACO combined muon is designated as the \emph{tag}, this muon must pass a stringent set of cuts implying that this is indeed a muon from a \jpsi. the second muon which is designated as the \emph{probe} is simply an ID track. To ensure that the probe is the second muon from the \jpsi\ decay, the invariant mass of the combined tag and probe system is required to be in a window centred around the \jpsi\ mass. The complete selection used in the calibration is detailed in Section~\ref{sec:CalibrationSelection}. These probes are used to measure the reconstruction efficiency and the \xsm\ tagger efficiency as using a fit to the invariant mass distribution as describe in Section~\ref{sec:CalibrationFitting}. The results of this analysis are then presented in Section~\ref{sec:CalibrationEfficiencies}.
+The tag and probe method is implemented as follows: a STACO combined muon is designated as the \emph{tag}, this muon must pass a stringent set of cuts implying that it is indeed a muon from a \jpsi. The second muon, which is designated as the \emph{probe}, is simply an ID track. To ensure that the probe is the second muon from the \jpsi\ decay, the invariant mass of the combined tag and probe system is required to be in a window centred around the \jpsi\ mass. The complete selection used in the calibration is detailed in Section~\ref{sec:CalibrationSelection}. These probes are used to measure the reconstruction efficiency and the \xsm\ tagger efficiency by using a fit to their invariant mass distribution as described in Section~\ref{sec:CalibrationFitting}. The results of this analysis are then presented in Section~\ref{sec:CalibrationEfficiencies}.
 
-The analysis used here is based on a previous calibration of the \xsm\ tagger performed on 2011 ATLAS collision data detailed in~\cite{Calibration:MattThesis}. The analysis presented here differs from the 2011 calibration in several ways which will be highlighted and explained.
+The procedure used here is based on a previous calibration of the \xsm\ tagger performed on 2011 ATLAS collision data detailed in~\cite{Calibration:MattThesis}. This analysis presented here differs from the 2011 calibration in several ways which will be highlighted and explained.
 
 \subsection*{Software, collision data and simulated samples}
 
@@ -35,11 +35,11 @@ The efficiency scale factor is measured against a sample containing almost 10 mi
 
 The tag and probe procedure is as follows: first, require the presence of a STACO CB muon which passes a very stringent selection. This strongly implies that this is a real muon and thus is labelled as the tag. A very loose selection is then applied to all ID tracks to construct a pool of candidate probes. Pairs of tag and probes are formed by requiring that the combined invariant mass lie within a \jpsi\ mass window and the pair pass additional pairing cuts. This then implies that the probe is likely the other muon from the \jpsi\ decay and as such is a suitable test-bed to measure the performance of the muon reconstruction algorithm. All selection criteria are detailed and explained in Section~\ref{sec:CalibrationSelectionCuts}.
 
-Probes which are reconstructed into STACO CB muons are labelled as muon probes. The reconstruction performance is quantified by the portion of probes, which are likely from real muons, that are reconstructed into muons. The performance of the \xsm\ tagger is estimated in a similar way, by measuring the proportion of muon probes which are selected by the \xsm\ algorithm.
+Probes which are reconstructed into STACO CB muons are labelled as muon probes. The reconstruction performance is quantified by the portion of probes, which are likely to be real muons, that are reconstructed into muons. The performance of the \xsm\ tagger is estimated in a similar way, by measuring the proportion of muon probes which are selected by the \xsm\ algorithm.
 
 \subsection{Trigger requirements}\label{sec:CalibrationTriggerRequirement}
 
-In order for an event to be included in the analysis it must pass at least one of the trigger chains listed in Appendix~\ref{app:CalibrationTrigger}. For the sake of brevity only the primary trigger, EF\_mu6\_Trk\_Jpsi\_loose which contributes the majority of events, is described here.
+In order for an event to be included in the analysis it must have fired at least one of the trigger chains listed in Appendix~\ref{app:CalibrationTrigger}. For the sake of brevity only the primary trigger, EF\_mu6\_Trk\_Jpsi\_loose which contributes the majority of events, is described here.
 
 As stated in the trigger name, this is an EF trigger which requires the presence of a muon with a momentum of at least \SI{6}{GeV} and an ID track with a combined invariant mass in the range $\SI{2.6}{GeV}<m_{\textrm{inv}}<\SI{3.6}{GeV}$. This mass window is loose enough to   contain the entirety of the \jpsi\ peak and side-bands that allow for background removal. Double muon triggers are not used to avoid introducing a bias by requiring the presence of two good muons. 
 
