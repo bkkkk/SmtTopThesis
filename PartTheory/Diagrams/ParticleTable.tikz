@@ -58,7 +58,7 @@
 
   \node[name=Photon, Boson, right of=Top, xshift=2cm] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$\gamma$}{Photon (EM)}};
   \node[name=W, below of=Photon, Boson] {\NaturalElementTextFormat{$\pm1$}{$80.4$\,GeV}{$W^{\pm}$}{W boson (Weak)}};
-  \node[name=Z, below of=W, Boson] {\NaturalElementTextFormat{$0$}{$91.2$\,GeV}{$Z$}{\ZbosonText{} (Weak)}};
+  \node[name=Z, below of=W, Boson] {\NaturalElementTextFormat{$0$}{$91.2$\,GeV}{$Z$}{$Z$ boson (Weak)}};
   \node[name=Gluon, below of=Z, Boson] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$g$}{Gluon (Strong)}};
   \node[name=Higgs, right of=Photon, Higgs, xshift=1cm] {\NaturalElementTextFormat{$0$}{$126.07$\,GeV}{$H^{0}$}{Higgs boson}};
   \node[name=Legend, right of=Gluon, Boson, fill=white, xshift=1cm] {\NaturalElementTextFormat{q}{mass}{symbol}{name (force)}};
