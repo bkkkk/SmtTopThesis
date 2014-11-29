@@ -16,3 +16,4 @@ _build/
 *.bbl
 Output/
 Thesis.pdf
+*sublime-workspace
