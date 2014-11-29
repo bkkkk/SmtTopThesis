@@ -1067,6 +1067,8 @@
 	},
 	"file_history":
 	[
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Declaration.tex",
+		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartBoosted/Boosted.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/DetectorElectronID.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartAbstract/Abstract.tex",
@@ -1081,7 +1083,6 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/TopQuarkLeptonPlusJetsFull.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCalibration2012/Calibration2012.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Conclusions.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Declaration.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/BoilerPlate/Acknowledgements.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Thesis.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/Preface.tex",
@@ -1107,7 +1108,6 @@
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Theory.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartCrossSection/CrossSection.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/TopQuark.tex",
-		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartDetector/Detector.tex",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTopQuark/Diagrams/cms-mu4Jets_140124_1749068_RPhi.png",
 		"/Users/jayb88/Dropbox/TopWork/PhD Thesis/PartTheory/Diagrams/WeakMuonDecay.tex",
 		"/Users/jayb88/jblanco/BoostWithSMT-11-00-00-09/TopD3PDAnalysis/run/jobOptions/OverlayBPlotter.cxx",
@@ -1198,7 +1198,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -1420,6 +1420,14 @@
 		"selected_items":
 		[
 			[
+				"detec",
+				"PartDetector/Detector.tex"
+			],
+			[
+				"detector",
+				"PartDetector/DetectorElectronID.tex"
+			],
+			[
 				"electro",
 				"PartDetector/DetectorElectronID.tex"
 			],
@@ -1552,10 +1560,6 @@
 				"PartCalibration2012/Calibration2012.tex"
 			],
 			[
-				"detec",
-				"PartDetector/Detector.tex"
-			],
-			[
 				"abs",
 				"PartAbstract/Abstract.tex"
 			],
@@ -1630,10 +1634,6 @@
 			[
 				"ack",
 				"BoilerPlate/Acknowledgements.tex"
-			],
-			[
-				"detector",
-				"PartDetector/DetectorElectronID.tex"
 			],
 			[
 				"dec",
