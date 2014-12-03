@@ -7,7 +7,7 @@
 
 \chapter[Calibration of the soft muon tagger]{Calibration of the soft muon tagger for 2012 ATLAS data}\label{ch:Calibration}
 
-High-energy physics relies heavily on the use of simulated data to inform the development of analysis techniques. It is paramount that the simulation describe nature as closely as possible. However, the simulation cannot perfectly recreate conditions within the detector and some kinematic variables are not accurately simulated. This includes the quality of matching between ID and MS tracks which is fundamental for the SMT tagger.
+High-energy physics relies heavily on the use of simulated data to inform the development of analysis techniques. It is paramount that the simulation describe nature as closely as possible. However, the simulation cannot perfectly recreate conditions within the detector and some kinematic variables are not accurately simulated. This includes the quality of matching between ID and MS tracks which are fundamental for the SMT tagger.
 
 Selection and reconstruction techniques are said to be calibrated when the discrepancy between simulation and collision data is quantified. This process has to be repeated on new collision data and/or when simulation is changed in a relevant and significant way.
 
@@ -19,15 +19,15 @@ The difference in efficiency between collision data and simulation of the muon r
 %
 which is used to rescale the simulation so that it matches the data more closely.
 
-One of the advantages of using the \xsm\ tagger over other forms of $b$-tagging is that the presence of a jet is not required to measure the \xsm\ of a muon. This means that the calibration can be performed on isolated muons such as those from \JMu\ or \ZMu\ using the so called tag and probe method. This calibration relies on muons with low \pt\ from \jpsi\ decays.
+One of the advantages of using the \xsm\ tagger over other forms of $b$-tagging is that the presence of a jet is not required to measure the \xsm\ of a muon. This means that the calibration can be performed on isolated muons such as those from \JMu\ or \ZMu\ using the so called tag and probe method. This calibration relies on muons with low \pt\ from \jpsi\ decays. Within ATLAS, the nominal calibration of the reconstruction efficiency is performed on \ZMu\ due to the smaller uncertainty using high \pt\ muons. The SF at low \pt\ are obtained by extrapolating back into the low momentum range.
 
 The tag and probe method is implemented as follows: a STACO combined muon is designated as the \emph{tag}, this muon must pass a stringent set of cuts implying that it is indeed a muon from a \jpsi. The second muon, which is designated as the \emph{probe}, is simply an ID track. To ensure that the probe is the second muon from the \jpsi\ decay, the invariant mass of the combined tag and probe system is required to be in a window centred around the \jpsi\ mass. The complete selection used in the calibration is detailed in Section~\ref{sec:CalibrationSelection}. These probes are used to measure the reconstruction efficiency and the \xsm\ tagger efficiency by using a fit to their invariant mass distribution as described in Section~\ref{sec:CalibrationFitting}. The results of this analysis are then presented in Section~\ref{sec:CalibrationEfficiencies}.
 
-The procedure used here is based on a previous calibration of the \xsm\ tagger performed on 2011 ATLAS collision data detailed in~\cite{Calibration:MattThesis}. This analysis presented here differs from the 2011 calibration in several ways which will be highlighted and explained.
+The procedure used here is based on a previous calibration of the \xsm\ tagger performed on 2011 ATLAS collision data detailed in~\cite{Calibration:MattThesis}. It differs from the 2011 calibration in several ways which will be highlighted and explained.
 
 \subsection*{Software, collision data and simulated samples}
 
-The dataset used is made of those luminosity blocks selected by the recommended standard \emph{good runs list} (GRL) which corresponds to all $pp$ collision periods in 2012. The GRL selects only those luminosity blocks where detector conditions are appropriate for physics data-taking. This requires that all relevant detector components are operational, and that stable beam conditions have been achieved. The datasets are part of the 2013 summer reprocessing corresponding to data taken in periods A through to L, excluding periods F and J. In total this represents an integrated luminosity of \SI{20.1}{\per\femto\barn}. 
+The dataset used is made of those luminosity blocks selected by the recommended standard \emph{good runs list} (GRL) which corresponds to all $pp$ collision periods in 2012. The GRL selects only those luminosity blocks where detector conditions are appropriate for physics data-taking. This requires that all relevant detector components are operational, and that stable beam conditions have been achieved. In total this represents an integrated luminosity of \SI{20.1}{\per\femto\barn}. 
 
 The efficiency scale factor is measured against a sample containing almost 10 million \JMu\ events. At event generation, filters are applied so the sample only contains events where both truth muons have a momentum of at least \SI{4}{\GeV} and they must lie within the pseudorapidity range $|\eta|<2.5$. This selection matches the object selection used by most analyses. 
 
@@ -39,7 +39,7 @@ Probes which are reconstructed into STACO CB muons are labelled as muon probes. 
 
 \subsection{Trigger requirements}\label{sec:CalibrationTriggerRequirement}
 
-In order for an event to be included in the analysis it must have fired at least one of the trigger chains listed in Appendix~\ref{app:CalibrationTrigger}. For the sake of brevity only the primary trigger, EF\_mu6\_Trk\_Jpsi\_loose which contributes the majority of events, is described here.
+In order for an event to be included in the analysis it must have fired at least one of the trigger chains listed in Appendix~\ref{app:CalibrationTrigger}. Only the primary trigger, EF\_mu6\_Trk\_Jpsi\_loose which contributes the majority of events, is described here.
 
 As stated in the trigger name, this is an EF trigger which requires the presence of a muon with a momentum of at least \SI{6}{GeV} and an ID track with a combined invariant mass in the range $\SI{2.6}{GeV}<m_{\textrm{inv}}<\SI{3.6}{GeV}$. This mass window is loose enough to   contain the entirety of the \jpsi\ peak and side-bands that allow for background removal. Double muon triggers are not used to avoid introducing a bias by requiring the presence of two good muons. 
 
@@ -47,7 +47,7 @@ While all triggers are operational in all periods, most are heavily prescaled by
 
 \subsection{Selection cuts}\label{sec:CalibrationSelectionCuts}
 
-The selection criteria for tags, probes, muon probes and SMT muons are listed and detailed below. All cuts are applied on the kinematic properties as measured in the ID due to its improved resolution. Also note that all objects must pass a set of track quality criteria as recommended by the ATLAS \emph{muon combined performance} (MCP) group. These cuts require a certain number of detector elements be active to ensure good quality track reconstruction. The selection criteria are listed in Appendix~\ref{app:CalibrationMCPCuts}.
+The selection criteria for tags, probes, muon probes and SMT muons are listed and detailed below. All cuts are applied on the kinematic properties as measured in the ID due to its better resolution. Also note that all objects must pass a set of track quality criteria as recommended by the ATLAS \emph{muon combined performance} (MCP) group. These cuts require a certain number of detector elements be active to ensure good quality track reconstruction. The selection criteria are listed in Appendix~\ref{app:CalibrationMCPCuts}.
 
 The tag selection is summarized in Table~\ref{tab:CalibrationTagSelection}. The tag is a STACO combined muon with a pseudorapdity and transverse momentum that allow for reliable reconstruction. The requirements on the impact parameter variables are in place to remove spurious muons from pile-up events and the decay-in-flight of long-lived hadrons. Finally, the tag muon is required to have fired at least one of the triggers under which the event was recorded. This is done by matching the reconstructed trigger object to the tag muon via a $\Delta R$ cut of less than \num{0.01}.
 
@@ -71,7 +71,7 @@ The tag selection is summarized in Table~\ref{tab:CalibrationTagSelection}. The 
 
 The probe selection is a subset of the tag selection and only requires an ID track with $|\eta|<2.5$ and $\pt>\SI{4}{\GeV}$. 
 
-The pairing selection, summarized in Table~\ref{tab:CalibrationPairingSelection}, is designed to construct pairs tag candidates and probe candidate which likely come from the same \jpsi\ decay. The main component of the selection is the invariant mass window cut. The tag and the probe are required to be well separated in $\eta$-$\phi$ space to prevent the objects from entering each others isolation cones.
+The pairing selection, summarized in Table~\ref{tab:CalibrationPairingSelection}, is designed to construct pairs tag and probe candidates which likely come from the same \jpsi\ decay. The main component of the selection is the invariant mass window cut. The tag and the probe are required to be well separated in $\eta$-$\phi$ space to prevent the objects from entering each others isolation cones.
 
 \begin{table}[htbp]
   \centering
@@ -88,7 +88,7 @@ The pairing selection, summarized in Table~\ref{tab:CalibrationPairingSelection}
     \caption{Pairing criteria.}\label{tab:CalibrationPairingSelection}
 \end{table}
 
-In the 2011 calibration analysis, the track of the tag and the probe were refitted to a common vertex and the quality of the refit, expressed by a $\chi^2$, was part of the pairing criteria. This cut is meant to reduce the effects of pile-up on the measurement by ensuring both objects have a common origin. It is not possible to perform such a refit here, since the data format used for this analysis is a derived form of that used in 2011. Instead, a cut on $\Delta z_{0}=|z_{0,\textrm{ tag}}-z_{0,\textrm{ probe}}|$ is applied. If several pairings are made for a single tag, the pair with the smallest $\Delta z_{0}$ is used.
+In the 2011 calibration analysis, the track of the tag and the probe were refitted to a common vertex and the quality of the refit, expressed by a $\chi^2$, was part of the pairing criteria. This cut is meant to reduce the effects of pile-up on the measurement by ensuring both objects have a common origin. Due to operational reasons it is not possible to perform the refitting in this case. Instead, a cut on $\Delta z_{0}=|z_{0,\textrm{ tag}}-z_{0,\textrm{ probe}}|$ is applied. If several pairings are made for a single tag, the pair with the smallest $\Delta z_{0}$ is used.
 
 The STACO CB reconstruction efficiency is not measured by applying the algorithm on the probe collection but rather a probe is said to be a muon probe if it matches a combined muon from the STACO collection. This is done by requiring the \DeltaR\ between the probe and the STACO CB muon be less than \num{0.01}. Probes which are matched become the numerator of the reconstruction efficiency and the denominator is defined as the number of probes:
 
@@ -96,7 +96,7 @@ The STACO CB reconstruction efficiency is not measured by applying the algorithm
   \epsilon_{\textrm{reco}} = \frac{N_{\textrm{muon probe}}}{N_{\textrm{probe}}}
 \end{equation}
 
-A muon probe is said to be an SMT muon if it passes the selection listed in Table~\ref{tab:CalibrationSMTSelection} which matches the cuts defined in Section~\ref{sec:DetectorSLT}. The \xsd\ distribution of muon probes is shown in Figure~\ref{fig:CalibrationMatchChi2Dist}.
+A muon probe is said to be an SMT muon if it passes the selection listed in Table~\ref{tab:CalibrationSMTSelection} that matches the cuts defined in Section~\ref{sec:DetectorSLT}. The \xsd\ distribution of muon probes is shown in Figure~\ref{fig:CalibrationMatchChi2Dist}.
 
 \begin{table}[htbp]
   \centering
@@ -115,7 +115,7 @@ A muon probe is said to be an SMT muon if it passes the selection listed in Tabl
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.75\textwidth]{PartCalibration2012/Plots/Kinematics/h_muonprobe_matchchi2_ndof_Nominal.eps}
-    \caption[The distribution of \xsd\ for all muon probes for ATLAS collision data and prompt simulated \jpsi.]{The distribution of \xsd\ for all muon probes for ATLAS collision data (solid dots) and simulated prompt \jpsi\ (solid line). Note that the collision data distribution includes sources of background.}\label{fig:CalibrationMatchChi2Dist}
+    \caption[The distribution of \xsd\ for all muon probes for ATLAS collision data and prompt simulated \jpsi.]{The distribution of \xsd\ for all muon probes for ATLAS collision data (solid dots) and simulated prompt \jpsi\ (dotted line). Note that the collision data distribution includes sources of background.}\label{fig:CalibrationMatchChi2Dist}
 \end{figure}
 
 The denominator of the SMT efficiency is the number of muon probes and the numerator is the number of muon probes which pass the SMT selection:
@@ -130,7 +130,7 @@ The pairing criteria are very effective at selecting \jpsi\ events, however non-
 
 The number of probes is extracted from a fit to the invariant mass of the dimuon system. The invariant mass is fitted with the sum of a quadratic polynomial, for the background; and a Gaussian function, for the signal. The yield is obtained by subtracting the integral of the background function from the binned data, this is used instead of relying on an accurate fit to the signal peak.
 
-The integration is performed in a window with a width three larger than the width of the fitted Gaussian, denoted as $3\sigma$ in Figure~\ref{fig:CalibrationFittingExample}. The composite fit line, the background-only distribution and the implied signal Gaussian peak are also shown.
+The integration is performed in a window with a width three times larger than the width of the fitted Gaussian, denoted as $3\sigma$ in Figure~\ref{fig:CalibrationFittingExample}. The composite fit line, the background-only distribution and the implied signal Gaussian peak are also shown.
 
 \begin{figure}[htbp]
   \centering
@@ -169,10 +169,14 @@ The second component of the efficiency uncertainty quantifies the error in the b
 After the fit of the composite function is carried out, a downward variation of the background is defined as:
 %
 \begin{equation}
-  f^{\textrm{down}}(x) = a_{\min}x^{2} + b_{\max}x + c_{\min}\textrm{, where }p_{\max/\min}=p_{\textrm{central}}\pm\sigma_{p}
+  f^{\textrm{down}}(x) = a_{\min}x^{2} + b_{\max}x + c_{\min}
 \end{equation}
 %
-where the maximum and minimum of a parameter is obtained by varying its central value by the uncertainty obtained from the fit. The upward variation of the background fit is defined as the opposite:
+where the maximum and minimum the parameters ($X_{\min/\max}$) are obtained by varying the central value by the uncertainty obtained from the fit,
+%
+$X_{\max/\min}=X_{\textrm{central}}\pm\sigma_{X}$
+
+The upward variation of the background fit is defined as the opposite:
 %
 \begin{equation}
   f^{\textrm{up}}(x) = a_{\max}x^{2} + b_{\min}x + c_{\max}
@@ -234,7 +238,7 @@ The efficiency is monitored as a function of a variety of kinematic variables, i
 
 \subsection{The 2011 calibration}
 
-The selection and fitting procedure used for this calibration are based on the 2011 analysis~\cite{Calibration:MattThesis}. In that calibration, the efficiencies measured exhibited no dependence on $\phi$, an asymmetric dependence on $\eta$ particularly in the forward regions of the detector, and a dependence on \pt. The scale factors were consistent with unity within their uncertainty across the entire $\eta$ and $\pt$ range examined as shown in Table~\ref{tab:Calibration2011SF}.
+The selection and fitting procedure used for this calibration are based on the 2011 analysis~\cite{Calibration:MattThesis}. In that calibration, the efficiencies measured exhibited no dependence on $\phi$, an asymmetric dependence on $\eta$ particularly in the forward regions of the detector, and a dependence on \pt. The scale factors were close to unity within their uncertainty across the entire $\eta$ and $\pt$ range examined as shown in Table~\ref{tab:Calibration2011SF}.
 
 \begin{table}[bhtp]
   \centering
@@ -270,7 +274,7 @@ The selection and fitting procedure used for this calibration are based on the 2
 
 \subsection{Efficiency binning}
 \sisetup{range-phrase=--}
-The binning in most variables is governed by the amount of statistics required to produce stable, good quality fits. The binning in pseudorapidity, summarized in Table~\ref{tab:CalibrationEtaRegions}, corresponds with different regions of the ATLAS detector and differentiates between the positive and negative sides. The chosen \pt\ binning is shown in Table~\ref{tab:Calibration2012SF}.
+The binning in most variables is governed by the amount of data required to produce stable, good quality fits. The binning in pseudorapidity, summarized in Table~\ref{tab:CalibrationEtaRegions}, corresponds with different regions of the ATLAS detector and differentiates between the positive and negative sides. The chosen \pt\ binning is shown in Table~\ref{tab:Calibration2012SF}.
 
 \begin{table}[thbp]
   \centering
@@ -292,9 +296,7 @@ The binning in most variables is governed by the amount of statistics required t
 
 The reconstruction and \xsm\ tagging efficiencies are presented in the following pages as a function of $\eta$, $\phi$ and \pt. The STACO CB reconstruction efficiencies and scale factors as measured in side A and C of the detector are shown in Figure~\ref{fig:RecoEffSideA} and Figure~\ref{fig:RecoEffSideC} respectively. The efficiencies exhibit a strong dependence on transverse momentum and pseudorapidity.
 
-The reconstruction efficiency for muons in the crack region appears to suffer from low statistics particularly in the high-\pt\ range, this is expected due to the MS being only partially equipped in the region around $\eta=0$. In the transition region the MS coverage in $\phi$ is not uniform due to some chambers not being installed.
-
-It is important to note that the nominal calibration of the reconstruction efficiency within ATLAS is performed on \ZMu\ due to the smaller uncertainty using high \pt\ muons. The SF at low \pt\ are obtained by extrapolating back into the low momentum range.
+The reconstruction efficiency for muons in the crack region appears to suffer from low data particularly in the high-\pt\ range, this is expected due to the MS being only partially equipped in the region around $\eta=0$. In the transition region the MS coverage in $\phi$ is not uniform due to some chambers not being installed.
 
 \begin{figure}[htbp]
   \centering
@@ -354,7 +356,7 @@ It is important to note that the nominal calibration of the reconstruction effic
     \caption{Distribution of the STACO CB reconstruction efficiency as measured in data and MC, and the associated scale factor as a function of the probe \pt\ measured in side C for all detector regions.}\label{fig:RecoEffSideC}
 \end{figure}
 
-The \xsm\ tagging efficiency exhibits an asymmetric dependence on the muon probe pseudorapidity, but no dependence on the azimuthal angle $\phi$ (Figure~\ref{fig:CalibrationAngularResults}). As expected, there is a strong dependence on the transverse momentum of the muon probe (Figure~\ref{fig:CalibrationMomentumResults}). As in the 2011 analysis it was decided to bin the SF as a function of \pt\ and $\eta$, distinguishing between side A and C of the detector. The scale factor and efficiency distributions are presented in the next pages. 
+The \xsm\ tagging efficiency exhibits an asymmetric dependence on the muon probe pseudorapidity, but no dependence on the azimuthal angle $\phi$ (Figure~\ref{fig:CalibrationAngularResults}). As expected, there is a strong dependence on the transverse momentum of the muon probe (Figure~\ref{fig:CalibrationMomentumResults}). As in the 2011 analysis it was decided to bin the SF as a function of \pt\ and $\eta$, distinguishing between side A and C of the detector. The scale factor and efficiency distributions are presented in the next pages for the crack region (Figure~\ref{fig:CalibrationScaleFactorCrack}), the barrel region (Figure~\ref{fig:CalibrationScaleFactorBarrel}), the transition region (Figure~\ref{fig:CalibrationScaleFactorTransition}), the endcap region (Figure~\ref{fig:CalibrationScaleFactorEndcap}), and the forward region (Figure~\ref{fig:CalibrationScaleFactorForward}).
 
 % SF vs Eta, Phi
 \begin{figure}[htbp]
@@ -502,7 +504,7 @@ As expected, the background uncertainty dominates in collision data while in sim
 
 \subsubsection{Isolation dependence}\label{sec:CalibrationEfficienciesIsolation}
 
-The muons from \jpsi\ used in this calibration are produced in isolation, meaning there is very little energetic activity surrounding them in the detector. In contrast, muons from semileptonic decay of $b$-quarks in \ttbar\ events are produced amongst the tracks associated with the $b$-jet.
+The muons from the $\textrm{J}/\psi\textrm{s}$ used in this calibration are produced in isolation, meaning there is very little energetic activity surrounding them in the detector. In contrast, muons from semileptonic decay of $b$-quarks in \ttbar\ events are produced amongst the tracks associated with the $b$-jet.
 
 \begin{figure}[htbp]
   \centering
@@ -512,7 +514,7 @@ The muons from \jpsi\ used in this calibration are produced in isolation, meanin
 
 For the results of the calibration on \jpsi\ to be applicable, the performance of the \xsm\ tagger must not affected by the isolation of the muon. In this calibration, the nine isolation variables defined in Section~\ref{sec:DetectorElReco} are considered.
 
-The isolated nature of muons in \jpsi\ events limits the number of muons available at higher pt/et/nucone values. This is more significant in simulation compared to the collision data which contains non-isolated muons. There appears to be no dependence on any of the isolation variables examined (Figures~\ref{fig:CalibrationIsoEtcone},~\ref{fig:CalibrationIsoPtcone} and~\ref{fig:CalibrationIsoNucone}).
+The isolated nature of muons in \jpsi\ events limits the number of muons available at higher isolation values. This is more significant in simulation compared to the collision data which contains non-isolated muons. There appears to be no dependence on any of the isolation variables examined (Figures~\ref{fig:CalibrationIsoEtcone},~\ref{fig:CalibrationIsoPtcone} and~\ref{fig:CalibrationIsoNucone}).
 
 % etcone
 \begin{figure}[htbp]
@@ -611,7 +613,7 @@ In order to find the source of the discrepancy the components of the \xsd\ varia
   \label{eq:CalibrationPull}
 \end{equation}
 %
-where $X$ is any of the five kinematic components of \xsm, and $\sigma$ is the uncertainty on that variable. The pulls are shown in terms of the azimuthal angle, the polar angle, the longitudinal and transverse impact parameters and the charge over momentum ($q\ p$) of the muon probe in in Figure~\ref{fig:CalibrationPull}. The transverse momentum is related to the $q/p$ by $\pt=|1/(q/p)|\sin(\theta)$ and the pseudorapidity is defined in terms of the angle $\theta$ in Section~\ref{ch:Detector}. The momentum appears to be well modelled in MC as can be seen from the pull distribution. The $d_0$ and $\theta$ distributions do not appear well modelled in MC\@. By construction the two variables are strongly correlated~\cite{Calibration:TrackingSlides}, so its not unexpected to observe a discrepancy simultaneously in both of these arguments. Such a discrepancy could be caused by a mismodelling of the alignment of the detector components.
+where $X$ is any of the five kinematic components of \xsm, and $\sigma$ is the uncertainty on that variable. The pulls are shown in terms of the azimuthal angle, the polar angle, the longitudinal and transverse impact parameters and the charge over momentum ($q/p$) of the muon probe in in Figure~\ref{fig:CalibrationPull}. The transverse momentum is related to the $q/p$ by $\pt=|1/(q/p)|\sin(\theta)$ and the pseudorapidity is defined in terms of the angle $\theta$ in Section~\ref{ch:Detector}. The momentum appears to be well modelled in MC as can be seen from the pull distribution. The $d_0$ and $\theta$ distributions do not appear well modelled in MC\@. By construction the two variables are strongly correlated~\cite{Calibration:TrackingSlides}, so its not unexpected to observe a discrepancy simultaneously in both of these arguments. Such a discrepancy could be caused by a mismodelling of the alignment of the detector components.
 
 % Pull Plots
 \begin{figure}[htbp]
@@ -645,7 +647,7 @@ where $X$ is any of the five kinematic components of \xsm, and $\sigma$ is the u
 
 A study to test the effects of different alignment profiles was carried out. Several samples with different alignment profiles were compared to a small sample of \SI{8}{\TeV} collision data from a single run. These include the nominal prompt \jpsi\ sample used in this calibration, the \jpsi\ sample used for the 2011 calibration, a \ZMu\ sample where the detector is perfectly aligned, a 2011 \ZMu\ sample with an updated detector geometry description, and a \ZMu\ sample with the nominal smeared alignment. The smeared alignment is produced by distorting the ideal alignment sample within the current measured alignment uncertainties. This procedure is not designed to perfectly represent the details in the misalignment of the ATLAS detector, but rather simulates a detector which is as well aligned as the real detector. These two profiles are compared in small samples of \ZMu\ events.
 
-A sample of well reconstructed muons is selected by matching STACO CB muons to truth muons from $Z$ or \jpsi. The \xsd\ distribution of these muons is then compared for muons with \pt\ between \num{4} and \SI{25}{\GeV}.
+A sample of well reconstructed muons is selected by matching STACO CB muons to truth muons\footnote{These are the muons present in the truth information.} from $Z$ or \jpsi. The \xsd\ distribution of these muons is then compared for muons with \pt\ between \num{4} and \SI{25}{\GeV}.
 
 As expected, the alignment profile does have an effect on the \xsd\ distribution, particularly in the lower end (Figure~\ref{fig:CalibrationAlignment}). However, this effect is not sufficiently large to account, on its own, for the discrepancy between simulation and data in all bins. A pseudo-efficiency of the \xsm\ selection is obtained by taking the area under the curve below \num{3.2} and dividing it to the total area. The results are summarized in Table~\ref{tab:CalibrationProfileEffs}. The overall difference between the 2011 and 2012 \jpsi\ samples is approximately \SI{5}{\percent}, not sufficient to cover the discrepancy between data and MC\@.
 
@@ -671,7 +673,7 @@ As expected, the alignment profile does have an effect on the \xsd\ distribution
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.85\textwidth]{PartCalibration2012/Plots/FixingMomImba/h\string_muon\string_matchchi2\string_ndof.eps}
-    \caption{Distribution of \xsd\ of STACO CB muons from collision data (circle), a nominal 2012 \ZMu\ sample (solid), a 2012 \ZMu\ sample with ideal detector alignment (dashed), a 2011 \ZMu\ sample with updated detector description (dashed-double dot), \JMu\ with nominal alignment at \cmsE\ (solid) and \JMu\ with smeared at \cmsS\ as used in the 2011 analysis (dotted). Distributions are normalized to unit area.}\label{fig:CalibrationAlignment}
+    \caption{Distribution of \xsd\ of STACO CB muons from collision data (circle), a nominal 2012 \ZMu\ sample (solid), a 2012 \ZMu\ sample with ideal detector alignment (dashed), a 2011 \ZMu\ sample with updated detector description (dashed-double dot), \JMu\ with nominal alignment at \cmsE\ (solid) and \JMu\ with smeared alignment at \cmsS\ as used in the 2011 analysis (dotted). Distributions are normalized to unit area.}\label{fig:CalibrationAlignment}
 \end{figure}
 
 \subsection{Future developments}
@@ -712,4 +714,4 @@ The pseudo-efficiency for this selection as measured in the aforementioned sampl
     \caption{Distribution of momentum imbalance of STACO CB muons from a nominal 2012 \ZMu\ sample (solid), a 2012 \ZMu\ sample with ideal detector alignment (dashed), a 2011 \ZMu\ sample with updated detector description (dashed-double dot), \JMu\ with nominal alignment at \cmsE\ (solid) and \JMu\ with smeared at \cmsS\ as used in the 2011 analysis (dotted). Distributions are normalized to unit area.}\label{fig:CalibrationMomImba}
 \end{figure}
 
-Following a comparison of the reconstruction efficiencies with those obtained by members of the MCP group, the pairing selection has been loosened to allow for multiple probes per tag. It is possible for the correct probe to be further away from the tag in $z_0$ than other spurious tracks. By forcing the selection of the closest ID track in $z_0$, the sample of probes is contaminated with non-muons resulting in a lower than expected reconstruction efficiency. This increases the statistics available for invariant mass fitting and more importantly, has increased the reconstruction efficiency across the $\eta$-\pt\ phase space.
+Following a comparison of the reconstruction efficiencies with those obtained by members of the MCP group, the pairing selection has been loosened to allow for multiple probes per tag. It is possible for the correct probe to be further away from the tag in $z_0$ than other spurious tracks. By forcing the selection of the closest ID track in $z_0$, the sample of probes is contaminated with non-muons resulting in a lower than expected reconstruction efficiency. This increases the data available for invariant mass fitting and more importantly, has increased the reconstruction efficiency across the $\eta$-\pt\ phase space.

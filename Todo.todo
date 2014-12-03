@@ -1,136 +1,167 @@
 Post-viva Corrections:
-  ☐ Correct pagination @short
-    
+  General:
+    ☐ Correct pagination @short
+    ☐ Clean all citations from tables and figures @medium
+    ☐ Make all figures wider where possible @long
+  
+  Introduction:
+  Theory:
+    ☐ Page 27, Eq 2.11: Add reference to PDG for CKM values @medium
+    ☐ Page 28: Add reference to CP violation @medium
+    ☐ Page 28: Add names of all people involved in Higgs mechanism @medium
+    ☐ Page 29: For LGI, mention the modification of the derivative to be covariant?! @medium
+    ☐ Page 29: Impetus for LGI is to avoid divergences in the theory, make that clear @medium
+  Top Quark:
+    ☐ Page 33: Check sources of cross-sections for single ttbar @medium
+    ☐ Page 33: See if you can find the expansion of the uncertainty to the cross-section @maybe @medium
+    ☐ Page 34: Overlapping arrows in panel (b) @medium
+  Detector:
+    ☐ Page 44, Figure 4.1: Should be referenced @medium
+    ☐ Page 49: Clarify definition of side A and C where z is positive? @medium
+    ☐ Page 50: ??? @WAT
+    ☐ Page 54: Find reference to the 7/9X0 @medium
+    ☐ Page 58, Table 4.1: Missing entry for tile calorimeter @medium
+    ☐ Page 60, Figure 4.14: Clean up figure @medium
+      ☐ Remove sector labels @short
+      ☐ Add Arrow to MDT @short
+    ☐ Page 62: Explain why seven parts @medium
+    ☐ Page 63: Expected event rate of 1 Ghz? Bunch crossing of 25 ns results in a real event rate of 40 MHz @long
+    ☐ Page 64: Define prescale and is it random or deterministic @medium
+    ☐ Page 65: "The order of the diagram", the LO diagram is the minimum number of vertices for that given process. @short
+    ☐ Page 65: Define LO and NLO @short
+    ☐ Page 67: Perhaps motivate propagation of tracks to middle layer? @notsure @medium
+    ☐ Page 69: Add more information on tagging ID tracks reco @medium
+    ☐ Page 70: Reference to MuGirl algorithm @medium
+    ☐ Page 70, Section 4.4.3: Move sentence beginning "This process results in..." after the first sentence in section @short
+    ☐ Page 70: Move sentence "This process results in ..." -> "...hadrons and high energy photons" @short
+    ☐ Page 72: Reference for local cluster weighting @medium
+    ☐ Page 73: Find MV1 plot of efficiency vs LF jet rejection @long
+    ☐ Page 75, Figure 4.19: Which sample was used to determine this efficiency? Add to caption @medium
+    ☐ Page 76, Figure 4.20: Fix wrong arrows in W decay @LONG
+  Calibration:
+    ☐ Page 78: Mention in introduction that the efficiencies and SF are binned in kinematic variables and reference sections @medium
+    ☐ Page 84, Figure 5.2: Remove box @medium
+    ☐ Page 84: Clarify comments regarding which functions were tested and used @short
+    ☐ Page 85, Figure 5.3: Add legend @short
+        ☐ Move reference after "crystal ball distributions" @short
+    ☐ Page 88, Figure 5.4: Remove fitting results and enlarge plots and captions @medium
+      ☐ Remove comment about fit parameters @medium
+      ☐ Make wider @medium
+      ☐ Maybe add chi^2 @maybe @medium
+      ☐ Describe lines in caption @short
+    ☐ Page 95, Figure 5.8: should be in GeV not MeV @medium
+    ☐ Page 101, Figure 5.14: Is this really needed? @remove
+    ☐ Page 102-105: Axis labels very small @medium
+        ☐ Make Wider
+    ☐ Page 101: Explain what ME means @medium
+    ☐ Page 107, Figure 5.19: Maybe quantify goodness of fit between distributions @long
+    ☐ Page 111: Add conclusion at the end "Alignment does affect the chi2 but not enough to account for full difference in all regions" @medium
+  Cross-section:
+    ☐ Page 114: Paragraph about MET cuts is broken up by a transverse mass description, rephrase @medium
+    ☐ Page 116: Move description of MET to reconstruction chapter and some detail @long
+    ☐ Page 120, Table 6.2: Double check uncertainties on contamination @medium
+    ☐ Page 133: Brief description of results combination @long
+    ☐ Double check results in table 6.2 -> 6.3 @medium
+  Resonance:
+    ☐ Page 147, Figure 7.9: Clarify that uncertainties are omitted @short
+    ☐ Page 153, Figure 7.10: Describe drops in efficiency due to limited data @short
+  Bibliography:
+    ☐ URL refs have difference font @short
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
- ✘ Try to add non-prompt results isolation @cancelled (14-09-17 21:53) @project(NOT GONNA HAPPEN)
- ✘ Review sliding-window algorithm of electron reconstruction @cancelled (14-09-17 21:53) @project(Viva Notes)
- ✘ Learn what non-compensation means @cancelled (14-09-17 21:53) @project(Viva Notes)
- ✘ Expand a bit more on top mass: Mention the current precision is not reaching the theoretical definition of the top mass, since that theoretical definition is not clear cut because the quark is a colored object, mention that most traditional methods to measure the top mass rely on reconstructing the decay products of the top and hence are dominated by JES, but alternative methods of measuring the top mass are coming out recently. @long @cancelled (14-09-17 21:53) @project(Top Quark)
- ✘ Discuss radiative corrections to the Higgs mass in introduction @long @WTF @cancelled (14-09-17 21:53) @project(EXTRA)
- ✘ Add shapes obtained from using MM @long @plot @cancelled (14-09-17 21:53) @project(NOT GONNA HAPPEN)
- ✘ Talk about other models @long @text @cancelled (14-09-17 21:52) @project(Top Quark)
- ✘ Give outer radius of beam-pipe @short @extra  @cancelled (14-09-17 21:52) @project(Top Quark)
-  'Cant find shit on this!'
- ✘ Fit double gaussian and show bad fit @medium @cancelled (14-09-17 21:52) @project(Top Quark)
- ✘ Bin DeltaR efficiency of SMT and MI10 by pT @medium @cancelled (14-09-17 21:52) @project(Top Quark)
- ✘ L1795: Make a plot of etcone40 for muons inside a 50-100 GeV jet vs 300-500 GeV jet ? @cancelled (14-09-11 16:44) @project(Boosted)
- ✘ L1719: do you mean that if you change the MI10 cone size you see the dip flatten a bit? if so, please provide plot. @cancelled (14-09-11 16:44) @project(Boosted)
- ✘ L1319: explain why the MET and MTW cuts are different between electron and muon channels. @short @cancelled (14-09-11 16:44) @project(Cross Section)
-  'no idea'
- ✔ Table 7.9: this is eff_incSMT right?? @done (14-09-11 15:17) @project(Boosted)
-  'Ehmm What?'
- ✔ Table 7.7 : include a column which is the e_SMT to see if the X2Match changes or not. @done (14-09-11 15:17) @project(Boosted)
-  'Ehmm what?'
- ✔ X-axis title be b-jet pt @done (14-09-11 15:16) @project(Boosted)
- ✔ Figure 7.10: @done (14-09-11 15:16) @project(Boosted)
- ✔ x axis: Change scale @done (14-09-11 14:13) @project(Boosted)
- ✔ x axis: Add units @done (14-09-11 14:13) @project(Boosted)
- ✔ Figure 7.3: @done (14-09-11 14:13) @project(Boosted)
- ✔ Show on exclusion plot from an ATLAS ttbar resonance result @long @SHOULD @done (14-09-10 22:41) @project(Top Quark)
- ✔ Remove data from momentum imbalance. @short @done (14-09-10 20:59) @project(Calibration)
- ✔ ECAL: include the plot which shows X0 as a function of z (so the amount of material of ATLAS depending on z) @short @done (14-09-09 16:33) @project(Detector)
-  'Which plot?!'
- ✔ Refer to MUID bit in Section 4 in Section 6.2. @done (14-09-09 13:46) @project(Cross Section)
- ✔ Describe briefly MUID since this is what is used for the signal muons of the cross section analysis and in your chapter 7. @long @done (14-09-09 13:46) @project(Detector)
- ✔ I don’t know if you have that extra JES corrections in your code, possibly not… I’m not saying to add it in, just to check whether you have it or not and to mention this. @done (14-09-09 00:03) @project(Boosted)
- ✔ And actually you should present as well the official public plot that we prepared for the 7 TeV b-tag paper (which is not yet out). I’ll try to find this for you… @done (14-09-09 00:03) @project(Boosted)
- ✔ L1783: I think this is a known fact that the tagging performance degrades at high jet pT, so even though you show your own plot, also show a public plot of this. Also, what does the ttbar resonance say about the performance of MV1 at higher Z’ mass? you need to explain why the performance gets worse… I am not quite sure why that is… but surely b-tagging papers should talk about this. @done (14-09-09 00:02) @project(Boosted)
- ✔ Add MV1 tagger efficiency plot as a function of pT @done (14-09-08 23:43) @project(Boosted)
- ✔ Good to mention the deal with the tau, but your pie chart includes tau, so it is a bit misleading as this won’t be our L+J branching ratio, do you want to also quote the BR when the tau are kept separate? @medium @done (14-09-05 22:03) @project(Top Quark)
- ✔ Find the plot of PDF vs x and use this to explain why at the Tevatron ttbar is dominated by qq production instead of gg. @askVB @done (14-09-05 20:43) @project(Top Quark)
- ✔ Talk briefly about the ATLAS and CMS Higgs discovery here then. @medium @done (14-09-05 20:30) @project(Theory)
- ✔ Mention the Yukawa coupling between the H and top, which is part of why top physics is important @medium @done (14-09-05 20:30) @project(Theory)
- ✔ L1418: give the values for the system of ttbar and W+jets, for the systematics related with tagger refer to section 6.4 @short @done (14-09-05 20:01) @project(Cross Section)
- ✔ Eq 6.3 and 6.4: somewhere give the numbers for r and f @short @done (14-09-05 20:01) @project(Cross Section)
- ✔ L1489: “In the electron channel, the multi jet shapes are obtained from Region B, as defined in Figure 6.3, with the contamination from non-multijets processes removed.” @short @done (14-09-05 19:50) @project(Cross Section)
- ✔ L1472: “valence” I think? @short @done (14-09-05 19:48) @project(Cross Section)
- ✔ L1448: values of r and f @short @done (14-09-05 19:44) @project(Cross Section)
- ✔ L1320 Explains that we looked into >=4 jets selection and decided to choose >=3 jets since not only increased stats but more importantly the systematics are less because that is more inclusive so we suffer less from the generator systematics, for example the comparison with Alpgen. @done (14-09-05 18:02) @project(Cross Section)
- ✔ L1311: what is the point of the JVF cut? @done (14-09-05 17:56) @project(Cross Section)
- ✔ L1229: I thought that the 2011d sample is one where GEANT 4 was updated to have a better multiple scattering treatment @short @done (14-09-05 17:50) @project(Detector)
- ✔ Find out whats in mc11d @short @done (14-09-05 17:50) @project(Detector)
- ✔ Correct text as a result @short @done (14-09-05 17:50) @project(Detector)
- ✔ SMT eff is weird for 1.0 TeV, so cross check this. @done (14-09-05 15:34) 'stats issue' @project(Boosted)
- ✔ L1782: as shown in Table 7.9 @done (14-09-05 15:18) @project(Boosted)
- ✔ Table 7.5: I still believe the scale of the different between those efficiencies, so eff_x2match and eff_MI10 have the same denominator right? the only reason it is not exactly the same number is because of STACO vs MUID, but that is a small effect… so cross check those numbers again, of course I expect eff_MI10 to be better than eff_x2match, but really by that much? @done (14-09-05 15:14) @project(Boosted)
- ✔ Better to present all the tables first since you’ve just defined them and then put the plots @done (14-09-05 15:13) @project(Boosted)
- ✔ L1729: smaller or small? @done (14-09-05 15:11) @project(Boosted)
- ✔ L1729: Highlight that those efficiencies are much higher than the ones in table 7.3 for Res @done (14-09-05 15:11) @project(Boosted)
- ✔ -l. 1689: e_reco parenthesis @done (14-09-05 14:52) @project(Cross Section)
- ✔ -l. 1685: e_match parenthesis @done (14-09-05 14:52) @project(Cross Section)
- ✔ -l. 1652: with regards twice @done (14-09-05 14:52) @project(Cross Section)
- ✔ -l. 1635 “they share” @done (14-09-05 14:51) @project(Cross Section)
- ✔ -l. 1637: “both”? “all require” @done (14-09-05 14:50) @project(Cross Section)
- ✔ -l. 1624: make Rel MI an equation @done (14-09-05 14:49) @project(Cross Section)
- ✔ 1569: “using both a resolved and boosted” @done (14-09-05 14:48) @project(Cross Section)
- ✔ 1554: “fat jet.” @done (14-09-05 14:48) @project(Cross Section)
- ✔ L1388 and following: use the letters A,B,C,D where describing each regions @done (14-09-04 21:34) @project(Cross Section)
- ✔ L1374: you have not defined the loose selection I believe! @done (14-09-04 21:27) @project(Cross Section)
- ✔ L1354: explain punch-through @done (14-09-04 21:23) @project(Cross Section)
- ✔ L1314 “the escaping neutrino” @done (14-09-04 21:22) @project(Cross Section)
- ✔ Section 6.2 title: Object Identification and Event Selection @done (14-09-04 21:20) @project(Detector)
- ✔ L1111: 1st sentence not clear, you are mixing mean and width also have you made this change in your results? @done (14-09-04 21:04) @project(Detector)
- ✔ L958-970: also provide a summary of those cuts in a table! @done (14-09-04 20:52) @project(Detector)
- ✔ L918: “in section 4.4.4”? @done (14-09-04 20:35) @project(Detector)
- ✔ L911: “is a variety” @done (14-09-04 20:35) @project(Detector)
- ✔ you saw that the Z’ preferentially decay into ttbar: that is not true, the basic Z’ models actually prefer to decay into light quarks, so this is very model dependent @done (14-09-04 19:47) @project(Abstract)
- ✔ Theory: l. 16-17: be careful about making clear that the top mass is not predicted by any SM or BSM, it has to be measured and then it enters into various quantities (like cross section) @done (14-09-04 19:46) @project(Abstract)
- ✘ Add non-resonant ttbar to tables @short @data @cancelled (14-08-30 20:08) @project(EXTRA)
- ✔ Write it @medium @done (14-08-26 17:16) @project(Abstract)
- ✔ Figure out what the hell goes in an abstract @? @done (14-08-26 17:16) @project(Abstract)
- ✔ Redo estimation @short @done (14-08-26 12:39) @project(Boosted)
- ✔ Cry @despair @done (14-08-26 12:39) @project(Boosted)
- ✔ Add text explaining shit @short @done (14-08-26 12:39) @project(Boosted)
- ✔ Add results table @short @done (14-08-26 12:39) @project(Boosted)
- ✔ Add overlap removal to hadronic estimation @medium @done (14-08-26 12:39) @project(Boosted)
- ✔ Write it @medium @done (14-08-26 12:38) @project(Conclusion)
- ✔ Add results to table @medium @done (14-08-22 22:15) @project(Boosted)
- ✔ Add nominal isolation requirements @medium @done (14-08-22 22:15) @project(Boosted)
- ✔ Fix resolved diagram, remove muon in b-jet @short @done (14-08-22 16:54) @project(Boosted)
- ✔ Give examples. ./PartDetector/Detector.tex:Pileup @medium @done (14-08-21 21:57) @project(EXTRA)
- ✔ Fix the ratio values so they stand out or are in bracket: ./PartCrossSection/CrossSection.tex:tab:CrossSectionBRbTomu @done (14-08-21 21:53) @project(Boosted)
- ✔ Fix out of order citations due to list of figures @done (14-08-21 21:52) @project(EDITING)
-  'use alternate caption: \caption[<Figure title>]{<Figure title> \cite{<Source>}}'
- ✔ Add third isolation into diagram @short @done (14-08-21 19:34) @project(Boosted)
- ✔ Add covariance matrix to appendix @done (14-08-17 02:52) @project(Detector)
- ✔ Improve legends @short @done (14-08-17 02:12) @project(Calibration)
- ✔ Change labels in single variable eff dist plots: @done (14-08-17 02:12) @project(Calibration)
- ✔ Add 8 TeV label @short @done (14-08-17 02:12) @project(Calibration)
- ✔ Fix TopQuarkLeptonPlusJetsFull.tex diagram file @done (14-08-14 00:25) @project(EDITING)
- ✔ Describe signal simulation uncertainties @medium @text @done (14-08-10 14:51) @project(Boosted)
- ✔ Write introduction @long @done (14-08-10 02:03) @project(Introduction)
- ✔ Write a preface @medium @done (14-08-09 23:12) @project(Introduction)
- ✔ Add feynman diagrams of semileptonic b decays @long @feynman @done (14-08-09 22:31) @project(Detector)
- ✔ Why anti-kt @medium @text @done (14-08-09 21:32) @project(Detector)
- ✔ Mention the requirements of a good jet reconstruction algorithm @long @text @done (14-08-09 21:32) @project(Detector)
- ✘ See if you can find a plot of the efficiency vs LF rejection for MV1 @medium @plot @cancelled (14-08-08 20:07) @project(Detector)
-  'couldn't find anything in the past
- ✔ Start with describing the gauge theories first ./PartTheory/Theory.tex:(Electroweak Unification and the Higgs mechanism) @medium @done (14-08-08 20:02) @project(Theory)
- ✔ Bin btagging efficiency by b-jet pt @medium @done (14-08-08 19:56) @project(Boosted)
- ✔ Include non-resonant ttbar into plots...not sure if can be assed. @medium @plot @done (14-08-06 17:14) @project(Boosted)
- ✔ Get passed and total histograms and calculate effs that way @short @done (14-08-06 17:14) @project(Boosted)
- ✔ Change truth matching to work with ttbar sample @done (14-08-06 17:14) @project(Boosted)
- ✔ Change markers to histograms for efficiency plots @short @plot @done (14-08-06 17:14) @project(Boosted)
-  'Its a TGraph, fuck TGraphs'
- ✔ Get non-res sample @short @done (14-08-04 12:47) @project(Boosted)
- ✔ Get a reference for the W charge asymmetry method @done (14-08-03 17:17) @project(Cross-section)
- ✔ Add reference to statement about ratio of +/- W cross-section being well understood @done (14-08-03 17:17) @project(Cross-section)
- ✔ Add plots for region B @long @plot @nope @done (14-08-03 17:17) @project(Cross-section / Nope)
- ✔ Add table of yields in each region for the multijet including contamination @medium @table @done (14-08-03 17:05) @project(Cross-section)
- ✔ Add explanation for uncertainty in average R^SMT Table 1.2 @medium @text @done (14-08-03 17:04) @project(Cross-section)
- ✔ Implement fix in tables @done (14-08-01 18:30) @project(Calibration)
- ✔ Update text to fixed analysis @done (14-08-01 18:29) @project(Calibration)
- ✔ Fix analysis @done (14-08-01 18:29) @project(Calibration)
- ✔ Add table with e_{reco}, e_{match}, e_{non-isolated} @medium @table @done (14-07-30 18:39) @project(Calibration)
- ✔ Add statistical uncertainty to number in table 7.1 @medium @table @done (14-07-29 23:33) @project(Calibration)
- ✔ Switch to maximal background @short @done (14-07-28 16:26) @project(Calibration)
- ✔ Include final plots in thesis @short @done (14-07-28 16:26) @project(Calibration)
- ✔ Explain why bb is dominant background 7.5.1 @medium @text @done (14-07-28 16:26) @project(Calibration)
- ✔ Add the definition of each alignment sample in the text @medium @done (14-07-28 16:26) @project(Calibration)
- ✔ Include data figure of the Crystal Ball @short @done (14-07-28 15:54) @project(Calibration)
- ✔ Data curve should be from T&P @medium @done (14-07-28 15:54) @project(Calibration)
-  "lets say it is"
- ✔ Explain why the data has the Crystal Ball shape @medium @done (14-07-28 14:56) @project(Calibration)
- ✔ Define Muon Identification criteria @medium @done (14-07-28 14:40) @project(Detector)
- ✔ Add more text to legend entry for mc11d @short @done (14-07-24 20:32) @project(Calibration)
- ✔ Add table of pseudo-efficiency for momentum imbalance with cut at (mom. imb. < 0.1) @short @done (14-07-24 18:36) @project(Calibration)
+ ✔ Page 134: Add reference to TC2 @medium @done (14-12-02 23:31) @project(Post-viva Corrections / Resonance)
+ ✔ Page 105, Figure 5.18 Caption: Make it clear that only these plots are from Period B @short @done (14-12-02 23:30) @project(Post-viva Corrections / Calibration)
+ ✔ Add reference to "confirmed the production of the Higgs boson..." @medium @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)
+ ✔ Add citations for SM @short @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)
+ ✔ Add citations for LHC @short @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)
+ ✔ Add citations for Higgs mechanism @shot @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)
+ ✔ Add citations for CMS @short @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)
+ ✔ Add citations for ATLAS @short @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)
+ ✔ Page 42: Add references to ALICE @medium @done (14-12-02 23:14) @project(Post-viva Corrections / Detector)
+ ✔ Page 169: Lhc -> LHC @short @done (14-12-02 23:03) @project(Post-viva Corrections / Bibliography)
+ ✔ Page 169: <H>ouches, <M>onte, <C>arlo @short @done (14-12-02 22:57) @project(Post-viva Corrections / Bibliography)
+ ✔ Page 137 and 139: kT has GeV units @short @done (14-12-02 22:49) @project(Post-viva Corrections / Resonance)
+ ✔ Page 146, Section 7.5.1: First sentence is not a sentence @short @done (14-12-02 22:48) @project(Post-viva Corrections / Resonance)
+ ✔ Page 137: Equation 7.1 typeset error @short @done (14-12-02 22:48) @project(Post-viva Corrections / Resonance)
+ ✔ Page 145: Remove "resovled isolation [with overlap removal]" @short @done (14-12-02 22:46) @project(Post-viva Corrections / Resonance)
+ ✔ Page 135: a muon buried inside [of] a b-jet @short @done (14-12-02 22:46) @project(Post-viva Corrections / Resonance)
+ ✔ Page 134: Remove - large [amount of] momentum @short @done (14-12-02 22:46) @project(Post-viva Corrections / Resonance)
+ ✔ Page 130: STACO CB?! @medium 'Explained abbreviation in object selection' @done (14-12-02 22:45) @project(Post-viva Corrections / Cross-section)
+ ✔ Page 126: Don't split W boson across line-break @short @done (14-12-02 22:44) @project(Post-viva Corrections / Cross-section)
+ ✔ Page 114: Change "good" to "selected" when refering to electron, muon or jet @short @done (14-12-02 22:43) @project(Post-viva Corrections / Cross-section)
+ ✔ Page 108, Figure 5.20: "with smeared <alignment> at..." @short @done (14-12-02 22:42) @project(Post-viva Corrections / Calibration)
+ ✔ Page 106: <q p -> q/p> @short @done (14-12-02 22:42) @project(Post-viva Corrections / Calibration)
+ ✔ Page 95: Remove reference to et/pt/nucone @short @done (14-12-02 22:41) @project(Post-viva Corrections / Calibration)
+ ✔ Page 90-101: No reference to figures 5.9 to 5.13 in text @short @done (14-12-02 22:40) @project(Post-viva Corrections / Calibration)
+  'Add to line "The scale factor and ..."'
+ ✔ Page 95: "The muons from <the> J/Psi<s> used" @short @done (14-12-02 22:32) @project(Post-viva Corrections / Calibration)
+ ✔ Page 90: Move reference to Z->mumu calibration being the preferred method to introduction @medium @done (14-12-02 22:32) @project(Post-viva Corrections / Calibration)
+ ✔ Page 87: scale factors <consistent with->close to> unity @short @done (14-12-02 22:30) @project(Post-viva Corrections / Calibration)
+ ✔ Page 87: amount of <statistics->data> @short @done (14-12-02 22:30) @project(Post-viva Corrections / Calibration)
+ ✔ Page 86: Define p @short 'Clarified variation of parameters by their fit uncertainty' @done (14-12-02 22:30) @project(Post-viva Corrections / Calibration)
+ ✔ Page 84: "with a width tree <times> larger" @short @done (14-12-02 22:26) @project(Post-viva Corrections / Calibration)
+ ✔ Page 83, Figure 5.1: (<dotted> line) @short @done (14-12-02 22:26) @project(Post-viva Corrections / Calibration)
+ ✔ Page 82: Clarify why derived dataset not allow for refit -> Instead "For operational reasons refit cannot be performed" @short @done (14-12-02 22:26) @project(Post-viva Corrections / Calibration)
+ ✔ Page 82: "Table 5.3 <that> matches the cuts defined in Section 4.4.4" @short @done (14-12-02 22:26) @project(Post-viva Corrections / Calibration)
+ ✔ Page 79: Don't split J/psi in line break @short @done (14-12-02 22:26) @project(Post-viva Corrections / Calibration)
+ ✔ Page 81: <pairs tag candidates and probe candidates> -> Pairs tag and probe <candidates> @short @done (14-12-02 22:25) @project(Post-viva Corrections / Calibration)
+ ✔ Page 81: <improved->better> resolution @short @done (14-12-02 22:25) @project(Post-viva Corrections / Calibration)
+ ✔ Page 79: Define truth muon, reference reco section @short @done (14-12-02 22:24) @project(Post-viva Corrections / Calibration)
+ ✔ Page 79: Data period not defined or perhaps needed. 'Removed' @done (14-12-02 22:20) @project(Post-viva Corrections / Calibration)
+ ✔ Page 79: Remove: "tagger efficiency, [as] using a fit" @short @done (14-12-02 22:19) @project(Post-viva Corrections / Calibration)
+ ✔ Page 79: "The analysis presented here differs" -> "It differs" @medium @done (14-12-02 22:19) @project(Post-viva Corrections / Calibration)
+ ✔ Page 78: "in the case of <the> muon reconstruction" @short 'Sentence restructured' @done (14-12-02 21:57) @project(Post-viva Corrections / Calibration)
+ ✔ Page 78: "which <are> fundamental for the SMT tagger" @short @done (14-12-02 21:55) @project(Post-viva Corrections / Calibration)
+ ✔ Page 78: "It< is> paramount that the " @short @done (14-12-02 21:55) @project(Post-viva Corrections / Calibration)
+ ✔ Page 74, JetFitter: "line along which the b and c <quarks>, and the primary.." @short @done (14-12-02 21:54) @project(Post-viva Corrections / Detector)
+ ✔ Page 70: tracks to be match<ed> @short @done (14-12-02 21:53) @project(Post-viva Corrections / Detector)
+ ✔ Page 69: "described in more detail[ed] below:" @short @done (14-12-02 21:53) @project(Post-viva Corrections / Detector)
+ ✔ Page 65: Insert: PS also includes gluon splitting @short @done (14-12-02 21:52) @project(Post-viva Corrections / Detector)
+ ✔ Page 63: Explain or remove mention of Minimum Bias Events @short @done (14-12-02 21:51) @project(Post-viva Corrections / Detector)
+ ✔ Page 53: Event Fil<t>er @short @done (14-12-02 21:51) @project(Post-viva Corrections / Detector)
+ ✔ Page 48, Figure 4.4: bunch <crossing> @short @done (14-12-02 21:50) @project(Post-viva Corrections / Detector)
+ ✔ Page 47: Define IP => "interaction point" @short @done (14-12-02 21:50) @project(Post-viva Corrections / Detector)
+ ✔ Page 55: More specific about where the "large amount of material is", E.g. "due to the large amount of material between the interaction point and the calorimeter" @short @done (14-12-02 21:44) @project(Post-viva Corrections / Detector)
+ ✔ Page 54: function of the <hadronic> interaction length @short @done (14-12-02 21:43) @project(Post-viva Corrections / Detector)
+ ✔ Page 54: Photons don't LOSE energy via pair production @short @done (14-12-02 21:43) @project(Post-viva Corrections / Detector)
+ ✔ Page 53: <X>enon @short @done (14-12-02 21:42) @project(Post-viva Corrections / Detector)
+ ✔ Page 51: Generally more than one electron-hole pair is created @short @done (14-12-02 21:42) @project(Post-viva Corrections / Detector)
+ ✔ Page 51: Introduce PV abbreviation when you first reference Primary Vertex @short @done (14-12-02 21:41) @project(Post-viva Corrections / Detector)
+ ✔ Page 48: Abbreviations ID and MS not defined @notsure @short @done (14-12-02 21:40) @project(Post-viva Corrections / Detector)
+ ✔ Page 46: An event typically refers to the result of a single bunch crossing, thus pile-up is the result of multiple interactions per event. @short @done (14-12-02 21:38) @project(Post-viva Corrections / Detector)
+ ✔ General: Separate detector and reconstruction into two chapters @short @done (14-12-02 21:28) @project(Post-viva Corrections / Detector)
+ ✔ Page 16: Add reference for alternate BSM such as Z' @medium @done (14-12-02 20:39) @project(Post-viva Corrections / Introduction)
+ ✔ Page 42: Reference to KK gluon papers @medium @done (14-12-02 19:48) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 42, Figure 3.11: Vertical align @short @done (14-12-02 18:51) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 42, Figure 3.11: Reference @medium @done (14-12-02 18:51) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 42, Figure 3.11: Enlarge @short @done (14-12-02 18:51) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 41, Figure 3.9: Reference @medium @done (14-12-02 18:50) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 41, Figure 3.10: Reference @medium @done (14-12-02 18:50) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 40, Figure 3.8: Reference @medium @done (14-12-02 18:50) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 39, Figure 3.7: Reference @medium @done (14-12-02 18:50) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 38: Remove [As discussed,] top quark @short @done (14-12-02 16:40) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 37, Figure 3.5: Describe what tracks and colours mean in the event display @short @done (14-12-02 16:40) @project(Post-viva Corrections / Top Quark)
+ ✔ Make it bigger @short @done (14-12-02 16:40) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 21: Use a lighter green for lepton @short @done (14-12-02 12:42) @project(Post-viva Corrections / Theory)
+ ✔ Page 37: Insert: Events <with> tau leptons @short @done (14-12-01 23:18) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 34: Make clear that the ratio quoted is world average. @done (14-12-01 21:42) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 35: "Travel a certain distance [within a] before" @short @done (14-12-01 21:39) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 32: s = 4E^2 is the CENTRE of MASS energy squared @short @done (14-12-01 20:17) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 32: "<and could >point towards the existence" @short @done (14-12-01 20:16) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 31, last line: experimentalist<s> @short @done (14-12-01 20:16) @project(Post-viva Corrections / Top Quark)
+ ✔ Page 28: Use natural units c=1 for consistency @short @done (14-12-01 20:16) @project(Post-viva Corrections / Theory)
+ ✔ Page 27: P refers to Spatial inversion not helicity inversion @short @done (14-12-01 20:15) @project(Post-viva Corrections / Theory)
+ ✔ Page 26: inconsistent labelling of CKM phase (del_{13} vs del in Matrix) @short @done (14-12-01 20:15) @project(Post-viva Corrections / Theory)
+ ✔ Page 25: "after Cabibbo <who>" @short @done (14-12-01 20:14) @project(Post-viva Corrections / Theory)
+ ✔ Page 24: Missing apostrophe: "but to start let<'>s" @short @done (14-12-01 20:14) @project(Post-viva Corrections / Theory)
+ ✔ Replace statistics when referring to amount of data @short @done (14-12-01 20:12) @project(Post-viva Corrections / General)
+ ✔ Page 22: Insert: carried away by <the> scattered gluon @short @done (14-12-01 20:12) @project(Post-viva Corrections / Theory)
+ ✔ Page 18: Through-out -> Throughout @short @done (14-12-01 20:12) @project(Post-viva Corrections / Theory)
+ ✔ "confirmed the production of <the> Higgs boson..." @short @done (14-12-01 20:10) @project(Post-viva Corrections / Introduction)
+ ✔ "This boson would decay.." -> "This boson <could> decay" @short @done (14-12-01 20:10) @project(Post-viva Corrections / Introduction)
+ ✔ Remove STACO CB from everywhere or define @medium @done (14-12-01 20:07) @project(Post-viva Corrections / General) COMMENT: Defined as STACO combined
+ ✔ Standard Model of <p>article physics @short @done (14-12-01 20:05) @project(Post-viva Corrections / Preface)
+ ✔ Insert: ...acceptance to <the> W muon @short @done (14-12-01 20:04) @project(Post-viva Corrections / Abstract)
+ ✔ Insert: ...method on muons <from> J/Psi @short @done (14-12-01 20:03) @project(Post-viva Corrections / Abstract)
+ ✔ "<s>oft <m>uon <t>agging" @short @done (14-12-01 20:03) @project(Post-viva Corrections / Abstract)

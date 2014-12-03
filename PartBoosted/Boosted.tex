@@ -7,13 +7,13 @@
 
 The search for BSM theories is an important part of particle physics research. Many of these theories posit the existence of very heavy particles that can only be produced by very energetic collisions. The LHC provides a unique opportunity to produce such collisions and search for very heavy particles. 
 
-Several BSM theories predict the existence of high mass particles that can decay into top quark pairs. An example of such a theory is the topcolor assisted technicolor model (TC2) which predicts the existence of a leptophobic \Zprime\ boson. The \Zprime\ could potentially have a mass on the order of several \si{TeV}. Due to its large mass, the decay products of the \Zprime\ would emerge with a large amount of momentum. These particles are said to be boosted particles.
+Several BSM theories predict the existence of high mass particles that can decay into top quark pairs. An example of such a theory is the topcolor assisted technicolor model (TC2)~\cite{TopQuark:TC2,TopQuark:TC22,TopQuark:ZPrimeCross} which predicts the existence of a leptophobic \Zprime\ boson. The \Zprime\ could potentially have a mass on the order of several \si{TeV}. Due to its large mass, the decay products of the \Zprime\ would emerge with a large momentum. These particles are said to be boosted particles.
 
 One of the possible decay modes of the \Zprime\ is into a top quark pair. These would emerge with a very large momentum and decay into a \W\ boson and a $b$ quark in a collimated cone. In the detector, these events would appear as two back-to-back particle jets. The hadronic decay of the \W\ would produce three jets which merge into a singular \emph{fat jet}. If the \W\ decays leptonically, the lepton is expected to lie very close to or within the $b$-jet. This makes reconstruction of such objects more difficult and requires specialized techniques, particularly when dealing with multiple merged jets. In contrast, low boost events where all products are well separated are said to be resolved.
 
 Presented here are the results of a study conducted to determine the viability of using the \xsm\ tagger to tag \W\ muons from boosted top quark decays. This is in contrast to the cross section analysis detailed in a previous chapter where the muon tagged came from the semileptonic decay of $b$-quarks.
 
-The boost of the top quarks is expected to be related to the mass of the \Zprime\ produced, so a higher mass \Zprime\ would decay into more collimated jets. The environment that results is thus very similar to that of a semileptonic $b$-decay: a muon buried inside of a $b$-jet.
+The boost of the top quarks is expected to be related to the mass of the \Zprime\ produced, so a higher mass \Zprime\ would decay into more collimated jets. The environment that results is thus very similar to that of a semileptonic $b$-decay: a muon buried inside a $b$-jet.
 
 Searches for heavy bosons have been carried out and so far no evidence for such a resonance has been observed, and limits have been placed on the production rate of these resonance for various benchmark models. A leptophobic topcolor \Zprime\ of mass less than \SI{1.74}{\TeV} has been excluded using \SI{4.7}{\per\femto\barn} of ATLAS collision data at \cmsS~\cite{Boosted:ATLASExclusion7TeV} using both resolved and boosted reconstruction approaches. A more recent analysis using \SI{14.3}{\per\femto\barn} of \cmsE\ data excluded a \Zprime\ with a mass less than \SI{1.8}{\TeV} at \SI{95}{\percent} confidence level~\cite{Boosted:ATLASExclusion8TeV} with the same combined reconstruction approach. The analysis detailed here is based on the \SI{7}{\TeV} analysis. Similar analyses performed with data collected by CMS using both a resolved and boosted reconstruction have excluded \Zprime\ candidates for similar benchmark models~\cite{Boosted:CMSSearch7TeVDilepton,Boosted:CMSSearchAnomalous,Boosted:CMSSearch8TeV}.
 
@@ -75,7 +75,7 @@ As can be seen from Figure~\ref{fig:ExampleCollimation}, the increase in boost d
 
 Since the signal muon in boosted \ttbar\ events emerge near or within jets, the standard isolation requirements used in SM \ttbar\ analyses erroneously remove \W\ muons. The portion of muons removed increases with collimation and thus \Zprime\ mass. Using the nominal isolation requirement then limits the reach to higher \Zprime\ masses that have yet to be probed.
 
-The ATLAS boosted \ttbar\ resonance analysis proposed an alternative variable to replace the nominal isolation requirement called \emph{mini-isolation} (MI). The absolute MI is defined as the sum of the measured transverse momenta of all tracks in a cone of size $\DeltaR=\kT/\pt^{\ell}$ around the lepton, where \kT\ is an adjustable scale\footnote{For convenience, mini-isolation with a \kT\ value of 10 is referred to as MI10.} and $\pt^{\ell}$ is the momentum of the lepton. This study uses the \emph{relative} MI where the absolute value is scaled by the momentum of the lepton:
+The ATLAS boosted \ttbar\ resonance analysis proposed an alternative variable to replace the nominal isolation requirement called \emph{mini-isolation} (MI). The absolute MI is defined as the sum of the measured transverse momenta of all tracks in a cone of size $\DeltaR=\kT/\pt^{\ell}$ around the lepton, where \kT\ is an adjustable scale\footnote{For convenience, mini-isolation with a \kT\ value of \SI{10}{\GeV} is referred to as MI10.} and $\pt^{\ell}$ is the momentum of the lepton. This study uses the \emph{relative} MI where the absolute value is scaled by the momentum of the lepton:
 
 \begin{equation}
   \textrm{Rel. MI}=\frac{MI}{\pt^{\ell}}
@@ -87,7 +87,7 @@ MI adapts to the strong collimation of the top products with increasing boost by
 
 The goal of this study is to improve the acceptance at higher \Zprime\ masses by removing the nominal isolation requirement, and instead use the \xsm\ tagger to identify the signal muons.
 
-The performance of the \xsm\ tagger is measured against the conventional isolation criteria, and MI with $\kT=10$. The resolved isolation criteria requires the muon to have an $\etcone{20}<\SI{2.5}{\GeV}$ and $\etcone{30}<\SI{4.0}{\GeV}$. For mini-isolation, the lepton is deemed isolated if the $\sum\pt$ is less than \SI{5}{\percent} of the lepton \pt. The \xsm\ tagger operates with the same selection used in Chapter~\ref{ch:Calibration} with the standard operating-point of $\xsd<3.2$.
+The performance of the \xsm\ tagger is measured against the conventional isolation criteria, and MI with $\kT=\SI{10}{\GeV}$. The resolved isolation criteria requires the muon to have an $\etcone{20}<\SI{2.5}{\GeV}$ and $\etcone{30}<\SI{4.0}{\GeV}$. For mini-isolation, the lepton is deemed isolated if the $\sum\pt$ is less than \SI{5}{\percent} of the lepton \pt. The \xsm\ tagger operates with the same selection used in Chapter~\ref{ch:Calibration} with the standard operating-point of $\xsd<3.2$.
 
 Two separate selections are applied: one for \xsm\ tagger and one for the resolved isolation and mini-isolation. As mini-isolation and the resolved isolation both use MUID, they share the same set of reconstruction criteria, while the \xsm\ tagger selection is moderately different. All chains require a high-\pt\ muon ($\pt>\SI{20}{\GeV}$) within the pseudorapidity coverage of the ID ($|\eta|<2.5$) that passes the MCP tracking cuts detailed in Appendix~\ref{app:CalibrationMCPCuts}. Mini-isolation and resolved isolation make use of muons reconstructed by the MUID algorithm that pass the so-called \emph{Tight} identification criteria. An additional requirement on the impact parameter ($|z_{0}|<\SI{3.0}{\mm}$) is used to reduce non-prompt muons. The \xsm\ tagger uses the STACO combined algorithm for muon reconstruction with no additional requirements. The cutflows for all three selections are shown in Figure~\ref{fig:BoostedFlowChart}.
 
@@ -184,7 +184,7 @@ In the nominal analysis described in~\cite{Boosted:ATLASExclusion7TeV} muons whi
 
 \section{Results}
 
-The results of the reconstruction portion of the analysis chains are summarized in Table~\ref{tab:BoostedRecoSTACO} for the \xsm\ chain and in Table~\ref{tab:BoostedRecoMUID} for the mini-isolation chain. The matching efficiency (\eff{\textrm{match}}{}) is stable with respect to \Zprime\ mass for both MUID and STACO, meaning that both algorithms are able to reconstruct the signal muon irrespective of boost. Within the uncertainty neither algorithm appears to be better than other at reconstruction of these muons. The efficiencies of both reconstruction selections (\eff{\textrm{reco}}{}) are compatible within uncertainties and appear to be slightly lower at low \Zprime\ mass, likely due to the \pt\ requirement on the muon. Finally, the collimation effect due to increased boost is clearly visible in the non-isolation efficiency. A marked increase with \Zprime\ mass is noted as the products of the top quarks get pushed closer together. Note that the results obtained at $\mzp=\SI{2.5}{\TeV}$ suffer from lack of statistics compared to the other mass points. Once again, this effect those not appear to affect one reconstruction algorithm more than the other and the efficiencies are compatible within uncertainty.
+The results of the reconstruction portion of the analysis chains are summarized in Table~\ref{tab:BoostedRecoSTACO} for the \xsm\ chain and in Table~\ref{tab:BoostedRecoMUID} for the mini-isolation chain. The matching efficiency (\eff{\textrm{match}}{}) is stable with respect to \Zprime\ mass for both MUID and STACO, meaning that both algorithms are able to reconstruct the signal muon irrespective of boost. Within the uncertainty neither algorithm appears to be better than other at reconstruction of these muons. The efficiencies of both reconstruction selections (\eff{\textrm{reco}}{}) are compatible within uncertainties and appear to be slightly lower at low \Zprime\ mass, likely due to the \pt\ requirement on the muon. Finally, the collimation effect due to increased boost is clearly visible in the non-isolation efficiency. A marked increase with \Zprime\ mass is noted as the products of the top quarks get pushed closer together. Note that the results obtained at $\mzp=\SI{2.5}{\TeV}$ suffer from lack of data compared to the other mass points. Once again, this effect those not appear to affect one reconstruction algorithm more than the other and the efficiencies are compatible within uncertainty.
 
 % STACO Reconstruction Results
 \begin{table}[htbp]
@@ -236,7 +236,7 @@ The results of the reconstruction portion of the analysis chains are summarized 
   \caption[Results of constructing the muon sample used to estimate the efficiency of mini-isolation and resolved isolation.]{Results of constructing the muon sample used to estimate the efficiency of mini-isolation and resolved isolation. The uncertainty is statistical only.}\label{tab:BoostedRecoMUID}
 \end{table}
 
-The efficiency of the resolved isolation as expected is low and decreases with increasing boost as shown in Table~\ref{tab:BoostedFinalResolved}. The efficiency of the resolved isolation with overlap removal at \SI{3.0}{\TeV} is \SI{18}{\percent} highlighting the need for a better isolation requirement.
+The efficiency of the resolved isolation as expected is low and decreases with increasing boost as shown in Table~\ref{tab:BoostedFinalResolved}. The efficiency of the resolved isolation at \SI{3.0}{\TeV} is \SI{18}{\percent} highlighting the need for a better isolation requirement.
 
 \begin{table}[htbp]
 \centering
@@ -308,7 +308,7 @@ The \xsm\ tagger efficiency is very high and fairly stable with \Zprime\ mass as
     \caption{MI with $\kT=10$}\label{fig:BoostedMIeffVsDRmuj}
   \end{subfigure}
 
-  \caption[Efficiency of MI ($\kT=10$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet.]{Efficiency of MI ($\kT=10$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet. The dip in the MI efficiency at low $\DeltaR$ is removed in the nominal analysis by cutting at $\DeltaR<0.1$}\label{fig:BoostedEfficiencyVsDRmuj}
+  \caption[Efficiency of MI ($\kT=\SI{10}{\GeV}$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet.]{Efficiency of MI ($\kT=\SI{10}{\GeV}$) and \xsm\ tagger as a function of the angular separation between the reconstructed muon and the nearest reconstructed jet. The dip in the MI efficiency at low $\DeltaR$ is removed in the nominal analysis by cutting at $\DeltaR<0.1$}\label{fig:BoostedEfficiencyVsDRmuj}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -329,7 +329,7 @@ The \xsm\ tagger efficiency is very high and fairly stable with \Zprime\ mass as
 
 \subsection{Background}
 
-A preliminary estimation of the fake-rate for the \xsm\ tagger and mini-isolation.
+A preliminary estimation of the fake-rate for the \xsm\ tagger and mini-isolation in a boosted environment was carried out.
 
 The dominant backgrounds for boosted \ttbar\ events include multijet events and SM resolved \ttbar. A measure of the acceptance of multijet background is provided here. 
 
@@ -407,7 +407,7 @@ The matching efficiency remains above \SI{80}{\percent} through-out the tested m
 
 The tagging efficiency can be defined in two ways. The first folds the effect of the low $b\rightarrow\mu$ branching ratio into the final efficiency. This makes the comparison with other taggers possible and is denoted by $\epsilon_{\textrm{Inc. SMT}}$.
 
-The second definition separates the efficiency into two components: firstly, the jet is associated with a STACO CB muon by requiring $\DeltaR_{\textrm{jet}}^{\mu}<0.5$. The associated efficiency defined as,
+The second definition separates the efficiency into two components: firstly, the jet is associated with a STACO combined muon by requiring $\DeltaR_{\textrm{jet}}^{\mu}<0.5$. The associated efficiency defined as,
 \begin{equation}
     \epsilon_{\mu\textrm{-match}} = \frac{\textrm{Number of $b$-jets with an associated muon}}%
                          {\textrm{Number of $b$-jets}} \\

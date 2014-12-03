@@ -18,13 +18,19 @@
 
 \begin{tikzpicture}[font=\sffamily, scale=0.6, transform shape]
   \tikzstyle{FermionFill} = [fill=yellow!15]
-  \tikzstyle{QuarkFill} = [fill=yellow!15]
-  \tikzstyle{LeptonFill} = [fill=green!55]
-  
   \tikzstyle{Fermion} = [draw=black, FermionFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
-  
+
+  \tikzstyle{QuarkFill} = [fill=yellow!15]
   \tikzstyle{Quark} = [Fermion, QuarkFill]
+
+  \tikzstyle{LeptonFill} = [fill=green!15]
   \tikzstyle{Lepton} = [Fermion, LeptonFill]
+  
+  \tikzstyle{BosonFill} = [fill=blue!15]
+  \tikzstyle{Boson} = [draw=black, BosonFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
+  
+  \tikzstyle{HiggsFill} = [fill=orange!15]
+  \tikzstyle{Higgs} = [Boson, HiggsFill]
 
   \tikzstyle{GenerationLabel} = [font={\sffamily\LARGE}, minimum width=2.75cm, node distance=3.0cm]
 
@@ -51,14 +57,9 @@
   \node[name=LeptonLabel, left of=Electron, GenerationLabel, rotate=90]{Leptons};
   \node[name=QuarkLabel, left of=Up, GenerationLabel, rotate=90]{Quarks};
 
-  \tikzstyle{BosonFill} = [fill=blue!15]
-  \tikzstyle{HiggsFill} = [fill=orange!15]
-  \tikzstyle{Boson} = [draw=black, BosonFill, minimum width=4cm, minimum height=3.5cm, node distance=4cm]
-  \tikzstyle{Higgs} = [Boson, HiggsFill]
-
   \node[name=Photon, Boson, right of=Top, xshift=2cm] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$\gamma$}{Photon (EM)}};
   \node[name=W, below of=Photon, Boson] {\NaturalElementTextFormat{$\pm1$}{$80.4$\,GeV}{$W^{\pm}$}{W boson (Weak)}};
-  \node[name=Z, below of=W, Boson] {\NaturalElementTextFormat{$0$}{$91.2$\,GeV}{$Z$}{$Z$ boson (Weak)}};
+  \node[name=Z, below of=W, Boson] {\NaturalElementTextFormat{$0$}{$91.2$\,GeV}{$Z^{0}$}{$Z$ boson (Weak)}};
   \node[name=Gluon, below of=Z, Boson] {\NaturalElementTextFormat{$0$}{$0$\,MeV}{$g$}{Gluon (Strong)}};
   \node[name=Higgs, right of=Photon, Higgs, xshift=1cm] {\NaturalElementTextFormat{$0$}{$126.07$\,GeV}{$H^{0}$}{Higgs boson}};
   \node[name=Legend, right of=Gluon, Boson, fill=white, xshift=1cm] {\NaturalElementTextFormat{q}{mass}{symbol}{name (force)}};
