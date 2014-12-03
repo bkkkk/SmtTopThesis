@@ -1,40 +1,16 @@
 Post-viva Corrections:
   General:
     ☐ Correct pagination @short
-    ☐ Clean all citations from tables and figures @medium
     ☐ Make all figures wider where possible @long
-  
-  Introduction:
   Theory:
-    ☐ Page 27, Eq 2.11: Add reference to PDG for CKM values @medium
-    ☐ Page 28: Add reference to CP violation @medium
-    ☐ Page 28: Add names of all people involved in Higgs mechanism @medium
     ☐ Page 29: For LGI, mention the modification of the derivative to be covariant?! @medium
     ☐ Page 29: Impetus for LGI is to avoid divergences in the theory, make that clear @medium
   Top Quark:
     ☐ Page 33: Check sources of cross-sections for single ttbar @medium
     ☐ Page 33: See if you can find the expansion of the uncertainty to the cross-section @maybe @medium
     ☐ Page 34: Overlapping arrows in panel (b) @medium
-  Detector:
-    ☐ Page 44, Figure 4.1: Should be referenced @medium
-    ☐ Page 49: Clarify definition of side A and C where z is positive? @medium
-    ☐ Page 50: ??? @WAT
-    ☐ Page 54: Find reference to the 7/9X0 @medium
-    ☐ Page 58, Table 4.1: Missing entry for tile calorimeter @medium
-    ☐ Page 60, Figure 4.14: Clean up figure @medium
-      ☐ Remove sector labels @short
-      ☐ Add Arrow to MDT @short
-    ☐ Page 62: Explain why seven parts @medium
-    ☐ Page 63: Expected event rate of 1 Ghz? Bunch crossing of 25 ns results in a real event rate of 40 MHz @long
-    ☐ Page 64: Define prescale and is it random or deterministic @medium
-    ☐ Page 65: "The order of the diagram", the LO diagram is the minimum number of vertices for that given process. @short
-    ☐ Page 65: Define LO and NLO @short
-    ☐ Page 67: Perhaps motivate propagation of tracks to middle layer? @notsure @medium
+  Object Selection:
     ☐ Page 69: Add more information on tagging ID tracks reco @medium
-    ☐ Page 70: Reference to MuGirl algorithm @medium
-    ☐ Page 70, Section 4.4.3: Move sentence beginning "This process results in..." after the first sentence in section @short
-    ☐ Page 70: Move sentence "This process results in ..." -> "...hadrons and high energy photons" @short
-    ☐ Page 72: Reference for local cluster weighting @medium
     ☐ Page 73: Find MV1 plot of efficiency vs LF jet rejection @long
     ☐ Page 75, Figure 4.19: Which sample was used to determine this efficiency? Add to caption @medium
     ☐ Page 76, Figure 4.20: Fix wrong arrows in W decay @LONG
@@ -65,11 +41,26 @@ Post-viva Corrections:
   Resonance:
     ☐ Page 147, Figure 7.9: Clarify that uncertainties are omitted @short
     ☐ Page 153, Figure 7.10: Describe drops in efficiency due to limited data @short
-  Bibliography:
-    ☐ URL refs have difference font @short
-
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ URL refs have difference font @short @done (14-12-03 17:50) @project(Post-viva Corrections / Bibliography)
+ ✔ Page 64: Define prescale and is it random or deterministic @medium @done (14-12-03 17:37) @project(Post-viva Corrections / Detector)
+ ✔ Page 63: Expected event rate of 1 Ghz? Bunch crossing of 25 ns results in a real event rate of 40 MHz @long @done (14-12-03 17:27) @project(Post-viva Corrections / Detector)
+ ✔ Page 67: Perhaps motivate propagation of tracks to middle layer? @notsure @medium @done (14-12-03 17:15) @project(Post-viva Corrections / Object Selection)
+ ✔ Page 65: "The order of the diagram", the LO diagram is the minimum number of vertices for that given process. @short @done (14-12-03 17:13) @project(Post-viva Corrections / Detector)
+ ✔ Page 70: Reference to MuGirl algorithm @medium @done (14-12-03 17:12) @project(Post-viva Corrections / Detector)
+ ✔ Page 72: Reference for local cluster weighting @medium @done (14-12-03 17:07) @project(Post-viva Corrections / Detector)
+ ✔ Page 49: Clarify definition of side A and C where z is positive? @medium @done (14-12-03 16:58) @project(Post-viva Corrections / Detector)
+ ✔ Page 65: Define LO and NLO @short @done (14-12-03 16:50) @project(Post-viva Corrections / Detector)
+ ✔ Page 70, Section 4.4.3: Move sentence beginning "This process results in..." after the first sentence in section @short @done (14-12-03 16:33) @project(Post-viva Corrections / Detector)
+ ✔ Page 60, Figure 4.14: Clean up figure @medium @done (14-12-03 15:57) "Got a better diagram" @project(Post-viva Corrections / Detector)
+ ✔ Page 58, Table 4.1: Missing entry for tile calorimeter @medium @done (14-12-03 14:31) @project(Post-viva Corrections / Detector)
+ ✔ Page 54: Find reference to the 7/9X0 @medium @done (14-12-03 14:19) @project(Post-viva Corrections / Detector)
+ ✔ Page 44, Figure 4.1: Should be referenced @medium @done (14-12-03 13:05) @project(Post-viva Corrections / Detector)
+ ✔ Clean all citations from tables and figures @medium @done (14-12-03 13:05) @project(Post-viva Corrections / General)
+ ✔ Page 28: Add reference to CP violation @medium @done (14-12-03 12:46) @project(Post-viva Corrections / Theory)
+ ✔ Page 28: Add names of all people involved in Higgs mechanism @medium @done (14-12-03 12:46) @project(Post-viva Corrections / Theory)
+ ✔ Page 27, Eq 2.11: Add reference to PDG for CKM values @short @done (14-12-03 12:06) @project(Post-viva Corrections / Theory)
  ✔ Page 134: Add reference to TC2 @medium @done (14-12-02 23:31) @project(Post-viva Corrections / Resonance)
  ✔ Page 105, Figure 5.18 Caption: Make it clear that only these plots are from Period B @short @done (14-12-02 23:30) @project(Post-viva Corrections / Calibration)
  ✔ Add reference to "confirmed the production of the Higgs boson..." @medium @done (14-12-02 23:15) @project(Post-viva Corrections / Introduction)

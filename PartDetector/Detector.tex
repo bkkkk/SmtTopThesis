@@ -10,11 +10,10 @@ ATLAS and CMS are general purpose detectors designed to support a varied physics
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.95\textwidth]{PartDetector/Diagrams/Cern-Accelerator-Complex.jpg}
-    \caption{The layout of CERN complex of experiments, note the main four LHC experiments located at different points around the ring.}
-  \label{fig:DetectorLHCLayout}
+    \caption[The layout of the CERN complex of experiments including the main four LHC experiments located at different points around the ring.]{The layout of the CERN complex of experiments including the main four LHC experiments located at different points around the ring~\cite{Detector:CERNComplex}.}\label{fig:DetectorLHCLayout}
 \end{figure}
 
-\section{The large hadron collider} \label{sec:the_large_hadron_collider}
+\section{The large hadron collider}\label{sec:the_large_hadron_collider}
 
 The LHC accelerates two beams of protons in opposite directions and then collides them at the four interaction points (IPs) where the experiments are located. The protons come from hydrogen gas where the orbiting electron is removed by an electric field, leaving behind a bare proton. The beam acceleration occurs in several stages exploiting smaller experiments present at CERN. During 2010 and 2011 protons were accelerated to a beam energy of \SI{3.5}{\TeV}, creating a centre of mass energy of \SI{7}{\TeV} and then \SI{4}{\TeV} per beam in 2012 for a centre of mass energy of \SI{8}{\TeV}. Each beam is made of multiple bunches of protons, with as many as hundreds of billions of protons in each bunch. Bunches are grouped into \textit{bunch trains} with a designed \textit{bunch spacing} of \SI{25}{\ns} between each of the bunches that compose a single train. The bunch spacing and size of the bunch can be altered to adjust the amount of collisions and time between collisions. During 2011 a \SI{50}{\ns} bunch spacing was used to allow for early low luminosity analyses to be performed. The variation in the number of colliding bunches is shown in Figure~\ref{fig:DetectorBunchesColliding}.
 
@@ -22,20 +21,17 @@ The LHC accelerates two beams of protons in opposite directions and then collide
   \centering
     \begin{subfigure}[b]{0.95\textwidth}
       \includegraphics[width=\textwidth]{PartDetector/Plots/BunchesCollidingPerTime.eps}
-      \caption{The number of bunches colliding per unit time at the LHC for the 2010, 2011 and 2012 $pp$ collision periods.}
-      \label{fig:DetectorBunchesColliding}
+      \caption{The number of bunches colliding per unit time at the LHC for the 2010, 2011 and 2012 $pp$ collision periods.}\label{fig:DetectorBunchesColliding}
     \end{subfigure}
   
     \begin{subfigure}[b]{0.95\textwidth}
       \includegraphics[width=\textwidth]{PartDetector/Plots/PeakLuminosityVsTime.eps}
-      \caption{The peak luminosity per unit time at the LHC for the 2010, 2011 and 2012 $pp$ collision periods.}
-      \label{fig:DetectorPeakLumi}
+      \caption{The peak luminosity per unit time at the LHC for the 2010, 2011 and 2012 $pp$ collision periods.}\label{fig:DetectorPeakLumi}
     \end{subfigure}
-    \caption[Shown are the number of bunches colliding at the LHC and the peak luminosity per unit time.]{Shown are~\subref{fig:DetectorBunchesColliding} the number of bunches colliding at the LHC and~\subref{fig:DetectorPeakLumi} the peak luminosity per unit time~\cite{Detector:LuminosityResults}.}
-  \label{fig:DetectorPerformance}
+    \caption[Shown are the number of bunches colliding at the LHC and the peak luminosity per unit time.]{Shown are~\subref{fig:DetectorBunchesColliding} the number of bunches colliding at the LHC and~\subref{fig:DetectorPeakLumi} the peak luminosity per unit time~\cite{Detector:LuminosityResults}.}\label{fig:DetectorPerformance}
 \end{figure}
 
-The acceleration of the proton beams occurs in several stages in different accelerators. The beams are first accelerated in a linear collider (LINAC 2) to an energy of \SI{50}{\MeV} before being injected into the proton synchrotron booster (PSB). The beams are then boosted to \SI{1.4}{\GeV} by a varying magnetic field in the circular PSB. Beams are then passed into the proton synchrotron (PS) and then the super proton synchrotron (SPS) where the beam energy increases to \SI{26}{\GeV} and then \SI{450}{\GeV}. At this stage the beam is injected into the LHC and then accelerated to the final desired energy. The design energy is \SI{7}{\TeV} per beam for a total of \SI{14}{\GeV} centre of mass energy. The whole process can take a couple of hours, from the initial injection of the protons to stable beam conditions in the LHC.
+The acceleration of the proton beams occurs in several stages in different accelerators. The beams are first accelerated in a linear collider (LINAC 2) to an energy of \SI{50}{\MeV} before being injected into the proton synchrotron booster (PSB). The beams are then boosted to \SI{1.4}{\GeV} by a varying magnetic field in the circular PSB. Beams are then passed into the proton synchrotron (PS) and then the super proton synchrotron (SPS) where the beam energy increases to \SI{26}{\GeV} and then \SI{450}{\GeV}. At this stage the beam is injected into the LHC and then accelerated to the final desired energy. The design energy is \SI{7}{\TeV} per beam for a total of \SI{14}{\GeV} centre of mass energy. The whole process can take a couple of hours, from the initial injection of the protons to stable beam conditions in the LHC\@.
 
 As bunches overlap the protons that make up the bunches interact, the result of this interaction is known as an event. The number of events is proportional to the instantaneous luminosity $\Lagr$ of the collider. $\Lagr$ is a measure of the flux of particles per unit area per unit time can be defined as:
 
@@ -51,12 +47,12 @@ The total amount of data collected is measured by the integrated luminosity $\La
   \sigma\int\Lagr \dd t
 \end{equation}
 
-The integrated luminosity delivered by the LHC and collected by the ATLAS detector in 2011 and 2012 is shown in Figure~\ref{fig:DetectorIntLumi}. The ATLAS detector does not record all data delivered by the LHC; approximately $6.5\%$ was not recorded.
+The integrated luminosity delivered by the LHC and collected by the ATLAS detector in 2011 and 2012 is shown in Figure~\ref{fig:DetectorIntLumi}. The ATLAS detector does not record all data delivered by the LHC\@; approximately $6.5\%$ was not recorded.
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.70\textwidth]{PartDetector/Plots/IntegratedLuminosity20112012.eps}
-    \caption[Distribution of the total integrated luminosity delivered by the LHC and the recorded by ATLAS for the 2011 and 2012 $pp$ collision period.]{Distribution of the total integrated luminosity delivered by the LHC and the recorded by ATLAS for the 2011 and 2012 $pp$ collision period~\cite{Detector:LuminosityResults,Luminosity}.} \label{fig:DetectorIntLumi}
+    \caption[Distribution of the total integrated luminosity delivered by the LHC and the recorded by ATLAS for the 2011 and 2012 $pp$ collision period.]{Distribution of the total integrated luminosity delivered by the LHC and the recorded by ATLAS for the 2011 and 2012 $pp$ collision period~\cite{Detector:LuminosityResults,Luminosity}.}\label{fig:DetectorIntLumi}
 \end{figure}
 
 \subsection{Pile-up}
@@ -66,11 +62,10 @@ Due to the large number of interactions and the short time between collisions, m
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.70\textwidth]{PartDetector/Plots/peakBothMuByDay.eps}
-    \caption[Number of interactions per bunch for the 2012 $pp$ data-taking period at ATLAS per day.]{Number of interactions per bunch crossing for the 2012 $pp$ data-taking period at ATLAS per day. Both the average number of interactions for all bunches and the maximum number of interactions are shown~\cite{Detector:LuminosityResults}.}
-  \label{fig:DetectorBunchCrossingInteractions}
+    \caption[Number of interactions per bunch for the 2012 $pp$ data-taking period at ATLAS per day.]{Number of interactions per bunch crossing for the 2012 $pp$ data-taking period at ATLAS per day. Both the average number of interactions for all bunches and the maximum number of interactions are shown~\cite{Detector:LuminosityResults}.}\label{fig:DetectorBunchCrossingInteractions}
 \end{figure}
 
-\section{The ATLAS detector} \label{sec:the_atlas_detector}
+\section{The ATLAS detector}\label{sec:the_atlas_detector}
 
 The ATLAS~\cite{Detector:ATLASExperimentGeneral} experiment is a general-purpose detector which wraps around the IP providing large angular coverage. ATLAS is approximately cylindrical with a diameter of \SI{25}{\meter}, a total length of \SI{44}{\meter} and weighs \SI{7000}{\tonne}. The detector is made of several layers of instrumentation located at successively increasing radii as shown in Figure~\ref{fig:ATLASOverviewFigure}:
 
@@ -88,20 +83,18 @@ Lepton plus jets \ttbar\ events produce a final state that includes hadronic act
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.90\textwidth]{PartDetector/Diagrams/ATLAS_Overall.eps}
-    \caption[An overview diagram of the ATLAS experiment. Shown are all detection and tracking systems and the toroid magnet which encompasses them. Note also the muon system on the outside of the detector.]{An overview diagram of the ATLAS experiment. Shown are all detection and tracking systems and the toroid magnet which encompasses them. Note also the muon system on the outside of the detector~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{fig:ATLASOverviewFigure}
+    \caption[An overview diagram of the ATLAS experiment. Shown are all detection and tracking systems and the toroid magnet which encompasses them. Note also the muon system on the outside of the detector.]{An overview diagram of the ATLAS experiment. Shown are all detection and tracking systems and the toroid magnet which encompasses them. Note also the muon system on the outside of the detector~\cite{Detector:ATLASExperimentGeneral}.}\label{fig:ATLASOverviewFigure}
 \end{figure}
 
-A cylindrical coordinate system as used by all ATLAS publications has been adopted here. The coordinate system is constructed so that the $z$-axis is parallel to the beam axis. The $x$-axis is positive in the direction going from the IP to the centre of the LHC ring, and the positive $y$-axis points upwards. Thus the $x$-$y$ plane is transverse to the beam direction. All transverse variables such as the transverse momentum \pt, transverse energy \Et\ and missing transverse energy \met\ are measured along this plane. The distance perpendicular to the beam-pipe is denoted by $R$, the azimuthal angle $\phi$ is measured around the beam axis, and the polar angle $\theta$ is the angle from the beam axis. The pseudorapidity is defined as $\eta=-\ln\tan(\theta/2)$. The distance in the $\eta$-$\phi$ plane between two objects is denoted by $\Delta R$ and defined as $\Delta R = \sqrt{\Delta\eta^{2}+\Delta\phi^{2}}$. Finally side A of the detector is defined as the positive $z$ side and side C is the negative $z$.  The transverse impact parameter $d_{0}$ is defined as the distance of closest approach (perigee) of a track to the primary vertex (PV), and the longitudinal impact parameter $z_{0}$ is the distance in $z$ between the perigee and the primary vertex.
+A cylindrical coordinate system as used by all ATLAS publications has been adopted here. The coordinate system is constructed so that the $z$-axis is parallel to the beam axis, and is positive in the direction of LHCb. The $x$-axis is positive in the direction going from the IP to the centre of the LHC ring, and the positive $y$-axis points upwards. Thus the $x$-$y$ plane is transverse to the beam direction. All transverse variables such as the transverse momentum \pt, transverse energy \Et\ and missing transverse energy \met\ are measured along this plane. The distance perpendicular to the beam-pipe is denoted by $R$, the azimuthal angle $\phi$ is measured around the beam axis, and the polar angle $\theta$ is the angle from the beam axis. The pseudorapidity is defined as $\eta=-\ln\tan(\theta/2)$. The distance in the $\eta$-$\phi$ plane between two objects is denoted by $\Delta R$ and defined as $\Delta R = \sqrt{\Delta\eta^{2}+\Delta\phi^{2}}$. Finally side A of the detector is defined as the positive $z$ side and side C is the negative $z$.  The transverse impact parameter $d_{0}$ is defined as the distance of closest approach (perigee) of a track to the primary vertex (PV), and the longitudinal impact parameter $z_{0}$ is the distance in $z$ between the perigee and the primary vertex.
 
-\subsection{Inner detector} \label{subsec:DetectorID}
+\subsection{Inner detector}\label{subsec:DetectorID}
 The inner detector, shown in Figure~\ref{fig:DetectorIDOverview}, is a tracking detector located closest to the beam-pipe and used for momentum and impact parameter measurement, vertex and track reconstruction, and particle identification. The ID is designed to provide hermetic high-resolution tracking in the range $\aeta<2.5$.
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.85\textwidth]{PartDetector/Diagrams/ATLAS_ID.eps}
-    \caption[Drawing of the ATLAS inner detector]{Drawing of the ATLAS inner detector~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{fig:DetectorIDOverview}
+    \caption[Drawing of the ATLAS inner detector]{Drawing of the ATLAS inner detector~\cite{Detector:ATLASExperimentGeneral}.}\label{fig:DetectorIDOverview}
 \end{figure}
 
 The entire ID is contained within the central solenoid (CS) that generates a \SI{2}{\tesla} magnetic field for the purpose of momentum measurement. The trajectory of a charged particle is bent in the presence of a magnetic field by an amount proportional to the momentum of the particle
@@ -112,13 +105,12 @@ The entire ID is contained within the central solenoid (CS) that generates a \SI
 %
 where $r$ is the bending radius, \pt\ is the transverse momentum of the particle, $q$ is the charge of the particle, and $B$ is the magnetic field strength. Thus the momentum of the particle can be measured by reconstructing its trajectory through the detector. A particle with larger \pt\ would have a more straight trajectory than a particle with low \pt\ in the same magnetic field. For a central track with $\pt=\SI{5}{\GeV}$ the relative resolution on the measured transverse momentum is $\sim\SI{1.5}{\percent}$~\cite{Detector:ATLASExperimentGeneral}.
 
-The reconstruction of interaction vertices is paramount, particularly when considering the large amount of pile-up observed at ATLAS. Interaction vertices are reconstructed by fitting all reconstructed tracks to a point. The primary vertex (PV) is then defined as the vertex with the largest amount of momentum associated with it. The reconstruction of secondary interaction vertices is used for the identification of short-lived particles such as $b$-hadrons and $\tau$.
+The reconstruction of interaction vertices is paramount, particularly when considering the large amount of pile-up observed at ATLAS\@. Interaction vertices are reconstructed by fitting all reconstructed tracks to a point. The primary vertex (PV) is then defined as the vertex with the largest amount of momentum associated with it. The reconstruction of secondary interaction vertices is used for the identification of short-lived particles such as $b$-hadrons and $\tau$.
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.75\textwidth]{PartDetector/Diagrams/fig_14.eps}
-  \caption[An event display of an event as reconstructed by the ATLAS inner detector.]{An event display of an event as reconstructed by the ATLAS inner detector~\cite{Detector:ATLASExperimentGeneral}. Shown are the results of the vertexing algorithm where each line represents a track. the purple tracks have been fitted to a secondary vertex.}
-  \label{fig:DetectorEventDisplayID}
+  \caption[An event display of an event as reconstructed by the ATLAS inner detector.]{An event display of an event as reconstructed by the ATLAS inner detector~\cite{Detector:ATLASExperimentGeneral}. Shown are the results of the vertexing algorithm where each line represents a track. The purple tracks have been fitted to a secondary vertex.}\label{fig:DetectorEventDisplayID}
 \end{figure}
 
 The ID is made of three separate tracking and detection systems located at increasing radii away from the beam-pipe, the full arrangement can be seen in Figure~\ref{fig:DetectorIDQuarter}, and a plane-view is shown in Figure~\ref{fig:DetectorIDTransverse}.
@@ -126,15 +118,13 @@ The ID is made of three separate tracking and detection systems located at incre
 \begin{figure}
   \centering
     \includegraphics[width=0.75\textwidth]{PartDetector/Diagrams/Detector_ID_QuarterView.eps}
-    \caption[Plan-view of a quarter-section of the ATLAS ID showing the major detector elements with its active dimensions and envelopes.]{Plan-view of a quarter-section of the ATLAS ID showing the major detector elements with its active dimensions and envelopes~\cite{Detector:ATLASExperimentGeneral}. Note also the $\eta$ markers showing the maximum coverage up to $\eta=2.5$.}
-  \label{fig:DetectorIDQuarter}
+    \caption[Plan-view of a quarter-section of the ATLAS ID showing the major detector elements with its active dimensions and envelopes.]{Plan-view of a quarter-section of the ATLAS ID showing the major detector elements with its active dimensions and envelopes~\cite{Detector:ATLASExperimentGeneral}. Note also the $\eta$ markers showing the maximum coverage up to $\eta=2.5$.}\label{fig:DetectorIDQuarter}
 \end{figure}
   
 \begin{figure}
   \centering
     \includegraphics[width=0.75\textwidth]{PartDetector/Diagrams/ID_3D_Overview.eps}
-    \caption[A drawing in the transverse plane of the ATLAS ID showing all major detection elements in the barrel regions.]{A drawing in the transverse plane of the ATLAS ID showing all major detection elements in the barrel regions~\cite{Detector:ATLASExperimentGeneral}. A charged particle track is shown traversing all the detector elements as a solid line.}
-  \label{fig:DetectorIDTransverse}
+    \caption[A drawing in the transverse plane of the ATLAS ID showing all major detection elements in the barrel regions.]{A drawing in the transverse plane of the ATLAS ID showing all major detection elements in the barrel regions~\cite{Detector:ATLASExperimentGeneral}. A charged particle track is shown traversing all the detector elements as a solid line.}\label{fig:DetectorIDTransverse}
 \end{figure}
 
 \subsubsection{Pixel detector}
@@ -160,7 +150,7 @@ For electrons, the energy as a function of material length traversed is
   E=E_0e^{-x/X_0}
 \end{equation}
 %
-where $E_0$ is the initial energy, $x$ is the distance traversed, and $E$ is the energy of the particle at $x$. As an electron traverses one $X_0$ of material, its energy is reduced by a factor of $1/e$. For photons, the average number of photons traversing through a material length $x$ is reduced exponentially by a factor of $\frac{7}{9}X_0$. Thus the longitudinal length of the shower is proportional to the logarithm of the energy of the incoming particle.
+where $E_0$ is the initial energy, $x$ is the distance traversed, and $E$ is the energy of the particle at $x$. As an electron traverses one $X_0$ of material, its energy is reduced by a factor of $1/e$. For photons, the average number of photons traversing through a material length $x$ is reduced exponentially by a factor of $\frac{7}{9}X_0$~\cite{PhotonMaterial}. Thus the longitudinal length of the shower is proportional to the logarithm of the energy of the incoming particle.
 
 The number of shower particles changes as a function of the hadronic interaction length $\lambda_{\textrm{int}}$ as
 %
@@ -179,8 +169,7 @@ The ATLAS calorimeter consists of the EM calorimeter, designed to measure photon
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.90\textwidth]{PartDetector/Diagrams/ATLAS_Calorimetry.eps}
-  \caption[A cut-away diagram of the ATLAS detector highlighting the calorimetry system.]{A cut-away diagram of the ATLAS detector highlighting the calorimetry system. Shown are the ECal barrel and end-cap, the HCal barrel and end-cap and the FCal end-cap~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{fig:ATLASCalorimetryOverall}
+  \caption[A cut-away diagram of the ATLAS detector highlighting the calorimetry system.]{A cut-away diagram of the ATLAS detector highlighting the calorimetry system. Shown are the ECal barrel and end-cap, the HCal barrel and end-cap and the FCal end-cap~\cite{Detector:ATLASExperimentGeneral}.}\label{fig:ATLASCalorimetryOverall}
 \end{figure}
 
 \subsubsection{Electromagnetic calorimeter}
@@ -191,10 +180,9 @@ The EM calorimeter employs liquid argon (LAr) as the active material due to its 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.46\textwidth]{PartDetector/Plots/x0_layers_barrel_csc03.pdf}
-  ~
+~%
   \includegraphics[width=0.46\textwidth]{PartDetector/Plots/x0_layers_endcap_csc03.pdf}
-  \caption[Cumulative amounts of material, in units of radiation length $X_{0}$, as a function of $|\eta|$ in front and in the EM calorimeter at the ATLAS detector.]{Cumulative amounts of material, in units of radiation length $X_{0}$, as a function of $|\eta|$ in front and in the EM calorimeter at the ATLAS detector~\cite{Detector:ExpectedPerf}. The left-hand plot shows the amount of material in the barrel region and the right-hand plot shows the material in the endcap region.}
-  \label{fig:DetectorInteraction}
+  \caption[Cumulative amounts of material, in units of radiation length $X_{0}$, as a function of $|\eta|$ in front and in the EM calorimeter at the ATLAS detector.]{Cumulative amounts of material, in units of radiation length $X_{0}$, as a function of $|\eta|$ in front and in the EM calorimeter at the ATLAS detector~\cite{Detector:ExpectedPerf}. The left-hand plot shows the amount of material in the barrel region and the right-hand plot shows the material in the endcap region.}\label{fig:DetectorInteraction}
 \end{figure}
 
 In the region devoted to precision physics the EM calorimeter is divided into three segments as shown in Figure~\ref{fig:DetectorECalSegment}, the strip layer is designed to improve particle identification and pseudorapidity measurement. The design energy resolution for all components of the calorimeter are shown in Table~\ref{tab:DetectorCaloResolution}.
@@ -206,23 +194,19 @@ In the region devoted to precision physics the EM calorimeter is divided into th
     \toprule
     Section   & Resolution \\
     \midrule
-    EM Barrel & $\frac{10\%}{\sqrt{E}}\oplus0.7\%$ \\
-    EMEC      & $\frac{10\%}{\sqrt{E}}\oplus0.7\%$ \\
-    HEC       & $\frac{100\%}{\sqrt{E}}\oplus10\%$ \\
-    FCAL      & $\frac{100\%}{\sqrt{E}}\oplus10\%$ \\
-    % EM Barrel & $\frac{10.1\%}{\sqrt{E}}\oplus0.17\%$~\cite{Energy} \\
-    % HEC       & $\frac{70.6\%}{\sqrt{E}}\oplus5.8\%$ \\ MEASURED
-    % FCAL      & $\frac{95\%}{\sqrt{E}}\oplus7.5\%$~\cite{Detector:FCalMeasuredPerf} \\ MEASURED
+    EM barrel & $\frac{10\%}{\sqrt{E}}\oplus0.7\%$ \\
+    EM endcap & $\frac{10\%}{\sqrt{E}}\oplus0.7\%$ \\
+    HCal barrel \& endcap & $\frac{50\%}{\sqrt{E}}\oplus3\%$ \\
+    Forward & $\frac{100\%}{\sqrt{E}}\oplus10\%$ \\
     \bottomrule
   \end{tabular}
-  \caption[Design energy resolution of all ATLAS calorimeter components.]{Design energy resolution of all ATLAS calorimeter components~\cite{Detector:ATLASExperimentGeneral}. The resolution is made of a sampling term ($\nicefrac{1}{\sqrt{E}}$) associated with the choice of passive and active materials and the construction of the layers, and a constant term associated with the depth of the detector, cracks and dead material.} \label{tab:DetectorCaloResolution}
+  \caption[Design energy resolution of all ATLAS calorimeter components.]{Design energy resolution of all ATLAS calorimeter components~\cite{Detector:ATLASExperimentGeneral}. The resolution is made of a sampling term ($\nicefrac{1}{\sqrt{E}}$) associated with the choice of passive and active materials and the construction of the layers, and a constant term associated with the depth of the detector, cracks and dead material.}\label{tab:DetectorCaloResolution}
 \end{table}
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=0.75\textwidth]{PartDetector/Diagrams/LARG3-TDR-barrelM.pdf}
-   \caption[Cut-away diagram of the EM calorimeter barrel at $\eta=0$.]{Cut-away diagram of the EM calorimeter barrel at $\eta=0$~\cite{Detector:ATLASExperimentGeneral}. Shown are the three different layers with varying cell structures. The strip section is designed to enhance particle identification and position measurement in $\eta$.}
-   \label{fig:DetectorECalSegment}
+   \caption[Cut-away diagram of the EM calorimeter barrel at $\eta=0$.]{Cut-away diagram of the EM calorimeter barrel at $\eta=0$~\cite{Detector:ATLASExperimentGeneral}. Shown are the three different layers with varying cell structures. The strip section is designed to enhance particle identification and position measurement in $\eta$.}\label{fig:DetectorECalSegment}
  \end{figure} 
 
 \subsubsection{Hadronic calorimeter}
@@ -238,18 +222,17 @@ The forward calorimeter (FCal) is responsible for energy measurement in the very
 
 \subsection{Muon spectrometer}
 
-The muon spectrometer is the outermost layer of the ATLAS detector (Figure~\ref{fig:DetectorDrawingMuonSystem}) and is responsible for the precision measurement of \pt\ of charged-particles that pass-through the ATLAS calorimetry. It is designed to have a precision of \SI{10}{\percent} at a momentum of \SI{1}{\TeV}~\cite{Detector:ATLASExperimentGeneral}. Muon tracking performance is vital to the SMT tagger described in Section~\ref{sec:DetectorSLT}, as it relies on the precise reconstruction of muon tracks in the ID and MS.
+The muon spectrometer is the outermost layer of the ATLAS detector (Figure~\ref{fig:DetectorDrawingMuonSystem}) and is responsible for the precision measurement of \pt\ of charged-particles that pass-through the ATLAS calorimetry. It is designed to have a precision of \SI{10}{\percent} at a momentum of \SI{1}{\TeV}~\cite{Detector:ATLASExperimentGeneral}. Muon tracking performance is vital to the SMT tagger described in Section~\ref{sec:DetectorSLT}, as it relies on the precise reconstruction of muon tracks in the ID and MS\@.
 
 Due to their larger mass, muons tend to have a larger transverse momentum and do not lose as much energy through photon emission. As a result, muons tend to traverse the hadronic calorimeter and escape the detector volume. The muon system provides measurement of these particles up to $\aeta<2.7$ and triggering up to $\aeta<2.4$. Measurement of \pt\ is facilitated by the magnetic field generated by the large toroid magnet in the barrel region $\aeta<1.4$ and two smaller end-cap magnets in $1.6<\aeta<2.7$. In the transition region at $1.4<\aeta<1.6$, deflection is provided by both barrel and end-cap fields. 
 
 \begin{figure}[p]
   \centering  
   \includegraphics[width=0.80\textwidth]{PartDetector/Diagrams/ATLAS_MuonSystem.eps}
-  \caption[Cut-away drawing of the ATLAS muon system.]{Cut-away drawing of the ATLAS muon system~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{fig:DetectorDrawingMuonSystem}
+  \caption[Cut-away drawing of the ATLAS muon system.]{Cut-away drawing of the ATLAS muon system~\cite{Detector:ATLASExperimentGeneral}.}\label{fig:DetectorDrawingMuonSystem}
 \end{figure}
 
-The structure of the MS is delimited by the magnet system. In the barrel region, three cylindrical layers of precision-tracking chambers are located in and on the coils of the barrel toroid magnet at radii of ~\SIlist{5;7.5;10}{\meter}. End-cap region coverage is provided by three chamber planes perpendicular to the $z$-axis. These are located in front and behind the end-cap toroid magnet at distances $|z|\approx$~\SIlist{7.4;10.8;14;21.5}{\meter} from the interaction point.
+The structure of the MS is delimited by the magnet system. In the barrel region, three cylindrical layers of precision-tracking chambers are located in and on the coils of the barrel toroid magnet at radii of~\SIlist{5;7.5;10}{\meter}. End-cap region coverage is provided by three chamber planes perpendicular to the $z$-axis. These are located in front and behind the end-cap toroid magnet at distances $|z|\approx$~\SIlist{7.4;10.8;14;21.5}{\meter} from the interaction point.
 
 The MS contains four different types of chambers responsible for precision-tracking and/or triggering in various pseudorapidity ranges, as shown in Table~\ref{tab:DetectorMSOverview}. The arrangement of these chambers is shown in Figure~\ref{fig:DetectorMuonOverview}.
 
@@ -259,51 +242,46 @@ The MS contains four different types of chambers responsible for precision-track
     \toprule
     \textbf{Monitored drift tubes} & \textbf{MDT} \\
     \midrule
-    - Coverage                     & $\aeta<2.7$ (innermost layer: $\aeta<2.0$) \\
-    - Number of chambers           & 1150 \\
-    - Function                     & Precision tracking \\
+    --- Coverage                     & $\aeta<2.7$ (innermost layer: $\aeta<2.0$) \\
+    --- Number of chambers           & 1150 \\
+    --- Function                     & Precision tracking \\
     \bottomrule
     \textbf{Cathode strip chambers} & \textbf{CSC} \\
     \midrule
-    - Coverage                      & $2.0<\aeta<2.7$ \\
-    - Number of chambers            & 32 \\
-    - Function                      & Precision tracking \\
+    --- Coverage                      & $2.0<\aeta<2.7$ \\
+    --- Number of chambers            & 32 \\
+    --- Function                      & Precision tracking \\
     \bottomrule
     \textbf{Resistive place chambers} & \textbf{RPC} \\
     \midrule
-    - Coverage                        & $\aeta<1.05$ \\
-    - Number of chambers              & 606 \\ 
-    - Function                        & Triggering, second coordinate \\
+    --- Coverage                        & $\aeta<1.05$ \\
+    --- Number of chambers              & 606 \\ 
+    --- Function                        & Triggering, second coordinate \\
     \bottomrule
     \textbf{Thin gap chambers}        & \textbf{TGC} \\
     \midrule
-    - Coverage                        & $1.05<\aeta<2.7$~(2.4 for triggering) \\
-    - Number of chambers              & 3588 \\
-    - Function                        & Triggering, second coordinate \\
+    --- Coverage                        & $1.05<\aeta<2.7$~(2.4 for triggering) \\
+    --- Number of chambers              & 3588 \\
+    --- Function                        & Triggering, second coordinate \\
     \bottomrule
   \end{tabular}
-  \caption[Main parameters of the muon system.]{Main parameters of the muon system~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{tab:DetectorMSOverview}
+  \caption[Main parameters of the muon system.]{Main parameters of the muon system~\cite{Detector:ATLASExperimentGeneral}.}\label{tab:DetectorMSOverview}
 \end{table}
 
 \begin{figure}[tbhp]
   \centering
-    \includegraphics[width=0.80\textwidth]{PartDetector/Diagrams/Muon_section.eps}
-    \caption[Plan view of quarter-section of the ATLAS muon spectrometer.]{Plan view of quarter-section of the ATLAS muon spectrometer~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{fig:DetectorMuonOverview}
+    \includegraphics[width=0.80\textwidth]{PartDetector/Diagrams/Muon_section.png}
+    \caption[Plan view of quarter-section of the ATLAS muon spectrometer.]{Plan view of quarter-section of the ATLAS muon spectrometer~\cite{Detector:MuonSystemSideView}.}\label{fig:DetectorMuonOverview}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
     \includegraphics[width=0.80\textwidth]{PartDetector/Diagrams/Muon_sector_numbering.pdf}
-    \caption[Transverse view of the muon system.]{Transverse view of the muon system~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{fig:DetectorTransverse}
+    \caption[Transverse view of the muon system.]{Transverse view of the muon system~\cite{Detector:ATLASExperimentGeneral}.}\label{fig:DetectorTransverse}
 \end{figure}
 
 In the barrel region, precision-measurement is performed by monitored drift tube (MDT) chambers. These chambers consist of three to eight pressurized aluminium drift tubes, each containing a tungsten-rhenium wire anode and a mixture of argon and carbon dioxide gas. An average spatial resolution of \SI{80}{\um} per tube and \SI{35}{\um} per chamber is achieved.
-
 The end-cap region is instrumented with cathode-strip chambers (CSC) due to their higher rate capability and time resolution. CSCs are multi-wire chambers with cathode planes segmented into strips in orthogonal directions, this allows both coordinates to be measured simultaneously. The resolution of a chamber is \SI{40}{\um} in the bending plane ($R$-$z$) and \SI{5}{\mm} in the transverse plane.
-
 Triggering on muon tracks is another essential role of the muon spectrometer. To this end, each precision-measurement chamber is complemented with fast triggering chambers. As with the measurement layers, two different types of chambers are used for the barrel and end-cap regions. In the barrel region ($|\eta<1.05$), resistive plate chambers (RPC) are attached to the same support structure as the MDTs. The RPCs are made of two resistive plates, \SI{2}{\mm} apart, between which a potential difference is applied. The gap between the plates is filled with a mixture of $\textrm{C}_2\textrm{H}_2\textrm{F}_4$/Iso-$\textrm{C}_4\textrm{H}_{10}$/$\textrm{SF}_6$. The signal is read out via metallic strips mounted to the outer faces of the resistive plates. The end-cap region ($1.05<\aeta<2.4$) is populated with thin gap chambers (TGC). TGCs are multi-wire chambers like those used in the CSC, however the distance between the wire and the cathode is smaller in the TGC. A summary of the spatial and temporal resolution for the measurement and triggering layers is shown in Table~\ref{tab:MSPerfomanceSummary}.
 %
 \begin{table}[htb]
@@ -315,14 +293,13 @@ Triggering on muon tracks is another essential role of the muon spectrometer. To
    \cmidrule{2-4}
            & $R/z$ & $\phi$ & Time \\
    \midrule
-   MDT & \SI{35}{\um} $(z)$        & --                  & --            \\
+   MDT & \SI{35}{\um} $(z)$        & ---                  & ---            \\
    CSC & \SI{40}{\um} $(R)$        & \SI{5}{\mm}         & \SI{7}{\ns}   \\
    RPC & \SI{10}{\mm} $(z)$        & \SI{10}{\mm}        & \SI{1.5}{\ns} \\ 
    TGC & \SIrange{2}{6}{\mm} $(R)$ & \SIrange{3}{7}{\mm} & \SI{4}{\ns}   \\
    \bottomrule
   \end{tabular}
-  \caption[Summary of spatial and temporal resolutions per chamber for all chamber types used in the ATLAS muon spectrometer.]{Summary of spatial and temporal resolutions per chamber for all chamber types used in the ATLAS muon spectrometer. Adapted from~\cite{Detector:ATLASExperimentGeneral}.}
-  \label{tab:MSPerfomanceSummary}
+  \caption[Summary of spatial and temporal resolutions per chamber for all chamber types used in the ATLAS muon spectrometer.]{Summary of spatial and temporal resolutions per chamber for all chamber types used in the ATLAS muon spectrometer. Adapted from~\cite{Detector:ATLASExperimentGeneral}.}\label{tab:MSPerfomanceSummary}
 \end{table}
 
 \subsection{Magnet system}
@@ -330,26 +307,26 @@ The structure of the ATLAS detector is defined by its large magnet systems as sh
 
 The CS is located nearest to the beam and provides a \SI{2}{\tesla} magnetic field for the ID for the purpose of tracking, particle identification and \pt\ measurement.
 
-The barrel toroids extend to $\aeta<1.4$ and are made of eight coils, generating a \SI{0.5}{\tesla} magnetic field for the MS. In the high pseudorapidity range, magnetic deflection is provided by two end-cap toroids extending from $1.6<\aeta<2.4$. As in the barrel, the end-cap toroids are made of eight coils offset by \SI{22.5}{\degree} with respect to the barrel coils. Each end-cap generates a \SI{1}{\tesla} magnetic field for the MS. The so-called transition region between the two magnets is covered by the overlap of the end-cap and barrel fields.
+The barrel toroids extend to $\aeta<1.4$ and are made of eight coils, generating a \SI{0.5}{\tesla} magnetic field for the MS\@. In the high pseudorapidity range, magnetic deflection is provided by two end-cap toroids extending from $1.6<\aeta<2.4$. As in the barrel, the end-cap toroids are made of eight coils offset by \SI{22.5}{\degree} with respect to the barrel coils. Each end-cap generates a \SI{1}{\tesla} magnetic field for the MS\@. The so-called transition region between the two magnets is covered by the overlap of the end-cap and barrel fields.
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.80\textwidth]{PartDetector/Diagrams/ATLcoilGeom.eps}
-  \caption[Diagram of the ATLAS toroid magnet system.]{Diagram of the ATLAS toroid magnet system~\cite{Detector:ATLASExperimentGeneral}. The red central solenoid is located closest to the beam surrounded by layers of tile calorimetry. The eight barrel toroid magnets are shown along with the offset end-cap toroids at each end.}
-  \label{fig:DetectorMagnet}
+  \caption[Diagram of the ATLAS toroid magnet system.]{Diagram of the ATLAS toroid magnet system~\cite{Detector:ATLASExperimentGeneral}. The red central solenoid is located closest to the beam surrounded by layers of tile calorimetry. The eight barrel toroid magnets are shown along with the offset end-cap toroids at each end.}\label{fig:DetectorMagnet}
 \end{figure}
 
 \subsection{Beam-pipe}
 
-The beam-pipe section located within the ATLAS experiment is approximately \SI{38}{\meter} in length and made of seven parts. The central chamber has an inner diameter of \SI{58}{\mm} and is constructed from \SI{0.8}{\mm} thick beryllium due to the material's transparency to particles, high specific stiffness and compatibility with ultra-high vacuum. The beam-pipe is centred around the IP and integrated with the pixel detector. The additional layers are made of stainless steel located symmetrically on both sides of the IP.
+The beam-pipe section located within the ATLAS experiment is approximately \SI{38}{\meter} in length and made of seven parts. The central chamber has an inner diameter of \SI{58}{\mm} and is constructed from \SI{0.8}{\mm} thick beryllium due to the material's transparency to particles, high specific stiffness and compatibility with ultra-high vacuum. The beam-pipe is centred around the IP and integrated with the pixel detector. The additional layers are made of stainless steel located symmetrically on both sides of the IP\@.
 
 \subsection{Triggering and data-acquisition}
 
-At the design luminosity of the LHC $\Lagr=\SI{10e34}{\per\square\cm\per\second}$, the expected event rate is approximately \SI{1}{\GHz}. At an average event size of \SI{1.3}{\mega\byte} per event, the total amount of data produced at ATLAS is \SI{1.2}{\peta\byte\per\second}. The maximum rate of data storage at ATLAS is approximately \SI{300}{\mega\byte\per\second}, so the rate must be reduced.
+At the design luminosity of the LHC $\Lagr=\SI{10e34}{\per\square\cm\per\second}$, the expected bunch crossing rate is approximately \SI{40}{\MHz}. At an average event size of \SI{1.3}{\mega\byte} per event, the total amount of data produced at ATLAS is \SI{50}{\tera\byte\per\second}. The maximum rate of data storage at ATLAS is approximately \SI{300}{\mega\byte\per\second}, so the rate must be reduced.
 
-The trigger and data acquisition system (TDAQ) is responsible for reducing the rate by recording only ``interesting'' events. This is known as \emph{online selection} as it happens before the data is stored. In contrast, \emph{offline selection} happens after the data has been recorded, for example when performing a cross section measurement. The overwhelming majority of events produced at the LHC are of no interest to physics analysis. 
+The trigger and data acquisition system (TDAQ) is responsible for reducing the rate by recording only ``interesting'' events. This is known as \emph{online selection} as it happens before the data is stored. In contrast, \emph{offline selection} happens after the data has been recorded, for example when performing a cross section measurement. The overwhelming majority of events produced at the LHC are of no interest to physics analysis.
 
-At ATLAS, trigger decisions are carried out in three sequential levels: \emph{Level 1} (L1), \emph{Level 2} (L2) and \emph{Event Filter} (EF), each successive level reduces the rate by applying more complex selection criteria. The hardware-based L1 trigger, performs the initial selection based on reduced-granularity information from the MS trigger chambers and all calorimeters. Data from the calorimeter trigger towers, shown in Figure~\ref{fig:DetectorECalSegment}, is used to search for high transverse-momentum muons, photons, electrons, hadronic decays of $\tau$ leptons, hadronic jets, large missing transverse energy, and large total transverse energy. The central trigger processor applies the trigger `menu' which includes a combination of selection criteria. Events which are of interest to physics analyses can be produced at such a rate as to overwhelm the capabilities of the DAQ. A \emph{prescale} can be applied to record one out of many of these events, thus reducing the rate. The L1 trigger also constructs \emph{regions of interest} (RoIs) around the detector where interesting features have been found. The $\eta$ and $\phi$ information of the RoI along with information about the decision is stored and passed to the higher level triggers.
+At ATLAS, trigger decisions are carried out in three sequential levels: \emph{Level 1} (L1), \emph{Level 2} (L2) and \emph{Event Filter} (EF), each successive level reduces the rate by applying more complex selection criteria. The hardware-based L1 trigger, performs the initial selection based on reduced-granularity information from the MS trigger chambers and all calorimeters. Data from the calorimeter trigger towers, shown in Figure~\ref{fig:DetectorECalSegment}, is used to search for high transverse-momentum muons, photons, electrons, hadronic decays of $\tau$ leptons, hadronic jets, large missing transverse energy, and large total transverse energy. The central trigger processor applies the trigger `menu' which includes a combination of selection criteria. Events which are of interest to physics analyses can be produced at such a rate as to overwhelm the capabilities of the DAQ. A trigger can be configured with a so-called \emph{prescale} that reduce the amount of data recorded. There are two types of prescale, a deterministic prescale that records one event in every S events firing the trigger, and a non-deterministic prescale which records events with a probability $1/S$ based on the outcome of a pseudo-random number generator~\cite{Detector:PrescaleSlides}.
+
+The L1 trigger also constructs \emph{regions of interest} (RoIs) around the detector where interesting features have been found. The $\eta$ and $\phi$ information of the RoI along with information about the decision is stored and passed to the higher level triggers.
 
 The L2 selection makes use of RoIs and the full granularity of the detector to further reduce the event rate to approximately \SI{3.5}{\kHz}, and finally the EF implements selections commonly used for offline analysis to reduce the rate to \SI{200}{\Hz}.
-
