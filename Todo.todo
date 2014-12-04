@@ -2,44 +2,41 @@ Post-viva Corrections:
   General:
     ☐ Correct pagination @short
     ☐ Make all figures wider where possible @long
-  Theory:
-    ☐ Page 29: For LGI, mention the modification of the derivative to be covariant?! @medium
-    ☐ Page 29: Impetus for LGI is to avoid divergences in the theory, make that clear @medium
   Top Quark:
     ☐ Page 33: Check sources of cross-sections for single ttbar @medium
     ☐ Page 33: See if you can find the expansion of the uncertainty to the cross-section @maybe @medium
     ☐ Page 34: Overlapping arrows in panel (b) @medium
   Object Selection:
     ☐ Page 69: Add more information on tagging ID tracks reco @medium
-    ☐ Page 73: Find MV1 plot of efficiency vs LF jet rejection @long
-    ☐ Page 75, Figure 4.19: Which sample was used to determine this efficiency? Add to caption @medium
     ☐ Page 76, Figure 4.20: Fix wrong arrows in W decay @LONG
   Calibration:
-    ☐ Page 78: Mention in introduction that the efficiencies and SF are binned in kinematic variables and reference sections @medium
-    ☐ Page 84, Figure 5.2: Remove box @medium
-    ☐ Page 84: Clarify comments regarding which functions were tested and used @short
-    ☐ Page 85, Figure 5.3: Add legend @short
-        ☐ Move reference after "crystal ball distributions" @short
     ☐ Page 88, Figure 5.4: Remove fitting results and enlarge plots and captions @medium
       ☐ Remove comment about fit parameters @medium
       ☐ Make wider @medium
       ☐ Maybe add chi^2 @maybe @medium
       ☐ Describe lines in caption @short
     ☐ Page 95, Figure 5.8: should be in GeV not MeV @medium
-    ☐ Page 101, Figure 5.14: Is this really needed? @remove
     ☐ Page 102-105: Axis labels very small @medium
         ☐ Make Wider
-    ☐ Page 101: Explain what ME means @medium
     ☐ Page 107, Figure 5.19: Maybe quantify goodness of fit between distributions @long
-    ☐ Page 111: Add conclusion at the end "Alignment does affect the chi2 but not enough to account for full difference in all regions" @medium
   Cross-section:
     ☐ Page 114: Paragraph about MET cuts is broken up by a transverse mass description, rephrase @medium
     ☐ Page 116: Move description of MET to reconstruction chapter and some detail @long
-    ☐ Page 120, Table 6.2: Double check uncertainties on contamination @medium
     ☐ Page 133: Brief description of results combination @long
-    ☐ Double check results in table 6.2 -> 6.3 @medium
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Page 101, Figure 5.14: Is note referenced? @done (14-12-03 22:55) 'Upon further review I felt the distribution was not very relevant, and the chapter is already figure heavy. I decided to remove it' @project(Post-viva Corrections / Calibration)
+ ✔ Double check results in table 6.2 -> 6.3 @medium 'Theoretical uncertainties were ommited due to being constant for all regions and jet bins, they are now included in the tables' @done (14-12-03 22:51) @project(Post-viva Corrections / Cross-section)
+ ✔ Page 111: Add conclusion at the end "Alignment does affect the chi2 but not enough to account for full difference in all regions" @medium @done (14-12-03 22:14) @project(Post-viva Corrections / Calibration)
+ ✔ Page 101: Explain what ME means @medium @done (14-12-03 22:10) "Remove labelling to avoid confusion" @project(Post-viva Corrections / Calibration)
+ ✔ Page 85, Figure 5.3: Add legend @short @done (14-12-03 22:07) @project(Post-viva Corrections / Calibration)
+ ✔ Page 84, Figure 5.2: Remove box @medium @done (14-12-03 22:07) @project(Post-viva Corrections / Calibration)
+ ✔ Move reference after "crystal ball distributions" @short @done (14-12-03 22:07) @project(Post-viva Corrections / Calibration)
+ ✔ Page 78: Mention in introduction that the efficiencies and SF are binned in kinematic variables and reference sections @medium @done (14-12-03 21:40) @project(Post-viva Corrections / Calibration)
+ ✔ Page 75, Figure 4.19: Which sample was used to determine this efficiency? Add to caption @medium @done (14-12-03 21:30) 'Measured in ttbar, added comment' @project(Post-viva Corrections / Object Selection)
+ ✔ Page 73: Find MV1 plot of efficiency vs LF jet rejection @long @done (14-12-03 21:26) @project(Post-viva Corrections / Object Selection)
+ ✔ Page 29: For LGI, mention the modification of the derivative to be covariant?! @medium @done (14-12-03 20:17) @project(Post-viva Corrections / Theory)
+ ✔ Page 29: Impetus for LGI is to avoid divergences in the theory, make that clear @medium @done (14-12-03 20:04) @project(Post-viva Corrections / Theory)
  ✔ Page 153, Figure 7.10: Describe drops in efficiency due to limited data @short @done (14-12-03 19:50) @project(Post-viva Corrections / Resonance)
  ✔ Page 147, Figure 7.9: Clarify that uncertainties are omitted @short @done (14-12-03 19:50) @project(Post-viva Corrections / Resonance)
  ✔ URL refs have difference font @short @done (14-12-03 17:50) @project(Post-viva Corrections / Bibliography)
