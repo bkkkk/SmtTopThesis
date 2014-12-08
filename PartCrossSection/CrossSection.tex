@@ -62,11 +62,9 @@ Jets are reconstructed using the anti-$k_{t}$ algorithm with a distance paramete
   \textrm{JVF} = \frac{\sum \pt \textrm{ of jet tracks from PV}}{\sum \pt \textrm{ of all jet tracks}}
 \end{equation}
 %
-has to be larger than \num{0.75}. The JVF cut is implemented to remove jets from minimum bias interactions.
+has to be larger than \num{0.75}. The JVF cut is implemented to remove jets from minimum bias interactions. Finally, jets within $\DeltaR<0.2$ of an electron are rejected.
 
-Finally, jets within $\DeltaR<0.2$ of an electron are rejected.
-
-In the \ejets\ analysis, a large amount of missing transverse energy is required ($>\SI{30}{\GeV}$) to account for the escaping neutrino. The transverse mass of the $W$ boson \mtw\ is reconstructed from the signal lepton and the missing transverse energy:
+The transverse mass of the $W$ boson \mtw\ is reconstructed from the signal lepton and the missing transverse energy:
 
 \begin{equation}
   \mtw=\sqrt{2\pt^{\ell}\pt^{\nu}[1-\cos{\phi^{\ell}-\phi^{\nu}}]}
@@ -74,7 +72,7 @@ In the \ejets\ analysis, a large amount of missing transverse energy is required
 %
 where \met\ is associated with the neutrino to calculate $\pt^{\nu}$ and $\phi^{\nu}$.
 
-In the electron channel the measured \mtw\ must be larger than \SI{30}{\GeV}. The \met\ requirement in the \mujets\ channel is looser ($\met>\SI{20}{\GeV}$) and a triangular cut $\met+\mtw>\SI{60}{\GeV}$ is applied.
+In the \ejets\ analysis, a large amount of missing transverse energy is required ($>\SI{30}{\GeV}$) to account for the escaping neutrino. A cut is also applied on the measured \mtw, which must be larger than \SI{30}{\GeV}. In the \mujets\ channel the \met\ cut is looser ($\met>\SI{20}{\GeV}$) and a triangular cut $\met+\mtw>\SI{60}{\GeV}$ is applied.
 
 For both channels, a minimum of three selected jets is required. Given the final-state signature, it is reasonable to request four or more jets in the event. It was found that the three jets inclusive selection yielded a lower statistical uncertainty, and more importantly a smaller event generator systematic uncertainty. These uncertainties are described in more detail in Section~\ref{sec:systematics_uncertainties}.
 
@@ -124,7 +122,7 @@ Multijet events which contain LF and/or $b$-quarks enter the signal region when 
 
 There are several sources of real muons including those from the decay-in-flight of pions or kaons within the tracking region. There are also several objects that fake the muon signature such as hadrons that do not shower in the detector material, and \emph{punch-through} hadrons from hadronic showers~\footnote{Hadrons which are not contained within the calorimetry and enter the muon system}. The semileptonic decay of $b$- and $c$-quarks can also produce muons which constitute a background to the signal $W$-muon. However, in this analysis these soft muons are exploited by the SMT tagger.
 
-A significant amount of fake \met\ must also be reconstructed for the multijet events to pass the selection. Missing energy is reconstructed by combining all energy depositions in the detector, any imbalance is then treated as missing energy. There are numerous sources of fake \met\ such as uninstrumented sections of the detector, noisy or dead calorimeter cells, misreconstruction of physics objects, fake muons from punch-through and pile-up. Although the probability of each of these processes is small, the large production cross section for multijet make it an important background.
+A significant amount of fake \met\ must also be reconstructed for the multijet events to pass the selection. There are numerous sources of fake \met\ such as uninstrumented sections of the detector, noisy or dead calorimeter cells, misreconstruction of physics objects, fake muons from punch-through and pile-up. Although the probability of each of these processes is small, the large production cross section for multijet make it an important background.
 
 Using simulation to model these effects is not possible as they depend on the conditions in the detector, some of which are random or short-lived. The data sample required for such a study would also have to be very large, making this approach impractical. As a result the multijet background is estimated using data-driven methods.
 

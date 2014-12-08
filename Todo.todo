@@ -3,28 +3,28 @@ Post-viva Corrections:
     ☐ Correct pagination @short
     ☐ Make all figures wider where possible @long
   Top Quark:
-    ☐ Page 33: Check sources of cross-sections for single ttbar @medium
-    ☐ Page 33: See if you can find the expansion of the uncertainty to the cross-section @maybe @medium
     ☐ Page 34: Overlapping arrows in panel (b) @medium
   Object Selection:
     ☐ Page 69: Add more information on tagging ID tracks reco @medium
     ☐ Page 76, Figure 4.20: Fix wrong arrows in W decay @LONG
   Calibration:
-    ☐ Page 88, Figure 5.4: Remove fitting results and enlarge plots and captions @medium
-      ☐ Remove comment about fit parameters @medium
-      ☐ Make wider @medium
-      ☐ Maybe add chi^2 @maybe @medium
-      ☐ Describe lines in caption @short
-    ☐ Page 95, Figure 5.8: should be in GeV not MeV @medium
-    ☐ Page 102-105: Axis labels very small @medium
-        ☐ Make Wider
     ☐ Page 107, Figure 5.19: Maybe quantify goodness of fit between distributions @long
   Cross-section:
-    ☐ Page 114: Paragraph about MET cuts is broken up by a transverse mass description, rephrase @medium
-    ☐ Page 116: Move description of MET to reconstruction chapter and some detail @long
     ☐ Page 133: Brief description of results combination @long
+  Bibliography:
+    ☐ Check reference [107]
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Check reference [15] @done (14-12-08 16:39) @project(Post-viva Corrections / Bibliography)
+ ✔ Page 33: Check sources of cross-sections for single ttbar @medium @done (14-12-08 15:25) 'Updated to a newer cross-section obtained from the ATLAS+CMS combination paper' @project(Post-viva Corrections / Top Quark)
+ ✔ Page 116: Move description of MET to reconstruction chapter and some detail @long @done (14-12-04 23:54) "Added a subsection on missing energy, tried to keep it brief to avoid introducing errors" @project(Post-viva Corrections / Cross-section)
+ ✔ Page 114: Paragraph about MET cuts is broken up by a transverse mass description, rephrase @medium @done (14-12-04 22:11) @project(Post-viva Corrections / Cross-section)
+ ✔ Page 102-105: Make Wider @medium @done (14-12-04 22:00) @project(Post-viva Corrections / Calibration)
+ ✔ Page 102-105: Axis labels very small @medium @done (14-12-04 22:00) @project(Post-viva Corrections / Calibration)
+ ✔ Page 95, Figure 5.8: should be in GeV not MeV @medium @done (14-12-04 21:59) @project(Post-viva Corrections / Calibration)
+ ✔ Page 88, Figure 5.4: Describe lines in caption @short @done (14-12-04 17:27) @project(Post-viva Corrections / Calibration)
+ ✔ Page 88, Figure 5.4: Remove comment about fit parameters @medium @done (14-12-04 17:21) @project(Post-viva Corrections / Calibration)
+ ✔ Page 88, Figure 5.4: Make wider @medium @done (14-12-04 17:21) @project(Post-viva Corrections / Calibration)
  ✔ Page 101, Figure 5.14: Is note referenced? @done (14-12-03 22:55) 'Upon further review I felt the distribution was not very relevant, and the chapter is already figure heavy. I decided to remove it' @project(Post-viva Corrections / Calibration)
  ✔ Double check results in table 6.2 -> 6.3 @medium 'Theoretical uncertainties were ommited due to being constant for all regions and jet bins, they are now included in the tables' @done (14-12-03 22:51) @project(Post-viva Corrections / Cross-section)
  ✔ Page 111: Add conclusion at the end "Alignment does affect the chi2 but not enough to account for full difference in all regions" @medium @done (14-12-03 22:14) @project(Post-viva Corrections / Calibration)

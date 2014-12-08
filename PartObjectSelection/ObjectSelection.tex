@@ -9,6 +9,9 @@
 \newcommand{\kti}{\ensuremath{k_{\textrm{T},i}}}
 \newcommand{\ktj}{\ensuremath{k_{\textrm{T},j}}}
 \newcommand{\dij}{\ensuremath{\Delta_{ij}}}
+\newcommand{\emissx}[1]{\ensuremath{E^{\textrm{miss,}#1}_{x}}}
+\newcommand{\emissy}[1]{\ensuremath{E^{\textrm{miss,}#1}_{y}}}
+\newcommand{\emissxy}[1]{\ensuremath{E^{\textrm{miss,}#1}_{x(y)}}}
 
 \chapter{Data Simulation and Object Selection}\label{ch:ObjectSelection}
 
@@ -220,3 +223,51 @@ The soft muon tagger used in this analysis is based on the quality of the fit be
   \caption{Jet and muon SMT Cuts.}\label{tab:DetectorSMTCuts}
 \end{table}
 
+\subsection{Missing energy reconstruction}
+
+Missing energy is reconstructed by combining information from energy depositions in the calorimeter, as well as information from the muon spectrometer~\cite{Detector:METReco}. An energy imbalance in the detector is then treated as missing energy.
+The two components of the vector $\bm{E}_{\textrm{T}}^{\textrm{miss}}$ are calculated thus:
+
+\begin{equation}
+  E^{\textrm{miss}}_{x(y)} = \emissxy{\textrm{calo}} + \emissxy{\mu}
+\end{equation}
+
+ID tracking information is used to recover low-\pt\ that are missed in the calorimeters, and for muons in regions not covered by the MS\@. The magnitude of the missing energy \met, which is normally used in event selections, are calculated as:
+
+\begin{equation}
+  \met = \sqrt{{(E^{\textrm{miss}}_{x})}^2 + {(E^{\textrm{miss}}_{y})}^2}
+\end{equation}
+
+The calorimeter term is constructed by associating calorimeter cells with reconstructed and identified high-\pt\ objects in order: electrons, photons, hadronically decaying $\tau$-leptons, jets, and muons. Calorimeter cells not associated are also included in the summation as \emissxy{\textrm{CellOut}}. Thus each components of the calorimeter term of the missing energy are the linear sum of each contribution:
+%
+\begin{equation}
+  \emissxy{\textrm{calo}} = \emissxy{e} + \emissxy{\gamma} + \emissxy{\tau} + \emissxy{\textrm{jets}} + \emissxy{\textrm{softjets}} + \emissxy{\textrm{CellOut}} + (\emissxy{\mu})
+\label{eq:SelectionETMissCalo}
+\end{equation}
+%
+where the muon term is not always added~\cite{Detector:METReco}.
+
+Each component is calculated as the negative sum of calibrated cell energies for each corresponding object, as:
+
+\begin{align}
+  \emissx{\textrm{term}} &= -\sum_{i=1}^{N_{\textrm{cell}}^{\textrm{term}}} E_{i}\sin{\theta_{i}}\cos{\phi_{i}} \\
+%
+  \emissy{\textrm{term}} &= -\sum_{i=1}^{N_{\textrm{cell}}^{\textrm{term}}} E_{i}\cos{\theta_{i}}\sin{\phi_{i}}
+\end{align}
+%
+where $E_{i}$, $\theta_{i}$, and $\phi_{i}$ are the energy and angular position of the cell.
+
+The muon term of the missing transverse energy is calculated as the negative sum of the momenta of muon tracks reconstructed in $|\eta|<2.7$:
+
+\begin{equation}
+  \emissxy{\mu} = -\sum_{\textrm{muons}} p^{\mu}_{x(y)}
+\end{equation}
+
+For muons in the region covered by the ID, only combined muons are considered to remove contributions from fake muon sources such as energetic hadrons that ``punch through'' the calorimeter. In this region, muons which are well separated from jets, $\DeltaR>0.3$, are treated separately from muons which are non-isolated:
+
+\begin{itemize}
+  \item \textbf{Isolated muons:} The combined track \pt\ corrected for energy losses in the calorimeter is used the summation. The muon calorimeter energy term is not included to avoid double-counting.
+  \item \textbf{Non-isolated muons:} The muon momentum as measured in the spectrometer after energy loss is used. The muon term \emissxy{\mu}\ is then added to the calorimeter term in Equation~\ref{eq:SelectionETMissCalo}.
+\end{itemize}
+
+Outside of the coverage of the ID ($2.5<|\eta|<2.7$) there is no combined track requirement and the \pt\ as measured in the MS is used for both isolated and non-isolated muons. For more information on the measurement and calibration of \met\ at ATLAS see~\cite{Detector:METReco}. 
