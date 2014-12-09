@@ -85,14 +85,14 @@
 %% Title page
 \begin{document}
 
-\input{BoilerPlate/PageTitle.tex}
+\include{BoilerPlate/PageTitle}
 \newpage
-\input{BoilerPlate/Declaration.tex}
+\include{BoilerPlate/Declaration}
 \newpage
-\input{PartAbstract/Abstract.tex}
-\input{BoilerPlate/Acknowledgements.tex}
+\include{PartAbstract/Abstract}
+\include{BoilerPlate/Acknowledgements}
 \setcounter{page}{5}
-\input{Preface.tex}
+\include{BoilerPlate/Preface}
 
 \tableofcontents
 \listoffigures
@@ -100,22 +100,22 @@
 
 \newpage
 
-\input{PartIntroduction/Introduction.tex}
-\input{PartTheory/Theory.tex}
-\input{PartTopQuark/TopQuark.tex}
-\input{PartDetector/Detector.tex}
-\input{PartObjectSelection/ObjectSelection.tex}
-\input{PartCalibration2012/Calibration2012.tex}
-\input{PartCrossSection/CrossSection.tex}
-\input{PartBoosted/Boosted.tex}
-\input{Conclusions.tex}
+\include{PartIntroduction/Introduction}
+\include{PartTheory/Theory}
+\include{PartTopQuark/TopQuark}
+\include{PartDetector/Detector}
+\include{PartObjectSelection/ObjectSelection}
+\include{PartCalibration2012/Calibration2012}
+\include{PartCrossSection/CrossSection}
+\include{PartBoosted/Boosted}
+\include{Conclusions}
 
 \begin{appendices}
-\input{PartDetector/DetectorElectronID.tex}
-\input{PartDetector/DetectorMuonID.tex}
-\input{PartDetector/CovMatrix.tex}
-\input{PartCalibration2012/CalibrationApp.tex}
-\input{PartCalibration2012/CalibrationMCPCuts.tex}
+\include{PartDetector/DetectorElectronID}
+\include{PartDetector/DetectorMuonID}
+\include{PartDetector/CovMatrix}
+\include{PartCalibration2012/CalibrationApp}
+\include{PartCalibration2012/CalibrationMCPCuts}
 \end{appendices}
 
 \newpage
