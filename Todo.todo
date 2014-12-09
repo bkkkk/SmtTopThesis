@@ -1,20 +1,10 @@
 Post-viva Corrections:
-  General:
-    ☐ Correct pagination @short
-    ☐ Make all figures wider where possible @long
-  Top Quark:
-    ☐ Page 34: Overlapping arrows in panel (b) @medium
-  Object Selection:
-    ☐ Page 69: Add more information on tagging ID tracks reco @medium
-    ☐ Page 76, Figure 4.20: Fix wrong arrows in W decay @LONG
-  Calibration:
-    ☐ Page 107, Figure 5.19: Maybe quantify goodness of fit between distributions @long
-  Cross-section:
-    ☐ Page 133: Brief description of results combination @long
-  Bibliography:
-    ☐ Check reference [107]
-＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
-Archive:
+ ✔ Page 107, Figure 5.19: Maybe quantify goodness of fit between distributions @done (14-12-09 16:35) "Added the chi2 test result to the plots" @project(Post-viva Corrections / Calibration)
+ ✔ Page 76, Figure 4.20: Fix wrong arrows in W decay @medium @done (14-12-08 23:29) @project(Object Selection)
+ ✔ Page 133: Brief description of results combination @long @done (14-12-08 22:39) @project(Cross-section)
+ ✔ Correct pagination @short @done (14-12-08 22:28) @project(Post-viva Corrections / General)
+ ✔ Page 69: Add more information on tagging ID tracks reco @medium @done (14-12-08 20:17) @project(Post-viva Corrections / Object Selection)
+ ✔ Page 34: Overlapping arrows in panel (b) @medium @done (14-12-08 19:25) @project(Post-viva Corrections / Top Quark)
  ✔ Check reference [15] @done (14-12-08 16:39) @project(Post-viva Corrections / Bibliography)
  ✔ Page 33: Check sources of cross-sections for single ttbar @medium @done (14-12-08 15:25) 'Updated to a newer cross-section obtained from the ATLAS+CMS combination paper' @project(Post-viva Corrections / Top Quark)
  ✔ Page 116: Move description of MET to reconstruction chapter and some detail @long @done (14-12-04 23:54) "Added a subsection on missing energy, tried to keep it brief to avoid introducing errors" @project(Post-viva Corrections / Cross-section)
@@ -81,7 +71,7 @@ Archive:
  ✔ Page 106: <q p -> q/p> @short @done (14-12-02 22:42) @project(Post-viva Corrections / Calibration)
  ✔ Page 95: Remove reference to et/pt/nucone @short @done (14-12-02 22:41) @project(Post-viva Corrections / Calibration)
  ✔ Page 90-101: No reference to figures 5.9 to 5.13 in text @short @done (14-12-02 22:40) @project(Post-viva Corrections / Calibration)
-  'Add to line "The scale factor and ..."'
+  
  ✔ Page 95: "The muons from <the> J/Psi<s> used" @short @done (14-12-02 22:32) @project(Post-viva Corrections / Calibration)
  ✔ Page 90: Move reference to Z->mumu calibration being the preferred method to introduction @medium @done (14-12-02 22:32) @project(Post-viva Corrections / Calibration)
  ✔ Page 87: scale factors <consistent with->close to> unity @short @done (14-12-02 22:30) @project(Post-viva Corrections / Calibration)

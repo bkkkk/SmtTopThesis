@@ -65,7 +65,7 @@ Muon reconstruction makes use of the information provided by both the inner dete
 
 \begin{itemize}
   \item \textbf{Standalone reconstruction}: Uses MS information only, first constructing \emph{segments} from several hits in a given chamber and then fitting segments from all three stations to hits from the four MS components. Tracks are then extrapolated back to the interaction point taking into account energy loss and multiple scattering.
-  \item \textbf{Tagging ID tracks reconstruction}: Uses MS or calorimeter information to tag ID tracks as muons.
+  \item \textbf{Tagging ID tracks reconstruction}: Uses MS or calorimeter information to tag ID tracks as muons. An ID track is segment-tagged (ST) if, once extrapolated to the MS, it is associated with at least one local track segment in the MDT or CSC chambers. An ID track is calorimeter-tagged (CaloTag) if it could be associated to an energy deposit in the calorimeter compatible with a minimum ionizing particle.
   \item \textbf{Combined track reconstruction}: Standalone muon tracks are extrapolated back to the vertex and matched to ID tracks within ($\aeta<2.5$) and combined. This results in an improved momentum sensitivity from ID and MS information. 
 \end{itemize}
 
@@ -179,7 +179,7 @@ A soft muon can be produced in a variety of ways starting from a $b$-quark, eith
 
 \begin{figure}[htbp]
   \centering
-    \includegraphics[width=0.75\textwidth]{PartDetector/Diagrams/SemiLeptonicDecay.pdf}
+    \includegraphics[width=0.75\textwidth]{PartDetector/Diagrams/SemiLeptonicBDecay.pdf}
     \caption[Feynman diagram of one of the mechanisms for lepton production via semileptonic $b$ decay.]{Feynman diagram of one of the mechanisms for lepton production via semileptonic $b$ decay. Shown are the direct $b\rightarrow \mu$ and indirect $b\rightarrow c\rightarrow\mu$.}\label{fig:DetectorSLTFeynm}
 \end{figure}
 

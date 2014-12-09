@@ -20,9 +20,9 @@
 \usepackage{amsmath}
 \usepackage{pifont}
 \usepackage{graphicx}
-\usepackage{bibentry}
+\usepackage[sorting=none,backend=biber]{biblatex}
+\addbibresource{Thesis.bib}
 \usepackage{geometry}
-\usepackage[numbers,sort&compress]{natbib}
 \geometry{%
   includeheadfoot,%
   margin=1in,%
@@ -84,12 +84,14 @@
 
 %% Title page
 \begin{document}
+
 \input{BoilerPlate/PageTitle.tex}
 \newpage
 \input{BoilerPlate/Declaration.tex}
 \newpage
 \input{PartAbstract/Abstract.tex}
 \input{BoilerPlate/Acknowledgements.tex}
+\setcounter{page}{5}
 \input{Preface.tex}
 
 \tableofcontents
@@ -117,7 +119,5 @@
 \end{appendices}
 
 \newpage
-\bibliographystyle{unsrtnat}
-\bibliography{Thesis}
-
+\printbibliography
 \end{document}

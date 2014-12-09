@@ -45,8 +45,12 @@ At the LHC the minimum threshold at $\cme=\SI{7}{\TeV}(\SI{14}{\TeV})$ is approx
     \caption{MSTW 2008 NLO parton distribution functions.}\label{fig:TopMSTWNLOPDFs}
 \end{figure}
 
-Gluon fusion processes represent $\num{80}(\num{90})\si{\percent}$ of the total cross section, with the remainder contribution coming from quark pair annihilation. The Feynman diagrams for these interactions are shown in Figure~\ref{fig:TopQuarkProduction}. The theoretical inclusive \ttbar\ production cross section at the LHC has been calculated at NNLO level to be $\sigma_{t\bar{t}}=158\;^{-\;12.2}_{+\;13.5}\;\si{\pico\barn}$~\cite{TopPair} at \cmsS, and $\sigma_{t\bar{t}}=252.9\;^{+\;6.4}_{-\;8.6}\pm11.7\;\si{\pico\barn}$~\cite{TopQuark:CrossSection8TeV} for \cmsE.
-%
+Gluon fusion processes represent $\num{80}(\num{90})\si{\percent}$ of the total cross section, with the remainder contribution coming from quark pair annihilation. The Feynman diagrams for these interactions are shown in Figure~\ref{fig:TopQuarkProduction}. The theoretical inclusive \ttbar\ production cross sections at the LHC has been calculated to NNLO~\cite{TopPair,TopQuark:CrossSection8TeV}:
+\begin{align*}
+  \cmsS\textrm{: }\sigma_{t\bar{t}} &= 158\;^{-\;12.2}_{+\;13.5}\;\si{\pico\barn} \\
+  \cmsE\textrm{: }\sigma_{t\bar{t}} &= 252.9\;^{+\;6.4}_{-\;8.6}\pm11.7\;\si{\pico\barn}
+\end{align*}
+
 \begin{figure}[htbp]
   \centering
   \begin{minipage}[][][t]{.47\textwidth}
@@ -84,23 +88,20 @@ Single top production occurs via the weak force almost exclusively through the $
   \item $b$-quark scattering off a $W$ boson, where the $b$ comes from gluon splitting (Figure~\ref{fig:TopSingleqtbChannel}) or from the proton (Figure~\ref{fig:TopSingleqtChannel}).
 \end{itemize}
 
-As top quark pair production can proceed via the strong force it occurs overwhelmingly more often than single top production. The inclusive cross sections for $pp\rightarrow t+X$ at the LHC have been estimated at NLO, and are summarized in Table~\ref{tab:TopQuarkPredictionCrossSection}. The production cross section of \ttbar\ is approximately two times larger than the single-top cross section.
+The cross sections for $pp\rightarrow t+X$ at the LHC have been estimated at NLO, for the t-channel~\cite{Kidonakis:2012rm}:
+%
+\begin{align*}
+  \cmsS\textrm{: }\sigma^{\textrm{t-chan}}_{t} = \SI[multi-part-units=single]{66(2)}{\pico\barn} \\
+  \cmsE\textrm{: }\sigma^{\textrm{t-chan}}_{t} = \SI[multi-part-units=single]{87(3)}{\pico\barn}
+\end{align*}
+%
+, and for $tW$ production~\cite{TopQuark:WtOne,TopQuark:WtTwo,TopQuark:WtThree,TopQuark:WtFour}:
+%
+\begin{align*}
+  \cmsS\textrm{: }\sigma_{tW} &= \SI[multi-part-units=single]{15.6(12)}{\pico\barn} \\
+  \cmsE\textrm{: }\sigma_{tW} &= \SI[multi-part-units=single]{22.2(15)}{\pico\barn}
+\end{align*}
 
-\begin{table}[htbp]
-  \centering
-  \begin{tabular}{@{}lcc@{}}
-  \toprule
-  Process & \multicolumn{2}{c}{cross section at [\si{\pico\barn}]} \\
-  \cmidrule{2-3}
-  & $\sqrt{s}=\SI{7}{\TeV}$ & $\sqrt{s}=\SI{8}{\TeV}$ \\
-  \midrule
-  Single top $\sigma$ (t-chan)  & $66\pm2$         & $87\pm3$     \\
-  Single top $\sigma$ (Wt)      & $15.6\pm1.2$     & $22.2\pm1.5$ \\
-  \bottomrule
-  \end{tabular}
-  \caption[Summary of the predicted SM single top production and top pair production cross sections at the LHC for \cmsS\ and \cmsE.]{Summary of the predicted SM single top production~\cite{Kidonakis:2012rm} and top pair production~\cite{Czakon:2013goa} cross sections at the LHC for \cmsS\ and \cmsE.}\label{tab:TopQuarkPredictionCrossSection}
-\end{table}
-~%
 \begin{figure}[htpb]
   \centering
   \begin{minipage}[][][t]{.47\textwidth}
@@ -128,6 +129,8 @@ As top quark pair production can proceed via the strong force it occurs overwhel
   \end{minipage}
   \caption{Example Feynman diagrams for single top quark at leading order.}\label{fig:TopSingleProduction}
 \end{figure}
+
+As top quark pair production can proceed via the strong force it occurs overwhelmingly more often than single top production. The production cross section of \ttbar\ is approximately two times larger than the single-top cross section.
 
 \section{Top quark decay modes}\label{sec:top_quark_decay_modes}
 
